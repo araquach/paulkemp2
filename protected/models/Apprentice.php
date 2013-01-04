@@ -88,7 +88,7 @@ class Apprentice extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('first_name, second_name, age, address1, address3, postcode, email, mobile, current_position, in_salon, qualification_school, qualification_hair, cutting, styling, colouring, extensions, chem_straightening, brazil_blow, hair_up, about, why_hairdressing, why_jakata', 'required'),
+			//array('first_name, second_name, age, address1, address3, postcode, email, mobile, current_position, in_salon, qualification_school, qualification_hair, cutting, styling, colouring, extensions, chem_straightening, brazil_blow, hair_up, about, why_hairdressing, why_jakata', 'required'),
 			array('age, current_position, in_salon, qualification_school, qualification_hair, cutting, styling, colouring, extensions, chem_straightening, brazil_blow, hair_up', 'numerical', 'integerOnly'=>true),
 			array('first_name, second_name, address1, address2, address3, email, salon_name', 'length', 'max'=>256),
 			array('postcode', 'length', 'max'=>56),
