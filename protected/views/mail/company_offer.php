@@ -1,0 +1,2 @@
+<?php echo 'Thanks for applying '.ucfirst($model->first_name).'. As a '.ucfirst($model->company).' employee, this text entitles you to 50% off your first visit to Paul Kemp Hairdressing. Call 01925 444488 to book your appointment. (excludes 11/12 - 31/12) paulkemphairdressing.com. See you soon!'
+?>

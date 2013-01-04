@@ -1,0 +1,11 @@
+/assets
+/yii_11
+/protected/config
+protected/config/main.php
+/paulkemp2.esproj
+
+*.log
+
+paulkemp2.esproj/user.adamcarter.espressostorage
+
+.DS_Store

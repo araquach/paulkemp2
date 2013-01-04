@@ -1,0 +1,2 @@
+<?php echo 'Thanks for entering '.ucfirst($model->first_name).'. This text voucher entitles you to a Colour and Cut, Dry & style OR a Cut, Dry & Style plus 2 free products (worth up to £30). Your unique prize code is '.$model->id.'. Call 01925 444488 to book your appointment. Valid until 30/11/12. See you soon!'
+?>
