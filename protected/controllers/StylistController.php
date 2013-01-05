@@ -32,7 +32,7 @@ class StylistController extends Controller
 			),
 			array('allow', // allow authenticated user to perform 'create' and 'update' actions
 				'actions'=>array('update','index','view','admin','delete'),
-				'users'=>array('adamcarter'),
+				'users'=>array('manager'),
 			),
 			array('deny',  // deny all users
 				'users'=>array('*'),

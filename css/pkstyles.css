@@ -1640,6 +1640,27 @@ span.error {
 	padding: 50px;
 }
 
+#recruitAdmin {
+	width: 950px;
+	background-color: #FFF;
+}
+
+#recruitAdmin h1, 
+#recruitAdmin p,
+#recruitAdmin a.search-button  {
+	margin: 10px 40px;
+}
+
+#recruitAdmin div.pager {
+	margin-right: 40px;
+	margin-top: 20px;
+}
+
+#recruitAdmin div.summary {
+	margin-right: 40px;
+	margin-bottom: 20px;
+}
+
 #recruitBlank #yw0 div.items div.view {
 	margin-bottom: 30px;
 }

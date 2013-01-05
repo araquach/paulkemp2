@@ -32,7 +32,7 @@ class ApprenticeController extends Controller
 			),
 			array('allow', // allow authenticated user to perform 'update' actions
 				'actions'=>array('update','index','admin','delete','view'),
-				'users'=>array('adamcarter'),
+				'users'=>array('manager'),
 			),
 			array('deny',  // deny all users
 				'users'=>array('*'),
