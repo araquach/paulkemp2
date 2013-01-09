@@ -140,7 +140,7 @@ class Apprentice extends CActiveRecord
 			'cutting' => 'Cutting Hair',
 			'styling' => 'Hair Styling',
 			'colouring' => 'Colouring Hair',
-			'mwn' => 'Men\'s Hairdressing',
+			'men' => 'Men\'s Hairdressing',
 			'extensions' => 'Extensions',
 			'chem_straightening' => 'Chemical Straightening',
 			'brazil_blow' => 'Brazilian Blowdrys',
