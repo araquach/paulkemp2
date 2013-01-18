@@ -170,7 +170,7 @@ class Stylist extends CActiveRecord
 			'adex_reception'  => 'Reception',
 			'adex_marketing'  => 'Marketing',
 			'adex_cservice'  => 'Customer Service',
-			'experience' => 'How many years hairdressing experience do you have? (Since qualified)',
+			'experience' => 'How many years hairdressing experience do you have?<br> (Since qualified)',
 			'current_position' => 'Which of these best describes your current level?',
 			'client_base' => 'Do you have an existing client base?',
 			'qualifications' => 'Hairdressing Qualifications',
@@ -186,7 +186,7 @@ class Stylist extends CActiveRecord
 			'awards' => 'Please state any hairdressing awards',
 			'about_you' => 'Tell us a bit about yourself',
 			'why_hairdressing' => 'Why did you choose to be a hairdresser?',
-			'why_jakata' => 'Why do you want to join the Jakata Team?',
+			'why_jakata' => 'Why do you want to join the Paul Kemp Team?',
 		);
 	}
 
