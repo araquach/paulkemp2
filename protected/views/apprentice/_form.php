@@ -84,7 +84,7 @@
 	
 	</div> <!--end basic-->
 	
-	<h2 class="reveal">2. Hairdressing Skills</h2>
+	<h2 class="reveal">2. Other Info</h2>
 	<div class="elements">
 	
 	<div class="row">
@@ -116,6 +116,11 @@
 		<?php echo $form->dropDownList($model,'qualification_hair', $model->getQualHairOptions()); ?>
 		<?php echo $form->error($model,'qualification_hair'); ?>
 	</div>
+	
+	</div> <!--end other info-->
+	
+	<h2 class="reveal">3. Hairdressing Skills</h2>
+	<div class="elements">
 	
 	<p class="application">Please rate your main interests from 1 (least) to 5 (most) for the following:</p>
 
@@ -168,7 +173,7 @@
 	</div>
 	</div> <!--end hairdressing info-->
 	
-	<h2 class="reveal">3. About you</h2>
+	<h2 class="reveal">4. About you</h2>
 	<div class="elements">
 	
 	<div class="row">
@@ -192,7 +197,7 @@
 	<div class="row buttons">
 		<?php echo CHtml::submitButton($model->isNewRecord ? 'Send your application' : 'Save'); ?>
 	</div>
-	</div> <!--end more info-->
+	</div> <!--end about you-->
 </div><!-- end accordion-->
 
 <?php $this->endWidget(); ?>
