@@ -1,22 +1,24 @@
 <div class="view">
 
+	<ul>
+
 	<b><?php echo CHtml::encode($data->getAttributeLabel('stylist_id')); ?>:</b>
 	<?php echo CHtml::link(CHtml::encode($data->stylist_id), array('view', 'id'=>$data->stylist_id)); ?>
 	<br />
 	
 	<b><?php echo CHtml::encode($data->getAttributeLabel('date')); ?>:</b>
-	<?php echo CHtml::encode($data->date); ?>
+		<?php echo CHtml::encode(Yii::app()->dateFormatter->formatDateTime($data->date, "medium","")); ?>
 	<br />
-	
+
 	<b><?php echo CHtml::encode($data->getAttributeLabel('first_name')); ?>:</b>
 	<?php echo CHtml::encode($data->first_name); ?>
 	<br />
-
+	
 	<b><?php echo CHtml::encode($data->getAttributeLabel('second_name')); ?>:</b>
 	<?php echo CHtml::encode($data->second_name); ?>
 	<br />
-	
-	<?php /* 
+
+	<?php /*
 
 	<b><?php echo CHtml::encode($data->getAttributeLabel('address1')); ?>:</b>
 	<?php echo CHtml::encode($data->address1); ?>
@@ -82,10 +84,6 @@
 	<?php echo CHtml::encode($data->extensions_weave); ?>
 	<br />
 
-	<b><?php echo CHtml::encode($data->getAttributeLabel('extensions_ind')); ?>:</b>
-	<?php echo CHtml::encode($data->extensions_ind); ?>
-	<br />
-
 	<b><?php echo CHtml::encode($data->getAttributeLabel('extensions_other')); ?>:</b>
 	<?php echo CHtml::encode($data->extensions_other); ?>
 	<br />
@@ -118,7 +116,8 @@
 	<?php echo CHtml::encode($data->why_jakata); ?>
 	<br />
 	
+	</ul>
+	
 	*/ ?>
-
 
 </div>

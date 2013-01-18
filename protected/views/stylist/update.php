@@ -1,5 +1,5 @@
-<div id="recruitBlank">
 
+<div id="recruitBlank">
 <?php
 $this->breadcrumbs=array(
 	'Stylists'=>array('index'),
@@ -19,4 +19,4 @@ $this->menu=array(
 
 <?php echo $this->renderPartial('_form', array('model'=>$model)); ?>
 
-</div> <!--#recruitBlank-->
+</div> <!--recruitBlank-->
