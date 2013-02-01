@@ -38,12 +38,17 @@
 
 	<div class="row">
 		<?php echo $form->label($model,'answer'); ?>
-		<?php echo $form->textField($model,'answer',array('size'=>60,'maxlength'=>256)); ?>
+		<?php echo $form->textField($model,'answer'); ?>
 	</div>
 
 	<div class="row">
 		<?php echo $form->label($model,'date_entered'); ?>
-		<?php echo $form->textField($model,'date_entered',array('size'=>11,'maxlength'=>11)); ?>
+		<?php echo $form->textField($model,'date_entered'); ?>
+	</div>
+
+	<div class="row">
+		<?php echo $form->label($model,'regular'); ?>
+		<?php echo $form->textField($model,'regular'); ?>
 	</div>
 
 	<div class="row buttons">

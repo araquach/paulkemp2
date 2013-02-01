@@ -33,5 +33,11 @@
 	<?php echo CHtml::encode($data->date_entered); ?>
 	<br />
 
+	<?php /*
+	<b><?php echo CHtml::encode($data->getAttributeLabel('regular')); ?>:</b>
+	<?php echo CHtml::encode($data->regular); ?>
+	<br />
+
+	*/ ?>
 
 </div>

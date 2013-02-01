@@ -25,7 +25,7 @@ $('.search-form form').submit(function(){
 });
 ");
 ?>
-
+<section id="valentine">
 <h1>Manage Valentines</h1>
 
 <p>
@@ -53,9 +53,12 @@ or <b>=</b>) at the beginning of each of your search values to specify how the c
 		'answer',
 		/*
 		'date_entered',
+		'regular',
 		*/
 		array(
 			'class'=>'CButtonColumn',
 		),
 	),
 )); ?>
+
+</section>

@@ -9,8 +9,9 @@
  * @property string $second_name
  * @property string $mobile
  * @property string $email
- * @property string $answer
- * @property string $date_entered
+ * @property integer $answer
+ * @property integer $date_entered
+ * @property integer $regular
  */
 class Valentine extends CActiveRecord
 {
@@ -40,12 +41,17 @@ class Valentine extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('first_name, second_name, mobile, email, answer, date_entered', 'required'),
-			array('first_name, second_name, email, answer', 'length', 'max'=>256),
-			array('mobile, date_entered', 'length', 'max'=>11),
+			array('first_name, second_name, mobile, email, answer', 'required'),
+			array('first_name, second_name, email', 'length', 'max'=>256),
+			array('date_entered','default','value'=>new CDbExpression('NOW()'),'setOnEmpty'=>false,'on'=>'insert'),
+			array('mobile', 'length', 'max'=>22),
+			array('mobile', 'numerical', 'integerOnly'=>true, 'message'=>'Please enter your mobile number without any spaces'),
+			array('regular', 'boolean'),
+			array('email', 'email', 'message'=>'Please give a valid email address'),
+			array('email, mobile', 'unique'),
 			// The following rule is used by search().
 			// Please remove those attributes that should not be searched.
-			array('id, first_name, second_name, mobile, email, answer, date_entered', 'safe', 'on'=>'search'),
+			array('id, first_name, second_name, mobile, email, answer, date_entered, regular', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -68,11 +74,12 @@ class Valentine extends CActiveRecord
 		return array(
 			'id' => 'ID',
 			'first_name' => 'First Name',
-			'second_name' => 'Second Name',
-			'mobile' => 'Mobile',
-			'email' => 'Email',
-			'answer' => 'Answer',
+			'second_name' => 'Last Name',
+			'mobile' => 'Mobile Number',
+			'email' => 'Email Address',
+			'answer' => 'Please select your answer',
 			'date_entered' => 'Date Entered',
+			'regular' => 'Check the box if you have been to the salon before',
 		);
 	}
 
@@ -92,11 +99,13 @@ class Valentine extends CActiveRecord
 		$criteria->compare('second_name',$this->second_name,true);
 		$criteria->compare('mobile',$this->mobile,true);
 		$criteria->compare('email',$this->email,true);
-		$criteria->compare('answer',$this->answer,true);
-		$criteria->compare('date_entered',$this->date_entered,true);
+		$criteria->compare('answer',$this->answer);
+		$criteria->compare('date_entered',$this->date_entered);
+		$criteria->compare('regular',$this->regular);
 
 		return new CActiveDataProvider($this, array(
 			'criteria'=>$criteria,
 		));
 	}
+	
 }

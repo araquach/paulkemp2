@@ -29,7 +29,7 @@
 
 	<div class="row">
 		<?php echo $form->labelEx($model,'mobile'); ?>
-		<?php echo $form->textField($model,'mobile',array('size'=>11,'maxlength'=>11)); ?>
+		<?php echo $form->textField($model,'mobile',array('size'=>22,'maxlength'=>22)); ?>
 		<?php echo $form->error($model,'mobile'); ?>
 	</div>
 
@@ -41,18 +41,18 @@
 
 	<div class="row">
 		<?php echo $form->labelEx($model,'answer'); ?>
-		<?php echo $form->textField($model,'answer',array('size'=>60,'maxlength'=>256)); ?>
+		<?php echo ZHtml::enumDropDownList($model,'answer',array('prompt' => 'Select your answer')); ?>
 		<?php echo $form->error($model,'answer'); ?>
 	</div>
 
 	<div class="row">
-		<?php echo $form->labelEx($model,'date_entered'); ?>
-		<?php echo $form->textField($model,'date_entered',array('size'=>11,'maxlength'=>11)); ?>
-		<?php echo $form->error($model,'date_entered'); ?>
+		<?php echo $form->labelEx($model,'regular'); ?>
+		<?php echo $form->checkBox($model,'regular'); ?>
+		<?php echo $form->error($model,'regular'); ?>
 	</div>
 
 	<div class="row buttons">
-		<?php echo CHtml::submitButton($model->isNewRecord ? 'Create' : 'Save'); ?>
+		<?php echo CHtml::submitButton($model->isNewRecord ? 'Enter' : 'Save'); ?>
 	</div>
 
 <?php $this->endWidget(); ?>

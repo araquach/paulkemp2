@@ -6,7 +6,7 @@ class ValentineController extends Controller
 	 * @var string the default layout for the views. Defaults to '//layouts/column2', meaning
 	 * using two-column layout. See 'protected/views/layouts/column2.php'.
 	 */
-	public $layout='//layouts/column2';
+	public $layout='//layouts/column1';
 
 	/**
 	 * @return array action filters
@@ -27,18 +27,15 @@ class ValentineController extends Controller
 	public function accessRules()
 	{
 		return array(
-			array('allow',  // allow all users to perform 'index' and 'view' actions
-				'actions'=>array('index','view'),
+			array('allow',  // allow all users to only perform 'create' actions
+				'actions'=>array('create'),
 				'users'=>array('*'),
 			),
-			array('allow', // allow authenticated user to perform 'create' and 'update' actions
-				'actions'=>array('create','update'),
-				'users'=>array('@'),
+			array('allow', // allow managers to perform 'admin', 'delete', 'update' actions
+				'actions'=>array('admin','delete','update'),
+				'users'=>array('manager'),
 			),
-			array('allow', // allow admin user to perform 'admin' and 'delete' actions
-				'actions'=>array('admin','delete'),
-				'users'=>array('admin'),
-			),
+			
 			array('deny',  // deny all users
 				'users'=>array('*'),
 			),
@@ -71,13 +68,14 @@ class ValentineController extends Controller
 		{
 			$model->attributes=$_POST['Valentine'];
 			if($model->save())
-				$this->redirect(array('view','id'=>$model->id));
+				Yii::app()->user->setFlash('entry','<p>Thank\'s for entering ' . ucfirst($model->first_name) . '.' . '<br>We will be announcing the winners just before Valentines Day. Good Luck!</p>');
 		}
 
 		$this->render('create',array(
 			'model'=>$model,
 		));
 	}
+	
 
 	/**
 	 * Updates a particular model.
