@@ -2,9 +2,7 @@
 /* @var $this ValentineController */
 /* @var $model Valentine */
 ?>
-<section id="valentine">
-
-<div id="competition_form">
+<section id="competition">
 
 <?php if(Yii::app()->user->hasFlash('entry')): ?>
 
@@ -14,12 +12,15 @@
 
 <?php else: ?>
 
-<h1>Valentines Competition</h1>
-<p>For your chance to win a set of <strong>'Gold' Edition GHD's</strong> or a <strong>FREE Blow Dry</strong>, simply fill out the form and answer the following question:</p>
-<p class="question">What do the letters 'GHD' stand for?</p>
+<div id="competition_copy">
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/competition/valentines_logo.png" alt="Valentines" width="298" height="197"/>
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/competition/mr_laus.png" alt="Valentines" width="320" height="85"/>
+<p>For your chance to win this amazing prize, just answer the following question:</p>
+<p class="question">How old is Mr Lau?</p>
+
 
 <?php echo $this->renderPartial('_form', array('model'=>$model)); ?>
-</div> <!--end #competition_form-->
-</section> <!--end #valentine-->
+</div> <!--end #competition_copy-->
+</section> <!--end #compettion-->
 
 <?php endif ?>
