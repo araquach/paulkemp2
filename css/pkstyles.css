@@ -2212,6 +2212,11 @@ span.kebelo_italic {
 	margin: 20px 0;
 }
 
+.competition_success {
+	font-size: 1.5em;
+	width: 400px;
+}
+
 #competition_copy p strong {
 	font-weight: bold;
 }
@@ -2219,6 +2224,8 @@ span.kebelo_italic {
 #competition_copy label,
 #competition_copy input,
 #competition_copy p.note,
+#competition_copy .form .errorSummary,
+#competition_copy .form .errorMessage,
 #competition_copy select {
 	margin-left: 0;
 }
