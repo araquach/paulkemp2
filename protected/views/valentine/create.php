@@ -13,8 +13,8 @@
 <?php else: ?>
 
 <div id="competition_copy">
-<?php echo CHtml::link('<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/competition/valentines_logo.gif" alt="Valentines" width="298" height="197"/>')?>;
-<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/competition/mr_laus.gif" alt="Valentines" width="320" height="85"/>
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/competition/valentines_logo.gif" alt="Valentines" width="298" height="197"/>
+<a href="http://mrlaus.com" target="_blank" class="link_image"><img src="<?php echo Yii::app()->request->baseUrl; ?>/images/competition/mr_laus.gif" alt="Valentines" width="320" height="85"/></a>
 <p>For your chance to win this amazing prize, just answer the following question:</p>
 <p class="question">Where is Mr Lau's Restaurant located?</p>
 

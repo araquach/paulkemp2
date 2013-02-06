@@ -2250,8 +2250,17 @@ p.big {
 	margin-bottom: 40px;
 }
 
+#competition_copy a.normal {
+	font-size: 1em;
+}
+
 #competition_copy a:hover {
 	border-bottom: 1px dashed #870000;
+}
+
+#competition_copy a.link_image:hover {
+	border-bottom: 0px dashed #870000;
+	opacity: .7;
 }
 
 #competition_copy img {
