@@ -336,14 +336,14 @@ li.active a {
 #news1 {
 	left: 20px;
 	top: 1100px;
-	background: url(../images/home_news/good_salon.jpg) no-repeat, rgb(55,34,24);
+	background: url(../images/home_news/pk_valentine_home.jpg) no-repeat, rgb(55,34,24);
 	-webkit-transition: all 0.3s ease-in;
 	-moz-transition: all 0.3s ease-in;
 	transition: all 0.3s ease-in;
 }
 
 .no-cssgradients #news1 {
-	background: url(../images/home_news/good_salon.jpg) no-repeat rgb(55,34,24);
+	background: url(../images/home_news/pk_valentine_home.jpg) no-repeat rgb(55,34,24);
 }
 
 #news1:hover {
@@ -377,14 +377,14 @@ li.active a {
 #news3 {
 	left: 492px;
 	top: 1100px;
-	background: url(../images/home_news/invati.jpg) no-repeat, rgb(55,34,24);
+	background: url(../images/home_news/good_salon.jpg) no-repeat, rgb(55,34,24);
 	-webkit-transition: all 0.3s ease-in;
 	-moz-transition: all 0.3s ease-in;
 	transition: all 0.3s ease-in;
 }
 
 .no-cssgradients #news3 {
-	background: url(../images/home_news/invati.jpg) no-repeat rgb(55,34,24);
+	background: url(../images/home_news/good_salon.jpg) no-repeat rgb(55,34,24);
 }
 
 #news3:hover {
@@ -2196,7 +2196,85 @@ span.kebelo_italic {
 	width: 890px;
 	margin-bottom: 50px;
 	float: left;
-	background: url('../images/aveda.jpg') no-repeat;
+	background: url('../images/competition/valentines.jpg') no-repeat;
+	background-size: cover;
+	background-position: right top;
+}
+
+#competition_copy {
+	width: 400px;
+	margin-left: 50px;
+}
+
+#competition_copy h1 {
+	color: #870000;
+	font-size: 2.2em;
+	margin: 20px 0;
+}
+
+.competition_success {
+	font-size: 1.5em;
+	width: 400px;
+}
+
+#competition_copy p strong {
+	font-weight: bold;
+}
+
+#competition_copy label,
+#competition_copy input,
+#competition_copy p.note,
+#competition_copy .form .errorSummary,
+#competition_copy .form .errorMessage,
+#competition_copy select {
+	margin-left: 0;
+}
+
+#competition_copy input{
+	width: 400px;
+}
+
+#competition_copy .row.buttons input{
+	width: 60px;
+}
+
+p.big {
+	font-size: 1.2em;
+	font-weight: bold;
+}
+
+#competition_copy a {
+	font-size: 1.6em;
+	text-decoration: none;
+	color: #870000;
+	margin-bottom: 40px;
+}
+
+#competition_copy a.normal {
+	font-size: 1em;
+}
+
+#competition_copy a:hover {
+	border-bottom: 1px dashed #870000;
+}
+
+#competition_copy a.link_image:hover {
+	border-bottom: 0px dashed #870000;
+	opacity: .7;
+}
+
+#competition_copy img {
+	margin-bottom: 20px;
+}
+
+#valentine {
+	height: auto;
+	min-height: 500px;
+	padding: 30px;
+	width: 890px;
+	margin-bottom: 50px;
+	float: left;
+	background: url('../images/competition/valentines.png') no-repeat;
 	background-size: cover;
 	background-position: right top;
 }
@@ -2206,15 +2284,11 @@ span.kebelo_italic {
 	font-weight: bold;
 }
 
-#competition p, #competition h1 {
-	width: 450px;
-	font-size: 1.2em;
-}
-
 #competition small {
 	font-size: 0.8em;
 	line-height: 1.5em;
 }
+
 
 /* @end */
 
