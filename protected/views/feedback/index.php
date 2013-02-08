@@ -1,3 +1,5 @@
+<div id="feedbackBlank">
+
 <?php
 /* @var $this FeedbackController */
 /* @var $dataProvider CActiveDataProvider */
@@ -18,3 +20,5 @@ $this->menu=array(
 	'dataProvider'=>$dataProvider,
 	'itemView'=>'_view',
 )); ?>
+
+</div> <!--feedbackBlank-->

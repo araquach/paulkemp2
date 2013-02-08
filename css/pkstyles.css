@@ -2372,6 +2372,16 @@ p.big {
 	width: 650px;
 }
 
+#feedbackBlank {
+	width: 850px;
+	background-color: #FFF;
+	padding: 50px;
+}
+
+#feedbackBlank #yw0 div.items div.view {
+	margin-bottom: 30px;
+}
+
 #feedback h1 {
 	font-size: 2em;
 }
@@ -2422,15 +2432,6 @@ p.big {
 	font-size: .7em;
 	margin-bottom: 30px;
 }
-/*
-to try in mobile devices
-#feedback .row.question input {
-	height: 15px;
-	width: 15px;
-	margin-bottom: 0;
-	margin-right: 30px;
-}
-*/
 
 
 /* @end */

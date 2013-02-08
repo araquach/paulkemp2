@@ -1,3 +1,5 @@
+<div id="feedbackBlank">
+
 <?php
 /* @var $this FeedbackController */
 /* @var $model Feedback */
@@ -39,3 +41,5 @@ $this->menu=array(
 		'stylist_id',
 	),
 )); ?>
+
+</div> <!--feedbackBlank-->
