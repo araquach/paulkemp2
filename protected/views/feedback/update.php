@@ -3,7 +3,7 @@
 /* @var $model Feedback */
 
 $this->breadcrumbs=array(
-	'Bha Inputs'=>array('index'),
+	'Feedback Inputs'=>array('index'),
 	$model->id=>array('view','id'=>$model->id),
 	'Update',
 );

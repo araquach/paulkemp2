@@ -3,7 +3,7 @@
 /* @var $model Feedback */
 
 $this->breadcrumbs=array(
-	'Bha Inputs'=>array('index'),
+	'Feedback Inputs'=>array('index'),
 	'Manage',
 );
 
@@ -26,7 +26,7 @@ $('.search-form form').submit(function(){
 ");
 ?>
 
-<h1>Manage Bha Inputs</h1>
+<h1>Manage Feedback Inputs</h1>
 
 <p>
 You may optionally enter a comparison operator (<b>&lt;</b>, <b>&lt;=</b>, <b>&gt;</b>, <b>&gt;=</b>, <b>&lt;&gt;</b>

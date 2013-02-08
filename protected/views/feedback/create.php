@@ -12,7 +12,7 @@
 <?php else: ?>
 
 
-<div id="bha">
+<div id="feedback">
 <h1>Your Feedback is important to us!</h1>
 <h2>Receive a &pound;10 Product Voucher for your help</h2>
 <p><strong>As a valued Paul Kemp Hairdressing customer, we would love to find out how your experience was in the salon</strong></p>
@@ -23,6 +23,6 @@ Plus entry into our Prize Draw for the chance to win some amazing prizes!</em></
 <p class="small">Your information will not be shared with anyone and is purely for us to ensure we are offering the best possible service along with looking at ways to improve our offering</p>
 
 <?php echo $this->renderPartial('_form', array('model'=>$model)); ?>
-</div> <!--bha-->
+</div> <!--feedback-->
 
 <?php endif; ?>

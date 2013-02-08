@@ -3,7 +3,7 @@
 /* @var $dataProvider CActiveDataProvider */
 
 $this->breadcrumbs=array(
-	'Bha Inputs',
+	'Feedback Inputs',
 );
 
 $this->menu=array(

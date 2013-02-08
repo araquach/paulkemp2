@@ -7,7 +7,7 @@
 <div class="form">
 
 <?php $form=$this->beginWidget('CActiveForm', array(
-	'id'=>'bha-input-form',
+	'id'=>'feedback-form',
 	'enableAjaxValidation'=>false,
 )); ?>
 

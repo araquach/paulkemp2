@@ -2365,38 +2365,38 @@ p.big {
 
 /* @end */
 
-/* @group Bha Incentive */
+/* @group feedback Incentive */
 
-#bha {
+#feedback {
 	padding: 60px;
 	width: 650px;
 }
 
-#bha h1 {
+#feedback h1 {
 	font-size: 2em;
 }
 
-#bha h2 {
+#feedback h2 {
 	font-size: 1.5em;
 }
 
-#bha p {
+#feedback p {
 	font-size: 1.1em;
 }
 
-#bha p strong {
+#feedback p strong {
 	font-weight: bold;
 }
 
-#bha input, #bha label, #bha .errorSummary, #bha .errorMessage, #bha select, #bha textarea, #bha h1, #bha p.note {
+#feedback input, #feedback label, #feedback .errorSummary, #feedback .errorMessage, #feedback select, #feedback textarea, #feedback h1, #feedback p.note {
 	margin-left: 0;
 }
 
-#bha input {
+#feedback input {
 	margin-right: 40px;
 }
 
-#bha label.required {
+#feedback label.required {
 	font-size: 1.2em;
 	font-weight: normal;
 	margin-bottom: 10px;
@@ -2405,20 +2405,20 @@ p.big {
 	line-height: 1.5em;
 }
 
-#bha p.scale_label {
+#feedback p.scale_label {
 	margin-right: 10px;
 	display: inline;
 	margin-bottom: 40px;
 	font: .8em "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
 }
 
-#bha .form .question {
+#feedback .form .question {
 	border: 1px solid #888;
 	padding: 10px;
 	border-radius: 10px;
 }
 
-#bha p.small {
+#feedback p.small {
 	font-size: .7em;
 	margin-bottom: 30px;
 }
