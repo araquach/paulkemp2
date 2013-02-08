@@ -1,5 +1,5 @@
 <?php
-/* @var $this BhaInputController */
+/* @var $this FeedbackController */
 /* @var $dataProvider CActiveDataProvider */
 
 $this->breadcrumbs=array(
@@ -7,8 +7,8 @@ $this->breadcrumbs=array(
 );
 
 $this->menu=array(
-	array('label'=>'Create BhaInput', 'url'=>array('create')),
-	array('label'=>'Manage BhaInput', 'url'=>array('admin')),
+	array('label'=>'Create Feedback', 'url'=>array('create')),
+	array('label'=>'Manage Feedback', 'url'=>array('admin')),
 );
 ?>
 

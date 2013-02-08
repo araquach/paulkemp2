@@ -1,12 +1,12 @@
 <?php
-/* @var $this BhaInputController */
-/* @var $model BhaInput */
+/* @var $this FeedbackController */
+/* @var $model Feedback */
 ?>
 
-<?php if(Yii::app()->user->hasFlash('bhaInput')): ?>
+<?php if(Yii::app()->user->hasFlash('Feedback')): ?>
 
 <div class="applicationSuccess">
-	<?php echo Yii::app()->user->getFlash('bhaInput'); ?>
+	<?php echo Yii::app()->user->getFlash('Feedback'); ?>
 </div>
 
 <?php else: ?>

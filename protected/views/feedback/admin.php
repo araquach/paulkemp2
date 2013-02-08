@@ -1,6 +1,6 @@
 <?php
-/* @var $this BhaInputController */
-/* @var $model BhaInput */
+/* @var $this FeedbackController */
+/* @var $model Feedback */
 
 $this->breadcrumbs=array(
 	'Bha Inputs'=>array('index'),
@@ -8,8 +8,8 @@ $this->breadcrumbs=array(
 );
 
 $this->menu=array(
-	array('label'=>'List BhaInput', 'url'=>array('index')),
-	array('label'=>'Create BhaInput', 'url'=>array('create')),
+	array('label'=>'List Feedback', 'url'=>array('index')),
+	array('label'=>'Create Feedback', 'url'=>array('create')),
 );
 
 Yii::app()->clientScript->registerScript('search', "
