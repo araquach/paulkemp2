@@ -2365,7 +2365,7 @@ p.big {
 
 /* @end */
 
-/* @group feedback Incentive */
+/* @group Feedback  */
 
 #feedback {
 	padding: 60px;
@@ -2422,6 +2422,16 @@ p.big {
 	font-size: .7em;
 	margin-bottom: 30px;
 }
+/*
+to try in mobile devices
+#feedback .row.question input {
+	height: 15px;
+	width: 15px;
+	margin-bottom: 0;
+	margin-right: 30px;
+}
+*/
+
 
 /* @end */
 
