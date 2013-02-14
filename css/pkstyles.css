@@ -257,7 +257,7 @@ li.active a {
 #homeimage {
 	width: 950px;
 	height: 1400px;
-	background-image: url(../images/home/reborn_3.jpg);
+	background-image: url(../images/hair_reborn.jpg);
 	background-repeat: no-repeat;
 	background-color:#FFF;
 	float: left;
@@ -281,10 +281,9 @@ li.active a {
 	text-align: center;
 }
 
-#homecopy img {
-	margin-left: -60px;
-	margin-top: 0;
-	margin-bottom: 80px;
+#homecopy img{
+	margin-left: -90px;
+	margin-top: 30px;
 }
 
 #homecopy a {
