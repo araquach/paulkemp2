@@ -7,6 +7,19 @@ $this->pageTitle=Yii::app()->name . ' - Offers - Hairdressers in Cheshire';
 
 <section id="offersMain">
 
+<section id="offers_copy">
+ 
+ <img src="<?php echo Yii::app()->request->baseUrl; ?>/images/home/hair_reborn_package.png" alt="Hair Reborn Package" width="321" height="107"/>
+ <div id="reborn_package">
+ 
+ 
+ <?php echo CHtml::link('Find out more here',array('site/page','view'=>'reborn')); ?>
+ </div> <!--#reborn_package-->
+
+ </section> <!--#offers_copy-->
+
+
+<!--
 <h2>Special Offers</h2>
 
 <ul id="offerlist">
@@ -24,7 +37,7 @@ $this->pageTitle=Yii::app()->name . ' - Offers - Hairdressers in Cheshire';
 <p class="small">offer until 28/02/13<br>
   For New Clients - not with any other offer - excludes Saturday - Skin Test required 48 hours prior to colour services</p></a>
 </li>
-<!--
+
 <li id="offer3">
   <h3>FREE product worth up to &pound;10</h3>
   <p>with every Cut, Dry &amp; Style<br>
@@ -45,7 +58,7 @@ $this->pageTitle=Yii::app()->name . ' - Offers - Hairdressers in Cheshire';
   -->  
  </ul>  
  
- </section> 
+ </section> <!--#offersMain-->
  
  <!--
  <section id="no_offer">

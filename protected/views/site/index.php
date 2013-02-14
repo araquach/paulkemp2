@@ -9,10 +9,13 @@ $this->pageTitle=Yii::app()->name;
     </section>
     <section id="homecopy">
     
-    <img src="<?php echo Yii::app()->request->baseUrl; ?>/images/logos/hair_reborn.png" alt="TIGI Hair Reborn" width="417" height="368"/>
+    <img src="<?php echo Yii::app()->request->baseUrl; ?>/images/home/hair_reborn_package.png" alt="Hair Reborn Package" width="321" height="107"/>
+    <div id="reborn_package">
     
-    <p id="reputation">Paul Kemp Hairdressing is excited to introduce this incredible range of products available exclusively in the salon</p>
-    <?php echo CHtml::link('Find out more about the range here',array('site/page','view'=>'news', '#'=>'HairReborn')); ?>
+    
+    <?php echo CHtml::link('Find out more here',array('site/page','view'=>'reborn')); ?>
+    </div> <!--#reborn_package-->
+   
     </section>
     <section id="home_copy_hidden">
     <h2>A New Standard of Hairdressing</h2>
