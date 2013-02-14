@@ -22,12 +22,11 @@ $this->pageTitle=Yii::app()->name;
 	</section> 
   
 <!--NewsItems-->
-	
-	<?php echo CHtml::link('<aside id="news1">
-	<h3 class="newsheader">Valentines Competition</h3>
-	<p class="newspara"><strong>We\'ve teamed up with Mr Lau\'s to give you the chance to win a romantic meal for 2</strong></p>
-	<p class="newscenter"><strong>Find out more here &gt;</strong></p>
-	</aside>',array('site/page','view'=>'competition')); ?>
+    <?php echo CHtml::link('<aside id="news1">
+    <h3 class="newsheader">PK awarded Good Salon Guide 5 Star Status</h3>
+    <p class="newspara">We\'re really pleased to announce this great award</p>
+    <p class="newscenter"><strong>Find out more here &gt;</strong></p>
+    	</aside>',array('site/page','view'=>'news', '#'=>'GoodSalonGuide')); ?>
     	
     <?php echo CHtml::link('<aside id="news2">
     <h3 class="newsheader">Introducing Hair Reborn</h3>
@@ -36,10 +35,10 @@ $this->pageTitle=Yii::app()->name;
     </aside>',array('site/page','view'=>'news', '#'=>'HairReborn')); ?>	
     
     <?php echo CHtml::link('<aside id="news3">
-    <h3 class="newsheader">PK awarded Good Salon Guide 5 Star Status</h3>
-    <p class="newspara">We\'re really pleased to announce this great award</p>
+    <h3 class="newsheader">Thicker, Fuller hair is yours</h3>
+    <p class="newspara"><strong>Invati was recently launched by Aveda, formulated specifically for people with thinning hair</strong></p>
     <p class="newscenter"><strong>Find out more here &gt;</strong></p>
-    	</aside>',array('site/page','view'=>'news', '#'=>'GoodSalonGuide')); ?>
+    </aside>',array('site/page','view'=>'news', '#'=>'Invati')); ?>
     
     <?php echo CHtml::link('<aside id="news4">
     <h3 class="newsheader">Men\'s Hair Experts</h3>
