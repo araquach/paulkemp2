@@ -1212,9 +1212,9 @@ section#newspage a:hover {
 
 #reborn p {
 	font-family: 'PT Sans', sans-serif;
-	font-size: 1.2em;
+	font-size: 1.3em;
 	color: #FFF;
-	margin: 10px 0;
+	margin: 5px;
 }
 
 #reborn h2 {
@@ -1230,13 +1230,23 @@ section#newspage a:hover {
 	margin-bottom: 20px;
 }
 
+
+
 #reborn p.reborn_small {
-	font-size: 1em;
-	margin-top: 10px;
+	font-size: 1.1em;
+	margin-bottom: 10px;
+}
+
+#reborn p.reborn_med {
+	font-size: 2em;
+	padding: 0;
+	margin: 0;
 }
 
 #reborn p.reborn_large {
-	font-size: 3em;
+	font-size: 3.2em;
+	padding: 0;
+	margin: 0;
 }
 
 #reborn p.package {
@@ -1247,6 +1257,10 @@ section#newspage a:hover {
 #reborn p.package.reborn_small {
 	font-size: .4em;
 }
+
+#reborn p.link {
+	margin: 25px 0;
+	}
 
 #reborn a {
 	color: #FFF;
