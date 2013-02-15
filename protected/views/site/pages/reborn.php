@@ -25,7 +25,7 @@ $this->pageTitle=Yii::app()->name . ' - Offers - Hairdressers in Cheshire';
  <p class="package reborn_small">New clients only, not with any other offer</p>
  
  
-<p class="link"><?php echo CHtml::link('Find out more here',array('site/page','view'=>'reborn')); ?></p>
+<p class="link"><?php echo CHtml::link('Cut &amp; Style Only packages also available',array('site/page','view'=>'reborn')); ?></p>
   
  </section> <!--#reborn-->
  </div> <!--#reborn_bground-->
