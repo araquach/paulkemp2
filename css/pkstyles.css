@@ -1249,6 +1249,13 @@ section#newspage a:hover {
 	margin: 0;
 }
 
+#reborn p.reborn_contact {
+	font-size: 2em;
+	padding: 0;
+	margin: 0;
+	float: right;
+}
+
 #reborn p.package {
 	font: .9em Georgia, "Times New Roman", Times, serif;
 	line-height: 1.4em;
@@ -1276,6 +1283,7 @@ section#newspage a:hover {
 #reborn a:hover {
 	border-bottom: dashed 1px #666;
 }
+
 
 
 /* @end */
