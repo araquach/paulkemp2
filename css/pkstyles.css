@@ -1007,18 +1007,22 @@ section#newspage a:hover {
 }
 
 #offerlist {
-	margin-left: 60px;
+	margin-left:75px;
 	display: block;
-	
 }
+
+#offerlist .offer_copy {
+	width: 340px;
+	margin-left: 370px;
+}
+
 #offersMain h2 {
-	margin: 60px;
+	margin: 75px;
+	margin-bottom: 40px;
 }
 
 #offerlist h3, #offerlist p, #offerlist .small {
 	text-align: center;
-	margin-right: 250px;
-	margin-top: 20px;
 }
 
 #offerlist h3 {
@@ -1035,7 +1039,8 @@ section#newspage a:hover {
 
 #offerlist #offer1 {
 	padding: 50px;
-	background-image: url(../images/offer/offer_2.png);
+	margin-bottom: 40px;
+	background-image: url(../images/offer/reborn1.jpg);
 	clear: left;
 	float: left;
 	height: 200px;
@@ -1050,28 +1055,11 @@ section#newspage a:hover {
 
 #offerlist #offer1 h3, #offerlist #offer1 p {
 	color: #FFF;
-	margin-top: 10px;
 }
-
-#offerlist #offer2 h3, #offerlist #offer4 p {
-	margin-top: 0px;
-}
-
-#offerlist #offer4 h3, #offerlist #offer4 p {
-	color: #FFF;
-	margin-top: 20px;
-}
-
-#offerlist #offer3 h3, #offerlist #offer3 p {
-	margin-top: -10px;
-	width: 400px;
-	color: #FFF;
-}
-
 
 #offerlist #offer2 {
 	padding: 50px;
-	background-image: url(../images/offer/offer1.png);
+	background-image: url(../images/offer/reborn1.jpg);
 	clear: left;
 	float: left;
 	height: 200px;
@@ -1082,11 +1070,15 @@ section#newspage a:hover {
 	-moz-box-shadow: 0 0 10px rgba(33, 31, 31, 0.91);
 	-webkit-box-shadow: 0 0 10px rgba(33, 31, 31, 0.91);
 	box-shadow: 0 0 10px rgba(33, 31, 31, 0.91);
+}
+
+#offerlist #offer2 h3, #offerlist #offer4 p {
+
 }
 
 #offerlist #offer3 {
 	padding: 50px;
-	background-image: url(../images/offer/products.jpg);
+	background-image: url(../images/offer/reborn2);
 	clear: left;
 	float: left;
 	height: 200px;
@@ -1097,11 +1089,15 @@ section#newspage a:hover {
 	-moz-box-shadow: 0 0 10px rgba(33, 31, 31, 0.91);
 	-webkit-box-shadow: 0 0 10px rgba(33, 31, 31, 0.91);
 	box-shadow: 0 0 10px rgba(33, 31, 31, 0.91);
+}
+
+#offerlist #offer3 h3, #offerlist #offer3 p {
+	color: #FFF;
 }
 
 #offerlist #offer4 {
 	padding: 50px;
-	background-image: url(../images/offer/offer4.jpg);
+	background-image: url(../images/offer/reborn2.jpg);
 	clear: left;
 	float: left;
 	height: 200px;
@@ -1114,7 +1110,9 @@ section#newspage a:hover {
 	box-shadow: 0 0 10px rgba(33, 31, 31, 0.91);
 }
 
-
+#offerlist #offer4 h3, #offerlist #offer4 p {
+	color: #FFF;
+}
 
 #offers {
 	background-image:url(../images/offer/katynathleon.png);
