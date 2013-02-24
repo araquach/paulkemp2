@@ -1051,6 +1051,13 @@ section#newspage a:hover {
 	-moz-box-shadow: 0 0 10px rgba(33, 31, 31, 0.91);
 	-webkit-box-shadow: 0 0 10px rgba(33, 31, 31, 0.91);
 	box-shadow: 0 0 10px rgba(33, 31, 31, 0.91);
+	-webkit-transition: opacity .1s ease 0s;
+	-moz-transition: opacity .1s ease 0s;	
+	transition: opacity .1s ease 0s;
+}
+
+#offerlist #offer1:hover {
+	opacity: .9;
 }
 
 #offerlist #offer1 h3, #offerlist #offer1 p {
@@ -1070,6 +1077,7 @@ section#newspage a:hover {
 	-moz-box-shadow: 0 0 10px rgba(33, 31, 31, 0.91);
 	-webkit-box-shadow: 0 0 10px rgba(33, 31, 31, 0.91);
 	box-shadow: 0 0 10px rgba(33, 31, 31, 0.91);
+	
 }
 
 #offerlist #offer2 h3, #offerlist #offer4 p {
@@ -1089,6 +1097,13 @@ section#newspage a:hover {
 	-moz-box-shadow: 0 0 10px rgba(33, 31, 31, 0.91);
 	-webkit-box-shadow: 0 0 10px rgba(33, 31, 31, 0.91);
 	box-shadow: 0 0 10px rgba(33, 31, 31, 0.91);
+	-webkit-transition: opacity .1s ease 0s;
+	-moz-transition: opacity .1s ease 0s;	
+	transition: opacity .1s ease 0s;
+}
+
+#offerlist #offer3:hover {
+	opacity: .9;
 }
 
 #offerlist #offer3 h3, #offerlist #offer3 p {
@@ -1271,15 +1286,18 @@ section#newspage a:hover {
 	background-color: #FFF;
 	background-color: rgba(255, 255, 254, 0.7);
 	border-radius: 10px;
+	-webkit-transition: opacity .3s ease 0s;
+	-moz-transition: opacity .3s ease 0s;	
+	transition: opacity .3s ease 0s;
+	
+}
+
+#reborn p.link:hover {
+	opacity: .8;
 }
 
 #reborn a {
 	color: rgb(55,34,24);
-}
-
-
-#reborn a:hover {
-	border-bottom: dashed 1px #666;
 }
 
 
