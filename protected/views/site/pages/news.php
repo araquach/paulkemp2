@@ -19,6 +19,26 @@ window.addEvent('domready', function(){
 <section id="accordion">
 
 <article class="article">
+<a name="AnchorName" class="anchor"></a>
+<section class="visible">
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/newspics/zoe.jpg" width="135" height="180">
+<h3>Welcoming Zoe Hadland to the team</h3>
+<p>The Paul Kemp Hairdressing team recently welcomed on-board another skilled and experienced stylist. Zoe Hadland has been working in the industry from the age of thirteen - gaining over seven years experience working in salons.</p>
+<p>Zoe knew hairdressing was the career for her from a very early age when she used to try out her latest techniques on her friends.
+She started as a Saturday girl in a top Warrington salon and from there worked her way through the ranks. Her last role was working in a prestigious Stockton Heath based salon where she had been for the previous five years.</p>
+<p class="reveal">Read More ></p>
+</section> <!--end .visible-->
+<section class="hidden">
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/newspics/zoe2.jpg" width="135" height="180">
+<p><p>Zoe says 'I live and breath hairdressing, I love creating a new look for someone and then spending time educating them on how to achieve the look themselves at home, using the best tools and products for the job.'</p>
+<p>Zoe's specialises in high fashion cutting &amp; colouring, hair-up styling and modern men's cutting.</p>
+<p class="offer">Take advantage of our special 'Hair Reborn' packages available to new client's to Paul Kemp Hairdressing until the end of March. Click here for details</p></p>
+</section> <!--end .hidden-->
+<p class="author">Published by </p>
+<time datetime="2013-02-26" pubdate="pubdate"><p>26th February 2013</p></time>
+</article> <!--end #article-->
+
+<article class="article">
 <a name="GoodSalonGuide" class="anchor"></a>
 <section class="visible">
 <img src="<?php echo Yii::app()->request->baseUrl; ?>/images/news_images/good_salon_guide.jpg" width="135" height="180">
