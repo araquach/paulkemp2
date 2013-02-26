@@ -36,7 +36,7 @@ $this->pageTitle=Yii::app()->name . ' - The Team - Hairdressers in Cheshire';
         </section>
         <section id="zoe">
         <h3><img src="<?php echo Yii::app()->request->baseUrl; ?>/images/staff/zoe.jpg" width="133" height="168" alt="Zoe Hadland">Zoe Hadland</h3>
-        <p>Zoe yada yada yada </p>
+        <p>Zoe brings an abundance of skills to the team. She's worked in the industry since the age of 13! Her passion is creating new looks for her clients, teaching them to maintain their new look at home. She excels in high fashion looks, hair-up and mens's cutting.</p>
         <p class="teamprice">Average Cut &amp; Colour price with Zoe : &pound;90*</p>
         </section>
         <section id="katy">
