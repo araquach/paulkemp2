@@ -572,7 +572,7 @@ aside h2, aside, h3, aside h4, aside h5, aside h6 {
 #team {
 	position: relative;
 	width: 950px;
-	height: 2300px;
+	height: 2550px;
 	background-image: url(../images/pk_staff.jpg);
 	background-repeat: no-repeat;
 }
@@ -628,30 +628,6 @@ aside h2, aside, h3, aside h4, aside h5, aside h6 {
 	margin-top: 0px;
 }
 
-
-#jack {
-	position:absolute;
-	top: 800px;
-	left: 40px;
-	width: 400px;
-	height: 250px;
-	border-bottom: solid 3px #CCC;
-	
-}
-
-#jack img {
-	float: left;
-	margin: 10px 20px 0 10px;
-}
-
-#jack p{
-	font-size: 0.8em;
-}
-
-#jack h3 img{
-	margin-top: 0px;
-}
-
 #jo {
 	position:absolute;
 	left: 470px;
@@ -696,10 +672,77 @@ aside h2, aside, h3, aside h4, aside h5, aside h6 {
 	margin-top: 0px;
 }
 
-#katy {
+#kate {
+	position:absolute;
+	left: 40px;
+	top: 800px;
+	width: 400px;
+	height: 250px;
+	border-bottom: solid 3px #CCC;
+}
+
+#kate img {
+	float: left;
+	margin: 10px 20px 0 10px;
+}
+
+#kate p {
+	font-size: 0.8em;
+}
+
+#kate h3 img {
+	margin-top: 0px;
+}
+
+#jack {
+	position:absolute;
+	top: 1100px;
+	left: 470px;
+	width: 400px;
+	height: 250px;
+	border-bottom: solid 3px #CCC;
+	
+}
+
+#jack img {
+	float: left;
+	margin: 10px 20px 0 10px;
+}
+
+#jack p{
+	font-size: 0.8em;
+}
+
+#jack h3 img{
+	margin-top: 0px;
+}
+
+#zoe {
 	position:absolute;
 	left: 40px;
 	top: 1100px;
+	width: 400px;
+	height: 250px;
+	border-bottom: solid 3px #CCC;
+}
+
+#zoe img {
+	float: left;
+	margin: 10px 20px 0 10px;
+}
+
+#zoe p{
+	font-size: 0.8em;
+}
+
+#zoe h3 img{
+	margin-top: 0px;
+}
+
+#katy {
+	position:absolute;
+	left: 40px;
+	top: 1400px;
 	width: 400px;
 	height: 250px;
 	border-bottom: solid 3px #CCC;
@@ -716,28 +759,6 @@ aside h2, aside, h3, aside h4, aside h5, aside h6 {
 }
 
 #katy h3 img{
-	margin-top: 0px;
-}
-
-#tash {
-	position:absolute;
-	left: 470px;
-	top: 1100px;
-	width: 400px;
-	height: 250px;
-	border-bottom: solid 3px #CCC;
-}
-
-#tash img {
-	float: left;
-	margin: 10px 20px 0 10px;
-}
-
-#tash p {
-	font-size: 0.8em;
-}
-
-#tash h3 img {
 	margin-top: 0px;
 }
 
@@ -763,27 +784,30 @@ aside h2, aside, h3, aside h4, aside h5, aside h6 {
 	margin-top: 0px;
 }
 
-#kate {
+#tash {
 	position:absolute;
 	left: 40px;
-	top: 1400px;
+	top: 1700px;
 	width: 400px;
 	height: 250px;
 	border-bottom: solid 3px #CCC;
 }
 
-#kate img {
+#tash img {
 	float: left;
 	margin: 10px 20px 0 10px;
 }
 
-#kate p {
+#tash p {
 	font-size: 0.8em;
 }
 
-#kate h3 img {
+#tash h3 img {
 	margin-top: 0px;
 }
+
+
+
 
 .csstransitions .teamprice, .csstransitions .pteamprice {
 	-o-opacity: 0;

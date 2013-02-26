@@ -21,7 +21,7 @@ $this->pageTitle=Yii::app()->name . ' - The Team - Hairdressers in Cheshire';
         </section>
         <section id="jack">
         <h3><img src="<?php echo Yii::app()->request->baseUrl; ?>/images/staff/jack.jpg" width="133" height="168" alt="Jack Broady">Jack Broady</h3>
-        <p>Jack is our latest recruit. He's been hairdressing since the age of 13. He loves all aspects of hairdressing including mens cutting &amp; styling. His speciality is cutting and colouring long hair.</p>
+        <p>Jack is one of our more recent additions to the team. He's been hairdressing since the age of 13. He loves all aspects of hairdressing including mens cutting &amp; styling. His speciality is cutting and colouring long hair.</p>
         <p class="teamprice">Average Cut &amp; Colour price with Jack : &pound;70*</p>
         </section>
         <section id="jo">
@@ -33,6 +33,11 @@ $this->pageTitle=Yii::app()->name . ' - The Team - Hairdressers in Cheshire';
         <h3><img src="<?php echo Yii::app()->request->baseUrl; ?>/images/staff/izzy.jpg" width="133" height="168" alt="Isobelle Lamb">Isobelle Lamb</h3>
         <p>Izzy has quickly Established herself as an extremely sought after stylist. Her natural flair with creating beautiful, wearable styles has built her a strong following. Izzy recently won the National <em>Redken Style Innovator</em> award. She is also a specialist in extensions. </p>
         <p class="teamprice">Average Cut &amp; Colour price with Izzy : &pound;90*</p>
+        </section>
+        <section id="zoe">
+        <h3><img src="<?php echo Yii::app()->request->baseUrl; ?>/images/staff/zoe.jpg" width="133" height="168" alt="Zoe Hadland">Zoe Hadland</h3>
+        <p>Zoe yada yada yada </p>
+        <p class="teamprice">Average Cut &amp; Colour price with Zoe : &pound;90*</p>
         </section>
         <section id="katy">
         <h3><img src="<?php echo Yii::app()->request->baseUrl; ?>/images/staff/katy.jpg" width="133" height="168" alt="Katy Sergeant">Katy Sergeant</h3>
