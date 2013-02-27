@@ -10,20 +10,27 @@ $this->pageTitle=Yii::app()->name . ' - Offers - Hairdressers in Cheshire';
 <h2>Special Offers</h2>
 
 <ul id="offerlist">
+<?php echo CHtml::link(
+'<li id="offer1">
+<div class="offer_copy">
+<h3>Hair Reborn Package 1</h3>
+<p><strong>A limited edition package worth &pound;150</strong></p>
+<p>for just &pound;75</p>
+<p class="small">until 31/03/13<br>
+  For New Clients - not with any other offer - excludes Saturday - <br>Skin Test required 48 hours prior to colour services</p>
+</div>
+</li>', array('site/page','view'=>'reborn'));?>
 
-<li id="offer1"><h3>Weekday Colour &amp; Cut Package</h3>
-<p>for just &pound;60</p>
-<p>with any of our Senior Stylists</p>
-<p class="small">until 28/02/13<br>
-  For New Clients - not with any other offer - excludes Saturday - Skin Test required 48 hours prior to colour services</p></a>
-</li>
-
-<li id="offer2"><h3>Weekday Colour &amp; Cut Package</h3>
-<p>for just &pound;40</p>
-<p>with any of our Graduate Stylists</p>
-<p class="small">offer until 28/02/13<br>
-  For New Clients - not with any other offer - excludes Saturday - Skin Test required 48 hours prior to colour services</p></a>
-</li>
+<?php echo CHtml::link(
+'<li id="offer3">
+<div class="offer_copy">
+<h3>Hair Reborn Package 2</h3>
+<p>25% off a Cut, Dry &amp; Style</p>
+<p>PLUS a FREE in salon treatment and take home product</p>
+<p class="small">offer until 31/03/13<br>
+  For New Clients - not with any other offer - excludes Saturday</p>
+</div>  
+</li>', array('site/page', 'view'=>'reborn2'));?>
 <!--
 <li id="offer3">
   <h3>FREE product worth up to &pound;10</h3>
