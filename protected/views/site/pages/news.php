@@ -28,7 +28,7 @@ She started as a Saturday girl in a top Warrington salon and from there worked h
 </section> <!--end .visible-->
 <section class="hidden">
 <img src="<?php echo Yii::app()->request->baseUrl; ?>/images/news_images/zoe2.jpg" width="135" height="180">
-<p><p>Zoe says 'I live and breath hairdressing, I love creating a new look for someone and then spending time educating them on how to achieve the look themselves at home, using the best tools and products for the job.'</p>
+<p><p>Zoe says 'I live and breathe hairdressing, I love creating a new look for someone and then spending time educating them on how to achieve the look themselves at home, using the best tools and products for the job.'</p>
 <p>Zoe specialises in high fashion cutting &amp; colouring, hair-up styling and modern men's cutting.</p>
 <p class="offer">Take advantage of our special 'Hair Reborn' packages available to new client's to Paul Kemp Hairdressing until the end of March.</p> 
 <?php echo CHtml::link('Click here for details &gt;',array('site/page','view'=>'reborn'),array('class'=>'readmore')); ?>

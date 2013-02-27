@@ -24,7 +24,7 @@ $this->pageTitle=Yii::app()->name;
 <!--NewsItems-->
     <?php echo CHtml::link('<aside id="news1">
     <h3 class="newsheader">New stylist joins the team</h3>
-    <p class="newspara">Zoe Hadland is the latest person to join the Paul Kemp Hairdressing team</p>
+    <p class="newspara">Zoe Hadland is the latest stylist to join the Paul Kemp Hairdressing team</p>
     <p class="newscenter"><strong>Find out more here &gt;</strong></p>
     	</aside>',array('site/page','view'=>'news', '#'=>'Zoe')); ?>
     	
