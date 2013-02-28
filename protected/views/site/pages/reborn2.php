@@ -10,19 +10,18 @@ $this->pageTitle=Yii::app()->name . ' - Offers - Hairdressers in Cheshire';
  
  <h2>New Client Offer</h2>
  <img src="<?php echo Yii::app()->request->baseUrl; ?>/images/home/hair_reborn_package.png" alt="Hair Reborn Package" width="321" height="107"/>
- <p>Cut &amp; Style Package</p>
- <p>With a Senior Stylist</p>
- <p class="reborn_large">Worth &pound;90</p>
- <p class="reborn_med">for only &pound;35</p>
+ <p class="reborn_large">25% Off</p>
+ <p class="reborn_med">Cut, Dry &amp; Style</p>
  <br>
- <p>with a Stylist - only &pound;30</p>
- <p class="reborn_small">worth over £70</p>
- <br>
- <p><em>Package includes:</em></p>
- <p class="package">Cut, Dry &amp; Style<br>
- In-Salon Hair Reborn Treatment<br>
- FREE Hair Reborn Aftercare Product</p>
-  
+ <p>PLUS</p>
+ <p class="reborn_large">FREE</p>
+ <p class="reborn_med"><em>Hair Reborn</em> in salon treatment</p>
+ <p class="reborn_small">worth &pound;10</p>
+ <p>PLUS</p>
+ <p class="reborn_med"><em>Hair Reborn</em> 
+ <p class="reborn_small">product of your choice</p>
+ <p class="reborn_small">worth &pound;20</p>
+ 
  <p class="package reborn_small">New clients only, not with any other offer<br>Ends 31/03/13</p>
  
  

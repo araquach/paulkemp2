@@ -23,10 +23,10 @@ $this->pageTitle=Yii::app()->name;
   
 <!--NewsItems-->
     <?php echo CHtml::link('<aside id="news1">
-    <h3 class="newsheader">New stylist joins the team</h3>
-    <p class="newspara">Zoe Hadland is the latest stylist to join the Paul Kemp Hairdressing team</p>
+    <h3 class="newsheader">PK awarded Good Salon Guide 5 Star Status</h3>
+    <p class="newspara">We\'re really pleased to announce this great award</p>
     <p class="newscenter"><strong>Find out more here &gt;</strong></p>
-    	</aside>',array('site/page','view'=>'news', '#'=>'Zoe')); ?>
+    	</aside>',array('site/page','view'=>'news', '#'=>'GoodSalonGuide')); ?>
     	
     <?php echo CHtml::link('<aside id="news2">
     <h3 class="newsheader">Introducing Hair Reborn</h3>
