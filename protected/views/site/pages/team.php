@@ -34,11 +34,7 @@ $this->pageTitle=Yii::app()->name . ' - The Team - Hairdressers in Cheshire';
         <p>Izzy has quickly Established herself as an extremely sought after stylist. Her natural flair with creating beautiful, wearable styles has built her a strong following. Izzy recently won the National <em>Redken Style Innovator</em> award. She is also a specialist in extensions. </p>
         <p class="teamprice">Average Cut &amp; Colour price with Izzy : &pound;90*</p>
         </section>
-        <section id="zoe">
-        <h3><img src="<?php echo Yii::app()->request->baseUrl; ?>/images/staff/zoe.jpg" width="133" height="168" alt="Zoe Hadland">Zoe Hadland</h3>
-        <p>Zoe brings an abundance of skills to the team. She's worked in the industry since the age of 13! Her passion is creating new looks for her clients, teaching them to maintain their new look at home. She excels in high fashion looks, hair-up and mens's cutting.</p>
-        <p class="teamprice">Average Cut &amp; Colour price with Zoe : &pound;90*</p>
-        </section>
+       
         <section id="katy">
         <h3><img src="<?php echo Yii::app()->request->baseUrl; ?>/images/staff/katy.jpg" width="133" height="168" alt="Katy Sergeant">Katy Sergeant</h3>
         <p>Katy joined us after starting her career in a busy Stockton Heath salon. She's developed a wide range of skills in cutting, colouring and styling hair. Her friendly personality will make your visit to the salon a memorable one.</p>
