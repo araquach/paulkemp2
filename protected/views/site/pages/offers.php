@@ -16,7 +16,7 @@ $this->pageTitle=Yii::app()->name . ' - Offers - Hairdressers in Cheshire';
 <h3>Hair Reborn Package 1: Colour &amp; Cut</h3>
 <p><strong>A limited edition package worth &pound;150</strong></p>
 <p>for just &pound;75</p>
-<p class="small">until 31/03/13<br>
+<p class="small">until 26/04/13<br>
   For New Clients - not with any other offer - excludes Saturday - <br>Skin Test required 48 hours prior to colour services</p>
 </div>
 </li>', array('site/page','view'=>'reborn'));?>
@@ -27,7 +27,7 @@ $this->pageTitle=Yii::app()->name . ' - Offers - Hairdressers in Cheshire';
 <h3>Hair Reborn Package 2: Cut, Dry &amp; Style</h3>
 <p>Worth &pound;90 for just &pound;35</p>
 <p>Includes a FREE in salon treatment and take home product</p>
-<p class="small">offer until 31/03/13<br>
+<p class="small">offer until 26/04/13<br>
   For New Clients - not with any other offer - excludes Saturday</p>
 </div>  
 </li>', array('site/page', 'view'=>'reborn2'));?>

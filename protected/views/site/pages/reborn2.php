@@ -22,7 +22,7 @@ $this->pageTitle=Yii::app()->name . ' - Offers - Hairdressers in Cheshire';
  <p class="package">Cut, Dry &amp; Style<br>	
  In-Salon Hair Reborn Treatment<br>
  FREE Hair Reborn Aftercare Product</p>
- <p class="package reborn_small">New clients only, not with any other offer<br>Ends 31/03/13</p>
+ <p class="package reborn_small">New clients only, not with any other offer<br>Ends 26/04/13</p>
  
  
 <p class="link"><?php echo CHtml::link('Colour &amp; Cut package also available',array('site/page','view'=>'reborn')); ?></p>
