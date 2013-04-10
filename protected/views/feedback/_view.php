@@ -72,6 +72,9 @@
 	<b><?php echo CHtml::encode($data->getAttributeLabel('stylist_id')); ?>:</b>
 	<?php echo CHtml::encode($data->FeedbackStylist->stylist); ?>
 	<br />
+	
+	<b><?php echo CHtml::encode('Score'); ?>:</b>
+	<?php echo CHtml::encode($data->score()); ?>
 
 	
 
