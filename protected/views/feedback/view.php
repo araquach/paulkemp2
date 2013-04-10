@@ -27,6 +27,7 @@ $this->menu=array(
 		'client_first',
 		'client_second',
 		'mobile',
+		'FeedbackStylist.stylist',
 		'intro',
 		'consultation',
 		'styling_area',
@@ -38,7 +39,6 @@ $this->menu=array(
 		'whole_experience',
 		'end_result',
 		'extra',
-		'stylist_id',
 	),
 )); ?>
 
