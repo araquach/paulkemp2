@@ -24,6 +24,10 @@ $this->menu=array(
 	'data'=>$model,
 	'attributes'=>array(
 		'id',
+		array(
+			'name'=>'Date Submitted',
+			'value'=>Yii::app()->dateFormatter->formatDateTime($model->date,"medium",""),
+			),
 		'client_first',
 		'client_second',
 		'mobile',
