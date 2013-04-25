@@ -19,7 +19,37 @@ window.addEvent('domready', function(){
 <section id="accordion">
 
 <article class="article">
+<a name="FibreForce" class="anchor"></a>
+<section class="visible">
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/news_images/fibre_force3.jpg" width="135" height="111">
+<h3>New BC Fibre Force</h3>
+<p>We've all been guilty of mistreating our hair from time to time, whether it's through over straightening, over colouring or just using poor quality products. Hair is tough, but you do have to treat it right if you want it to behave itself!</p>
+<p>Schwarzkopf realised there are a lot of people out there not giving their hair the love and care it needs, so they introduced BC Fibre Force - a complete range of products designed to return your hair to it's former glory over a fairly short period of time.</p>
+<p class="reveal">Read More ></p>
+</section> <!--end .visible-->
+<section class="hidden">
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/news_images/fibre_force2.jpg" width="135" height="108">
+<p>Here's what Schwarzkopf say:</p>
+<p><em>BC Fibre Force introduces a new dimension of hair repair returning even most eroded hair to its optimal level of force and resilience.</em></p>
+<p><iframe src="http://player.vimeo.com/video/56987102" width="400" height="300" class="right" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></p>
+<p><em>For the first time the formulas with Micronized Hair-Identical Keratins penetrate deeply into the hair architecture to re-cement specifically the Cell-Membrane-Complex, the intercellular bonding cement responsible for strong and resilient hair fibre.</em></p>
+<p>Which in English means that it's going to make the most damaged hair feel loads healthier!</p>
+<p><strong>The complete range is as follows:</strong></p>
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/news_images/fibre_force.jpg" width="135" height="121">
 
+	<p><strong>BC Fibre Force Shampoo</strong></p>
+	<p><strong>BC Fibre Force Spray Conditioner</strong></p>
+	<p><strong>BC Fibre Force Rinse Out Conditioner</strong></p>
+	<p><strong>BC Fibre Force Fortifier Treatment</strong></p>
+	<p><strong>BC Fibre Force Keratin Infusion</strong></p>
+
+<p>Find out more at the Schwarzkopf site: <br> <a href="http://www.schwarzkopf-professional.co.uk/index.php?id=22120" target="_blank">www.schwarzkopf-professional.co.uk/fibreforce</a></p>
+</section> <!--end .hidden-->
+<p class="author">Published by PK</p>
+<time datetime="2013-04-26" pubdate="pubdate"><p>26th April 2013</p></time>
+</article> <!--end #article-->
+
+<article class="article">
 <a name="GoodSalonGuide" class="anchor"></a>
 <section class="visible">
 <img src="<?php echo Yii::app()->request->baseUrl; ?>/images/news_images/good_salon_guide.jpg" width="135" height="180">

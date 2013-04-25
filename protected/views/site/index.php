@@ -29,10 +29,10 @@ $this->pageTitle=Yii::app()->name;
     	</aside>',array('site/page','view'=>'news', '#'=>'GoodSalonGuide')); ?>
     	
     <?php echo CHtml::link('<aside id="news2">
-    <h3 class="newsheader">Limited Edition Hair Reborn Package</h3>
-    <p class="newspara">A special package for new clients - worth &pound;150 for just &pound;75</p>
+    <h3 class="newsheader">NEW BC Fibre Force</h3>
+    <p class="newspara">a new dimension of hair repair now available at Paul Kemp Hairdressing</p>
     <p class="newscenter"><strong>Find out more here &gt;</strong></p>
-    	</aside>',array('site/page','view'=>'reborn')); ?>
+    	</aside>',array('site/page','view'=>'news', '#'=>'FibreForce')); ?>
     
     <?php echo CHtml::link('<aside id="news3">
     <h3 class="newsheader">Thicker, Fuller hair is yours</h3>
