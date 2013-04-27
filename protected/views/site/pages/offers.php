@@ -6,32 +6,12 @@ $this->pageTitle=Yii::app()->name . ' - Offers - Hairdressers in Cheshire';
 ?>
 
 <section id="offersMain">
-
+<!--
 <h2>Special Offers</h2>
 
 <ul id="offerlist">
-<?php echo CHtml::link(
-'<li id="offer1">
-<div class="offer_copy">
-<h3>Hair Reborn Package 1: Colour &amp; Cut</h3>
-<p><strong>A limited edition package worth &pound;150</strong></p>
-<p>for just &pound;75</p>
-<p class="small">until 26/04/13<br>
-  For New Clients - not with any other offer - excludes Saturday - <br>Skin Test required 48 hours prior to colour services</p>
-</div>
-</li>', array('site/page','view'=>'reborn'));?>
 
-<?php echo CHtml::link(
-'<li id="offer3">
-<div class="offer_copy">
-<h3>Hair Reborn Package 2: Cut, Dry &amp; Style</h3>
-<p>Worth &pound;90 for just &pound;35</p>
-<p>Includes a FREE in salon treatment and take home product</p>
-<p class="small">offer until 26/04/13<br>
-  For New Clients - not with any other offer - excludes Saturday</p>
-</div>  
-</li>', array('site/page', 'view'=>'reborn2'));?>
-<!--
+
 <li id="offer3">
   <h3>FREE product worth up to &pound;10</h3>
   <p>with every Cut, Dry &amp; Style<br>
@@ -49,19 +29,19 @@ $this->pageTitle=Yii::app()->name . ' - Offers - Hairdressers in Cheshire';
   <h3>FREE Cut, Dry &amp; Style</h3>
   <p>with every Kebelo System Treatment</p><p class="small">extended until 30/11/12<br>
     not with any other offer<br>Excludes Saturday</p></a></li>
-  -->  
+  
  </ul>  
  
  </section> 
+  --> 
  
- <!--
  <section id="no_offer">
   </section> 
  <section id="no_offercopy">
  <h2>Special Offers</h2>
- <p>Look out for some great offers in the New Year!</p>
+ <p>Look out for some great offers soon!</p>
  <p>
- 	<a href="http://www.facebook.com/PaulKempHairdressing" target="_blank">Visit our Facebook page - we occasionally run ad-hoc offers </a>
+ 	<a href="http://www.facebook.com/PaulKempHairdressing" target="_blank">Visit our Facebook page to keep up to date with the latest offers</a>
  </p>
  </section> <!--offercopy-->
 

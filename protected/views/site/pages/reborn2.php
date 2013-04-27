@@ -9,7 +9,12 @@ $this->pageTitle=Yii::app()->name . ' - Offers - Hairdressers in Cheshire';
 <section id="reborn">
  
  <h2>New Client Offer</h2>
- <img src="<?php echo Yii::app()->request->baseUrl; ?>/images/home/hair_reborn_package.png" alt="Hair Reborn Package" width="321" height="107"/>
+ 
+ <p class="reborn_med">This offer has now ended</p>
+ 
+ <p class="reborn_small">Keep checking our Facebook page<br>for new special offers</p>
+ 
+ <!--<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/home/hair_reborn_package.png" alt="Hair Reborn Package" width="321" height="107"/>
  <p>Cut &amp; Style Package</p>
  <p>With a Senior Stylist</p>
  <p class="reborn_large">Worth &pound;90</p>
@@ -27,7 +32,7 @@ $this->pageTitle=Yii::app()->name . ' - Offers - Hairdressers in Cheshire';
  
 <p class="link"><?php echo CHtml::link('Colour &amp; Cut package also available',array('site/page','view'=>'reborn')); ?></p>
 
-<p class="reborn_contact">Call 01925 444488 to book</p>
+<p class="reborn_contact">Call 01925 444488 to book</p>-->
   
  </section> <!--#reborn-->
  </div> <!--#reborn_bground-->
