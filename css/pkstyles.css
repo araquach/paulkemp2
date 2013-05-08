@@ -2407,20 +2407,20 @@ p.big {
 
 /* @end */
 
-/* @group Nath Departure */
+/* @group graduate offer */
 
-#nathan {
-	background: #f5f5f5 url('../images/offer/jack_leon_tash.jpg') no-repeat right top;
-	height: 1200px;
+#graduate {
+	background: #f5f5f5 url('../images/offer/megan.jpg') no-repeat right top;
+	height: 700px;
 }
 
-#nathancopy {
+#graduatecopy {
 	width: 430px;
 	padding: 50px;
 	font-size: 1.1em;
 }
 
-#nathancopy strong {
+#graduatecopy strong {
 	font-size: 1.3em;
 	font-weight: bolder;
 }
