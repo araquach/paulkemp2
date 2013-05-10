@@ -16,11 +16,9 @@ $this->pageTitle=Yii::app()->name . ' - Graduate Stylist Offer - Hairdressers in
     
     <p class="offer">Colour &amp; Cut with Megan for just &pound;30</p>
     <p class="offer">A Cut, Dry &amp; Style for just &pound;15</p>
-    <p class="offer">A blow dry or hair up for just &pound;7.50</p>
+    <p class="offer">A blow dry or hair up for just &pound;8</p>
     
-    
-    
-  	<p class="small">(one offer per person, not with any other offer<br>excludes Saturday's, ends 30/06/13)</p>
+    <p class="small">(one offer per person, not with any other offer<br>excludes Saturday's, ends 30/06/13)</p>
     
 </section> <!--end graduatecopy-->
 
