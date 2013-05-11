@@ -376,14 +376,14 @@ li.active a {
 #news3 {
 	left: 492px;
 	top: 1100px;
-	background: url(../images/home_news/invati.jpg) no-repeat, rgb(55,34,24);
+	background: url(../images/home_news/meg.jpg) no-repeat, rgb(55,34,24);
 	-webkit-transition: all 0.3s ease-in;
 	-moz-transition: all 0.3s ease-in;
 	transition: all 0.3s ease-in;
 }
 
 .no-cssgradients #news3 {
-	background: url(../images/home_news/invati.jpg) no-repeat rgb(55,34,24);
+	background: url(../images/home_news/meg.jpg) no-repeat rgb(55,34,24);
 }
 
 #news3:hover {
@@ -2410,7 +2410,7 @@ p.big {
 /* @group graduate offer */
 
 #graduate {
-	background: #f5f5f5 url('../images/offer/megan.jpg') no-repeat right top;
+	background: url('../images/graduate/meg.jpg') no-repeat 550px 60px #f5f5f5;
 	height: 700px;
 }
 

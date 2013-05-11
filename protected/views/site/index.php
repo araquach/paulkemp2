@@ -35,10 +35,10 @@ $this->pageTitle=Yii::app()->name;
     	</aside>',array('site/page','view'=>'news', '#'=>'FibreForce')); ?>
     
     <?php echo CHtml::link('<aside id="news3">
-    <h3 class="newsheader">Thicker, Fuller hair is yours</h3>
-    <p class="newspara"><strong>Invati was recently launched by Aveda, formulated specifically for people with thinning hair</strong></p>
+    <h3 class="newsheader">Megan promoted to Graduate Stylist</h3>
+    <p class="newspara"><strong>Check out these great offers with our latest up-and-coming star</strong></p>
     <p class="newscenter"><strong>Find out more here &gt;</strong></p>
-    </aside>',array('site/page','view'=>'news', '#'=>'Invati')); ?>
+    </aside>',array('site/page','view'=>'graduate')); ?>
     
     <?php echo CHtml::link('<aside id="news4">
     <h3 class="newsheader">Men\'s Hair Experts</h3>
