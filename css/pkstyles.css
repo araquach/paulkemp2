@@ -335,14 +335,14 @@ li.active a {
 #news1 {
 	left: 20px;
 	top: 1100px;
-	background: url(../images/home_news/good_salon.jpg) no-repeat, rgb(55,34,24);
+	background: url(../images/home_news/aveda_red.jpg) no-repeat, rgb(55,34,24);
 	-webkit-transition: all 0.3s ease-in;
 	-moz-transition: all 0.3s ease-in;
 	transition: all 0.3s ease-in;
 }
 
 .no-cssgradients #news1 {
-	background: url(../images/home_news/good_salon.jpg) no-repeat rgb(55,34,24);
+	background: url(../images/home_news/aveda_red.jpg) no-repeat rgb(55,34,24);
 }
 
 #news1:hover {
@@ -1004,7 +1004,29 @@ section#newspage a:hover {
 /* @group Offers */
 
 #offersMain {
-	height: 600px;
+	height: 500px;
+	background: #f5f5f5 url('../images/offer/aveda_red.jpg') no-repeat right top;
+	margin: 50px;
+	padding: 50px;
+	border-radius: 20px;
+}
+
+#offersMain h2 {
+	font-size: 3em;
+}
+
+#offersMain #offer1 {
+	font-size: 1.5em;
+	width: 350px;
+}
+
+#offersMain #offer1 h3 {
+	font-size: 1.5em;
+	line-height: 1.3em;
+}
+
+#offersMain #offer1 small {
+	font-size: .5em;
 }
 
 #no_offer {

@@ -9,13 +9,13 @@ $this->pageTitle=Yii::app()->name . ' - Offers - Hairdressers in Cheshire';
 
 <h2>Special Offer</h2>
 
-<li id="offer1">
-  <h3>FREE Colour with every <br>Cut, Dry &amp; Style</h3>
-  <p>For new clients throughout May<br>
+<div id="offer1">
+  <h3>FREE Colour <br>with every <br>Cut, Dry &amp; Style</h3>
+  <p>For new clients <br>throughout May/June
     </p>
-    <p class="small">until 29/06/13<br>
-    For New Clients - not with any other offer. Excludes Saturday<br>Skin test required 48hrs before any colour service</p></a>
-</li>
+    <small>until 29/06/13<br>
+    For New Clients - not with any other offer. Excludes Saturday<br>Skin test required 48hrs before any colour service</small></a>
+</div>
  
 </section> <!--#offersMain-->
  
@@ -30,4 +30,4 @@ $this->pageTitle=Yii::app()->name . ' - Offers - Hairdressers in Cheshire';
  </p>
  </section> <!--offercopy--*>-->
 
-  
+ 
