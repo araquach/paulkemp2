@@ -2187,15 +2187,18 @@ span.kebelo_italic {
 	margin-left: 50px;
 }
 
+#competition_copy img {
+	margin-left: 25px;
+}
+
 #competition_copy h1 {
 	color: #666;
-	margin: 20px 0;
+	margin: 20px 50px;
 	font: 4em Georgia, "Times New Roman", Times, serif;
-	margin-left: 30px;
 }
 
 #competition_copy p.candy {
-	margin-left: -80px;
+	margin-left: -50px;
 	font: 2em Georgia, "Times New Roman", Times, serif;
 	color: #666;
 	text-align: center;
@@ -2254,18 +2257,6 @@ p.big {
 
 #competition_copy img {
 	margin-bottom: 20px;
-}
-
-#valentine {
-	height: auto;
-	min-height: 500px;
-	padding: 30px;
-	width: 890px;
-	margin-bottom: 50px;
-	float: left;
-	background: url('../images/competition/ghd.jpg') no-repeat;
-	background-size: cover;
-	background-position: right top;
 }
 
 .question {
