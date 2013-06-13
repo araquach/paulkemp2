@@ -1,6 +1,6 @@
 <?php
-/* @var $this ValentineController */
-/* @var $model Valentine */
+/* @var $this CompetitionController */
+/* @var $model Competition */
 /* @var $form CActiveForm */
 ?>
 

@@ -1,9 +1,9 @@
 <?php
 
 /**
- * This is the model class for table "valentine".
+ * This is the model class for table "competition".
  *
- * The followings are the available columns in table 'valentine':
+ * The followings are the available columns in table 'competition':
  * @property integer $id
  * @property string $first_name
  * @property string $second_name
@@ -13,12 +13,12 @@
  * @property integer $date_entered
  * @property integer $regular
  */
-class Valentine extends CActiveRecord
+class Competition extends CActiveRecord
 {
 	/**
 	 * Returns the static model of the specified AR class.
 	 * @param string $className active record class name.
-	 * @return Valentine the static model class
+	 * @return Competition the static model class
 	 */
 	public static function model($className=__CLASS__)
 	{
@@ -30,7 +30,7 @@ class Valentine extends CActiveRecord
 	 */
 	public function tableName()
 	{
-		return 'valentine';
+		return 'competition';
 	}
 
 	/**
