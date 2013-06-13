@@ -2177,25 +2177,33 @@ span.kebelo_italic {
 	width: 890px;
 	margin-bottom: 50px;
 	float: left;
-	background: url('../images/competition/valentines.jpg') no-repeat;
-	background-size: cover;
+	background: url('../images/competition/ghd.jpg') no-repeat;
+	
 	background-position: right top;
 }
 
 #competition_copy {
-	width: 400px;
+	width: 300px;
 	margin-left: 50px;
 }
 
 #competition_copy h1 {
-	color: #870000;
-	font-size: 2.2em;
+	color: #666;
 	margin: 20px 0;
+	font: 4em Georgia, "Times New Roman", Times, serif;
+	margin-left: 30px;
+}
+
+#competition_copy p.candy {
+	margin-left: -80px;
+	font: 2em Georgia, "Times New Roman", Times, serif;
+	color: #666;
+	text-align: center;
 }
 
 .competition_success {
 	font-size: 1.5em;
-	width: 400px;
+	width: 300px;
 }
 
 #competition_copy p strong {
@@ -2212,7 +2220,7 @@ span.kebelo_italic {
 }
 
 #competition_copy input{
-	width: 400px;
+	width: 300px;
 }
 
 #competition_copy .row.buttons input{
@@ -2255,7 +2263,7 @@ p.big {
 	width: 890px;
 	margin-bottom: 50px;
 	float: left;
-	background: url('../images/competition/valentines.png') no-repeat;
+	background: url('../images/competition/ghd.jpg') no-repeat;
 	background-size: cover;
 	background-position: right top;
 }
