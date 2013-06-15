@@ -2204,9 +2204,26 @@ span.kebelo_italic {
 	text-align: center;
 }
 
+#competition_copy p.ghdtext {
+	position: absolute;
+	right: 70px;
+	top: 920px;
+	width: 400px;
+	font-family: "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	color: #666;
+}
+
+#competition_copy p.ghdtext .colours {
+	font-size: 1.3em;
+	font-weight: bold;
+}
+
 .competition_success {
 	font-size: 1.5em;
 	width: 300px;
+	margin-left: 50px;
+	margin-top: 200px;
+	margin-bottom: 400px;
 }
 
 #competition_copy p strong {

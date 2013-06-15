@@ -68,7 +68,7 @@ class CompetitionController extends Controller
 		{
 			$model->attributes=$_POST['Competition'];
 			if($model->save())
-				Yii::app()->user->setFlash('entry','<p>Thank\'s for entering ' . ucfirst($model->first_name) . '.' . '<br>We will be announcing the winners soon. Good Luck!</p>');
+				Yii::app()->user->setFlash('entry','<p>Thank\'s for entering ' . ucfirst($model->first_name) . '.' . '<br>We will be announcing the winner soon. Good Luck!</p>');
 		}
 
 		$this->render('create',array(
