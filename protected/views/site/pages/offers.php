@@ -5,7 +5,7 @@ $this->pageTitle=Yii::app()->name . ' - Offers - Hairdressers in Cheshire';
 
 ?>
 
-<section id="offersMain">
+<!--<section id="offersMain">
 
 <h2>Special Offer</h2>
 
@@ -17,10 +17,10 @@ $this->pageTitle=Yii::app()->name . ' - Offers - Hairdressers in Cheshire';
     For New Clients - not with any other offer. Excludes Saturday<br>Skin test required 48hrs before any colour service</small></a>
 </div>
  
-</section> <!--#offersMain-->
+</section> <!--#offersMain--*>-->
  
  
- <!--<section id="no_offer">
+ <section id="no_offer">
   </section> 
  <section id="no_offercopy">
  <h2>Special Offers</h2>
@@ -28,6 +28,6 @@ $this->pageTitle=Yii::app()->name . ' - Offers - Hairdressers in Cheshire';
  <p>
  	<a href="http://www.facebook.com/PaulKempHairdressing" target="_blank">Visit our Facebook page to keep up to date with the latest offers</a>
  </p>
- </section> <!--offercopy--*>-->
+ </section> <!--offercopy-->
 
  
