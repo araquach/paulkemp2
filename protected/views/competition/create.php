@@ -1,6 +1,7 @@
 <?php
 /* @var $this CompetitionController */
 /* @var $model Competition */
+$this->pageTitle=Yii::app()->name . ' - Win ghd Candy Collection irons - Hairdressers in Cheshire';
 ?>
 <section id="competition">
 
@@ -22,7 +23,7 @@
 Your styler, just like your hair colour, should be an expression of you. Show off your personality with a new styler from ghd IV candy collection in violet, mint or lemon. When the others see how glossy your hair is you'll leave them green with envy.
 <br><strong>ghd IV candy collection is available in the salon now</strong></p>
 <p>For your chance to win a set of these sought after, limited edition ghd's just answer the following question:</p>
-<p class="question">How many colours options are available in the ghd Candy Collection range?</p>
+<p class="question">How many colour options are available in the ghd Candy Collection range?</p>
 
 
 <?php  echo $this->renderPartial('_form', array('model'=>$model)); ?>
