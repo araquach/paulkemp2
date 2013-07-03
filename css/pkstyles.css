@@ -716,33 +716,10 @@ aside h2, aside, h3, aside h4, aside h5, aside h6 {
 	margin-top: 0px;
 }
 
-#katy {
+#leon {
 	position:absolute;
 	left: 40px;
 	top: 1100px;
-	width: 400px;
-	height: 250px;
-	border-bottom: solid 3px #CCC;
-}
-
-#katy img {
-	float: left;
-	margin: 10px 20px 0 10px;
-	
-}
-
-#katy p{
-	font-size: 0.8em;
-}
-
-#katy h3 img{
-	margin-top: 0px;
-}
-
-#leon {
-	position:absolute;
-	left: 470px;
-	top: 1400px;
 	width: 400px;
 	height: 250px;
 	border-bottom: solid 3px #CCC;
@@ -782,6 +759,29 @@ aside h2, aside, h3, aside h4, aside h5, aside h6 {
 #tash h3 img {
 	margin-top: 0px;
 }
+
+#meg {
+	position:absolute;
+	left: 470px;
+	top: 1400px;
+	width: 400px;
+	height: 250px;
+	border-bottom: solid 3px #CCC;
+}
+
+#meg img {
+	float: left;
+	margin: 10px 20px 0 10px;
+}
+
+#meg p {
+	font-size: 0.8em;
+}
+
+#meg h3 img {
+	margin-top: 0px;
+}
+
 
 
 
