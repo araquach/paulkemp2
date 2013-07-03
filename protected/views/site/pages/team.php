@@ -37,7 +37,7 @@ $this->pageTitle=Yii::app()->name . ' - The Team - Hairdressers in Cheshire';
       	<section id="leon">
         <h3><img src="<?php echo Yii::app()->request->baseUrl; ?>/images/staff/leon.jpg" width="133" height="168" alt="Leon Pritchard">Leon Pritchard</h3>
         <p>At just 21, Leon is already building up a strong reputation for his skills in cutting, colouring &amp; styling hair. He came to us after working at Daniel Anderson Hairdressing and is now looking to expand his ever growing client base.</p>
-        <p class="teamprice">Average Cut &amp; Colour price with Leon : &pound;60*</p>
+        <p class="teamprice">Average Cut &amp; Colour price with Leon : &pound;70*</p>
         </section>
         <section id="jack">
         <h3><img src="<?php echo Yii::app()->request->baseUrl; ?>/images/staff/jack.jpg" width="133" height="168" alt="Jack Broady">Jack Broady</h3>
