@@ -6,6 +6,17 @@ $this->pageTitle=Yii::app()->name . ' - The Team - Hairdressers in Cheshire';
 ?>
 
 <section id="team">
+<ul>
+	<li>Jo</li>
+	<li>Kate</li>
+	<li>Jack</li>
+	<li>Izzy</li>
+	<li>Paul</li>
+	<li>Tash</li>
+	<li>Leon</li>
+	<li>Meg</li>
+	<li>Kellie</li>
+</ul>
 
 	<section id="paul">
     <h2>The Team</h2>

@@ -335,14 +335,14 @@ li.active a {
 #news1 {
 	left: 20px;
 	top: 1100px;
-	background: url(../images/home_news/aveda_red.jpg) no-repeat, rgb(55,34,24);
+	background: url(../images/home_news/pk-team.jpg) no-repeat, rgb(55,34,24);
 	-webkit-transition: all 0.3s ease-in;
 	-moz-transition: all 0.3s ease-in;
 	transition: all 0.3s ease-in;
 }
 
 .no-cssgradients #news1 {
-	background: url(../images/home_news/aveda_red.jpg) no-repeat rgb(55,34,24);
+	background: url(../images/home_news/pk-team.jpg) no-repeat rgb(55,34,24);
 }
 
 #news1:hover {
@@ -574,6 +574,10 @@ aside h2, aside, h3, aside h4, aside h5, aside h6 {
 	height: 2200px;
 	background-image: url(../images/pk_staff2.jpg);
 	background-repeat: no-repeat;
+}
+
+#team ul {
+	margin-left: 60px;
 }
 
 #paul {
