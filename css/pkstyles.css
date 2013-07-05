@@ -577,7 +577,41 @@ aside h2, aside, h3, aside h4, aside h5, aside h6 {
 }
 
 #team ul {
-	margin-left: 60px;
+	margin-left: 10px;
+	position: absolute;
+	top: 60px;
+}
+
+#team ul li {
+	padding: 7px;
+	margin-right: 10px;
+	display: block;
+	float: left;
+	height: 500px;
+	width: 75px;
+	opacity: 0;
+	-webkit-transition: opacity 0.2s ease-in-out;
+	-moz-transition: opacity 0.2s ease-in-out;
+	transition: opacity 0.2s ease-in-out;
+}
+
+#team ul li p {
+	background-color: rgba(255, 255, 254, 0.7);
+	border-radius: 5px;
+	padding: 7px;
+	width: 40px;
+	margin-left: 15px;
+	margin-top: 250px;
+	font-weight: bold;
+	text-align: center;
+}
+
+#team ul li p.up {
+	margin-top: 160px;
+}
+
+#team ul li:hover {
+	opacity: 1;
 }
 
 #paul {
