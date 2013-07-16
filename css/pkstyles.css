@@ -1042,7 +1042,9 @@ section#newspage a:hover {
 
 /* @group Offers */
 
-#offersMain {
+/* Singular Offer Styling */
+
+/*#offersMain {
 	height: 500px;
 	background: #f5f5f5 url('../images/offer/aveda_red.jpg') no-repeat right top;
 	margin: 50px;
@@ -1110,7 +1112,199 @@ section#newspage a:hover {
 
 #no_offercopy a:hover {
 	border-bottom: dashed 1px #666;
+}*/
+
+/* Multiple Offer Styling */
+
+#offersMain {
+	height: 800px;
 }
+
+#offerlist {
+	margin-left: 60px;
+	display: block;
+	
+}
+#offersMain h2 {
+	margin: 60px;
+}
+
+#offerlist h3, #offerlist p, #offerlist .small {
+	text-align: center;
+	margin-right: 250px;
+	margin-top: 20px;
+}
+
+#offerlist h3 {
+	font-size: 1.7em;
+}
+
+#offerlist p {
+	font-size: 1.2em;
+}
+
+#offerlist .small {
+	font-size: .78em;
+}
+
+#offerlist #offer1 {
+	padding: 50px;
+	background-image: url(../images/offer/offer_2.png);
+	clear: left;
+	float: left;
+	height: 200px;
+	width: 700px;
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
+	border-radius: 15px;
+	-moz-box-shadow: 0 0 10px rgba(33, 31, 31, 0.91);
+	-webkit-box-shadow: 0 0 10px rgba(33, 31, 31, 0.91);
+	box-shadow: 0 0 10px rgba(33, 31, 31, 0.91);
+}
+
+#offerlist #offer1 h3, #offerlist #offer1 p {
+	color: #FFF;
+	margin-top: 10px;
+}
+
+#offerlist #offer2 h3, #offerlist #offer4 p {
+	margin-top: 0px;
+}
+
+#offerlist #offer4 h3, #offerlist #offer4 p {
+	color: #FFF;
+	margin-top: 20px;
+}
+
+#offerlist #offer3 h3, #offerlist #offer3 p {
+	color: #FFF;
+}
+
+
+#offerlist #offer2 {
+	padding: 50px;
+	background-image: url(../images/offer/offer1.png);
+	clear: left;
+	float: left;
+	height: 200px;
+	width: 700px;
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
+	border-radius: 15px;
+	-moz-box-shadow: 0 0 10px rgba(33, 31, 31, 0.91);
+	-webkit-box-shadow: 0 0 10px rgba(33, 31, 31, 0.91);
+	box-shadow: 0 0 10px rgba(33, 31, 31, 0.91);
+}
+
+#offerlist #offer3 {
+	padding: 50px;
+	background-image: url(../images/offer/offer_3.jpg);
+	clear: left;
+	float: left;
+	height: 200px;
+	width: 700px;
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
+	border-radius: 15px;
+	-moz-box-shadow: 0 0 10px rgba(33, 31, 31, 0.91);
+	-webkit-box-shadow: 0 0 10px rgba(33, 31, 31, 0.91);
+	box-shadow: 0 0 10px rgba(33, 31, 31, 0.91);
+}
+
+#offerlist #offer4 {
+	padding: 50px;
+	background-image: url(../images/offer/offer4.jpg);
+	clear: left;
+	float: left;
+	height: 200px;
+	width: 700px;
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
+	border-radius: 15px;
+	-moz-box-shadow: 0 0 10px rgba(33, 31, 31, 0.91);
+	-webkit-box-shadow: 0 0 10px rgba(33, 31, 31, 0.91);
+	box-shadow: 0 0 10px rgba(33, 31, 31, 0.91);
+}
+
+
+
+#offers {
+	background-image:url(../images/offer/katynathleon.png);
+	background-position: top right;
+	background-repeat: no-repeat;
+	height: 1200px;
+}
+
+#offerscopy {
+	width: 400px;
+	padding: 40px 0 0 80px;
+}
+
+#offerscopy p {
+	margin-bottom: 40px;
+}
+
+.first {
+	font-size: 1.3em;
+}
+
+#offerscopy h3 {
+	font-size: 1.5em;
+}
+
+#offerscopy li {
+	display: block;
+	font-size: 1.4em;
+}
+
+#no_offer {
+	width: 950px;
+	height: 1100px;
+	background-image: url(../images/hair_reborn.jpg);
+	background-repeat: no-repeat;
+	background-color:#FFF;
+	float: left;
+	
+}
+
+#no_offercopy {
+	width: 280px;
+	height: 830px;
+	margin-right: 40px;
+	padding-right: 10px;
+	float: right;
+	margin-top: -950px;
+}
+
+#no_offercopy h2 {
+	font-family: 'PT Sans', sans-serif;
+	font-size: 2em;
+	line-height: 1.5em;
+	margin-bottom: 0.5em;
+	text-align: center;
+	color: #FFF;
+}
+
+#no_offercopy p {
+	color: #FFF;
+	font-size: 1.3em;
+	text-align: center;
+}
+
+#no_offercopy a {
+	color: #FFF;
+	font-size: 1.3em;
+	line-height: 1.2em;
+	
+}
+
+
+#no_offercopy a:hover {
+	border-bottom: dashed 1px #666;
+	
+}
+
+
 
 /* @end */
 
