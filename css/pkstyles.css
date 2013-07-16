@@ -355,14 +355,14 @@ li.active a {
 #news2 {
 	left: 257px;
 	top: 1100px;
-	background: url(../images/home_news/fibre2.jpg) no-repeat, rgb(55,34,24);
+	background: url(../images/home_news/eccentric.jpg) no-repeat, rgb(55,34,24);
 	-webkit-transition: all 0.3s ease-in;
 	-moz-transition: all 0.3s ease-in;
 	transition: all 0.3s ease-in;
 }
 
 .no-cssgradients #news2 {
-	background: url(../images/home_news/fibre2.jpg) no-repeat rgb(55,34,24);
+	background: url(../images/home_news/eccentric.jpg) no-repeat rgb(55,34,24);
 }
 
 #news2:hover {

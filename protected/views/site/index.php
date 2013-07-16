@@ -22,10 +22,10 @@ $this->pageTitle=Yii::app()->name;
     	</aside>',array('site/page','view'=>'team')); ?>
     	
     <?php echo CHtml::link('<aside id="news2">
-    <h3 class="newsheader">NEW BC Fibre Force</h3>
-    <p class="newspara">a new dimension of hair repair now available at Paul Kemp Hairdressing</p>
+    <h3 class="newsheader">This Months Offers</h3>
+    <p class="newspara">We have some fantastic offeers on this month - colour &amp; cut packages plus a great Kebelo offer</p>
     <p class="newscenter"><strong>Find out more here &gt;</strong></p>
-    	</aside>',array('site/page','view'=>'news', '#'=>'FibreForce')); ?>
+    	</aside>',array('site/page','view'=>'offers')); ?>
     
     <?php echo CHtml::link('<aside id="news3">
     <h3 class="newsheader">Megan promoted to Graduate Stylist</h3>
