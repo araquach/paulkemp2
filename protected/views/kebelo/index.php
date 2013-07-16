@@ -26,12 +26,12 @@
 	<p>EVERYTHING YOU NEED TO KNOW ABOUT KEBELO</p>
 	</div>
 	
-	<!--<div id="kebelo_offer">
+	<div id="kebelo_offer">
 	<p>Only</p>
 	<p class="big_offer">&pound;99</p>
 	<p>includes aftercare products</p>
 	<p>Plus FREE Cut, Dry &amp; Style<br>with every treatment</p>
-	</div>--> <!--kebelo_offer-->
+	</div> <!--kebelo_offer-->
 	
 	
 	</div> <!--end kebelo-->

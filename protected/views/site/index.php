@@ -34,9 +34,9 @@ $this->pageTitle=Yii::app()->name;
     </aside>',array('site/page','view'=>'graduate')); ?>
     
     <?php echo CHtml::link('<aside id="news4">
-    <h3 class="newsheader">Men\'s Hair Experts</h3>
-    <p class="newspara">Here at PK we also excel in men\'s hairdressing. Our team wil give you the look you\'ve always wanted</p>
+    <h3 class="newsheader">Kebelo Advantage</h3>
+    <p class="newspara">The Ultimate Smoothing System is available with an unbeatable offer for a limited time</p>
     <p class="newscenter"><strong>Find out more here &gt;</strong></p>
-    </aside>',array('site/page','view'=>'men')); ?>	
+    </aside>',array('kebelo/index')); ?>	
     
     
