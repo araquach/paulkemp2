@@ -1148,8 +1148,8 @@ section#newspage a:hover {
 }
 
 #offerlist #offer1 {
-	padding: 50px;
-	background-image: url(../images/offer/offer_2.png);
+	padding: 40px;
+	background-image: url(../images/offer/white_bground.jpg);
 	clear: left;
 	float: left;
 	height: 200px;
@@ -1162,28 +1162,21 @@ section#newspage a:hover {
 	box-shadow: 0 0 10px rgba(33, 31, 31, 0.91);
 }
 
-#offerlist #offer1 h3, #offerlist #offer1 p {
-	color: #FFF;
-	margin-top: 10px;
-}
 
-#offerlist #offer2 h3, #offerlist #offer4 p {
-	margin-top: 0px;
+
+#offerlist #offer2 h3, #offerlist #offer1 h3, #offerlist #offer4 p {
+	margin-top: 0;
 }
 
 #offerlist #offer4 h3, #offerlist #offer4 p {
 	color: #FFF;
-	margin-top: 20px;
 }
 
-#offerlist #offer3 h3, #offerlist #offer3 p {
-	color: #FFF;
-}
 
 
 #offerlist #offer2 {
-	padding: 50px;
-	background-image: url(../images/offer/offer1.png);
+	padding: 40px;
+	background-image: url(../images/offer/white_bground2.jpg);
 	clear: left;
 	float: left;
 	height: 200px;
@@ -1197,8 +1190,8 @@ section#newspage a:hover {
 }
 
 #offerlist #offer3 {
-	padding: 50px;
-	background-image: url(../images/offer/offer_3.jpg);
+	padding: 40px;
+	background-image: url(../images/offer/meg.jpg);
 	clear: left;
 	float: left;
 	height: 200px;
@@ -1212,7 +1205,7 @@ section#newspage a:hover {
 }
 
 #offerlist #offer4 {
-	padding: 50px;
+	padding: 40px;
 	background-image: url(../images/offer/offer4.jpg);
 	clear: left;
 	float: left;

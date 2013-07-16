@@ -5,10 +5,6 @@ $this->pageTitle=Yii::app()->name . ' - Offers - Hairdressers in Cheshire';
 
 ?>
 
-<section id="offersMain">
-
-<h2>Special Offer</h2>
-
 <!--<div id="offer1">
   <h3>FREE Colour <br>with every <br>Cut, Dry &amp; Style</h3>
   <p>For new clients <br>throughout June
@@ -26,30 +22,32 @@ $this->pageTitle=Yii::app()->name . ' - Offers - Hairdressers in Cheshire';
 
 <ul id="offerlist">
 
-<li id="offer1"><h3>Weekday Colour &amp; Cut Package</h3>
+<li id="offer1"><h3>Senior Stylist Colour &amp; Cut Package</h3>
 <p>for just &pound;60</p>
-<p>with any of our Stylists</p>
-<p class="small">offer extended until 30/11/12<br>
-  For New Clients - not with any other offer - excludes Saturday</p></a>
+<p>with any of our Senior Stylists</p>
+<p class="small">offer until 31/07/13<br>
+  For New Clients Only - not with any other offer - excludes Saturday<br>Skin test required 48hrs prior to service</p>
 </li>
 
 <li id="offer2">
-  <h3>FREE product worth up to &pound;10</h3>
-  <p>with every Cut, Dry &amp; Style<br>
-    Book in before the end of October for a Cut, Dry &amp; Style to receive a £10 product voucher absolutely FREE!</p>
-    <p class="small">extended until 30/11/12<br>
-    For New Clients - not with any other offer. Excludes Saturday</p></a>
-</li>
+  <h3>Stylist Colour &amp; Cut Package</h3>
+  <p>for just &pound;40<br>
+    <p>with any of our Stylists</p>
+    <p class="small">offer until 31/07/13<br>
+      For New Clients Only - not with any other offer - excludes Saturday<br>Skin test required 48hrs prior to service</p>
+ </li>
 
-<li id="offer3"><a href="news.php#Tash">
-  <h3>A Cut &amp; Colour for just &pound;25</h3>
-  <p>with our soon-to-be qualified trainee stylist</p><p class="small">until 29/06/12<br>
-    For New clients - not with any other offer<br>Excludes Saturday</p></a></li>
+<?php echo CHtml::link('<li id="offer3">
+  <h3>A Cut &amp; Colour for just &pound;30</h3>
+  <p>with our new graduate stylist Megan</p><p class="small">until 31/07/13<br>
+    For New clients - not with any other offer<br>Excludes Saturday</p>
+</li>', array('site/page','view'=>'graduate')); ?>
 
-<li id="offer4"><a href="kebelo">
+<?php echo CHtml::link('<li id="offer4">
   <h3>FREE Cut, Dry &amp; Style</h3>
-  <p>with every Kebelo System Treatment</p><p class="small">extended until 30/11/12<br>
-    not with any other offer<br>Excludes Saturday</p></a></li>
+  <p>with every Kebelo System Treatment</p><p class="small">until 31/07/13<br>
+    not with any other offer<br>Excludes Saturday</p>
+ </li>', array('kebelo/advantage')); ?>
     
  </ul>  
  
