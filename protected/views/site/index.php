@@ -16,10 +16,10 @@ $this->pageTitle=Yii::app()->name;
   
 <!--NewsItems-->
     <?php echo CHtml::link('<aside id="news1">
-    <h3 class="newsheader">Meet the PK team</h3>
-    <p class="newspara">Read each team members profile here to find a stylist suited to your needs</p>
-    <p class="newscenter"><strong>Find out more here &gt;</strong></p>
-    	</aside>',array('site/page','view'=>'team')); ?>
+    <h3 class="newsheader">WIN GHD Candy Collection Irons</h3>
+    <p class="newspara">Enter our competition to win a set of these sought after straighteners</p>
+    <p class="newscenter"><strong>Enter Here &gt;</strong></p>
+    	</aside>',array('competition/create')); ?>
     	
     <?php echo CHtml::link('<aside id="news2">
     <h3 class="newsheader">This Months Offers</h3>
