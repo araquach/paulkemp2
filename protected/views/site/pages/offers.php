@@ -25,7 +25,7 @@ $this->pageTitle=Yii::app()->name . ' - Offers - Hairdressers in Cheshire';
 <li id="offer1"><h3>Senior Stylist Colour &amp; Cut Package</h3>
 <p>for just &pound;60</p>
 <p>with any of our Senior Stylists</p>
-<p class="small">offer until 31/07/13<br>
+<p class="small">offer until 09/08/13<br>
   For New Clients Only - not with any other offer - excludes Saturday<br>Skin test required 48hrs prior to service</p>
 </li>
 
@@ -33,7 +33,7 @@ $this->pageTitle=Yii::app()->name . ' - Offers - Hairdressers in Cheshire';
   <h3>Stylist Colour &amp; Cut Package</h3>
   <p>for just &pound;40<br>
     <p>with any of our Stylists</p>
-    <p class="small">offer until 31/07/13<br>
+    <p class="small">offer until 09/08/13<br>
       For New Clients Only - not with any other offer - excludes Saturday<br>Skin test required 48hrs prior to service</p>
  </li>
 
