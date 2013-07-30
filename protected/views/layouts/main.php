@@ -3,13 +3,8 @@
 <html class="no-js">
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<meta name="language" content="en" />
-	
 	<meta name="description" content="Paul Kemp Hairdressing is a luxurious hair salon right in the heart of Warrington town centre. Sister salon to the award winning Jakata Hair and Beauty team, the stunning new hairdressers opened back in June with the aim to offer an ultra relaxing atmosphere, first class customer service, alongside the highest level of hairdressing expertise. The salons talented hairdressers are all trained to the highest level in cutting, colouring and styling hair, with specialists in technical colour, hair straightening, wedding hair and hair extensions. The team has a wealth of experience in all aspects of hairdressing by highly qualified hairdressers. The salon also serves Stockton Heath, Lymm, Great Sankey, Widnes and Runcorn. Hairdressers, hairdressing, hairstyling salons in Warrington and Cheshire. Paul Kemp Hairdressing, 83 Sankey Street, Warrington, WA1 1SL, 01925 444488">
 		<meta name="keywords" content="hairdressers, hairdressing, hair salons Warrington, hairdressing jobs, fashion colour, mens hairdressing, brazilian blowdry, Warrington, Lymm, Stockton Heath, Culcheth, Great Sankey, Widnes and Runcorn">
-		
-		<meta name="copyright" content="2012, Paul Kemp Hairdressing Ltd. All rights reserved.">
-		<meta name="language" content="English">
 		<meta name="author" content="Paul Kemp Hairdressing Ltd">
 		
 	<?php $this->widget('ext.widgets.googleAnalytics.EGoogleAnalyticsWidget',
@@ -23,10 +18,10 @@
 	
 	
 	
-	<script src="<?php echo Yii::app()->request->baseUrl; ?>/scripts/mootools_core.js "type="text/javascript"></script>
-	<script src="<?php echo Yii::app()->request->baseUrl; ?>/scripts/mootools-more.js "type="text/javascript"></script>
-	<script src="<?php echo Yii::app()->request->baseUrl; ?>/scripts/modernizr.js "type="text/javascript"></script>
-	<script src="<?php echo Yii::app()->request->baseUrl; ?>/scripts/selectivizr-min.js "type="text/javascript"></script>
+	<script src="<?php echo Yii::app()->request->baseUrl; ?>/scripts/mootools_core.js " type="text/javascript"></script>
+	<script src="<?php echo Yii::app()->request->baseUrl; ?>/scripts/mootools-more.js " type="text/javascript"></script>
+	<script src="<?php echo Yii::app()->request->baseUrl; ?>/scripts/modernizr.js " type="text/javascript"></script>
+	<script src="<?php echo Yii::app()->request->baseUrl; ?>/scripts/selectivizr-min.js " type="text/javascript"></script>
 
 	<title><?php echo CHtml::encode($this->pageTitle); ?></title>
 </head>
