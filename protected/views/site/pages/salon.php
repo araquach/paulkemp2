@@ -15,11 +15,11 @@ $this->pageTitle=Yii::app()->name . ' - The Salon - Hairdressers in Cheshire';
     
     </section>
     <div id="salonimages">
-    <img name="" src="<?php echo Yii::app()->request->baseUrl; ?>/images/salon/salon_shot_2.jpg" width="240" height="160" alt="">
-    <img name="" src="<?php echo Yii::app()->request->baseUrl; ?>/images/salon/salon_shot_1.jpg" width="240" height="160" alt="">
-    <img name="" src="<?php echo Yii::app()->request->baseUrl; ?>/images/salon/salon_shot_4.jpg" width="240" height="160" alt="">
-    <img name="" src="<?php echo Yii::app()->request->baseUrl; ?>/images/salon/salon_shot_3.jpg" width="240" height="160" alt="">
-    <img name="" src="<?php echo Yii::app()->request->baseUrl; ?>/images/salon/salon_shot_6.jpg" width="240" height="160" alt="">
-    <img name="" src="<?php echo Yii::app()->request->baseUrl; ?>/images/salon/salon_shot_5.jpg" width="240" height="160" alt="">
+    <img src="<?php echo Yii::app()->request->baseUrl; ?>/images/salon/salon_shot_2.jpg" width="240" height="160" alt="Salon Shot 1">
+    <img src="<?php echo Yii::app()->request->baseUrl; ?>/images/salon/salon_shot_1.jpg" width="240" height="160" alt="Salon Shot 2">
+    <img src="<?php echo Yii::app()->request->baseUrl; ?>/images/salon/salon_shot_4.jpg" width="240" height="160" alt="Salon Shot 3">
+    <img src="<?php echo Yii::app()->request->baseUrl; ?>/images/salon/salon_shot_3.jpg" width="240" height="160" alt="Salon Shot 4">
+    <img src="<?php echo Yii::app()->request->baseUrl; ?>/images/salon/salon_shot_6.jpg" width="240" height="160" alt="Salon Shot 5">
+    <img src="<?php echo Yii::app()->request->baseUrl; ?>/images/salon/salon_shot_5.jpg" width="240" height="160" alt="Salon Shot 6">
     </div>
 </section>

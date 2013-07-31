@@ -18,7 +18,7 @@ $this->pageTitle=Yii::app()->name . ' - Recruitment - Hairdressers in Cheshire';
 <h3>Apprentice Position</h3>
 <p>If you're just starting out on the road to becoming a hairdresser, choosing the right place to train and develop is one of the most important decisions you'll ever make!</p>
 <p>If you've already started out and feeling you're current training provider isn't fulfilling you're needs then we can step in and accelerate you're development.</p>
-<p class="last"><strong>If you have the passion to do whatever it takes to be a top stylist then apply now!</strong></em></p>
+<p class="last"><em><strong>If you have the passion to do whatever it takes to be a top stylist then apply now!</strong></em></p>
 <?php echo CHtml::link('<strong>Click Here</strong> to apply for for an apprentice position',array('apprentice/create')); ?>
 <p class="fancy">An amazing career <br>starts here</p>
 

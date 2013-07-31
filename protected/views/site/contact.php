@@ -9,7 +9,7 @@ $this->pageTitle=Yii::app()->name . ' - Contact Us - Hairdressing in Warrington'
 
 <section id="contact" class="group">
     <section id="locmap">
-    <a name="map"></a>
+    <a id="map"></a>
     <h2>Contact Us</h2>
     <h3>How to find us:</h3>
     <p><strong>Paul Kemp Hairdressing</strong> is located on the corner of <em>Sankey Street</em> and <em>Springfield Street</em> in Warrington Town Centre
@@ -23,7 +23,7 @@ $this->pageTitle=Yii::app()->name . ' - Contact Us - Hairdressing in Warrington'
     <p><strong>01925 444488</strong></p>
     </div> <!--address-->
     
-    <img name="" src="<?php echo Yii::app()->request->baseUrl; ?>/images/streetmap.gif" width="353" height="216" alt="">
+    <img src="<?php echo Yii::app()->request->baseUrl; ?>/images/streetmap.gif" width="353" height="216" alt="Paul Kemp Hairdressing Location">
     <p>The closest parking is available at the <em>Town Hall car park </em>across the road from us. The entrance is 
   immediately after the Golden Gates. It's pay and display at a very reasonable rate.</p>		
   <h3>Opening Times:</h3>

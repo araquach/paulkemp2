@@ -194,7 +194,7 @@ header {
 	
 	}
 	
-header hgroup, header h1, header h2 {
+header h1, header h2 {
 	font-size: 3px;
 	text-indent: -9999px;
 	margin: 0;
@@ -971,8 +971,8 @@ a.anchor {
 	font-size: 1.1em;
 }
 
-#accordion article.article time p {
-	margin-left: 200px;
+#accordion article time {
+	margin-left: 650px;
 	font-family: 'PT Sans', sans-serif;
 	font-size: .8em;
 	opacity: .8;
@@ -1123,8 +1123,12 @@ section#newspage a:hover {
 #offerlist {
 	margin-left: 60px;
 	display: block;
-	
 }
+
+#offerlist .offer {
+	margin-bottom: 30px;
+}
+
 #offersMain h2 {
 	margin: 60px;
 }

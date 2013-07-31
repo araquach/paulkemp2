@@ -31,10 +31,8 @@
 <div class="container" id="page">
 
 	<header>
-	<hgroup>
 	<h1>Paul Kemp Hairdressing</h1>
 	<h2>Hairdressers in Warrington, Salons in Warrington</h2>
-	</hgroup>
 	<nav>
 	<?php $this->widget('zii.widgets.CMenu',array(
 		'items'=>array(
