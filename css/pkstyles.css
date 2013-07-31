@@ -2611,6 +2611,20 @@ p.big {
 
 /* @end */
 
+/* @group Michelle Page */
+
+#michelle {
+	background-image: url();
+	width: 950px;
+	height: 100%;
+	background-repeat: no-repeat;
+	background-color:#FFF;
+	float: left;
+	min-height: 550px;
+}
+
+/* @end */
+
 /* @group Feedback  */
 
 #feedback {
