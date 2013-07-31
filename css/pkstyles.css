@@ -1739,6 +1739,18 @@ span.error {
 	margin-bottom: 20px;
 }
 
+
+#company #company_offer a {
+	font-size: 2em;
+	color: rgb(55,34,24);
+	text-align: center;
+	line-height: 1.5em;
+}
+
+#company #company_offer a:hover {
+	border-bottom: 1px dashed #333;
+}
+
 #company #company_offer p {
 	font-size: 1.1em;
 }
