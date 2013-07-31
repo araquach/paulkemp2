@@ -19,6 +19,80 @@ window.addEvent('domready', function(){
 <section id="accordion">
 
 <article class="article">
+<a id="MichelleRailton" class="anchor"></a>
+<section class="visible">
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/newspics/" width="135" height="180">
+<h2>Welcoming Michelle to the team</h2>
+<p>Para</p>
+<p>We had the chance to ask Michelle some questions about why she chose to work at Paul Kemp hairdressing, and what drives her as a hair stylist.</p>
+<p>Read the full interview below&hellip;</p>
+<p class="reveal">Read More ></p>
+</section> <!--end .visible-->
+<section class="hidden">
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/newspics/" width="135" height="180">
+<dl>
+	<dt>How long have you been hairdressing for Michelle?</dt>
+	<dd></dd>
+	
+	<dt>When did you join the Jakata team?</dt>
+	<dd></dd>
+	
+	<dt>When did you first realise you wanted to become a hairdresser and where did you start?</dt>
+	<dd></dd>
+	
+	<dt>If you had chosen another profession what would it have been?</dt>
+	<dd></dd>
+	
+	<dt>What key points make Jakata good at developing new stylists?</dt>
+	<dd></dd>
+	
+	<dt>What's your favourite hairstyle of all time and why?</dt>
+	<dd></dd>
+	
+	<dt>If you could cut anyone's hair who would it be and why?</dt>
+	<dd></dd>
+	
+	<dt>How do you go about creating your cutting/colour styles? Is it difficult to think up new ideas and keep up with the latest trends?</dt>
+	<dd></dd>
+	
+	<dt>Whats the secret to a good haircut/style?</dt>
+	<dd></dd>
+	
+	<dt>What's the worst mistake you've made while cutting/colouring someone's hair?</dt>
+	<dd></dd>
+	
+	<dt>What tips can you give to up and coming hairstylists?</dt>
+	<dd></dd>
+	
+	<dt>Can you describe a particular makeover that gave you the most satisfaction?</dt>
+	<dd></dd>
+	
+	<dt>What do you think sets Jakata apart from other salons?</dt>
+	<dd></dd>
+	
+	<dt>Whats the best thing for you about being a stylist at Jakata?</dt>
+	<dd></dd>
+	
+	<dt>What thought process do you go through when styling someone for a photo shoot?</dt>
+	<dd></dd>
+		
+	<dt>Out of the product ranges which is your favourite and why?</dt>
+	<dd></dd>
+	
+	<dt>Do you have a signature hairstyle? If so, describe it.</dt>
+	<dd></dd>
+	
+	<dt>Tell me your strengths and weaknesses as a hairdresser.</dt>
+	<dd></dd>
+</dl>
+
+<p>Para</p>
+</section> <!--end .hidden-->
+<p class="author">Published by </p>
+<time datetime="2013-01-01" pubdate="pubdate"><p>1st January 2013</p></time>
+</article> <!--end #article-->
+
+<article class="article">
 <a id="FibreForce" class="anchor"></a>
 <section class="visible">
 <img src="<?php echo Yii::app()->request->baseUrl; ?>/images/news_images/fibre_force3.jpg" width="135" height="111" alt="Fibre Force">
