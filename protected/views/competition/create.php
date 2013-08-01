@@ -3,7 +3,10 @@
 /* @var $model Competition */
 $this->pageTitle=Yii::app()->name . ' - Win ghd Candy Collection irons - Hairdressers in Cheshire';
 ?>
+
+<div id="overlay"></div> <!--competition closed overlay-->
 <section id="competition">
+
 
 <?php if(Yii::app()->user->hasFlash('entry')): ?>
 
@@ -12,6 +15,7 @@ $this->pageTitle=Yii::app()->name . ' - Win ghd Candy Collection irons - Hairdre
 </div>
 
 <?php else: ?>
+
 
 <div id="competition_copy">
 <!--<p class="big comp_end">The competition is now closed - look out for another one soon!</p>-->
@@ -26,8 +30,9 @@ Your styler, just like your hair colour, should be an expression of you. Show of
 <p class="question">How many colour options are available in the ghd Candy Collection range?</p>
 
 
-<?php  echo $this->renderPartial('_form', array('model'=>$model)); ?>
+<?php  //echo $this->renderPartial('_form', array('model'=>$model)); ?>
 </div> <!--end #competition_copy-->
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/competition/comp_form.gif" alt="competition form" />
 </section> <!--end #compettion-->
 
 <?php endif ?>

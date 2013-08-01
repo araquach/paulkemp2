@@ -2419,13 +2419,27 @@ span.kebelo_italic {
 	margin-bottom: 50px;
 	float: left;
 	background: url('../images/competition/ghd.jpg') no-repeat;
-	
 	background-position: right top;
+	opacity: .6;
+}
+
+#overlay {
+	background: url('../images/competition/overlay.png') left top no-repeat;
+	width: 950px;
+	height: 1000px;
+	position: absolute;
+	top: 180px;
+	left: 0;
+	z-index: 10;
 }
 
 #competition_copy {
 	width: 300px;
 	margin-left: 50px;
+}
+
+#competition img {
+	margin-left: 45px;
 }
 
 #competition_copy img {
