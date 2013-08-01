@@ -2635,6 +2635,17 @@ p.big {
 	min-height: 550px;
 }
 
+#michelle_copy {
+	width: 430px;
+	padding: 50px;
+	font-size: 1.1em;
+}
+
+#michelle_copy h2 {
+	text-align: center;
+	line-height: 1.4em;
+}
+
 /* @end */
 
 /* @group Feedback  */
