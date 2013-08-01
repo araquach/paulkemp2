@@ -2669,6 +2669,19 @@ p.big {
 	line-height: 1.3em;
 }
 
+#michelle p.large {
+	font-size: 2.5em;
+	font-weight: bold;
+}
+
+#michelle_offer p{
+	margin: 0;
+}
+
+#michelle_offer p:nth-child(0) {
+	font-size: 2em;
+}
+
 /* @end */
 
 /* @group Feedback  */

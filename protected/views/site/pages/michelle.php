@@ -16,10 +16,14 @@ $this->pageTitle=Yii::app()->name . ' - Michelle Railton now at PK - Hairdresser
 	<p>Michelle is skilled in all aspects of hairdressing including <strong>advanced cutting, colouring &amp; styling, hair ups plus men's hairdressing.</strong>
 	She particularly loves soft, natural &amp; luxurious cuts and colours, she's highly skilled in short cuts and loves men's hairdressing too (particularly indie/mod cuts).</p>
 	<p>Michelle said <em>"Being part of such a strong team is really exciting, I can't wait to build up a new client base, plus hopefully see some of my regulars from Daniel Anderson Hairdressing too!"</em></p>
+	<section id="michelle_offer">
 	<p class="offerHeading">Special Offers with Michelle</p>
-	<p class="offer">Cut &amp; Colour</p>
-	<p class="small">offer until 09/08/13<br>
+	<p class="offer">Cut &amp; Colour Package</p>
+	<p>for only</p>
+	<p>&pound;40</p>
+	<p class="small">Offer until <time datetime="2013-09-13">20/09/13</time><br>
 	  For New Clients Only - not with any other offer - excludes Saturday<br>Skin test required 48hrs prior to service</p>
+	</section> <!--michelle_offer-->
 	
 	<?php echo CHtml::link('<p class="offer">Click here to find out more about Michelle&gt;</p>',array('site/page','view'=>'news', '#'=>'MichelleRailton')); ?>
 	
