@@ -110,7 +110,27 @@ window.addEvent('domready', function(){
 
 </section> <!--end .hidden-->
 <p class="author">Published by PK</p>
-<time datetime="2013-08-01">1<sup>st</sup> August 2013</time>
+<time datetime="2013-08-02">2<sup>nd</sup> August 2013</time>
+</article> <!--end #article-->
+
+<article class="article">
+<a id="collection" class="anchor"></a>
+<section class="visible">
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/news_images/collection_1.jpg" width="135" height="180">
+<h3>PK Artistic Team produces new collection</h3>
+<p><strong>Earlier this year the Paul Kemp artistic team got together to put together their first collection.</strong></p>
+<p>The brief was to create a set of images that would showcase the talent of the team plus represent the style of the salon. After weeks of preparation the models were booked and the outfits bought. The photo shoot went smoothly and eight beautiful looks were created.</p>
+<p class="reveal">Read more &gt;</p>
+</section> <!--end .visible-->
+<section class="hidden">
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/news_images/collection_2.jpg" width="135" height="180">
+<p>Salon manager Kelly said "It was a fantastic day, the whole team   pulled together and we're really happy with the final result. I can't wait for them to be released"</p>
+<p>The images will be used for marketing materials and a selection will be on show in the salon.</p>
+<p class="offer">We'll be posting the full collection soon here on our website plus on our <a href="https://www.facebook.com/PaulKempHairdressing">Facebook page</a></p>
+<?php echo CHtml::link('<p class="offer"></p>',array('site/page','view'=>'')); ?>
+</section> <!--end .hidden-->
+<p class="author">Published by Adam</p>
+<time datetime="2013-08-02">2<sup>nd</sup> August 2013</time>
 </article> <!--end #article-->
 
 <article class="article">
