@@ -114,6 +114,24 @@ window.addEvent('domready', function(){
 </article> <!--end #article-->
 
 <article class="article">
+<a id="ghdWinner" class="anchor"></a>
+<section class="visible">
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/news_images/ghd_candy.jpg" width="135" height="190" alt="GHD Candy Collection">
+<h3>Competition Winner</h3>
+<p><strong>Last month we ran a competition to give you the chance to win a set of GHD candy Collection Styling irons. We were inundated with applicants, but we can have only one luck winner!</strong></p>
+<p></p>
+<p class="reveal">The winner is&hellip; (click here)</p>
+</section> <!--end .visible-->
+<section class="hidden">
+<p class="offerHeading">Lisa McNamara</p>
+<p class="offer">Congratulations Lisa, we'll be contacting you shortly!</p>
+<p>We'll be launching another great competition soon - keep an eye out on our <a href="https://www.facebook.com/PaulKempHairdressing">Facebook page</a></p>
+</section> <!--end .hidden-->
+<p class="author">Published by PK</p>
+<time datetime="2013-08-01">2<sup>nd</sup> August 2013</time>
+</article> <!--end #article-->
+
+<article class="article">
 <a id="collection" class="anchor"></a>
 <section class="visible">
 <img src="<?php echo Yii::app()->request->baseUrl; ?>/images/news_images/collection_1.jpg" width="135" height="180">
