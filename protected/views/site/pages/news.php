@@ -19,6 +19,101 @@ window.addEvent('domready', function(){
 <section id="accordion">
 
 <article class="article">
+<a id="MichelleRailton" class="anchor"></a>
+<section class="visible">
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/news_images/michelle_r_1.jpg" width="135" height="180">
+<h3>Welcoming Michelle Railton to the team</h3>
+<p><strong>It's been over 2 years now since we opened the doors to Paul Kemp Hairdressing and the team has progressively gone from strength to strength. We thought it was about time we brought some new blood on board, and when stylist <em>Michelle Railton</em> showed interest in joining us, we knew she would be the perfect fit.</strong></p>
+<p>Michelle, aged 25, has almost ten years experience as a hairdresser and after taking a short break from it, realised there was no other career for her (plus no other salon she wanted to work for than here at PK!)</p>
+<p>We had the chance to ask Michelle some questions about why she chose to work at Paul Kemp hairdressing, and what drives her as a hair stylist.</p>
+<p class="reveal">Read the full interview here ></p>
+</section> <!--end .visible-->
+<section class="hidden">
+<dl>
+	<dt>How long have you been hairdressing for Michelle?</dt>
+	<dd>I started hairdressing 9 years ago.</dd>
+	
+	<dt>When did you first realise you wanted to become a hairdresser and where did you start?</dt>
+	<dd>I have always wanted to be a hairstylist. At the age of 14 I started to work Saturdays in a local salon, where I later began an apprenticeship when I left school.</dd>
+	
+	<dt>Why did you choose to join Paul Kemp hairdressing?</dt>
+	<dd>The salon has a very good reputation from both clients and staff. I had my hair coloured in the salon by Leon and I really liked the atmosphere. The stylists seem to get on really well with each other which I think is important.
+	I also believe that there is a lot of opportunities to progress your career in the company.</dd>
+	
+	<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/news_images/michelle_r_2.jpg" width="135" height="180">
+	
+	<dt>When did you decide you wanted to join the Paul Kemp team?</dt>
+	<dd>After I left Daniel Anderson hairdressing, I was drawn to join the Paul Kemp team but I decided to give running my own salon a go,  which I did for a year. Since I finished that in January, I took time out of hairdressing to decide what I  wanted to do. There was only one salon that I really wanted to work in in Warrington - that was Paul Kemp hairdressing. For the past 5 months I have been thinking and making sure that hairdressing is definitely the right career for me before finally getting back into doing it.</dd>
+	
+	<dt>If you had chosen another profession what would it have been?</dt>
+	<dd>After taking time out of hairdressing, I pursued a career in recruitment.</dd>
+	
+	<dt>What's your favourite hairstyle of all time and why?</dt>
+	<dd>Classic graduated bob, because you can take a classic style, and create many variations and changes to accommodate a clients requirements. I believe it is a timeless hairstyle that can suit all types of clients.</dd>
+	
+	<dt>If you could cut anyone's hair who would it be and why?</dt>
+	<dd>Sienna Miller because she has the perfect face shape/features to create any style. There would be no limitations or factors that would determine a certain hairstyle. She always has softer cut/finish and I would love to create something much bolder with harder lines and dramatic finish.</dd>
+	
+	<dt>How do you go about creating your cutting/colour styles? Is it difficult to think up new ideas and keep up with the latest trends?</dt>
+	<dd>I always have a consultation with every client. I ask them a series of questions which help me to identify their needs and what options of styles I could create. e.g:
+	<ul class="list">
+		<li>- Are you happy with your hair at the minute?</li>
+		<li>- What do you hate about your hair?</li>
+		<li>- What is the worst thing that I could do to your hair today?</li>
+		<li>- If you could have any celebrities hair, who's would it be?</li>
+	</ul>
+	
+	This helps me to understand their likes/dislikes along with their tastes in styles. I can then give my options on styles/colours. I sometimes combine a number of styles into one (if they like a certain fringe but like layers from another style etc). I always suggest a change to clients, so they don't get bored. I think if you are really into hairdressing, you will always be researching trends, which is what I enjoy.</dd>
+	
+	<dt>Whats the secret to a good haircut/style?</dt>
+	<dd>Fully understanding a clients requirements.</dd>
+	
+	<dt>What tips can you give to up and coming hairstylists?</dt>
+	<dd>
+	<ul class="list">
+	<li>- Build a good trust with your clients. If they trust you, they will never leave you.</li>
+	<li>- Always be honest with a client, they appreciate it more.</li>
+	<li>- Always offer existing clients a 'change' at least every 3 months. They will not get bored and go elsewhere.</li>
+	<li>- Always look at other stylist work. You will always learn new things.</li>
+	</ul>
+	</dd>
+	<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/news_images/michelle_r_3.jpg" width="135" height="180">
+	
+	<dt>Can you describe a particular makeover that gave you the most satisfaction?</dt>
+	<dd>One of my regular and loyal  customer would always require the same colour/style and was very reluctant to change. She had a natural tone of auburn with a base 6, which she would cover with a full head of bleach and ash toner. Although the colour suited her, it was far too harsh for her natural skin tone and the years of bleaching was affecting the condition of her hair.<br>
+	Over the years, I had built up a good trust and I finally persuaded her to have a change. She was very nervous as I suggested taking her back to a base 6 with a vibrant copper tone, shortening the length to the shoulders and creating a soft, middle-parted fringe. 
+	After colouring/toning the hair, I then cut and styled it, without allowing her to look in the mirror throughout the process. <br>When she finally saw herself with the new colour and style, she began to cry as she loved the change and was very pleased with the finished look. This gave me the most  satisfaction because although she did not really want the change, she trusted me enough and my judgment, which she was pleased with in the end.</dd>
+	
+	<dt>What do you think sets Paul Kemp Hairdressing apart from other salons?</dt>
+	<dd>The respect that the staff have for their employers, It always seems a fun/enjoyable place to work and the stylists seem to really get on with one another which I think is really important when you are part of a team, as not many salons have that. The salon seems to always be encouraging staff to enter competitions which I think is really good. Clients know when there is a good atmosphere and that is the reason they go back to a salon.</dd>
+	
+	<dt>What are you looking forward to most when starting at PK?</dt>
+	<dd>Building my client base, being part of a vibrant team again and learning new techniques/ideas from other stylists.</dd>
+		
+	<dt>Out of the product ranges which is your favourite and why?</dt>
+	<dd>Tigi Bed Head. I use this myself at home, I think each product does exactly what it says, the value for money is good and there is a wide variety for hair types/styles.</dd>
+	
+	<dt>Is there a celebrity that inspires you? Who and why?</dt>
+	<dd>Yes, Sienna Miller. She is a trend setter. She makes the effort to  keep in with latest trend but puts her own mark on them. She will alternate styles from glamorous to boho. She has her own signature look although she will try new looks.</dd>
+	
+	<dt>Do you have a signature hairstyle? If so, describe it.</dt>
+	<dd>When doing gents, I have always enjoyed the 'indie style' haircuts. From having an interest in Indie music and the indie scene, I have always been keen to keep up with the latest trend. The cut that I would say was my  signature style would be the Paul Weller/Liam Gallagher mullet with a short cropped fringe, longer sideburns with heavily texturised layers on the crown. This is the cut that I enjoy the most and love doing.</dd>
+	
+	<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/news_images/michelle_r_4.jpg" width="135" height="180">
+	
+	<dt>What pushes your buttons in the world of fashion,  hair and beauty?</dt>
+	<dd>I like new and quirky. If I see something original, that hasn't been done before, then I want to know everything about it and how to create it. I love learning new things and I am interested in ideas that have been thought of outside the box.</dd>
+</dl>
+<p>Thanks a lot to Michelle for taking the time out to answer these questions. It's clear to see that she's passionate about hairdressing and is really excited to get up and running at PK's.</p>
+<p class="offerHeading">To help Michelle build her client base we have some amazing offers for a limited time</p>
+<?php echo CHtml::link('<p class="offer">Click here to see Michelle\'s special offers &gt;</p>',array('site/page','view'=>'michelle')); ?>
+
+</section> <!--end .hidden-->
+<p class="author">Published by PK</p>
+<time datetime="2013-08-01">1<sup>st</sup> August 2013</time>
+</article> <!--end #article-->
+
+<article class="article">
 <a id="FibreForce" class="anchor"></a>
 <section class="visible">
 <img src="<?php echo Yii::app()->request->baseUrl; ?>/images/news_images/fibre_force3.jpg" width="135" height="111" alt="Fibre Force">
