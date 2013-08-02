@@ -25,7 +25,7 @@ $this->pageTitle=Yii::app()->name . ' - Offers - Hairdressers in Cheshire';
 <div id="offer1" class="offer"><h3>Senior Stylist Colour &amp; Cut Package</h3>
 <p>for just &pound;60</p>
 <p>with any of our Senior Stylists</p>
-<p class="small">offer until 09/08/13<br>
+<p class="small">offer until <time datetime="2013-08-30">30/08/13</time><br>
   For New Clients Only - not with any other offer - excludes Saturday<br>Skin test required 48hrs prior to service</p>
 </div>
 
@@ -33,19 +33,19 @@ $this->pageTitle=Yii::app()->name . ' - Offers - Hairdressers in Cheshire';
   <h3>Stylist Colour &amp; Cut Package</h3>
   <p>for just &pound;40<br>
     <p>with any of our Stylists</p>
-    <p class="small">offer until 09/08/13<br>
+    <p class="small">offer until <time datetime="2013-08-30">30/08/13</time><br>
       For New Clients Only - not with any other offer - excludes Saturday<br>Skin test required 48hrs prior to service</p>
  </div>
 
 <?php echo CHtml::link('<div id="offer3" class="offer">
   <h3>A Cut &amp; Colour for just &pound;30</h3>
-  <p>with our new graduate stylist Megan</p><p class="small">until 31/07/13<br>
+  <p>with our new graduate stylist Megan</p><p class="small">offer extended until <time datetime="2013-08-16">16/08/13</time><br>
     For New clients - not with any other offer<br>Excludes Saturday</p>
 </div>', array('site/page','view'=>'graduate')); ?>
 
 <?php echo CHtml::link('<div id="offer4" class="offer">
   <h3>FREE Cut, Dry &amp; Style</h3>
-  <p>with every Kebelo System Treatment</p><p class="small">until 31/07/13<br>
+  <p>with every Kebelo System Treatment</p><p class="small">until <time datetime="2013-08-30">30/08/13</time><br>
     not with any other offer<br>Excludes Saturday</p>
  </div>', array('kebelo/advantage')); ?>
     

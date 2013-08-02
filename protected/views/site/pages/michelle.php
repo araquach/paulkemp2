@@ -15,7 +15,7 @@ $this->pageTitle=Yii::app()->name . ' - Michelle Railton now at PK - Hairdresser
 	When she applied here for the role we snapped her up, as PK stylist <em>Leon Pritchard</em> (who had previously worked with Michelle) had only great things to say about her.</p>
 	<p>Michelle is skilled in all aspects of hairdressing including <strong>advanced cutting, colouring &amp; styling, hair ups plus men's hairdressing.</strong>
 	She particularly loves soft, natural &amp; luxurious cuts and colours, she's highly skilled in short cuts and loves men's hairdressing too (particularly indie/mod cuts).</p>
-	<p>Michelle said <em>"Being part of such a strong team is really exciting, I can't wait to build up a new client base, plus hopefully see some of my regulars from my salon &amp; Daniel Anderson Hairdressing too!"</em></p>
+	<p>Michelle said <em>"Being part of such a strong team is really exciting, I can't wait to build up a new client base, plus hopefully see some regulars from my salon &amp; Daniel Anderson Hairdressing too!"</em></p>
 	<section id="michelle_offer">
 	<p class="offerHeading">Special Offers with Michelle</p>
 	<p class="offer">Cut &amp; Colour Package</p>

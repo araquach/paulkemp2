@@ -1059,6 +1059,10 @@ section#newspage a:hover {
 	border-bottom: 1px dashed rgb(55,34,24);
 }
 
+section#newspage a p:hover {
+	opacity: .6;
+}
+
 /* @end */
 
 /* @group Offers */

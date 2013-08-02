@@ -18,7 +18,7 @@ $this->pageTitle=Yii::app()->name . ' - Graduate Stylist Offer - Hairdressers in
     <p class="offer">A Cut, Dry &amp; Style for just &pound;15</p>
     <p class="offer">A blow dry or hair up for just &pound;8</p>
     
-    <p class="small">(one offer per person, not with any other offer<br>excludes Saturday's, ends 31/07/13)</p>
+    <p class="small">(one offer per person, not with any other offer<br>excludes Saturday's, ends <time datetime="2013-08-16">16/08/13</time>)</p>
     
 </section> <!--end graduatecopy-->
 
