@@ -52,7 +52,7 @@ window.addEvent('domready', function(){
 	<dd>Classic graduated bob, because you can take a classic style, and create many variations and changes to accommodate a clients requirements. I believe it is a timeless hairstyle that can suit all types of clients.</dd>
 	
 	<dt>If you could cut anyone's hair who would it be and why?</dt>
-	<dd>Sienna Miller because she has the perfect face shape/features to create any style. There would be no limitations or factors that would determine a certain hairstyle. She always has softer cut/finish and I would love to create something much more bolder with harder lines and dramatic finish.</dd>
+	<dd>Sienna Miller because she has the perfect face shape/features to create any style. There would be no limitations or factors that would determine a certain hairstyle. She always has softer cut/finish and I would love to create something much bolder with harder lines and dramatic finish.</dd>
 	
 	<dt>How do you go about creating your cutting/colour styles? Is it difficult to think up new ideas and keep up with the latest trends?</dt>
 	<dd>I always have a consultation with every client. I ask them a series of questions which help me to identify their needs and what options of styles I could create. e.g:

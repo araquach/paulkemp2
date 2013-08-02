@@ -997,6 +997,7 @@ a.anchor {
 
 #accordion article.article section.hidden dl dt {
 	color: rgb(55,34,24);
+	line-height: 1.4em;
 	margin-bottom: 5px;
 	font-weight: bold;
 	margin-left: 200px;
@@ -2661,7 +2662,7 @@ p.big {
 	padding: 70px;
 	margin-left: 20px;
 	font-size: 1.1em;
-	height: 1100px;
+	height: 100%;
 }
 
 #michelle h2 {
@@ -2669,18 +2670,44 @@ p.big {
 	line-height: 1.3em;
 }
 
+#michelle a p {
+	display: inline;
+	padding-bottom: 5px;
+}
+
+#michelle a p:hover{
+	border-bottom: 1px dashed #333;
+}
+
 #michelle p.large {
 	font-size: 2.5em;
 	font-weight: bold;
 }
 
-#michelle_offer p{
-	margin: 0;
+#michelle p.small {
+	margin-top: 30px;
 }
 
-#michelle_offer p:nth-child(0) {
-	font-size: 2em;
+#michelle_offer {
+	padding-bottom: 30px;
 }
+
+#michelle_offer p {
+	margin: 0;
+	text-align: center;
+}
+
+#michelle_offer p:nth-child(4),
+#michelle_offer p:nth-child(8){
+	font-size: 2em;
+	font-weight: bolder;
+}
+
+#michelle_offer p:nth-child(5) {
+	margin-bottom: 20px;
+}
+
+
 
 /* @end */
 
