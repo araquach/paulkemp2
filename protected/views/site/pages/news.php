@@ -134,6 +134,28 @@ window.addEvent('domready', function(){
 </article> <!--end #article-->
 
 <article class="article">
+<a id="graduate" class="anchor"></a>
+<section class="visible">
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/news_images/meg.jpg" width="135" height="180">
+<h3>The Graduate</h3>
+<p><strong>Training to be a hairdresser is no walk in the park! Years of intensive training, blood, sweat and tears, plus being bottom of the pecking order isn't much fun either! But it all becomes worthwhile when you get handed your certificate and you're promoted to the next level. Washing a hundred heads of hair a day soon becomes a distant memory!</strong></p>
+<p>Megan Mullaney (image left) know's how this feels as she recently got promoted to Graduate stylist here in the salon.</p>
+<p class="reveal">Read more &gt;</p>
+</section> <!--end .visible-->
+<section class="hidden">
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/news_images/tash_new.jpg" width="135" height="180">
+<p>Meg follows in the footsteps of Natasha Bailey (see pic on left) (who qualified about a year ago and has now built a well established client base). It's always great to produce home grown talent, to see someone start out, barely able to hold their scissors and  comb properly, to becoming a talented, skilful stylist.</p>
+<p>Megan said <em>"My time training in the salon was really rewarding, it went so fast and I can't believe I'm on the shop floor now. I'm really eager to build up my client's and get busier and busier. You never stop learning as a hairdresser, I'm looking forward to learning more advanced techniques and skills."</em></p>
+<p>Our latest apprentice, Ben Morris, recently started full time after helping out a few days a week whilst still at school. The standards set by Meg and Tash are high but we're confident he'll produce the goods too!</p>
+<p class="offerHeading">Megan is running some special offers while she builds up her client base</p>
+<?php echo CHtml::link('<p class="offer">Click her for the details &gt;</p>',array('site/page','view'=>'graduate')); ?>
+<?php echo CHtml::link('<p>If you like the idea of being the next Paul Kemp Hairdressing Apprentice click here &gt;</p>',array('apprentice/create')); ?>
+</section> <!--end .hidden-->
+<p class="author">Published by PK</p>
+<time datetime="2013-08-01">1<sup>st</sup> August 2013</time>
+</article> <!--end #article-->
+
+<article class="article">
 <a id="FibreForce" class="anchor"></a>
 <section class="visible">
 <img src="<?php echo Yii::app()->request->baseUrl; ?>/images/news_images/fibre_force3.jpg" width="135" height="111" alt="Fibre Force">
