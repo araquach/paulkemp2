@@ -45,6 +45,11 @@ $this->pageTitle=Yii::app()->name . ' - The Team - Hairdressers in Cheshire';
         <p>Although new to the Paul Kemp team, Kate has been well established at our sister salon Jakata for 4 years. She's a welcome asset to the team with diverse skills in all areas of hairdressing. </p>
         <p class="teamprice">Average Cut &amp; Colour price with Kate : &pound;90*</p>
         </section>
+        <section id="michelle_r">
+        <h3><img src="<?php echo Yii::app()->request->baseUrl; ?>/images/staff/michelle_r.jpg" width="133" height="168" alt="Michelle Railton">Michelle Railton</h3>
+        <p>Michelle is the latest stylist to join the team. A former stylist at Daniel Anderson Hairdressing, Michelle is highly skilled in all aspects of hairdressing, she especially loves soft, natural styles and men's indie/mod cutting.</p>
+        <p class="teamprice">Average Cut &amp; Colour price with Kate : &pound;80*</p>
+        </section>
       	<section id="leon">
         <h3><img src="<?php echo Yii::app()->request->baseUrl; ?>/images/staff/leon.jpg" width="133" height="168" alt="Leon Pritchard">Leon Pritchard</h3>
         <p>At just 21, Leon is already building up a strong reputation for his skills in cutting, colouring &amp; styling hair. He came to us after working at Daniel Anderson Hairdressing and is now looking to expand his ever growing client base.</p>
@@ -69,6 +74,9 @@ $this->pageTitle=Yii::app()->name . ' - The Team - Hairdressers in Cheshire';
         </section>
         
 	</section>        
+    <section id="teambottom">
+        <p>*average prices for half-head foils or equivalent plus a Cut Dry and Style - before any discounts</p>
+        </section>        
     <section id="teambottom">
         <p>*average prices for half-head foils or equivalent plus a Cut Dry and Style - before any discounts</p>
         </section>
