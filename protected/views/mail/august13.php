@@ -134,7 +134,7 @@
 	  <strong>The Graduate</strong></h1>
 		<p><strong>Training to be a hairdresser is no walk in the park! Years of intensive training, blood, sweat and tears, plus being bottom of the pecking order isn't much fun either! But it all becomes worthwhile when you get handed your certificate and you're promoted to the next level. Washing a hundred heads of hair a day soon becomes a distant memory!</strong></p>
 		<p>Megan Mullaney (image left) know's how this feels as she recently got promoted to Graduate stylist here in the salon&hellip;</p>
-		<p><a href="http://paulkemphairdressing.com/news.php#target" target="_blank" style="color: #333;">Read the full article &gt;</a></p>
+		<p><a href="http://paulkemphairdressing.com/news.php#graduate" target="_blank" style="color: #333;">Read the full article &gt;</a></p>
 	   </td>
 	</tr>
 	
