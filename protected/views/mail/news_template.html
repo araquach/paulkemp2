@@ -1,0 +1,134 @@
+<!DOCTYPE HTML>
+
+<title>Paul Kemp Hairdressing News- <?php echo date('F Y');?></title>
+
+<html>
+<body>
+
+<table width="100%" cellpadding="10" cellspacing="0">
+
+	<tr>
+	<td valign="top" align="center">
+	<table width="657" cellpadding="0" cellspacing="0" style="border: 1px solid #999;">
+	<tr>
+	<td>
+	<table width="657" cellpadding="0" cellspacing="0">
+	<table width="657" cellpadding="0" cellspacing="0">
+	<tr>
+	<a href="http://www.jakatasalon.co.uk/news.php" style="text-decoration: none; font-size: .7em; color: #999; text-align:left;">Read these news stories at our web site</a>
+	</td>
+	</tr>
+	
+	<!--header-->
+	<tr>
+	<td height="224" align="left" valign="middle" style="background-color:#FFFFFF;border-top:0px solid #333333;"><center>
+	  <a href="http://www.paulkemphairdressing.com"><img src="http://paulkemphairdressing.com/images/newsletter/pk_masthead_oct.jpg" alt="Paul Kemp Hairdressing 01925 444488" width="657" height="224" style="border-style: none"></a></td>
+	</tr>
+	</table>
+	<!--end header-->
+	
+	<table width="657" cellpadding="20" cellspacing="0" bgcolor="#FFFFFF">
+	
+	<tr> <!-- Intro -->
+	  <td width="135" height="200" valign="top" bgcolor="#FFFFFF" style="font-size:12px;color:#000000;line-height:150%;font-family:trebuchet ms;border-bottom: 1px dashed #999;"><p>
+	  <img src="http://www.jakatasalon.co.uk/images/newspics/eccentric_heritage.jpg" alt="" width="135" height="190"></p></td>
+	  <td width="440" valign="top" bgcolor="#FFFFFF" style="text-align: left;font-size:12px;color:#000000;line-height:150%;font-family:trebuchet ms; border-bottom: 1px dashed #999; padding-right: 40px;">
+	  <h1 style="font-size:20px;font-weight:bold;color:#666;font-family:arial;line-height:110%;">
+	  <strong>Welcome to our <?php echo date('F');?> Newsletter</strong></h1>
+		<p>Hi <?php echo ucfirst($model->first_name);?>, </p>
+		<p>Thank's for keeping up to date with the latest news from <strong>Paul Kemp Hairdressing</strong>. Last month we celebrated our 2 year anniversary. It's hard to believe how fast time flies. The salon is going from strength to strength, this month sees the introduction of our latest recruit, Michelle Railton (find out more below) plus our apprentice Meg completed her training and is now a graduate stylist. </p>
+		<P><strong>Loads more has been happening so read on &hellip;</strong></p>
+	   </td>
+	</tr>
+	
+	<!--offers-->
+	
+	<?php switch ($model->offer){
+	
+	case 1:
+	echo
+	 '<tr> 
+	   <td width="135" height="200" valign="top" bgcolor="#FFFFFF" style="font-size:12px;color:#000000;line-height:150%;font-family:trebuchet ms;border-bottom: 1px dashed #999;">
+	   <p><img src="http://www.jakatasalon.co.uk/images/newspics/mono_mods2.jpg" alt="Special Offer" width="135" height="190"></p></td>
+	   <td width="440" valign="top" bgcolor="#FFFFFF" style="text-align: left;font-size:14px;color:#000000;line-height:150%;font-family:trebuchet ms; border-bottom: 1px dashed #999; padding-right: 40px;">
+	   <h1 style="font-size:24px;font-weight:bold;color:#666;font-family:arial;line-height:110%;">
+	   <strong>Take advantage of this great offer</strong></h1>
+	   <p style="font-size: 22px;"><strong><span style="font-size: 34px; line-height: 1.5em;">FREE Product</span><br>with every service</strong></p>
+	   <p><strong>Have a Cut, Dry &amp; Style, receive 1 FREE product<br>
+	   	Have a Colour &amp; Cut receive 2 FREE products</strong></p>
+	   <p>Offer exclusively for <strong>'.ucfirst($model->first_name).' '.ucfirst($model->last_name).'</strong> only.<br>Not Transferable, weekdays only </p>
+	   <p><strong>Call 01925 242960 to book and mention the offer</strong></p>
+	   <p style="font-size: 10px;">Please present this when paying (either a printout or show it on your smart phone)<br>
+	   Retail size products only, excludes Hair Reborn. Offer ends: June 28th 2013</p>
+	  </td>
+	 </tr>';
+	break;
+	case 2:
+	echo
+	'<tr> 
+	  <td width="135" height="200" valign="top" bgcolor="#FFFFFF" style="font-size:12px;color:#000000;line-height:150%;font-family:trebuchet ms;border-bottom: 1px dashed #999;">
+	  <p><img src="http://www.jakatasalon.co.uk/images/newspics/mono_mods2.jpg" alt="Special Offer" width="135" height="190"></p></td>
+	  <td width="440" valign="top" bgcolor="#FFFFFF" style="text-align: left;font-size:14px;color:#000000;line-height:150%;font-family:trebuchet ms; border-bottom: 1px dashed #999; padding-right: 40px;">
+	  <h1 style="font-size:24px;font-weight:bold;color:#666;font-family:arial;line-height:110%;">
+	  <strong>Take advantage of this great offer</strong></h1>
+	  <p style="font-size: 22px;"><strong><span style="font-size: 34px; line-height: 1.5em;">FREE Product</span><br>with every service</strong></p>
+	  <p><strong>Have a Cut, Dry &amp; Style, receive 1 FREE product<br>
+	  	Have a Colur &amp; Cut receive 2 FREE products</strong></p>
+	  <p>Offer exclusively for <strong>'.ucfirst($model->first_name).' '.ucfirst($model->last_name).'</strong> only.<br>Not Transferable, weekdays only </p>
+	  <p><strong>Call 01925 242960 to book and mention the offer</strong></p>
+	  <p style="font-size: 10px;">Please present this when paying (either a printout or show it on your smart phone)<br>
+	  Retail size products only, excludes Hair Reborn. Offer ends: June 28th 2013</p>
+	 </td>
+	</tr>';
+	break;
+	}
+	?>
+	
+	<!--end offers-->
+	
+	<tr> <!-- News Item -->
+	  <td width="135" height="200" valign="top" bgcolor="#FFFFFF" style="font-size:12px;color:#000000;line-height:150%;font-family:trebuchet ms;border-bottom: 1px dashed #999;"><p>
+	  <img src="http://www.paulkemphairdressing.com/images/news_images/something.jpg" alt="" width="135" height="180"></p></td>
+	  <td width="440" valign="top" bgcolor="#FFFFFF" style="text-align: left;font-size:12px;color:#000000;line-height:150%;font-family:trebuchet ms; border-bottom: 1px dashed #999; padding-right: 40px;">
+	  <h1 style="font-size:20px;font-weight:bold;color:#666;font-family:arial;line-height:110%;">
+	  <strong>Title</strong></h1>
+		<p><strong></strong></p>
+		<p></p>
+		<p><p><a href="http://paulkemphairdressing.com/news.php#target" target="_blank" style="color: #333;">Find out more here &gt;</a></p></p>
+	   </td>
+	</tr>
+	
+	<!--footer-->
+		
+		<tr>
+		  <td style="background-color: #372218;border-top:10px solid #FFFFFF;" valign="top">&nbsp;</td>
+		  <td style="background-color:#372218;border-top:10px solid #FFFFFF;" valign="top">
+		  <span style="text-align:left;font-size:10px;color:#FFFFFF;font-family:verdana;">
+			Paul Kemp Hairdressing Ltd <br />
+		  <br />
+		  <a href="mailto:adamcarter@jakatasalon.co.uk">Unsubscribe</a>: Just Return this e-mail with 'unsubscribe' as the subject <br />
+		  <p>
+			Paul Kemp Hairdressing<br>
+			83 Sankey Street<br>
+			Warrington<br>
+			WA1 1SL
+		  </p>
+		
+			<p>Telephone:<br />
+			01925 444488</p>
+		  
+		   <p> Copyright (C) 2012 Paul Kemp Hairdressing Ltd. All rights reserved.</p>
+		   </span>
+		   </td>
+		   		</tr>
+				 </table>
+			</td>
+		</tr>
+		</table>
+		</tr>
+	
+	</table>
+	<!--end footer-->
+	
+</body>
+</html>

@@ -114,11 +114,31 @@ window.addEvent('domready', function(){
 </article> <!--end #article-->
 
 <article class="article">
+<a id="WorldRelease" class="anchor"></a>
+<section class="visible">
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/news_images/world_release.jpg" width="135" height="120" alt="Tigi World Release">
+<h3>Tigi World Release</h3>
+<p><strong>Last month members of the PK team headed down to London along with members of the Jakata team to be a part of Tigi's massive event - World Release 2013 at Old Billingsgate Market.</strong></p>
+<p>It was a spectacular showcase of all things Tigi, with live demonstrations and runway shows. We were lucky enough to get a sneak peak back stage to see the stylists prepping the models for the show&hellip;</p>
+<p class="reveal">Read more &gt;</p>
+</section> <!--end .visible-->
+<section class="hidden">
+<p>The alcohol was free flowing and the aftershow party in the basement, with Tigi global creative director Nick Irwin on the decks, ended the night on a high.</p>
+<p class="offer">To check out pictures from the night, and see the team get progressively more drunk <a href="https://www.facebook.com/media/set/?set=a.10151718362566866.1073741825.62812381865&type=3" target="_blank">click here.</a></p>
+<a href="http://www.tigiprofessional.com/en-gb/about/news/worldrelease2013" target="_blank"><p>Visit the Tigi site to see videos of the event</p></a>
+<p class="offer_heading"></p>
+<p class="offer"></p>
+</section> <!--end .hidden-->
+<p class="author">Published by PK</p>
+<time datetime="2013-08-01">2<sup>nd</sup> August 2013</time>
+</article> <!--end #article-->
+
+<article class="article">
 <a id="ghdWinner" class="anchor"></a>
 <section class="visible">
 <img src="<?php echo Yii::app()->request->baseUrl; ?>/images/news_images/ghd_candy.jpg" width="135" height="190" alt="GHD Candy Collection">
 <h3>Competition Winner</h3>
-<p><strong>Last month we ran a competition to give you the chance to win a set of GHD candy Collection Styling irons. We were inundated with applicants, but we can have only one luck winner!</strong></p>
+<p><strong>Last month we ran a competition to give you the chance to win a set of GHD candy Collection Styling irons. We were inundated with applicants, but we can have only one lucky winner!</strong></p>
 <p></p>
 <p class="reveal">The winner is&hellip; (click here)</p>
 </section> <!--end .visible-->
@@ -130,6 +150,7 @@ window.addEvent('domready', function(){
 <p class="author">Published by PK</p>
 <time datetime="2013-08-01">2<sup>nd</sup> August 2013</time>
 </article> <!--end #article-->
+
 
 <article class="article">
 <a id="collection" class="anchor"></a>
