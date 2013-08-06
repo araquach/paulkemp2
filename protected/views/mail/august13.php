@@ -62,24 +62,6 @@
 	
 	case 1:
 	echo
-	 '<tr> 
-	   <td width="135" height="200" valign="top" bgcolor="#FFFFFF" style="font-size:12px;color:#000000;line-height:150%;font-family:trebuchet ms;border-bottom: 1px dashed #999;">
-	   <p><img src="http://www.paulkemphairdressing.com/images/newsletter/glam_chic_3.jpg" alt="Special Offer" width="135" height="190"></p></td>
-	   <td width="440" valign="top" bgcolor="#FFFFFF" style="text-align: left;font-size:14px;color:#000000;line-height:150%;font-family:trebuchet ms; border-bottom: 1px dashed #999; padding-right: 40px;">
-	   <h1 style="font-size:24px;font-weight:bold;color:#666;font-family:arial;line-height:110%;">
-	   <strong>Take advantage of this great offer</strong></h1>
-	   <p style="font-size: 22px;"><strong><span style="font-size: 34px; line-height: 1.5em;">FREE Product</span><br>with every service</strong></p>
-	   <p><strong>Have a Cut, Dry &amp; Style, receive 1 FREE product<br>
-	   	Have a Colour &amp; Cut receive 2 FREE products</strong></p>
-	   <p>Offer exclusively for <strong>'.ucfirst($model->first_name).' '.ucfirst($model->last_name).'</strong> only.<br>Not Transferable, weekdays only </p>
-	   <p><strong>Call 01925 242960 to book and mention the offer</strong></p>
-	   <p style="font-size: 10px;">Please present this when paying (either a printout or show it on your smart phone)<br>
-	   Retail size products only, excludes Hair Reborn. Offer ends: August 30th 2013</p>
-	  </td>
-	 </tr>';
-	break;
-	case 2:
-	echo
 	'<tr> 
 	  <td width="135" height="200" valign="top" bgcolor="#FFFFFF" style="font-size:12px;color:#000000;line-height:150%;font-family:trebuchet ms;border-bottom: 1px dashed #999;">
 	  <p><img src="http://www.paulkemphairdressing.com/images/news_images/michelle_r_2.jpg" alt="Special Offer" width="135" height="190"></p></td>
@@ -96,6 +78,27 @@
 	  <p style="font-size: 10px;">Please present this when paying (either a printout or show it on your smart phone)<br>Offer ends: August 30th 2013</p>
 	 </td>
 	</tr>';
+	
+	break;
+	
+	case 2:
+	echo
+	'<tr> 
+	  <td width="135" height="200" valign="top" bgcolor="#FFFFFF" style="font-size:12px;color:#000000;line-height:150%;font-family:trebuchet ms;border-bottom: 1px dashed #999;">
+	  <p><img src="http://www.paulkemphairdressing.com/images/newsletter/glam_chic_3.jpg" alt="Special Offer" width="135" height="190"></p></td>
+	  <td width="440" valign="top" bgcolor="#FFFFFF" style="text-align: left;font-size:14px;color:#000000;line-height:150%;font-family:trebuchet ms; border-bottom: 1px dashed #999; padding-right: 40px;">
+	  <h1 style="font-size:24px;font-weight:bold;color:#666;font-family:arial;line-height:110%;">
+	  <strong>Take advantage of this great offer</strong></h1>
+	  <p style="font-size: 22px;"><strong><span style="font-size: 34px; line-height: 1.5em;">FREE Product</span><br>with every service</strong></p>
+	  <p><strong>Have a Cut, Dry &amp; Style, receive 1 FREE product<br>
+	  	Have a Colour &amp; Cut receive 2 FREE products</strong></p>
+	  <p>Offer exclusively for <strong>'.ucfirst($model->first_name).' '.ucfirst($model->last_name).'</strong> only.<br>Not Transferable, weekdays only </p>
+	  <p><strong>Call 01925 242960 to book and mention the offer</strong></p>
+	  <p style="font-size: 10px;">Please present this when paying (either a printout or show it on your smart phone)<br>
+	  Retail size products only, excludes Hair Reborn. Offer ends: August 30th 2013</p>
+	 </td>
+	</tr>';
+	
 	break;
 	}
 	?>
