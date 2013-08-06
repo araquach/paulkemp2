@@ -90,8 +90,8 @@ class MailingListController extends Controller
 		{
 			$model=new MailingList;
 			$criteria=new CDbCriteria;
-			$criteria->condition = "id > 401";
-			$criteria->limit = 99;
+			//$criteria->condition = "id > 401";
+			//$criteria->limit = 99;
 			$emails = MailingList::model()->findAll($criteria);
 			foreach ($emails as $row)
 			{
@@ -99,9 +99,9 @@ class MailingListController extends Controller
 				if(isset($_POST['MailingList']))
 				{
 						$message = new YiiMailMessage;
-						$message->view = 'august13';
+						$message->view = 'apology';
 						$message->setBody(array('model'=>$row), 'text/html');
-						$message->subject = 'Paul Kemp Hairdressing August News';
+						$message->subject = 'Apologies';
 						$message->setTo($row->email);
 						$message->from = ('news@paulkemphairdressing.com');
 						Yii::app()->mail->batchSend($message);		
