@@ -90,7 +90,7 @@ class MailingListController extends Controller
 		{
 			$model=new MailingList;
 			$criteria=new CDbCriteria;
-			$criteria->condition = "id > 101";
+			$criteria->condition = "id > 201";
 			$criteria->limit = 99;
 			$emails = MailingList::model()->findAll($criteria);
 			foreach ($emails as $row)
