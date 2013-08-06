@@ -35,7 +35,7 @@
 	  <td width="440" valign="top" bgcolor="#FFFFFF" style="text-align: left;font-size:12px;color:#000000;line-height:150%;font-family:trebuchet ms; border-bottom: 1px dashed #999; padding-right: 40px;">
 	  <h1 style="font-size:20px;font-weight:bold;color:#666;font-family:arial;line-height:110%;">
 	  <strong>Welcome to our <?php echo date('F');?> Newsletter</strong></h1>
-		<p>Hi <?php echo ucfirst($model->first_name);?>, </p>
+		<p>Hi <?php echo ucfirst($model->first_name);?>,</p>
 		<p>Thank's for keeping up to date with the latest news from <strong>Paul Kemp Hairdressing</strong>. Last month we celebrated our 2<sup>nd</sup> year anniversary. It's hard to believe how fast time is flying by! Thank's for your continued support, and we can't wait to see what the next few years brings.</p>
 		<p>This month sees the introduction of our latest recruit, Michelle Railton (find out more below) plus our apprentice Meg has completed her training and is now a graduate stylist. </p>
 		<P><strong>Loads more has been happening in the salon, so read on&hellip;</strong></p>

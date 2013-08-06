@@ -43,7 +43,7 @@ window.addEvent('domready', function(){
 	<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/news_images/michelle_r_2.jpg" width="135" height="180">
 	
 	<dt>When did you decide you wanted to join the Paul Kemp team?</dt>
-	<dd>After I left Daniel Anderson hairdressing, I was drawn to join the Paul Kemp team but I decided to give running my own salon a go,  which I did for a year. Since I finished that in January, I took time out of hairdressing to decide what I  wanted to do. There was only one salon that I really wanted to work in in Warrington - that was Paul Kemp hairdressing. For the past 5 months I have been thinking and making sure that hairdressing is definitely the right career for me before finally getting back into doing it.</dd>
+	<dd>After I left Daniel Anderson hairdressing, I was drawn to join the Paul Kemp team but I decided to give running my own salon a go,  which I did for a year. Since I finished that in January, I took time out of hairdressing to decide what I  wanted to do. There was only one salon that I really wanted to work at in Warrington - that was Paul Kemp hairdressing!</dd>
 	
 	<dt>If you had chosen another profession what would it have been?</dt>
 	<dd>After taking time out of hairdressing, I pursued a career in recruitment.</dd>
@@ -124,7 +124,7 @@ window.addEvent('domready', function(){
 </section> <!--end .visible-->
 <section class="hidden">
 <p>The alcohol was free flowing and the aftershow party in the basement, with Tigi global creative director Nick Irwin on the decks, ended the night on a high.</p>
-<p class="offer">To check out pictures from the night, and see the team get progressively more drunk <a href="https://www.facebook.com/media/set/?set=a.10151718362566866.1073741825.62812381865&type=3" target="_blank">click here.</a></p>
+<p class="offer"><a href="https://www.facebook.com/media/set/?set=a.10151718362566866.1073741825.62812381865&type=3" target="_blank">To check out pictures from the night, and see the team get progressively more drunk click here.</a></p>
 <a href="http://www.tigiprofessional.com/en-gb/about/news/worldrelease2013" target="_blank"><p>Visit the Tigi site to see videos of the event</p></a>
 <p class="offer_heading"></p>
 <p class="offer"></p>
