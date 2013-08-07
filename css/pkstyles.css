@@ -1520,8 +1520,8 @@ table h4 {
 }
 
 #key_s, #key_j {
-	width: 400px;
-	padding: 10px 10px 30px;
+	width: 350px;
+	padding: 10px;
 	border: solid 2px rgb(55,34,24);
 	position: absolute;
 	top: 200px;
