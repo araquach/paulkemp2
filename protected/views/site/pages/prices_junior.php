@@ -6,9 +6,10 @@ $this->pageTitle=Yii::app()->name . ' - Trainee Prices - Hairdressers in Cheshir
 ?>
 
 <section class="junior">
-<h2>Junior &amp; Graduate Stylist Prices</h2>
-<a href="prices_stylists.php">
-<?php echo CHtml::link('For senior stylist Prices Click Here',array('site/page','view'=>'prices_stylist')); ?><table>
+<h2>Junior &amp; Graduate 
+<br>Stylist Prices</h2>
+<?php echo CHtml::link('For senior stylist Prices Click Here',array('site/page','view'=>'prices_stylist')); ?>
+<table class="priceTable">
 <tr border="1">
 <th class="firstcolumn"><h3>Colour, Cut &amp; Style</h3></th>
 <th><h4 class="stylist_exp">Graduate Stylist</h4></th>
@@ -16,19 +17,19 @@ $this->pageTitle=Yii::app()->name . ' - Trainee Prices - Hairdressers in Cheshir
 <th><h4 class="stylist_exp">Junior</h4></th>
 </tr>
 <tr>
-<td>One</td>
+<td><strong>One</strong></td>
 <td>&pound;59.95<br></td>
 <td>&pound;44.95<br></td>
 <td>&pound;29.95<br></td>
 </tr>
 <tr>
-<td>Two</td>
+<td><strong>Two</strong></td>
 <td>&pound;69.95</td>
 <td>&pound;51.95</td>
 <td>&pound;33.95</td>
 </tr>
 <tr>
-<td>Three</td>
+<td><strong>Three</strong></td>
 <td>&pound;79.95</td>
 <td>&pound;58.95</td>
 <td>&pound;37.95</td>
@@ -40,19 +41,19 @@ $this->pageTitle=Yii::app()->name . ' - Trainee Prices - Hairdressers in Cheshir
 <th>&nbsp;</th>
 </tr>
 <tr>
-<td>One</td>
+<td><strong>One</strong></td>
 <td>&pound;49.95</td>
 <td>&pound;37.95</td>
 <td>&pound;25.95</td>
 </tr>
 <tr>
-<td>Two</td>
+<td><strong>Two</strong></td>
 <td>&pound;59.95</td>
 <td>&pound;44.95</td>
 <td>&pound;29.95</td>
 </tr>
 <tr>
-<td>Three</td>
+<td><strong>Three</strong></td>
 <td>&pound;69.95</td>
 <td>&pound;51.95</td>
 <td>&pound;33.95</td>
@@ -98,11 +99,6 @@ $this->pageTitle=Yii::app()->name . ' - Trainee Prices - Hairdressers in Cheshir
 
 
 <table id="key_j">
-<tr>
-<th class="key">Key</th>
-<td>&nbsp;</td>
-</tr>
-<tr>
 <td><strong>One</strong></td>
 <td>Root touch up, top/parting foils or full head colour (short), colour gloss</td>
 </tr>
