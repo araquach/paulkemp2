@@ -3,17 +3,31 @@
 
 $this->pageTitle=Yii::app()->name . ' - Stylist Prices - Hairdressers in Cheshire';
 
+Yii::app()->clientScript->registerCoreScript('jquery');
+Yii::app()->clientScript->registerScriptFile(Yii::app()->baseUrl.'/scripts/prices.js');
 ?>
 
-<section class="stylist">
-<h2>Senior Stylist Prices</h2>
+
+<section class="price_page">
+<h2>Prices</h2>
+
+<ul id="price_links">
+	<li><?php echo CHtml::link('Stylist/Senior Prices',array('site/page','view'=>'prices_stylist')); ?></li>
+	<li><?php echo CHtml::link('Junior/Trainee Prices',array('site/page','view'=>'prices_junior')); ?></li>
+</ul>
+
+<div id="price_link">
 <?php echo CHtml::link('For Junior/Trainee Prices Click Here',array('site/page','view'=>'prices_junior')); ?>
+</div>
+
+<div class="price_panel">
+<h3 class="level">Stylist/Senior Stylists</h3>
 <table class="priceTable">
 <tr>
 <th class="firstcolumn"><h3>Colour, Cut &amp; Style</h3></th>
-<th><h4 class="stylist_exp">Director</h4></th>
-<th><h4 class="stylist_exp">Senior Stylists</h4></th>
-<th><h4 class="stylist_exp">Stylists</h4></th>
+<th><h4 class="experience">Director</h4></th>
+<th><h4 class="experience">Senior Stylists</h4></th>
+<th><h4 class="experience">Stylists</h4></th>
 </tr>
 <tr>
 <td><strong>One</strong></td>
@@ -59,17 +73,17 @@ $this->pageTitle=Yii::app()->name . ' - Stylist Prices - Hairdressers in Cheshir
 </tr>
 </table>
 
-    <section id="corrective_s">
+    <section id="corrective">
     <h4>Corrective Colour</h4>
-    <p>If you've had a home hair colouring disaster, or a bad colour experience in another salon, we will correct & transform your hair to how you wanted it in the first place! Our expert colour team will give you a price on consultation.</p>
+    <p>If you've had a home hair colouring disaster, or a bad colour experience in another salon, we will correct &amp; transform your hair to how you wanted it in the first place! Our expert colour team will give you a price on consultation.</p>
     </section>
 
 <table>
 <tr>
 <th>&nbsp;</th>
-<th><h4 class="stylist_exp">Director</h4></th>
-<th><h4 class="stylist_exp">Senior Stylists</h4></th>
-<th><h4 class="stylist_exp">Stylists</h4></th>
+<th><h4 class="experience">Director</h4></th>
+<th><h4 class="experience">Senior Stylists</h4></th>
+<th><h4 class="experience">Stylists</h4></th>
 </tr>
 <tr>
 <td class="firstcolumn"><h4>Cut, Dry &amp; Style</h4></td>
@@ -113,7 +127,9 @@ $this->pageTitle=Yii::app()->name . ' - Stylist Prices - Hairdressers in Cheshir
 </tr>
 </table>
 
-<table id="key_s">
+</div> <!--end price_panel-->
+
+<table class="key">
 <td><strong>One</strong></td>
 <td>Root touch up, top/parting foils or full head colour (short), colour gloss</td>
 </tr>
@@ -127,10 +143,10 @@ $this->pageTitle=Yii::app()->name . ' - Stylist Prices - Hairdressers in Cheshir
 </tr>
 </table>
 
-	<section id="st_s">
+<section id="skintest">
 <h4>Skin Test Policy</h4>
 <p>New clients require a skin test 48 hours prior to any colour service. It's a simple procedure that only takes a minute or two. Please mention when booking your appointment</p>
-	</section>
+</section>
 
 
 </section>

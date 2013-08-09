@@ -1461,39 +1461,76 @@ section#newspage a p:hover {
 
 /* @group Prices */
 
-.junior h2, .stylist h2 {
+.price_page h2 {
 	margin: 60px 0 30px 120px;
 }
 
-.junior a, .stylist a {
+.price_page h3.level {
+	margin: 70px 0 0 130px;
+}
+
+.price_page a {
 	margin: 20px 0 50px 120px;
 	color: rgb(55,34,24);
 	font-size: 1.2em;
 }
 
-.junior a:hover, .stylist a:hover {
+#price_links {
+	display: none;
+}
+
+.price_page a:hover {
 	border-bottom: 1px dashed rgb(55,34,24);
 }
 
+.price_page ul {
+	width: 200px;
+	margin-left: 120px;
+	display: block;
+}
+
+.price_page ul li {
+	display: block;
+	font-size: .8em;
+	background-color: rgb(55,34,24);;
+	padding: 10px;
+	margin: 10px 10px;
+	margin-left: 0;
+	border-radius: 5px;
+}
+
+.price_page ul li a {
+	color: #FFF;
+	margin: 0;
+}
+
+.price_page ul li a:hover {
+	opacity: .7;
+}
+
+.price_page ul li a:active {
+	opacity: .7;
+}
+
 table.priceTable {
-	margin-top: 110px;
+	margin-top: 0;
 }
 	
 
-#corrective_s, #corrective_j {
+#corrective {
 	width: 700px;
 	margin: auto;
 	background-color: rgb(55,34,24); 
 	padding: 30px;
 }
 
-#corrective_s p, #corrective_j p {
+#corrective p {
 	color: rgb(255,247,240);
 	font-size: 0.9em
 	
 }
 
-#corrective_s h4, #corrective_j h4 {
+#corrective h4 {
 	color: rgb(255,247,240);
 	font-size: 1em;
 	font-weight: bold;
@@ -1512,14 +1549,14 @@ table h4 {
 	
 }
 
-.stylist_exp {
+.experience {
 	font-size: 0.7em;
 	color: rgb(55,34,24);
 	text-align: center;
 	font-weight: bold;
 }
 
-#key_s, #key_j {
+.key {
 	width: 350px;
 	padding: 10px;
 	border: solid 2px rgb(55,34,24);
@@ -1528,30 +1565,25 @@ table h4 {
 	right: 100px;
 }
 
-#key_s td+td, #key_j td+td{
+.key td+td {
 	width: 300px;
 	font-size: .8em;
 }
 
-#st_s, #st_j {
+#skintest {
 	width: 700px;
 	margin: 30px 130px 50px 0;
 	text-align: center;
 	float: right;
 }
 
-#st_s h4, #st_j h4 {
+#skintest h4 {
 	font-weight: bold;	
 }
 
 .firstcolumn {
 	width: 200px;
 	margin-top: 200px;
-}
-
-.key {
-	font-size: 1.3em;
-	margin: 0;
 }
 
 .underline {
