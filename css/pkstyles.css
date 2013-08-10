@@ -191,8 +191,8 @@ strong {
 
 header {
 	background-image: url(../images/header_image.png);
-	background-color: rgb(55,34,24);
 	background-repeat: no-repeat;
+	background-color: rgb(55, 34, 24);
 	height: 180px;
 	width: 950px;
 	
