@@ -4,8 +4,10 @@
 $this->pageTitle=Yii::app()->name . ' - Stylist Prices - Hairdressers in Cheshire';
 
 Yii::app()->clientScript->registerCoreScript('jquery');
-Yii::app()->clientScript->registerScriptFile(Yii::app()->baseUrl.'/scripts/prices.js');
+Yii::app()->clientScript->registerScript('prices', file_get_contents('scripts/prices.js'));
 ?>
+
+
 
 
 <section class="price_page">
