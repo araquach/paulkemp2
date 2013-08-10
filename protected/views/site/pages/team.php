@@ -74,9 +74,7 @@ $this->pageTitle=Yii::app()->name . ' - The Team - Hairdressers in Cheshire';
         </section>
         
 	</section>        
+          
     <section id="teambottom">
         <p>*average prices for half-head foils or equivalent plus a Cut Dry and Style - before any discounts</p>
-        </section>        
-    <section id="teambottom">
-        <p>*average prices for half-head foils or equivalent plus a Cut Dry and Style - before any discounts</p>
-        </section>
+    </section>
