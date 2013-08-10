@@ -15,7 +15,7 @@ Yii::app()->clientScript->registerScriptFile(Yii::app()->baseUrl.'/scripts/price
 </div>
 
 <div class="price_panel">
-<h3 class="level">Trainee/Junior Stylists</h3>
+<h3 class="level">Graduate/Junior Stylists</h3>
 <table class="priceTable">
 <tr border="1">
 <th class="firstcolumn"><h3>Colour, Cut &amp; Style</h3></th>

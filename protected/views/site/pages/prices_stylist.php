@@ -13,7 +13,7 @@ Yii::app()->clientScript->registerScriptFile(Yii::app()->baseUrl.'/scripts/price
 
 <ul id="price_links">
 	<li><?php echo CHtml::link('Stylist/Senior Prices',array('site/page','view'=>'prices_stylist')); ?></li>
-	<li><?php echo CHtml::link('Junior/Trainee Prices',array('site/page','view'=>'prices_junior')); ?></li>
+	<li><?php echo CHtml::link('Graduate/Trainee Prices',array('site/page','view'=>'prices_junior')); ?></li>
 </ul>
 
 <div id="price_link">
