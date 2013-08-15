@@ -62,15 +62,25 @@
 	</div>
 
 	<div class="row">
+		<?php echo $form->label($model,'mkt1'); ?>
+		<?php echo $form->textField($model,'mkt1'); ?>
+	</div>
+	
+	<div class="row">
+		<?php echo $form->label($model,'mkt2'); ?>
+		<?php echo $form->textField($model,'mkt2'); ?>
+	</div>
+	
+	<div class="row">
+		<?php echo $form->label($model,'mkt3'); ?>
+		<?php echo $form->textField($model,'mkt3'); ?>
+	</div>
+	
+	<div class="row">
 		<?php echo $form->label($model,'styling_advice'); ?>
 		<?php echo $form->textField($model,'styling_advice'); ?>
 	</div>
-
-	<div class="row">
-		<?php echo $form->label($model,'internal_marketing'); ?>
-		<?php echo $form->textField($model,'internal_marketing'); ?>
-	</div>
-
+	
 	<div class="row">
 		<?php echo $form->label($model,'value_for_money'); ?>
 		<?php echo $form->textField($model,'value_for_money'); ?>

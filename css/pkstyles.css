@@ -2862,6 +2862,16 @@ p.big {
 	margin-bottom: 30px;
 }
 
+#feedback .mktBox {
+	float: left;
+	margin-right: 20px;
+}
+
+#feedback .mktBox label.required {
+	font-size: .8em;
+	display: inline;
+}
+
 
 /* @end */
 
