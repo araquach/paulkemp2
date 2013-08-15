@@ -57,24 +57,36 @@ class FeedbackController extends Controller
 	 * If creation is successful, the browser will be redirected to the 'view' page.
 	 */
 	public function actionCreate()
-	{
-		$model=new Feedback;
-
-		// Uncomment the following line if AJAX validation is needed
-		// $this->performAjaxValidation($model);
-
-		if(isset($_POST['Feedback']))
 		{
-			$model->attributes=$_POST['Feedback'];
-			if($model->save())
+			$model=new Feedback;
+	
+			// Uncomment the following line if AJAX validation is needed
+			// $this->performAjaxValidation($model);
+	
+			if(isset($_POST['Feedback']))
+			{
+				$model->attributes=$_POST['Feedback'];
+				if($model->save())
+				{
+					$message = new YiiMailMessage;
+					$message->view = 'feedback_voucher';
+					$message->setBody(array('model'=>$model), 'text');
+					$message->subject = 'PaulKemp';
+					$message->addTo($model->mobile.'@smsid.textapp.net');
+					$message->from = ('enquiries@jakatasalon.co.uk');
+					
+					Yii::app()->mail->send($message);
 				
-			Yii::app()->user->setFlash('Feedback','Thank you for your help ' . ucfirst($model->client_first) . '. It\'s really appreciated.<br>You have automatically been entered into our prize draw for the chance to win some great prizes.<br>See you in the salon soon!');
+					Yii::app()->user->setFlash('Feedback','Thank you for your feedback ' . ucfirst($model->client_first) . ', it\'s really appreciated.<br>Your voucher is on it\'s way plus you have been entered into our next prize draw for the chance to win some great prizes.<br>See you in the salon soon!');
+				}
+			
+			}
+	
+			$this->render('create',array(
+				'model'=>$model,
+			));
 		}
-
-		$this->render('create',array(
-			'model'=>$model,
-		));
-	}
+	
 
 	/**
 	 * Updates a particular model.

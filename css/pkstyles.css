@@ -2145,9 +2145,12 @@ p.application {
 }
 
 .applicationSuccess {
-	font-size: 1.3em;
+	width: 450px;
+	height: 500px;
+	font-size: 1.4em;
+	margin-left: 40px;
+	padding: 10px;
 	line-height: 1.3em;
-	margin: 40px 40px;
 	color: rgb(55,34,24);
 }
 
@@ -2796,6 +2799,11 @@ p.big {
 
 /* @group Feedback  */
 
+#feedback_back {
+	width: 950px;
+	background: #FFF url('../images/feedback/bedhead.jpg') no-repeat 500px 130px;
+}
+
 #feedback {
 	padding: 60px;
 	width: 650px;
@@ -2805,6 +2813,10 @@ p.big {
 	width: 850px;
 	background-color: #FFF;
 	padding: 50px;
+}
+
+#feedback_copy {
+	width: 400px;
 }
 
 #feedbackBlank #yw0 div.items div.view {
@@ -2835,6 +2847,17 @@ p.big {
 	margin-right: 40px;
 }
 
+#feedback .permission label {
+	display: inline;
+}
+
+#feedback #Feedback_allow {
+	width: 40px;
+	display: inline;
+	margin-left: 20px;
+}
+
+#feedback label,
 #feedback label.required {
 	font-size: 1.2em;
 	font-weight: normal;
@@ -2871,7 +2894,6 @@ p.big {
 	font-size: .8em;
 	display: inline;
 }
-
 
 /* @end */
 

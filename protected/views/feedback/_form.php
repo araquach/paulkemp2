@@ -299,7 +299,7 @@
 			<?php echo $form->error($model,'extra'); ?>
 		</div>
 		
-		<div class="row">
+		<div class="row permission">
 			<?php echo $form->labelEx($model,'allow'); ?>
 			<?php echo $form->checkBox($model,'allow'); ?>
 			<?php echo $form->error($model,'allow'); ?>

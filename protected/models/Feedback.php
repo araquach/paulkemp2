@@ -105,7 +105,7 @@ class Feedback extends CActiveRecord
 			'whole_experience' => '9. How do you rate the experience as a whole on your last visit?',
 			'end_result' => '10. How happy were you with the end result of your hair?',
 			'extra' => 'Do you have any extra comments you would like to make?',
-			'allow' => 'Please tick the box if you allow us to use your feedback on our testimonials page',
+			'allow' => 'Please tick the box if you allow us to use your <br>feedback on our testimonials page',
 			'stylist_id' => 'Your Last Stylist',
 		);
 	}
