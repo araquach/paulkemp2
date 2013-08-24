@@ -37,13 +37,12 @@ class FeedbackStylist extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('stylist, salon, active', 'required'),
+			array('stylist, salon, acive', 'required'),
 			array('salon', 'numerical', 'integerOnly'=>true),
 			array('stylist', 'length', 'max'=>120),
-			array('active', 'boolean', 'integerOnly'=>true),
 			// The following rule is used by search().
 			// Please remove those attributes that should not be searched.
-			array('id, stylist, salon, active', 'safe', 'on'=>'search'),
+			array('id, stylist, salon', 'safe', 'on'=>'search'),
 		);
 	}
 
