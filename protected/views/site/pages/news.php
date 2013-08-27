@@ -186,8 +186,6 @@ window.addEvent('domready', function(){
 <p>Meg follows in the footsteps of Natasha Bailey (see pic on left) (who qualified about a year ago and has now built a well established client base). It's always great to produce home grown talent, to see someone start out, barely able to hold their scissors and  comb properly, to becoming a talented, skilful stylist.</p>
 <p>Megan said <em>"My time training in the salon was really rewarding, it went so fast and I can't believe I'm on the shop floor now. I'm really eager to build up my client's and get busier and busier. You never stop learning as a hairdresser, I'm looking forward to learning more advanced techniques and skills."</em></p>
 <p>Our latest apprentice, Ben Morris, recently started full time after helping out a few days a week whilst still at school. The standards set by Meg and Tash are high but we're confident he'll produce the goods too!</p>
-<p class="offerHeading">Megan is running some special offers while she builds up her client base</p>
-<?php echo CHtml::link('<p class="offer">Click her for the details &gt;</p>',array('site/page','view'=>'graduate')); ?>
 <?php echo CHtml::link('<p>If you like the idea of being the next Paul Kemp Hairdressing Apprentice click here &gt;</p>',array('apprentice/create')); ?>
 </section> <!--end .hidden-->
 <p class="author">Published by PK</p>
