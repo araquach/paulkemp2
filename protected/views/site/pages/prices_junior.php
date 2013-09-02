@@ -24,19 +24,19 @@ Yii::app()->clientScript->registerScript('prices', file_get_contents('scripts/pr
 <th><h4 class="experience">Junior</h4></th>
 </tr>
 <tr>
-<td><strong>One</strong></td>
+<td class="number1"></td>
 <td>&pound;59.95<br></td>
 <td>&pound;44.95<br></td>
 <td>&pound;29.95<br></td>
 </tr>
 <tr>
-<td><strong>Two</strong></td>
+<td class="number2"></td>
 <td>&pound;69.95</td>
 <td>&pound;51.95</td>
 <td>&pound;33.95</td>
 </tr>
 <tr>
-<td><strong>Three</strong></td>
+<td class="number3"></td>
 <td>&pound;79.95</td>
 <td>&pound;58.95</td>
 <td>&pound;37.95</td>
@@ -48,19 +48,19 @@ Yii::app()->clientScript->registerScript('prices', file_get_contents('scripts/pr
 <th>&nbsp;</th>
 </tr>
 <tr>
-<td><strong>One</strong></td>
+<td class="number1"></td>
 <td>&pound;49.95</td>
 <td>&pound;37.95</td>
 <td>&pound;25.95</td>
 </tr>
 <tr>
-<td><strong>Two</strong></td>
+<td class="number2"></td>
 <td>&pound;59.95</td>
 <td>&pound;44.95</td>
 <td>&pound;29.95</td>
 </tr>
 <tr>
-<td><strong>Three</strong></td>
+<td class="number3"></td>
 <td>&pound;69.95</td>
 <td>&pound;51.95</td>
 <td>&pound;33.95</td>

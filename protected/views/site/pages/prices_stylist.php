@@ -32,19 +32,19 @@ Yii::app()->clientScript->registerScript('prices', file_get_contents('scripts/pr
 <th><h4 class="experience">Stylists</h4></th>
 </tr>
 <tr>
-<td><strong>One</strong></td>
+<td class="number1"></td>
 <td>&pound;96.95</td>
 <td>&pound;87.95</td>
 <td>&pound;74.95</td>
 </tr>
 <tr>
-<td><strong>Two</strong></td>
+<td class="number2"></td>
 <td>&pound;113.95</td>
 <td>&pound;103.95</td>
 <td>&pound;87.95</td>
 </tr>
 <tr>
-<td><strong>Three</strong></td>
+<td class="number3"></td>
 <td>&pound;130.95</td>
 <td>&pound;119.95</td>
 <td>&pound;100.95</td>
@@ -56,19 +56,19 @@ Yii::app()->clientScript->registerScript('prices', file_get_contents('scripts/pr
 <th>&nbsp;</th>
 </tr>
 <tr>
-<td><strong>One</strong></td>
+<td class="number1"></td>
 <td>&pound;78.95</td>
 <td>&pound;72.95</td>
 <td>&pound;61.95</td>
 </tr>
 <tr>
-<td><strong>Two</strong></td>
+<td class="number2"></td>
 <td>&pound;96.95</td>
 <td>&pound;85.95</td>
 <td>&pound;74.95</td>
 </tr>
 <tr>
-<td><strong>Three</strong></td>
+<td class="number3"></td>
 <td>&pound;113.95</td>
 <td>&pound;103.95</td>
 <td>&pound;87.95</td>
@@ -132,15 +132,15 @@ Yii::app()->clientScript->registerScript('prices', file_get_contents('scripts/pr
 </div> <!--end price_panel-->
 
 <table class="key">
-<td><strong>One</strong></td>
+<td class="number1"></td>
 <td>Root touch up, top/parting foils or full head colour (short), colour gloss</td>
 </tr>
 <tr>
-<td><strong>Two</strong></td>
+<td class="number2"></td>
 <td>Roots &amp; Refresh, full head colour (mid length), creative colouring, light to dark</td>
 </tr>
 <tr>
-<td><strong>Three</strong></td>
+<td class="number3"></td>
 <td>Full head foils, technical creative colour, full head colour (long), dark to light</td>
 </tr>
 </table>
