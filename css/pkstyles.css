@@ -1565,6 +1565,21 @@ table h4 {
 	right: 100px;
 }
 
+td.number1 {
+	width: 20px;
+	background: url('../images/prices/numbers-01.png') no-repeat 10px 5px;
+}
+
+td.number2 {
+	width: 20px;
+	background: url('../images/prices/numbers-02.png') no-repeat 10px 5px;
+}
+
+td.number3 {
+	width: 20px;
+	background: url('../images/prices/numbers-03.png') no-repeat 10px 5px;
+}
+
 .key td+td {
 	width: 300px;
 	font-size: .8em;
