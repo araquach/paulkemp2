@@ -16,7 +16,7 @@ $this->pageTitle=Yii::app()->name . ' - Offers - Hairdressers in Cheshire';
 </section> <!- -#offersMain- -*>-->
 
 
-<section id="offersMain">
+<!--<section id="offersMain">
 
 <h2>Special Offers</h2>
 
@@ -43,13 +43,13 @@ $this->pageTitle=Yii::app()->name . ' - Offers - Hairdressers in Cheshire';
     not with any other offer<br>Excludes Saturday</p>
  </div>', array('kebelo/advantage')); ?>
     
- </section>   <!--offerlist--> 
+ </section>   <!-offerlist-*> 
  
- </section> <!--offersMain-->
-
+ </section> <!-offersMain-*>
+-->
  
  
- <!--<section id="no_offer">
+ <section id="no_offer">
   </section> 
  <section id="no_offercopy">
  <h2>Special Offers</h2>
@@ -57,6 +57,6 @@ $this->pageTitle=Yii::app()->name . ' - Offers - Hairdressers in Cheshire';
  <p>
  	<a href="http://www.facebook.com/PaulKempHairdressing" target="_blank">Visit our Facebook page to keep up to date with the latest offers</a>
  </p>
- </section> <!- -no_offer-->
+ </section> <!--no_offer-->
 
  
