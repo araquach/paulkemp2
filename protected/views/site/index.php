@@ -22,10 +22,10 @@ $this->pageTitle=Yii::app()->name;
     	</aside>',array('site/page','view'=>'michelle')); ?>
     	
     <?php echo CHtml::link('<aside id="news2">
-    <h3 class="newsheader">This Months Offers</h3>
-    <p class="newspara">We have some fantastic offeers on this month - colour &amp; cut packages plus a great Kebelo offer</p>
+    <h3 class="newsheader">NEW ghd Eclipse Irons</h3>
+    <p class="newspara">These revolutionary irons arrived last month - find out if we think they\'re worth the hype</p>
     <p class="newscenter"><strong>Find out more here &gt;</strong></p>
-    	</aside>',array('site/page','view'=>'offers')); ?>
+    	</aside>',array('site/page','view'=>'news', '#'=>'ghdEclipse')); ?>
     
     <?php echo CHtml::link('<aside id="news3">
     <h3 class="newsheader">Tigi World Release</h3>

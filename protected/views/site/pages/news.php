@@ -19,6 +19,30 @@ window.addEvent('domready', function(){
 <section id="accordion">
 
 <article class="article">
+<a id="ghdEclipse" class="anchor"></a>
+<section class="visible">
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/news_images/eclipse.jpg" width="135" height="180" alt="ghd Eclipse styler">
+<h3>A New Styler for a New Era</h3>
+<p><strong>Ghd have always come up with the goods when it comes to producing the best styling irons on the market. The PK team were eager to get their hands on the new <em>Eclipse</em> iron which claims to revolutionise styling on hard-to-tame hair.</strong></p>
+<p>The irons arrived in the salon last month and we've had chance to have a good play with them and put them to the test.</p>
+<p class="reveal">Read more is &gt;</p>
+</section> <!--end .visible-->
+<section class="hidden">
+<p>When the irons first arrived it was clear to see <em>ghd</em> had opted for a new look to differentiate them from the other irons. They look more streamlined and almost futuristic in their style. We plugged them in and and went to switch them on. The power button is located on the top rather than near the plates which I guess is safer and less likely to snag in the hair.</p>
+<p><iframe width="400" height="300" src="//www.youtube.com/embed/342WUWxK1rY" class="right" frameborder="0" allowfullscreen></iframe></p>
+<p>When you turn them on they make a noise similar to booting up a Wii, and the power button glows to indicate they are warming up. The button wasn't too responsive (you had to press and hold it) and it was difficult to tell wether you had switched them on or not.</p>
+<p>Once they had heated up we tried them out. The casing is a little bulkier, with a bigger gap between the plates, this makes them better for taking larger sections. The casing is also more insulated and provides cooler handling. They flex quite a bit and almost feel a little wobbly but they're designed to have a fair bit of movement to allow for smoother gliding over courser textured hair. They felt really smooth through the hair, I know new <em>ghd's</em> always feel pretty smooth, but these definitely had the edge.</p>
+<p>The main thing that differentiates them from the previous models is in how the plates heat. Patented <em>Tri-Zone technology</em> uses six quick thinking sensors (three on each plate) to ensure no heat loss during styling.</p>
+<p>First impressions of the new <em>ghd Eclipse</em> are good, I always go out of my way to pick these up when I'm styling my clients hair - especially on thick, course hair. The difference isn't massive but definitely noticeable. If I was looking to buy a new set of irons I would definitely go for these. At &pound;200 they're pricey, but worth every penny. Of course if the price puts you off, the <em>gold series (mark 5)</em> is still available at &pound;125 and the budget <em>mark 4 styler</em> is just &pound;99.</p>
+
+<p class="offer_heading">All varieties of ghd's are available in the salon - just ask your stylist.</p>
+<p class="offer"></p>
+</section> <!--end .hidden-->
+<p class="author">Published by PK</p>
+<time datetime="2013-08-01">2<sup>nd</sup> August 2013</time>
+</article> <!--end #article-->
+
+<article class="article">
 <a id="MichelleRailton" class="anchor"></a>
 <section class="visible">
 <img src="<?php echo Yii::app()->request->baseUrl; ?>/images/news_images/michelle_r_1.jpg" width="135" height="180">
@@ -372,50 +396,6 @@ Price: &pound;41.00</p>
 </article> <!--end #article-->
 
 
-<article class="article">
-<section class="visible">
-<a id="PaulInterview" class="anchor"></a>
-<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/news_images/paul.jpg" width="135" height="190" alt="Paul Kemp">
-<h3>One year on: An Interview with Paul Kemp</h3>
-<p>It's been an eventful year for Paul Kemp, the launch of his new salon, learning the ropes of running a business and managing a team.</p>
-<p>We had the chance to speak to Paul and ask him a few questions about the salon and the future of 'Paul Kemp Hairdressing'.</p>
-<p class="reveal">Read More ></p>
-</section> <!--end .visible-->
-<section class="hidden">
-<p class="offer">What have been the highlights of your first year</p>
-<p>The first year of business has exceeded all my expectations. I have enjoyed expanding the team; building up our client base and receiving positive feedback from both new and existing client's. Getting a double page spread in Hairdressers Journal <a href="http://www.paulkemphairdressing.com/images/news_images/hj_article.pdf" target="_blank">(read it here)</a> has been a particular highlight.</p>
-<p class="offer">What have you found the hardest part of running the salon</p>
-<p>Taking on the responsibility of looking after so many staff was a steep learning curve and maintaining the consistently high standards which Paul Kemp Hairdressing is all about.</p>
-<p class="offer">How have the team that came from <a href="http://www.jakatasalon.co.uk/" target="_blank">Jakata</a> found the change?</p>
-<p>At first it was obviously a bit strange however they seem to have adapted very well and love working at Paul Kemp Hairdressing.</p>
-<p class="offer">Do you still stay in touch with your old team mates at <a href="http://www.jakatasalon.co.uk/" target="_blank">Jakata</a>?</p>
-<p>Yes, we have a yearly Jakata/Kemp camping trip and we often meet socially.</p>
-<p class="offer">How many members are there on the PK team now?</p>
-<p>Eleven, and building fast!</p>
-<p class="offer">Tell me about the recent recruits</p>
-<p><em>Katie Sergeant</em> joined us from a popular Stockton Heath salon and has now built up a strong client base within a short period of time. <em>Leon Pritchard</em> joined us three months ago from <strong>Daniel Anderson Hairdressing</strong> in Warrington and from the off was very busy. Leon is a very popular young confident stylist.</p>
-<p class="offer">Are you taking any more staff on?</p>
-<p>We are always looking for new staff, not just stylists but also apprentices who will promote and enhance Paul Kemp Hairdressing.</p>
-<p class="offer">How would you describe a typical 'Paul Kemp Hairdressing' Client?</p>
-<p>Someone who appreciates the full hairdressing experience plus loves to be pampered and made to look amazing!</p>
-<p class="offer">What do you think separates Paul Kemp Hairdressing from the competition?</p>
-<p>Our high standards and our fun, friendly and professional atmosphere.</p>
-<p class="offer">What made you decide to take the <a href="http://www.aveda.co.uk/" target="_blank">Aveda</a> range on?</p>
-<p>I believe <a href="http://www.aveda.co.uk/" target="_blank">Aveda</a> epitomises what Paul Kemp Hairdressing is all about; high end quality products that give superb results.</p>
-<p class="offer">How have you found the performance of the products?</p>
-<p>Instantly visible results, a perfect addition to our product range.</p>
-<p class="offer">Any more new product launches in the pipeline?</p>
-<p>Yes! We are the first salon in the North West to be taking on Tigi's exclusive new luxury range <a href="http://www.tigihairreborn.com" target="_blank">'Hair Reborn'</a> which will be arriving in the salon later this month.</p>
-<p class="offer">Is the salon performing how you'd like it to?</p>
-<p>Definitely, but there is always room for growth and we strive to be even better next year.</p>
-<p class="offer">Any plans to open any more?</p>
-<p>It's still early days, but I wouldn't rule out opening another Paul Kemp Hairdressing in the not too distant future? ...</p>
-
-<p class="offerHeading">Keep posted for a great prize draw in the coming days!</p>
-
-</section> <!--end .hidden-->
-<time datetime="2012-07-04">4<sup>th</sup> July 2012</time>
-</article> <!--end #article-->
 
 
 </section> <!--end #accoordion-->
