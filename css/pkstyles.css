@@ -1185,16 +1185,18 @@ section#newspage a p:hover {
 
 #offersMain h2 {
 	margin: 60px;
+	font-size: 2.5em;
 }
 
 #offerlist h3, #offerlist p, #offerlist .small {
 	text-align: center;
 	margin-right: 250px;
-	margin-top: 20px;
+	margin-top: 0;
 }
 
 #offerlist h3 {
-	font-size: 1.7em;
+	font-size: 2em;
+	line-height: 1.2em;
 }
 
 #offerlist p {
@@ -1206,12 +1208,12 @@ section#newspage a p:hover {
 }
 
 #offerlist #offer1 {
-	padding: 40px;
+	padding: 30px;
 	background-image: url(../images/offer/white_bground.jpg);
 	clear: left;
 	float: left;
-	height: 200px;
-	width: 700px;
+	height: 240px;
+	width: 740px;
 	-moz-border-radius: 15px;
 	-webkit-border-radius: 15px;
 	border-radius: 15px;
@@ -1233,12 +1235,12 @@ section#newspage a p:hover {
 
 
 #offerlist #offer2 {
-	padding: 40px;
+	padding: 30px;
 	background-image: url(../images/offer/white_bground2.jpg);
 	clear: left;
 	float: left;
-	height: 200px;
-	width: 700px;
+	height: 240px;
+	width: 740px;
 	-moz-border-radius: 15px;
 	-webkit-border-radius: 15px;
 	border-radius: 15px;
@@ -1248,7 +1250,7 @@ section#newspage a p:hover {
 }
 
 #offerlist #offer3 {
-	padding: 40px;
+	padding: 30px;
 	background-image: url(../images/offer/meg.jpg);
 	clear: left;
 	float: left;
@@ -1263,7 +1265,7 @@ section#newspage a p:hover {
 }
 
 #offerlist #offer4 {
-	padding: 40px;
+	padding: 30px;
 	background-image: url(../images/offer/offer4.jpg);
 	clear: left;
 	float: left;
