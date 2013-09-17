@@ -28,10 +28,10 @@ $this->pageTitle=Yii::app()->name;
     	</aside>',array('site/page','view'=>'news', '#'=>'ghdEclipse')); ?>
     
     <?php echo CHtml::link('<aside id="news3">
-    <h3 class="newsheader">Tigi World Release</h3>
-    <p class="newspara">The PK team recently took a trip down to London for Tigi World Release</p>
-    <p class="newscenter"><strong>See the pics here &gt;</strong></p>
-    </aside>',array('site/page','view'=>'news','#'=>'WorldRelease')); ?>
+    <h3 class="newsheader">This Months Special Offers</h3>
+    <p class="newspara">New to the salon? Here are our latest offers</p>
+    <p class="newscenter"><strong>Find out more here &gt;</strong></p>
+    </aside>',array('site/page','view'=>'offers')); ?>
     
     <?php echo CHtml::link('<aside id="news4">
     <h3 class="newsheader">Kebelo Advantage</h3>

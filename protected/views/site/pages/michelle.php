@@ -26,7 +26,7 @@ $this->pageTitle=Yii::app()->name . ' - Michelle Railton now at PK - Hairdresser
 	<p>for just</p>
 	<p>&pound;25</p>
 	<p>plus FREE &pound;10 product voucher</p>
-	<p class="small">Offers until <time datetime="2013-09-13">20/09/13</time><br>
+	<p class="small">Offers until <time datetime="2013-09-27">27/09/13</time><br>
 	  For clients new to Paul Kemp Hairdressing only - one offer per person - not with any other offer - excludes Saturday<br><strong>Skin test required 48hrs prior to colour services</strong></p>
 	</section> <!--michelle_offer-->
 	
