@@ -255,6 +255,38 @@ li.active a {
 
 /* @end */
 
+/* @group Admin */
+
+#admin {
+	
+}
+
+#admin_copy {
+	margin-left: 30px;
+}
+
+#admin_copy ul li {
+	display: block;
+	float: left;
+	clear: left;
+	text-decoration: none;
+	margin-left: 40px;
+	background-color: rgb(55, 34, 24);
+	padding: 10px;
+}
+
+#admin_copy ul li a {
+	color: #FFF;
+}
+
+#admin_copy ul li a:hover {
+	opacity: .6;
+}
+
+
+
+/* @end */
+
 /* @group Home */
 
 #homeimage {
