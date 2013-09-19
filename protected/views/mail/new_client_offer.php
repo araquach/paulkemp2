@@ -17,7 +17,7 @@
 		<p><strong>Hi <?php echo ucfirst($model->first_name)  ?>,</strong></p>
 		<p><strong>Thank you for entering our recent GHD competition.</strong></p>
 		<p style="font-size: .8em; margin: 0px">As you have never been to the salon before we'd love you to experience what we have to offer&hellip;</p>
-		<p style="font-size: 1.2em; margin: 0; margin-top: 20px"><strong>FREE Colour</strong></p>
+		<p style="font-size: 1.2em; margin: 0; margin-top: 20px"><strong>Free Colour</strong></p>
 		<p style="font-size: .9em; margin-top: 0; margin-bottom: 0;"><strong>with every Cut, Dry &amp; Style</strong></p>
 		<p style="font-size: 1em; margin-top: 20px; margin-bottom: 0;"><strong>Call: 01925 444488</strong></p>
 		<p style="font-size: .8em; margin-top: 5px"><strong>to book your appointment</strong></p>

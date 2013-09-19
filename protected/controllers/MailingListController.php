@@ -101,7 +101,7 @@ class MailingListController extends Controller
 						$message = new YiiMailMessage;
 						$message->view = 'new_client_offer';
 						$message->setBody(array('model'=>$row), 'text/html');
-						$message->subject = 'Paul Kemp Hairdressing Offer';
+						$message->subject = 'Paul Kemp Hairdressing';
 						$message->setTo($row->email);
 						$message->from = ('news@paulkemphairdressing.com');
 						Yii::app()->mail->batchSend($message);		
