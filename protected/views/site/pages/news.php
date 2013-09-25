@@ -129,8 +129,7 @@ window.addEvent('domready', function(){
 	<dd>I like new and quirky. If I see something original, that hasn't been done before, then I want to know everything about it and how to create it. I love learning new things and I am interested in ideas that have been thought of outside the box.</dd>
 </dl>
 <p>Thanks a lot to Michelle for taking the time out to answer these questions. It's clear to see that she's passionate about hairdressing and is really excited to get up and running at PK's.</p>
-<p class="offerHeading">To help Michelle build her client base we have some amazing offers for a limited time</p>
-<?php echo CHtml::link('<p class="offer">Click here to see Michelle\'s special offers &gt;</p>',array('site/page','view'=>'michelle')); ?>
+<?php echo CHtml::link('<p class="offer">Find out more about Michelle here &gt;</p>',array('site/page','view'=>'michelle')); ?>
 
 </section> <!--end .hidden-->
 <p class="author">Published by PK</p>
