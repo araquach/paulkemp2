@@ -17,13 +17,6 @@ $this->pageTitle=Yii::app()->name . ' - The Team - Hairdressers in Cheshire';
 	<li><p>Meg</p></li>
 	<li><p>Kellie</p></li>
 </ul>
-
-	<section id="paul">
-    <h2>The Team</h2>
-    <h3>Paul Kemp</h3>
-    <p>Paul's talent is to make people feel great about themselves, his ability to craft the perfect style to suit the individual, along with his undivided interest in his clients keeps his demand at a constant high. He has always had key positions in the salons he has worked in.<br>
-      He now leads his ever growing team of skilled stylist, instilling his passion for creating the ideal salon experience.</p>
-      <p class="pteamprice">Average Cut &amp; Colour price with Paul: &pound;120*</p>
       	
        <section id="kel">
         <h3><img src="<?php echo Yii::app()->request->baseUrl; ?>/images/staff/kel.jpg" alt="Kelly Reedy" width="133" height="168">Kelly Reedy</h3>

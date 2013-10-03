@@ -607,9 +607,8 @@ aside h2, aside, h3, aside h4, aside h5, aside h6 {
 #team {
 	position: relative;
 	width: 950px;
-	height: 2500px;
-	background-image: url(../images/pk_staff2.jpg);
-	background-repeat: no-repeat;
+	height: 2200px;
+	background: url(../images/pk_staff2.jpg) center -30px no-repeat;
 }
 
 #team ul {
@@ -644,46 +643,17 @@ aside h2, aside, h3, aside h4, aside h5, aside h6 {
 }
 
 #team ul li p.up {
-	margin-top: 160px;
+	margin-top: 180px;
 }
 
 #team ul li:hover {
 	opacity: 1;
 }
 
-#paul {
-	width: 520px;
-	height: auto;
-	position: absolute;
-	top: 500px;
-	padding-top: 100px;
-	padding-left: 400px;
-	background-image: url(../images/staff/paul.jpg);
-	background-repeat: no-repeat;
-	
-}
-
-#paul p {
-	font-size: 0.9em;
-}
-
-#paul h2 {
-	margin-top: 1.5em;
-}
-
-#paul h3 {
-	margin-top: 20px;
-}
-
-#paul img {
-	padding-bottom: 20px;
-}
-
-
 #kel {
 	position:absolute;
 	left: 40px;
-	top: 500px;
+	top: 650px;
 	width: 400px;
 	height: 250px;
 	border-bottom: solid 3px #CCC;
@@ -705,7 +675,7 @@ aside h2, aside, h3, aside h4, aside h5, aside h6 {
 #jo {
 	position:absolute;
 	left: 470px;
-	top: 500px;
+	top: 650px;
 	width: 400px;
 	height: 250px;
 	border-bottom: solid 3px #CCC;
@@ -727,7 +697,7 @@ aside h2, aside, h3, aside h4, aside h5, aside h6 {
 #iz {
 	position:absolute;
 	left: 470px;
-	top: 800px;
+	top: 950px;
 	width: 400px;
 	height: 250px;
 	border-bottom: solid 3px #CCC;
@@ -749,7 +719,7 @@ aside h2, aside, h3, aside h4, aside h5, aside h6 {
 #kate {
 	position:absolute;
 	left: 40px;
-	top: 800px;
+	top: 950px;
 	width: 400px;
 	height: 250px;
 	border-bottom: solid 3px #CCC;
@@ -771,7 +741,7 @@ aside h2, aside, h3, aside h4, aside h5, aside h6 {
 #leon {
 	position:absolute;
 	left: 40px;
-	top: 1100px;
+	top: 1250px;
 	width: 400px;
 	height: 250px;
 	border-bottom: solid 3px #CCC;
@@ -794,7 +764,7 @@ aside h2, aside, h3, aside h4, aside h5, aside h6 {
 #michelle_r {
 	position:absolute;
 	left: 470px;
-	top: 1100px;
+	top: 1250px;
 	width: 400px;
 	height: 250px;
 	border-bottom: solid 3px #CCC;
@@ -816,7 +786,7 @@ aside h2, aside, h3, aside h4, aside h5, aside h6 {
 
 #jack {
 	position:absolute;
-	top: 1400px;
+	top: 1550px;
 	left: 40px;
 	width: 400px;
 	height: 250px;
@@ -840,7 +810,7 @@ aside h2, aside, h3, aside h4, aside h5, aside h6 {
 #tash {
 	position:absolute;
 	left: 470px;
-	top: 1400px;
+	top: 1550px;
 	width: 400px;
 	height: 250px;
 	border-bottom: solid 3px #CCC;
@@ -862,7 +832,7 @@ aside h2, aside, h3, aside h4, aside h5, aside h6 {
 #meg {
 	position:absolute;
 	left: 40px;
-	top: 1700px;
+	top: 1850px;
 	width: 400px;
 	height: 250px;
 	border-bottom: solid 3px #CCC;
@@ -1528,7 +1498,7 @@ section#newspage a p:hover {
 	display: block;
 	font-size: .8em;
 	background-color: rgb(55,34,24);;
-	padding: 10px;
+	padding: 0;
 	margin: 10px 10px;
 	margin-left: 0;
 	border-radius: 5px;
@@ -1537,10 +1507,13 @@ section#newspage a p:hover {
 .price_page ul li a {
 	color: #FFF;
 	margin: 0;
+	padding: 10px;
+	display: block;
 }
 
 .price_page ul li a:hover {
 	opacity: .7;
+	border-bottom: none;
 }
 
 /*.price_page ul li a:active {
