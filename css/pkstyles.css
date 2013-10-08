@@ -608,18 +608,18 @@ aside h2, aside, h3, aside h4, aside h5, aside h6 {
 	position: relative;
 	width: 950px;
 	height: 2200px;
-	background: url(../images/pk_staff2.jpg) center -30px no-repeat;
+	background: url(../images/pk_staff3.jpg) center top no-repeat;
 }
 
 #team ul {
-	margin-left: 10px;
+	margin-left: 20px;
 	position: absolute;
 	top: 60px;
 }
 
 #team ul li {
 	padding: 7px;
-	margin-right: 10px;
+	margin-right: 12px;
 	display: block;
 	float: left;
 	height: 500px;
@@ -635,7 +635,7 @@ aside h2, aside, h3, aside h4, aside h5, aside h6 {
 	background-color: rgba(255, 255, 254, 0.7);
 	border-radius: 5px;
 	padding: 7px;
-	width: 40px;
+	width: 50px;
 	margin-left: 15px;
 	margin-top: 250px;
 	font-weight: bold;
@@ -643,7 +643,7 @@ aside h2, aside, h3, aside h4, aside h5, aside h6 {
 }
 
 #team ul li p.up {
-	margin-top: 180px;
+	margin-top: 140px;
 }
 
 #team ul li:hover {
@@ -653,7 +653,7 @@ aside h2, aside, h3, aside h4, aside h5, aside h6 {
 #kel {
 	position:absolute;
 	left: 40px;
-	top: 650px;
+	top: 700px;
 	width: 400px;
 	height: 250px;
 	border-bottom: solid 3px #CCC;
@@ -675,7 +675,7 @@ aside h2, aside, h3, aside h4, aside h5, aside h6 {
 #jo {
 	position:absolute;
 	left: 470px;
-	top: 650px;
+	top: 700px;
 	width: 400px;
 	height: 250px;
 	border-bottom: solid 3px #CCC;
@@ -696,8 +696,8 @@ aside h2, aside, h3, aside h4, aside h5, aside h6 {
 
 #iz {
 	position:absolute;
-	left: 470px;
-	top: 950px;
+	left: 40px;
+	top: 1000px;
 	width: 400px;
 	height: 250px;
 	border-bottom: solid 3px #CCC;
@@ -718,8 +718,8 @@ aside h2, aside, h3, aside h4, aside h5, aside h6 {
 
 #kate {
 	position:absolute;
-	left: 40px;
-	top: 950px;
+	left: 470px;
+	top: 1000px;
 	width: 400px;
 	height: 250px;
 	border-bottom: solid 3px #CCC;
@@ -741,7 +741,7 @@ aside h2, aside, h3, aside h4, aside h5, aside h6 {
 #leon {
 	position:absolute;
 	left: 40px;
-	top: 1250px;
+	top: 1300px;
 	width: 400px;
 	height: 250px;
 	border-bottom: solid 3px #CCC;
@@ -764,7 +764,7 @@ aside h2, aside, h3, aside h4, aside h5, aside h6 {
 #michelle_r {
 	position:absolute;
 	left: 470px;
-	top: 1250px;
+	top: 1300px;
 	width: 400px;
 	height: 250px;
 	border-bottom: solid 3px #CCC;
@@ -786,7 +786,7 @@ aside h2, aside, h3, aside h4, aside h5, aside h6 {
 
 #jack {
 	position:absolute;
-	top: 1550px;
+	top: 1600px;
 	left: 40px;
 	width: 400px;
 	height: 250px;
@@ -810,7 +810,7 @@ aside h2, aside, h3, aside h4, aside h5, aside h6 {
 #tash {
 	position:absolute;
 	left: 470px;
-	top: 1550px;
+	top: 1600px;
 	width: 400px;
 	height: 250px;
 	border-bottom: solid 3px #CCC;
@@ -832,7 +832,7 @@ aside h2, aside, h3, aside h4, aside h5, aside h6 {
 #meg {
 	position:absolute;
 	left: 40px;
-	top: 1850px;
+	top: 1900px;
 	width: 400px;
 	height: 250px;
 	border-bottom: solid 3px #CCC;
