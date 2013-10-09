@@ -3007,6 +3007,9 @@ border-top: 3.5px solid #FFF;
 }
 
 #facebook {
+	background: url('../images/footer/fb_logo.png') no-repeat left top;
+	width: 37px;
+	height: 37px;
 	position: absolute;
 	bottom: 40px;
 	right: 40px;
