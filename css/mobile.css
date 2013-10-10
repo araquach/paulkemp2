@@ -127,7 +127,7 @@ li.active a {
 #homeimage {
 	width: auto;
 	height: 500px;
-	background: url(../images/glam_chic.jpg) left top / cover #cbcb78;
+	background: url(../images/glam_chic.jpg) left top / cover #f8f3e8;
 	float: none;
 	
 }
@@ -339,6 +339,737 @@ aside h2, aside, h3, aside h4, aside h5, aside h6 {
 #salonimages img {
 	float: none;
 	margin: 10px 0;
+}
+
+/* @end */
+
+/* @group Team */
+
+#team {
+	position: relative;
+	width: auto;
+	height: 100%;
+	background: url(../images/pk_staff3.jpg) center top no-repeat;
+	background-size: contain;
+	padding-top: 200px;
+}
+
+#team h3 {
+	line-height: 1.2em;
+}
+
+#team img {
+	margin-right: .7em;
+	margin-bottom: .3em;
+}
+
+#team ul {
+	margin: 0;
+	position: relative;
+	top: 0;
+	display: none;
+}
+
+#team section {
+	margin: 20px 0;
+	padding-bottom: 20px;
+}
+
+#kel {
+	position: relative;
+	left: 0;
+	top: 0;
+	width: auto;
+	height: 100%;
+	border-bottom: solid 3px #CCC;
+	padding: 10px;
+}
+
+#kel img {
+	float: none;
+}
+
+#kel p {
+	font-size: 0.8em;
+}
+
+#kel h3 img {
+	margin-top: 0px;
+	float: left;
+}
+
+#jo {
+	position: relative;
+	left: 0;
+	top: 0;
+	width: auto;
+	height: 100%;
+	border-bottom: solid 3px #CCC;
+	padding: 10px;
+}
+
+#jo img {
+	float: none;
+}
+
+#jo p {
+	font-size: 0.8em;
+}
+
+#jo h3 img {
+	margin-top: 0px;
+	float: left;
+}
+
+#iz {
+	position: relative;
+	left: 0;
+	top: 0;
+	width: auto;
+	height: 100%;
+	border-bottom: solid 3px #CCC;
+	padding: 10px;
+}
+
+#iz img {
+	float: none;
+}
+
+#iz p{
+	font-size: 0.8em;
+}
+
+#iz h3 img{
+	margin-top: 0px;
+	float: left;
+}
+
+#kate {
+	position: relative;
+	left: 0;
+	top: 0;
+	width: auto;
+	height: 100%;
+	border-bottom: solid 3px #CCC;
+	padding: 10px;
+}
+
+#kate img {
+	float: left;
+}
+
+#kate p {
+	font-size: 0.8em;
+}
+
+#kate h3 img {
+	margin-top: 0px;
+	float: left;
+}
+
+#leon {
+	position: relative;
+	left: 0;
+	top: 0;
+	width: auto;
+	height: 100%;
+	border-bottom: solid 3px #CCC;
+	padding: 10px;
+}
+
+#leon img {
+	float: left;
+}
+
+#leon p {
+	font-size: 0.8em;
+}
+
+#leon h3 img {
+	margin-top: 0px;
+	float: left;
+}
+
+
+#michelle_r {
+	position: relative;
+	left: 0;
+	top: 0;
+	width: auto;
+	height: 100%;
+	border-bottom: solid 3px #CCC;
+	padding: 10px;
+}
+
+#michelle_r img {
+	float: left;
+}
+
+#michelle_r p {
+	font-size: 0.8em;
+}
+
+#michelle_r h3 img {
+	margin-top: 0px;
+	float: left;
+}
+
+
+#jack {
+	position: relative;
+	left: 0;
+	top: 0;
+	width: auto;
+	height: 100%;
+	border-bottom: solid 3px #CCC;
+	padding: 10px;
+	
+}
+
+#jack img {
+	float: none;
+}
+
+#jack p{
+	font-size: 0.8em;
+}
+
+#jack h3 img{
+	margin-top: 0px;
+	float: left;
+}
+
+#tash {
+	position: relative;
+	left: 0;
+	top: 0;
+	width: auto;
+	height: 100%;
+	border-bottom: solid 3px #CCC;
+	padding: 10px;
+}
+
+#tash img {
+	float: none;
+}
+
+#tash p {
+	font-size: 0.8em;
+}
+
+#tash h3 img {
+	margin-top: 0px;
+	float: left;
+}
+
+#meg {
+	position: relative;
+	left: 0;
+	top: 0;
+	width: auto;
+	height: 100%;
+	border-bottom: solid 3px #CCC;
+	padding: 10px;
+}
+
+#meg img {
+	float: none;
+}
+
+#meg p {
+	font-size: 0.8em;
+}
+
+#meg h3 img {
+	margin-top: 0px;
+	float: left;
+}
+
+.csstransitions .teamprice, .csstransitions .pteamprice {
+	-o-opacity: 1;
+	-moz-opacity: 1;
+	-webkit-opacity: 1;
+	opacity : 1;
+	-moz-transition: opacity 1s ease;
+	-o-transition: opacity 1s ease;
+	-webkit-transition: opacity 1s ease;
+	transition: opacity 1s ease;
+}
+
+.teamprice {
+	display: block;
+	padding: 0;
+	width: 70%;
+	height: 100%;
+	margin: auto;
+	position: relative;
+	top: 0;
+	left: 0;
+	font-size: 1em;
+	font-weight: bold;
+	text-align: center;
+	clear: none;
+	-o-opacity: 1;
+	-moz-opacity: 1;
+	-webkit-opacity: 1;
+	opacity: 1;
+}
+
+.pteamprice {
+	
+	display: block;
+	padding-top:220px;
+	width: 400px;
+	height: 30px;
+	position: absolute;
+	top: 175px;
+	left: 450px;
+	font-size: 1em;
+	font-weight: bold;
+	text-align: center;
+	clear: left;
+	-o-opacity: 1;
+	-moz-opacity: 1;
+	-webkit-opacity: 1;
+	opacity: 1;
+}
+
+#teambottom {
+	text-align: center;
+	font-size: .7em;
+	margin-bottom: 50px;
+	clear: both;
+	width: 80%;
+	margin: auto;
+	margin-bottom: 40px;
+}
+
+/* @end */
+
+/* @group News */
+
+#newspage {
+	width: auto;
+	margin: auto;
+	height: 100%;
+	padding: 20px;
+}
+
+#accordion {
+	width: auto;
+}
+
+#accordion article.article {
+	margin: 20px 0 ;
+	border-top: 1.5px solid; rgb(55,34,24);
+	padding-top: 30px;
+	position: relative;
+}
+
+
+#accordion article.article:first-of-type {
+	border: none;
+}
+
+.visible {
+	min-height: 200px;
+}
+
+
+
+.hidden {
+	margin-bottom: 20px;
+
+}
+
+#accordion article.article section.hidden img.image_list {
+	margin-bottom: 15px;
+	float: none;
+}
+
+a.anchor {
+	position: absolute;
+	top: -100px;
+}
+
+.author {
+	font-family: 'PT Sans', sans-serif;
+	font-size: .8em;
+	opacity: .8;
+	position: absolute;
+	left: 200px;
+
+}
+
+
+#accordion article.article section.visible p,
+#accordion article.article section.visible h3,
+#accordion article.article section.visible h4 {
+	margin-left: 0;
+}
+
+#accordion article.article section.hidden p,
+#accordion article.article section.hidden h3,
+#accordion article.article section.hidden h4,
+#accordion article.article section.hidden h5,
+#accordion article.article section.hidden iframe {
+	margin-left: 0;
+}
+
+#accordion article.article section.visible h3 {
+	font-size: 1.2em;
+	line-height: 1.2em;
+}
+
+#accordion article.article section.hidden h4 {
+	font-size: 1.3em;
+}
+
+#accordion article.article section.hidden h4 {
+	font-size: 1.1em;
+}
+
+#accordion article time {
+	margin-left: 0;
+	font-family: 'PT Sans', sans-serif;
+	font-size: .8em;
+	opacity: .8;
+	text-align: right;
+}
+
+#accordion article.article section.hidden iframe {
+	margin: 10px 10px 20px 0;
+	border: 1px solid #333;
+	padding: 5px;
+	float: none;
+}
+
+
+#accordion article.article section.hidden img {
+	float: none;
+}
+
+#accordion article.article section.hidden dl dt {
+	color: rgb(55,34,24);
+	line-height: 1.4em;
+	margin-bottom: 5px;
+	font-weight: bold;
+	margin-left: 0;
+}
+
+#accordion article.article section.hidden dl dd {
+	color: rgb(55,34,24);
+	margin-left: 0;
+	margin-bottom: 8px;
+	line-height: 1.4em;
+	margin-left: 0;
+}
+
+#accordion article.article section.hidden ul.list li {
+	display: block;
+	font-size: .9em;
+	margin: .3em 0;
+}
+
+#accordion article.article section.hidden ul.tigilist li {
+	display: block;
+	margin-left: 0;
+}
+
+#accordion article.article section.visible img {
+	float: left;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+
+#accordion article.article section.hidden img {
+	float: none;
+	margin-bottom: 30px;
+}
+
+
+p.reveal {
+	font-size: 1em;
+	display: block;
+	opacity: .7;
+}
+
+#accordion article.article section p a {
+	color: rgb(75,54,44);
+}
+
+#accordion article.article section p a:hover {
+	border-bottom: 1px dotted rgb(55,34,24);
+}
+
+section#newspage a {
+	color: rgb(55,34,24);
+}
+
+section#newspage a:hover {
+	border-bottom: 1px dashed rgb(55,34,24);
+}
+
+section#newspage a p:hover {
+	opacity: .6;
+}
+
+/* @end */
+
+/* @group Offers */
+
+/* Singular Offer Styling */
+
+/*#offersMain {
+	height: 500px;
+	background: #f5f5f5 url('../images/offer/aveda_red.jpg') no-repeat right top;
+	margin: 50px;
+	padding: 50px;
+	border-radius: 20px;
+}
+
+#offersMain h2 {
+	font-size: 3em;
+}
+
+#offersMain #offer1 {
+	font-size: 1.5em;
+	width: 350px;
+}
+
+#offersMain #offer1 h3 {
+	font-size: 1.5em;
+	line-height: 1.3em;
+}
+
+#offersMain #offer1 small {
+	font-size: .5em;
+}
+
+#no_offer {
+	width: 950px;
+	height: 1100px;
+	background-image: url(../images/hair_reborn.jpg);
+	background-repeat: no-repeat;
+	background-color:#FFF;
+	float: left;
+	
+}
+
+#no_offercopy {
+	width: 280px;
+	height: 830px;
+	margin-right: 40px;
+	padding-right: 10px;
+	float: right;
+	margin-top: -950px;
+}
+
+#no_offercopy h2 {
+	font-family: 'PT Sans', sans-serif;
+	font-size: 2em;
+	line-height: 1.5em;
+	margin-bottom: 0.5em;
+	text-align: center;
+	color: #FFF;
+}
+
+#no_offercopy p {
+	color: #FFF;
+	font-size: 1.3em;
+	text-align: center;
+}
+
+#no_offercopy a {
+	color: #FFF;
+	font-size: 1.3em;
+	line-height: 1.2em;
+}
+
+#no_offercopy a:hover {
+	border-bottom: dashed 1px #666;
+}*/
+
+/* Multiple Offer Styling */
+
+#offersMain {
+	height: 100%;
+}
+
+#offerlist {
+	margin: 0;
+	padding: 20px;
+}
+
+#offerlist .offer {
+	margin-bottom: 30px;
+}
+
+#offersMain h2 {
+	margin: 20px;
+	font-size: 2em;
+	line-height: 1.2em;
+}
+
+#offerlist h3, #offerlist p, #offerlist .small {
+	text-align: center;
+	margin: 0;
+	color: #FFF;
+}
+
+#offerlist h3 {
+	font-size: 2em;
+	line-height: 1.2em;
+}
+
+#offerlist p {
+	font-size: 1.2em;
+}
+
+#offerlist .small {
+	font-size: .78em;
+}
+
+#offerlist #offer1 {
+	padding: 20px;
+	padding-top: 350px;
+	background: url(../images/offer/offer1-bha.jpg) -500px top no-repeat #281d02;
+	float: none;
+	height: 300px;
+	width: auto;
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
+	border-radius: 15px;
+	-moz-box-shadow: 0 0 10px rgba(33, 31, 31, 0.91);
+	-webkit-box-shadow: 0 0 10px rgba(33, 31, 31, 0.91);
+	box-shadow: 0 0 10px rgba(33, 31, 31, 0.91);
+}
+
+#offerlist #offer2 h3, #offerlist #offer1 h3, #offerlist #offer4 p {
+	margin-top: 0;
+}
+
+#offerlist #offer4 h3, #offerlist #offer4 p {
+	color: #FFF;
+}
+
+#offerlist #offer2 {
+	padding: 20px;
+	padding-top: 350px;
+	background: url(../images/offer/offer3-bha.jpg) -500px top no-repeat #281d02;
+	float: none;
+	height: 300px;
+	width: auto;
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
+	border-radius: 15px;
+	-moz-box-shadow: 0 0 10px rgba(33, 31, 31, 0.91);
+	-webkit-box-shadow: 0 0 10px rgba(33, 31, 31, 0.91);
+	box-shadow: 0 0 10px rgba(33, 31, 31, 0.91);
+}
+
+#offerlist #offer3 {
+	padding: 20px;
+	padding-top: 350px;
+	background: url(../images/offer/offer3-bha.jpg) -500px top no-repeat #281d02;
+	float: none;
+	height: 300px;
+	width: auto;
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
+	border-radius: 15px;
+	-moz-box-shadow: 0 0 10px rgba(33, 31, 31, 0.91);
+	-webkit-box-shadow: 0 0 10px rgba(33, 31, 31, 0.91);
+	box-shadow: 0 0 10px rgba(33, 31, 31, 0.91);
+}
+
+#offerlist #offer4 {
+	padding: 20px;
+	padding-top: 350px;
+	background: url(../images/offer/offer4.jpg) -500px top no-repeat #281d02;
+	float: none;
+	height: 300px;
+	width: auto;
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
+	border-radius: 15px;
+	-moz-box-shadow: 0 0 10px rgba(33, 31, 31, 0.91);
+	-webkit-box-shadow: 0 0 10px rgba(33, 31, 31, 0.91);
+	box-shadow: 0 0 10px rgba(33, 31, 31, 0.91);
+}
+
+#offers {
+	background-image:url(../images/offer/katynathleon.png);
+	background-position: top right;
+	background-repeat: no-repeat;
+	height: 100%;
+}
+
+#offerscopy {
+	width: auto;
+	padding: 0;
+}
+
+#offerscopy p {
+	margin-bottom: 40px;
+}
+
+.first {
+	font-size: 1.3em;
+}
+
+#offerscopy h3 {
+	font-size: 1.5em;
+}
+
+#offerscopy li {
+	display: block;
+	font-size: 1.4em;
+}
+
+#no_offer {
+	width: auto;
+	height: 100%;
+	background-image: url(../images/hair_reborn.jpg);
+	background-repeat: no-repeat;
+	background-color:#FFF;
+	float: left;
+	
+}
+
+#no_offercopy {
+	width: auto;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	float: none;
+	margin: 0;
+}
+
+#no_offercopy h2 {
+	font-family: 'PT Sans', sans-serif;
+	font-size: 2em;
+	line-height: 1.5em;
+	margin-bottom: 0.5em;
+	text-align: center;
+	color: #FFF;
+}
+
+#no_offercopy p {
+	color: #FFF;
+	font-size: 1.3em;
+	text-align: center;
+}
+
+#no_offercopy a {
+	color: #FFF;
+	font-size: 1.3em;
+	line-height: 1.2em;
+}
+
+
+#no_offercopy a:hover {
+	border-bottom: dashed 1px #666;
 }
 
 /* @end */
