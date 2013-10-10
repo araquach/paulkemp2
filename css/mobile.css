@@ -327,18 +327,24 @@ aside h2, aside, h3, aside h4, aside h5, aside h6 {
 
 #salonimages {
 	position: relative;
-	margin: 30px;
+	margin: 0;
 	top: 0;
 	left: 0;
 	width: auto;
 	height: 100%;
-	background-color: black;
-	padding-top: 0;
+	background-color: #281d02;
+	padding: 10px 0;
+	padding-bottom: 30px;
+	margin-bottom: 20px;
+	border: 2px solid #FFF;
 }
 
 #salonimages img {
 	float: none;
-	margin: 10px 0;
+	margin: 20px;
+	margin-bottom: 10px;
+	margin-left: 30px;
+	border: 1px solid #FFF;
 }
 
 /* @end */
@@ -694,10 +700,12 @@ a.anchor {
 
 .author {
 	font-family: 'PT Sans', sans-serif;
-	font-size: .8em;
+	font-size: .6em;
 	opacity: .8;
-	position: absolute;
-	left: 200px;
+	position: relative;
+	float: right;
+	left: 0;
+	line-height: 2em;
 
 }
 
@@ -732,7 +740,7 @@ a.anchor {
 #accordion article time {
 	margin-left: 0;
 	font-family: 'PT Sans', sans-serif;
-	font-size: .8em;
+	font-size: .6em;
 	opacity: .8;
 	text-align: right;
 }
