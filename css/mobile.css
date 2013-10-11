@@ -1083,6 +1083,388 @@ section#newspage a p:hover {
 
 /* @end */
 
+/* @group Prices */
+
+.price_page h2 {
+	margin: 60px 0 30px 120px;
+}
+
+.price_page h3.level {
+	margin: 70px 0 0 130px;
+}
+
+.price_page a {
+	margin: 20px 0 50px 120px;
+	color: rgb(55,34,24);
+	font-size: 1.2em;
+}
+
+#price_links {
+	display: none;
+}
+
+.price_page a:hover {
+	border-bottom: 1px dashed rgb(55,34,24);
+}
+
+.price_page ul {
+	width: 200px;
+	margin-left: 120px;
+	display: block;
+}
+
+.price_page ul li {
+	display: block;
+	font-size: .8em;
+	background-color: rgb(55,34,24);;
+	padding: 0;
+	margin: 10px 10px;
+	margin-left: 0;
+	border-radius: 5px;
+}
+
+.price_page ul li a {
+	color: #FFF;
+	margin: 0;
+	padding: 10px;
+	display: block;
+}
+
+.price_page ul li a:hover {
+	opacity: .7;
+	border-bottom: none;
+}
+
+/*.price_page ul li a:active {
+	opacity: .7;
+}*/
+
+table.priceTable {
+	margin-top: 0;
+}
+	
+
+#corrective {
+	width: 700px;
+	margin: auto;
+	background-color: rgb(55,34,24); 
+	padding: 30px;
+}
+
+#corrective p {
+	color: rgb(255,247,240);
+	font-size: 0.9em
+	
+}
+
+#corrective h4 {
+	color: rgb(255,247,240);
+	font-size: 1em;
+	font-weight: bold;
+}
+
+table h3 {
+	text-align: left;
+	font-size: 1em;
+	margin-top: 2em;
+	font-weight: bold;
+}
+
+table h4 {
+	text-align: left;
+	font-size: 1em
+	
+}
+
+.experience {
+	font-size: 0.7em;
+	color: rgb(55,34,24);
+	text-align: center;
+	font-weight: bold;
+}
+
+.key {
+	width: 350px;
+	padding: 10px;
+	border: solid 2px rgb(55,34,24);
+	position: absolute;
+	top: 200px;
+	right: 100px;
+}
+
+td.number1 {
+	width: 20px;
+	background: url('../images/prices/numbers-01.png') no-repeat 10px 5px;
+}
+
+td.number2 {
+	width: 20px;
+	background: url('../images/prices/numbers-02.png') no-repeat 10px 5px;
+}
+
+td.number3 {
+	width: 20px;
+	background: url('../images/prices/numbers-03.png') no-repeat 10px 5px;
+}
+
+.key td+td {
+	width: 300px;
+	font-size: .8em;
+}
+
+#skintest {
+	width: 700px;
+	margin: 30px 130px 50px 0;
+	text-align: center;
+	float: right;
+}
+
+#skintest h4 {
+	font-weight: bold;	
+}
+
+.firstcolumn {
+	width: 200px;
+	margin-top: 200px;
+}
+
+.underline {
+	display: inline;
+	text-decoration: underline;
+}
+
+/* @end */
+
+/* @group Recruitment */
+
+#recruitment {
+	width: auto;
+	background: none;
+	min-height: 0;
+	padding: 20px;
+}
+
+#recruitBlank {
+	width: auto;
+	background-color: #FFF;
+	padding: 20px;
+}
+
+#recruitAdmin {
+	width: auto;
+	background-color: #FFF;
+}
+
+#recruitAdmin h1, 
+#recruitAdmin p,
+#recruitAdmin a.search-button  {
+	margin: 10px 40px;
+}
+
+#recruitAdmin div.pager {
+	margin-right: 40px;
+	margin-top: 20px;
+}
+
+#recruitAdmin div.summary {
+	margin-right: 40px;
+	margin-bottom: 20px;
+}
+
+#recruitBlank #yw0 div.items div.view {
+	margin-bottom: 30px;
+}
+
+
+#recruitment h1,
+#recruitment h2,
+#recruitment h3,
+#recruitment p {
+	width: auto;
+	margin-left: 0;
+	margin-bottom: 10px;
+	padding: 0;
+	line-height: 1.3em;
+}
+
+section#recruitment h1 {
+	font-size: 2em;
+	padding-top: 0;
+	margin-top: 0;
+	margin-bottom: 30px;
+	margin-left: 0;
+}
+
+#recruitment h2 {
+	font-size: 1em;
+}
+
+#recruitment h3 {
+	font-size: 1.2em;
+	margin-top: 30px;
+}
+
+#recruitment p {
+	font-size: .9em;
+	padding-bottom: 10px;
+}
+
+#recruitment p.last {
+	padding-bottom: 15px;
+}
+
+#recruitment a {
+	font-size: 1em;
+	line-height: 1.2em;
+	text-align: center;
+	margin: 0;
+	padding: 9px;
+	background-color: rgb(55,34,24);
+	color: #FFF;
+	display: block;
+}
+
+#recruitment a:hover {
+	color: black;	
+	background-color: rgb(227, 215, 209);
+}
+
+#recruitment .fancy {
+	font-size: 2em;
+	font-style: italic;
+	margin-top: 40px;
+}
+
+#adex {
+	width: auto;
+	margin: 20px 0;
+	padding: 10px 20px 20px 20px;
+	height: 300px;
+	background-color: rgba(255, 255, 255, 0.8);
+	border: 1px solid #333;
+}
+
+#adex p {
+	width: 100%;
+	margin-left: 0;
+}
+
+#adex .adexBox {
+	float: left;
+	width: 150px;
+	margin-right: 0;
+	margin-bottom: 15px;
+	
+	
+}
+
+#adex label {
+	float: left;
+	color: rgb(55,34,24);
+	font-size: .8em;
+	margin-left: 0;
+}
+
+#adex input {
+	float: right;
+	margin: 0;
+}
+
+/* @end */
+
+/* @group Application Form */
+
+#application {
+	background: none;
+	padding: 20px;
+}
+
+#content h1 {
+	font-size: 1.5em;
+	line-height: 1.3em;
+	margin: 0;
+	margin-bottom: 30px;
+	width: 170px;
+}
+
+.accordion h2 {
+	margin: 0;
+	padding: 10px;
+	margin-bottom: 20px;
+	font-size: 1.5em;
+	background: url('../images/brown_fade.png') repeat-y left top;
+	color: #FFF;
+}
+
+.accordion h2:hover {
+	color: #FFF;
+	text-shadow: 0 0 4px rgba(249, 249, 249, 0.7);
+	background: url('../images/dark_fade.png') repeat-y left top;
+}
+
+.application {
+	margin: 0;
+}
+
+.application:last-of-type {
+	margin-bottom: 30px;
+}
+
+p.application {
+	margin-right: 0;
+}
+
+.applink a {
+	margin-left: 0;
+	font-size: 1.3em;
+	color: rgb(56, 36, 26);
+}
+
+.applink a:hover {
+	color: rgb(142, 109, 92);
+}
+
+.applicationSuccess {
+	width: auto;
+	height: 500px;
+	font-size: 1.4em;
+	margin-left: 0;
+	padding: 10px;
+	line-height: 1.3em;
+	color: rgb(55,34,24);
+}
+
+#application .form label {
+    margin-left: 0;
+}
+
+#application .form .row {
+  margin-bottom: 10px;
+  width: 90%;
+}
+
+#application .form input, 
+#application .form textarea, 
+#application .form select {
+ 	margin: 0;
+ 	padding-right: 20px;
+}
+
+#application .form textarea {
+	width: 95%;
+}
+ 
+div.form .errorMessage {
+	margin-left: 0;
+	margin-top: 5px;
+}
+
+div.form .note {
+	margin-left: 0;
+}
+
+/* @end */
+
 /* @group Footer */
 	
 footer {

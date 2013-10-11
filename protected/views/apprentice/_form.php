@@ -24,13 +24,13 @@
 
 	<div class="row">
 		<?php echo $form->labelEx($model,'first_name'); ?>
-		<?php echo $form->textField($model,'first_name',array('size'=>30,'maxlength'=>256)); ?>
+		<?php echo $form->textField($model,'first_name',array('size'=>25,'maxlength'=>256)); ?>
 		<?php echo $form->error($model,'first_name'); ?>
 	</div>
 	
 	<div class="row">
 		<?php echo $form->labelEx($model,'second_name'); ?>
-		<?php echo $form->textField($model,'second_name',array('size'=>30,'maxlength'=>256)); ?>
+		<?php echo $form->textField($model,'second_name',array('size'=>25,'maxlength'=>256)); ?>
 		<?php echo $form->error($model,'second_name'); ?>
 	</div>
 
@@ -42,43 +42,43 @@
 
 	<div class="row">
 		<?php echo $form->labelEx($model,'address1'); ?>
-		<?php echo $form->textField($model,'address1',array('size'=>30,'maxlength'=>256)); ?>
+		<?php echo $form->textField($model,'address1',array('size'=>25,'maxlength'=>256)); ?>
 		<?php echo $form->error($model,'address1'); ?>
 	</div>
 
 	<div class="row">
 		<?php echo $form->labelEx($model,'address2'); ?>
-		<?php echo $form->textField($model,'address2',array('size'=>30,'maxlength'=>256)); ?>
+		<?php echo $form->textField($model,'address2',array('size'=>25,'maxlength'=>256)); ?>
 		<?php echo $form->error($model,'address2'); ?>
 	</div>
 
 	<div class="row">
 		<?php echo $form->labelEx($model,'address3'); ?>
-		<?php echo $form->textField($model,'address3',array('size'=>30,'maxlength'=>256)); ?>
+		<?php echo $form->textField($model,'address3',array('size'=>25,'maxlength'=>256)); ?>
 		<?php echo $form->error($model,'address3'); ?>
 	</div>
 
 	<div class="row">
 		<?php echo $form->labelEx($model,'postcode'); ?>
-		<?php echo $form->textField($model,'postcode',array('size'=>30,'maxlength'=>56)); ?>
+		<?php echo $form->textField($model,'postcode',array('size'=>25,'maxlength'=>56)); ?>
 		<?php echo $form->error($model,'postcode'); ?>
 	</div>
 
 	<div class="row">
 		<?php echo $form->labelEx($model,'email'); ?>
-		<?php echo $form->emailField($model,'email',array('size'=>30,'maxlength'=>256)); ?>
+		<?php echo $form->emailField($model,'email',array('size'=>25,'maxlength'=>256)); ?>
 		<?php echo $form->error($model,'email'); ?>
 	</div>
 
 	<div class="row">
 		<?php echo $form->labelEx($model,'phone'); ?>
-		<?php echo $form->textField($model,'phone',array('size'=>30,'maxlength'=>11)); ?>
+		<?php echo $form->textField($model,'phone',array('size'=>25,'maxlength'=>11)); ?>
 		<?php echo $form->error($model,'phone'); ?>
 	</div>
 
 	<div class="row">
 		<?php echo $form->labelEx($model,'mobile'); ?>
-		<?php echo $form->textField($model,'mobile',array('size'=>30,'maxlength'=>11)); ?>
+		<?php echo $form->textField($model,'mobile',array('size'=>25,'maxlength'=>11)); ?>
 		<?php echo $form->error($model,'mobile'); ?>
 	</div>
 	
@@ -101,7 +101,7 @@
 
 	<div class="row">
 		<?php echo $form->labelEx($model,'salon_name'); ?>
-		<?php echo $form->textField($model,'salon_name',array('size'=>30,'maxlength'=>256)); ?>
+		<?php echo $form->textField($model,'salon_name',array('size'=>25,'maxlength'=>256)); ?>
 		<?php echo $form->error($model,'salon_name'); ?>
 	</div>
 
@@ -178,19 +178,19 @@
 	
 	<div class="row">
 		<?php echo $form->labelEx($model,'about'); ?>
-		<?php echo $form->textArea($model,'about',array('rows'=>6, 'cols'=>40)); ?>
+		<?php echo $form->textArea($model,'about',array('rows'=>6, 'cols'=>35)); ?>
 		<?php echo $form->error($model,'about'); ?>
 	</div>
 
 	<div class="row">
 		<?php echo $form->labelEx($model,'why_hairdressing'); ?>
-		<?php echo $form->textArea($model,'why_hairdressing',array('rows'=>6, 'cols'=>40)); ?>
+		<?php echo $form->textArea($model,'why_hairdressing',array('rows'=>6, 'cols'=>35)); ?>
 		<?php echo $form->error($model,'why_hairdressing'); ?>
 	</div>
 
 	<div class="row">
 		<?php echo $form->labelEx($model,'why_jakata'); ?>
-		<?php echo $form->textArea($model,'why_jakata',array('rows'=>6, 'cols'=>40)); ?>
+		<?php echo $form->textArea($model,'why_jakata',array('rows'=>6, 'cols'=>35)); ?>
 		<?php echo $form->error($model,'why_jakata'); ?>
 	</div>
 

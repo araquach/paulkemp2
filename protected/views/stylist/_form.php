@@ -24,31 +24,31 @@
 
 	<div class="row">
 		<?php echo $form->labelEx($model,'first_name'); ?>
-		<?php echo $form->textField($model,'first_name',array('size'=>30,'maxlength'=>256)); ?>
+		<?php echo $form->textField($model,'first_name',array('size'=>25,'maxlength'=>256)); ?>
 		<?php echo $form->error($model,'first_name'); ?>
 	</div>
 	
 	<div class="row">
 		<?php echo $form->labelEx($model,'second_name'); ?>
-		<?php echo $form->textField($model,'second_name',array('size'=>30,'maxlength'=>256)); ?>
+		<?php echo $form->textField($model,'second_name',array('size'=>25,'maxlength'=>256)); ?>
 		<?php echo $form->error($model,'second_name'); ?>
 	</div>
 
 	<div class="row">
 		<?php echo $form->labelEx($model,'address1'); ?>
-		<?php echo $form->textField($model,'address1',array('size'=>30,'maxlength'=>256)); ?>
+		<?php echo $form->textField($model,'address1',array('size'=>25,'maxlength'=>256)); ?>
 		<?php echo $form->error($model,'address1'); ?>
 	</div>
 
 	<div class="row">
 		<?php echo $form->labelEx($model,'address2'); ?>
-		<?php echo $form->textField($model,'address2',array('size'=>30,'maxlength'=>256)); ?>
+		<?php echo $form->textField($model,'address2',array('size'=>25,'maxlength'=>256)); ?>
 		<?php echo $form->error($model,'address2'); ?>
 	</div>
 
 	<div class="row">
 		<?php echo $form->labelEx($model,'address3'); ?>
-		<?php echo $form->textField($model,'address3',array('size'=>30,'maxlength'=>256)); ?>
+		<?php echo $form->textField($model,'address3',array('size'=>25,'maxlength'=>256)); ?>
 		<?php echo $form->error($model,'address3'); ?>
 	</div>
 
@@ -60,19 +60,19 @@
 
 	<div class="row">
 		<?php echo $form->labelEx($model,'email'); ?>
-		<?php echo $form->emailField($model,'email',array('size'=>30,'maxlength'=>256)); ?>
+		<?php echo $form->emailField($model,'email',array('size'=>25,'maxlength'=>256)); ?>
 		<?php echo $form->error($model,'email'); ?>
 	</div>
 
 	<div class="row">
 		<?php echo $form->labelEx($model,'phone'); ?>
-		<?php echo $form->textField($model,'phone',array('size'=>30,'maxlength'=>30)); ?>
+		<?php echo $form->textField($model,'phone',array('size'=>25,'maxlength'=>30)); ?>
 		<?php echo $form->error($model,'phone'); ?>
 	</div>
 
 	<div class="row">
 		<?php echo $form->labelEx($model,'mobile'); ?>
-		<?php echo $form->textField($model,'mobile',array('size'=>30,'maxlength'=>30)); ?>
+		<?php echo $form->textField($model,'mobile',array('size'=>25,'maxlength'=>30)); ?>
 		<?php echo $form->error($model,'mobile'); ?>
 	</div>
 	
@@ -89,7 +89,7 @@
 	
 	<div class="row">
 		<?php echo $form->labelEx($model,'current_emp_des'); ?>
-		<?php echo $form->textField($model,'current_emp_des',array('size'=>30,'maxlength'=>30)); ?>
+		<?php echo $form->textField($model,'current_emp_des',array('size'=>25,'maxlength'=>30)); ?>
 		<?php echo $form->error($model,'current_emp_des'); ?>
 	</div>
 	
@@ -101,7 +101,7 @@
 	
 	<div class="row">
 		<?php echo $form->labelEx($model,'qual_non_hair'); ?>
-		<?php echo $form->textArea($model,'qual_non_hair',array('rows'=>6, 'cols'=>40)); ?>
+		<?php echo $form->textArea($model,'qual_non_hair',array('rows'=>6, 'cols'=>35)); ?>
 		<?php echo $form->error($model,'qual_non_hair'); ?>
 	</div>
 	
@@ -231,7 +231,7 @@
 
 	<div class="row">
 		<?php echo $form->labelEx($model,'awards'); ?>
-		<?php echo $form->textArea($model,'awards',array('rows'=>6, 'cols'=>40)); ?>
+		<?php echo $form->textArea($model,'awards',array('rows'=>6, 'cols'=>35)); ?>
 		<?php echo $form->error($model,'awards'); ?>
 	</div>
 	</div> <!--end hairdressing info-->
@@ -240,19 +240,19 @@
 	<div class="elements">
 	<div class="row">
 		<?php echo $form->labelEx($model,'about_you'); ?>
-		<?php echo $form->textArea($model,'about_you',array('rows'=>6, 'cols'=>40)); ?>
+		<?php echo $form->textArea($model,'about_you',array('rows'=>6, 'cols'=>35)); ?>
 		<?php echo $form->error($model,'about_you'); ?>
 	</div>
 
 	<div class="row">
 		<?php echo $form->labelEx($model,'why_hairdressing'); ?>
-		<?php echo $form->textArea($model,'why_hairdressing',array('rows'=>6, 'cols'=>40)); ?>
+		<?php echo $form->textArea($model,'why_hairdressing',array('rows'=>6, 'cols'=>35)); ?>
 		<?php echo $form->error($model,'why_hairdressing'); ?>
 	</div>
 
 	<div class="row">
 		<?php echo $form->labelEx($model,'why_jakata'); ?>
-		<?php echo $form->textArea($model,'why_jakata',array('rows'=>6, 'cols'=>40)); ?>
+		<?php echo $form->textArea($model,'why_jakata',array('rows'=>6, 'cols'=>35)); ?>
 		<?php echo $form->error($model,'why_jakata'); ?>
 	</div>
 
