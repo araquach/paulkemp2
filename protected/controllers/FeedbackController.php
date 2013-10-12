@@ -51,39 +51,47 @@ class FeedbackController extends Controller
 			'model'=>$this->loadModel($id),
 		));
 	}
+	
+	/**
+	 * The text message voucher
+	 */
+	public function actionFeedbackVoucher ()
+	{
+		$this->render('//mail/feedback_voucher',array('model'=>$client));
+	}
 
 	/**
 	 * Creates a new model.
 	 * If creation is successful, the browser will be redirected to the 'view' page.
 	 */
-	public function actionCreate()
+	public function actionCreate($id)
 		{
+			$client=$this->loadClient($id);
 			$model=new Feedback;
-	
-			// Uncomment the following line if AJAX validation is needed
-			// $this->performAjaxValidation($model);
 	
 			if(isset($_POST['Feedback']))
 			{
 				$model->attributes=$_POST['Feedback'];
+				$model->client_id = $client->id;
 				if($model->save())
 				{
 					$message = new YiiMailMessage;
 					$message->view = 'feedback_voucher';
-					$message->setBody(array('model'=>$model), 'text');
+					$message->setBody(array('client'=>$client), 'text');
 					$message->subject = 'PaulKemp';
-					$message->addTo($model->mobile.'@smsid.textapp.net');
+					$message->addTo($client->mobile.'@smsid.textapp.net');
 					$message->from = ('enquiries@jakatasalon.co.uk');
 					
 					Yii::app()->mail->send($message);
 				
-					Yii::app()->user->setFlash('Feedback','Thank you for your feedback ' . ucfirst($model->client_first) . ', it\'s really appreciated.<br>Your voucher is on it\'s way plus you have been entered into our next prize draw for the chance to win some great prizes.<br>See you in the salon soon!');
+					Yii::app()->user->setFlash('Feedback','Thank you for your feedback ' . ucfirst($client->first_name) . ', it\'s really appreciated.<br>Your voucher is on it\'s way plus you have been entered into our next prize draw for the chance to win some great prizes.<br>See you in the salon soon!');
 				}
 			
 			}
 	
 			$this->render('create',array(
 				'model'=>$model,
+				'client'=>$this->loadClient($id),
 			));
 		}
 	
@@ -132,6 +140,7 @@ class FeedbackController extends Controller
 	public function actionIndex()
 	{
 		$criteria=new CDbCriteria();
+			$criteria->with = 'FeedbackClient';
 			$criteria->order = 't.id DESC';
 			
 		$dataProvider=new CActiveDataProvider('Feedback', array(
@@ -164,10 +173,18 @@ class FeedbackController extends Controller
 	 */
 	public function loadModel($id)
 	{
-		$model=Feedback::model()->with('FeedbackStylist')->findByPk($id);
+		$model=Feedback::model()->with('FeedbackClient')->findByPk($id);
 		if($model===null)
 			throw new CHttpException(404,'The requested page does not exist.');
 		return $model;
+	}
+	
+	public function loadClient($id)
+	{
+		$client=FeedbackClient::model()->with('Feedback')->findByPk($id);
+		if($client===null)
+			throw new CHttpException(404,'The requested client does not exist.');
+		return $client;
 	}
 
 	/**
