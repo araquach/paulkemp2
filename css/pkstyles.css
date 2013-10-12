@@ -1649,9 +1649,11 @@ td.number3 {
 	background-color: #FFF;
 }
 
-#locmap img {
-	margin: 20px auto;
-	
+#map {
+	width: 353px;
+	height: 216px;
+	background: #f5f5f5 url('../images/streetmap.gif') no-repeat center center;
+	margin: 20px 0;
 }
 
 #times li {

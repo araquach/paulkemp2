@@ -23,7 +23,8 @@ $this->pageTitle=Yii::app()->name . ' - Contact Us - Hairdressing in Warrington'
     <p><strong>01925 444488</strong></p>
     </div> <!--address-->
     
-    <img src="<?php echo Yii::app()->request->baseUrl; ?>/images/streetmap.gif" width="353" height="216" alt="Paul Kemp Hairdressing Location">
+    <div id="map"></div>
+    
     <p>The closest parking is available at the <em>Town Hall car park </em>across the road from us. The entrance is 
   immediately after the Golden Gates. It's pay and display at a very reasonable rate.</p>		
   <h3>Opening Times:</h3>
