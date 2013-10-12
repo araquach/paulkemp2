@@ -645,7 +645,6 @@ aside h2, aside, h3, aside h4, aside h5, aside h6 {
 }
 
 .pteamprice {
-	
 	display: block;
 	padding-top:220px;
 	width: 400px;
@@ -690,7 +689,7 @@ aside h2, aside, h3, aside h4, aside h5, aside h6 {
 
 #accordion article.article {
 	margin: 20px 0 ;
-	border-top: 1.5px solid; rgb(55,34,24);
+	border-top: 1.5px solid rgb(55, 34, 24);
 	padding-top: 30px;
 	position: relative;
 }
@@ -1764,7 +1763,8 @@ span.error {
 	display: inline;
 	margin-bottom: 40px;
 	font: .8em "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
-=======
+}
+
 /* @group Kebelo */
 
 #kebeloMain {
@@ -2500,14 +2500,12 @@ span.error {
 	clear: left;
 	margin-top: 0;
 	margin-left: 10px;
->>>>>>> mobile_styling
 }
 
 #feedback .form .question {
 	border: 1px solid #888;
 	padding: 10px;
 	border-radius: 10px;
-<<<<<<< HEAD
 }
 
 #feedback p.small {
@@ -2523,7 +2521,6 @@ span.error {
 #feedback .mktBox label.required {
 	font-size: .8em;
 	display: inline;
-=======
 	display: block;
 	float: left;
 	clear: left;
@@ -2562,15 +2559,12 @@ span.error {
 #feedback p.small {
 	font-size: .7em;
 	margin-bottom: 30px;
->>>>>>> mobile_styling
 }
 
 #feedback_back .applicationSuccess {
 	margin-top: 100px;
 }
 
-<<<<<<< HEAD
-=======
 #feedbackBlank #yw0 div.items div.view {
 	margin-bottom: 30px;
 }
@@ -2802,7 +2796,6 @@ p.big {
 	line-height: 1.5em;
 }
 
->>>>>>> mobile_styling
 /* @end */
 
 /* @group Footer */
