@@ -102,8 +102,7 @@
 	<li>Cheshire Hairdressers</li>
 	</ul>
 	</section>
-	<div id="facebook"><a href="http://www.facebook.com/PaulKempHairdressing" target="_blank"><img src="<?php echo Yii::app()->request->baseUrl; ?>/images/fb_logo.png" alt="Facebook" width="35" height="36"></a>
-	</div> <!--facebook-->
+	<?php echo CHtml::link('<div id="facebook"></div>',array('url'=>('https://www.facebook.com/JakataSalon'))); ?>
 	</footer>
 
 </div><!-- page -->

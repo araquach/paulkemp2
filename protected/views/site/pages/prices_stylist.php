@@ -24,6 +24,21 @@ Yii::app()->clientScript->registerScript('prices', file_get_contents('scripts/pr
 
 <div class="price_panel">
 <h3 class="level">Stylist/Senior Stylists</h3>
+
+<table class="key">
+<td class="number1"></td>
+<td>Root touch up, top/parting foils or full head colour (short), colour gloss</td>
+</tr>
+<tr>
+<td class="number2"></td>
+<td>Roots &amp; Refresh, full head colour (mid length), creative colouring, light to dark</td>
+</tr>
+<tr>
+<td class="number3"></td>
+<td>Full head foils, technical creative colour, full head colour (long), dark to light</td>
+</tr>
+</table>
+
 <table class="priceTable">
 <tr>
 <th class="firstcolumn"><h3>Colour, Cut &amp; Style</h3></th>
@@ -80,7 +95,7 @@ Yii::app()->clientScript->registerScript('prices', file_get_contents('scripts/pr
     <p>If you've had a home hair colouring disaster, or a bad colour experience in another salon, we will correct &amp; transform your hair to how you wanted it in the first place! Our expert colour team will give you a price on consultation.</p>
     </section>
 
-<table>
+<table class="priceTable">
 <tr>
 <th>&nbsp;</th>
 <th><h4 class="experience">Director</h4></th>
@@ -108,7 +123,7 @@ Yii::app()->clientScript->registerScript('prices', file_get_contents('scripts/pr
 </tr>
 </table>
 
-<table>
+<table class="priceTable">
 <tr>
 <td class="firstcolumn"><h4>Mens Cut &amp; Style</h4></td>
 <td>&pound;35.20</td>
@@ -130,20 +145,6 @@ Yii::app()->clientScript->registerScript('prices', file_get_contents('scripts/pr
 </table>
 
 </div> <!--end price_panel-->
-
-<table class="key">
-<td class="number1"></td>
-<td>Root touch up, top/parting foils or full head colour (short), colour gloss</td>
-</tr>
-<tr>
-<td class="number2"></td>
-<td>Roots &amp; Refresh, full head colour (mid length), creative colouring, light to dark</td>
-</tr>
-<tr>
-<td class="number3"></td>
-<td>Full head foils, technical creative colour, full head colour (long), dark to light</td>
-</tr>
-</table>
 
 <section id="skintest">
 <h4>Skin Test Policy</h4>

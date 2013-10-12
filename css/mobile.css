@@ -28,6 +28,26 @@ td+td {
 
 /* @end */
 
+/* @group Error */
+	
+#error {
+	height: 100%;
+	background-image: none;
+	padding: 20px;
+}
+
+#error_copy {
+	font-size: 1.4em;
+	margin-left: 0;
+	padding-top: 0;
+}
+
+#error_copy h2, #error_copy p {
+	color: #777;
+}
+
+/* @end */
+
 /* @group Header */
 
 header {
@@ -1253,6 +1273,43 @@ td.number3 {
 
 /* @end */
 
+/* @group Men */
+
+#men {
+	width: auto;
+	height: 100%;
+	background-image: none;
+	background-repeat: no-repeat;
+}
+
+#meninfo {
+	margin-left: 0;
+	position: relative;
+	float: none;
+	top: 0;
+	width: auto;
+	padding: 30px;
+}
+
+#menimages {
+	position: relative;
+	margin: auto;
+	float: none;
+	height: 100%;
+	top: 0;
+	left: 0;
+	width: auto;
+	background-color: #FFF;
+	padding-top: 20px;
+}
+
+#menimages img {
+	float: none;
+	margin: 20px;
+}
+
+/* @end */
+
 /* @group Recruitment */
 
 #recruitment {
@@ -1707,12 +1764,750 @@ span.error {
 	display: inline;
 	margin-bottom: 40px;
 	font: .8em "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+=======
+/* @group Kebelo */
+
+#kebeloMain {
+	width: auto;
+	margin: auto;
+	float: none;
+	height: 100%;
+	padding: 0;
+	background-image: none;
+	background-color: #f5f5f5;
+	padding-bottom: 0px;
+}
+
+#kebelo_top_links {
+	position: absolute;
+	top: 20px;
+	left: 20px;
+}
+
+#kebelo #kebelo_top_links a {
+	font-family: 'Rosarivo', serif;
+	font-size: 1em;
+	color: #FFF;
+	color: rgba(246, 246, 246, 0.99);
+	border-left: 1px solid #FFF;
+	padding-left: 10px;
+	margin: 0;
+	margin-left: 5px;
+}
+
+#kebelo #kebelo_top_links a:hover {
+	color: #FFF;
+	color: rgba(255, 255, 255, 0.7);
+}
+
+#kebeloMain h2 {
+	text-indent: -9999px;
+	margin: 0;
+	padding: 0;
+}
+
+#kebeloMain h3 {
+	font-family: 'Rosarivo', serif;
+	font-size: 3em;
+}
+
+span.kebelo_italic {
+	font-size: .5em;
+	font-style: italic;
+}
+
+#kebeloMain p {
+	width: auto;
+}
+
+#kebeloMain a {
+	padding-left: 20px;
+	margin: 0;
+	padding: 0;
+}
+
+.kebelo_italic {
+	font-size: 1.2em;
+	font-style: italic;
+}
+
+#kebelo_offer {
+	position: relative;
+	width: 270px;
+	height: 270px;
+	bottom: 0;
+	right: 0;
+	background-color: #FFF;
+	background-color: rgba(255, 255, 255, 0.65);
+	border-radius: 50%;
+	border: 1px solid #FFF;
+	margin-left: 20px;
+	margin-top: 50px;
+}
+
+#kebelo_offer p {
+	margin-right: 40px;
+	text-align: center;
+	font-size: .8em;
+	width: 270px;
+	color: rgb(3, 3, 3);
+	font-weight: bold;
+}
+
+#kebelo_offer p.bold {
+	font-weight: bolder;
+}
+
+#kebelo_offer p.big_offer {
+	font-size: 5em;
+	margin: 0;
+	line-height: .7em;
+}
+
+#kebelo {
+	width: auto;
+	background: url('../images/kebelo/kebelo-cover-02-mob.jpg') center top no-repeat #040404;
+	height: 100%;
+	padding-top: 0;
+	padding-bottom: 50px;
+}
+
+#silk {
+	background: url('../images/kebelo/silk-bikini-mob.jpg') center top no-repeat #040404;
+	padding-top: 0;
+	padding-bottom: 0;
+	width: auto;
+}
+
+#silk #kebelo_top_links {
+	margin-top: 120px;
+}
+
+#silk p strong {
+	font-weight: bold;
+}
+
+#silk_copy {
+	width: auto;
+	padding: 0;
+	padding-top: 360px;
+}
+
+#silk_copy h3 {
+	margin: 0;
+	margin-left: 20px;
+	color: #FFF;
+	font-size: 4em;
+	text-shadow: 0 0 2px #050505;
+}
+
+#silk_copy p {
+	background-color: #FFF;
+	padding: 20px;
+	margin: 0;
+}
+
+#silk_copy p:first-of-type {
+	border: 0px solid #333;
+	padding: 20px;
+	font-size: 1em;
+	width: auto;
+	background-color: rgb(178, 119, 59);
+	color: #FFF;
+	margin-top: 200px;
+	margin-bottom: 0;
+	float: none;
+}
+
+#silk_copy p:last-of-type {
+	text-align: center;
+	font-size: 1.2em;
+	padding-bottom: 20px;
+	margin-bottom: 10px;
+}
+
+#silk_link {
+	position: relative;
+	top: 0;
+	left: 0;
+	width: auto;
+	margin-top: 0;
+	margin-left: 0;
+	padding: 20px;
+	border-bottom: 1px solid #FFF;
+	background-color: #111;
+}
+
+#silk_link a {
+	color: #FFF;
+	font-family: 'Rosarivo', serif;
+	font-size: 1.8em;
+	line-height: 1.2em;
+	-moz-transition: all .2s ease-in-out 0s;;
+	-webkit-transition: all .2s ease-in-out 0s;
+	transition: all .2s ease-in-out 0s;
+	
+}
+
+#silk_link a:hover {
+	text-shadow: 0 0 20px;
+	}
+
+#silk_link p {
+	font-family: 'PT Sans', sans-serif;
+	font-size: 1.2em;
+	color: #FFF;
+	line-height: 1.2em;
+	width: 200px;
+	padding-top: 7px;
+}
+
+
+#advantage {
+	background: url('../images/kebelo/advantage-bikini-mob.jpg') -150px top no-repeat #040404;
+	padding-top: 100px;
+	padding-bottom: 0;
+}
+
+#advantage h3 {
+	margin: 0;
+	margin-left: 20px;
+	color: #FFF;
+	font-size: 2em;
+}
+
+#advantage_copy p:first-of-type {
+	border: 0px solid #333;
+	padding: 20px;
+	font-size: 1em;
+	width: auto;
+	background-color: rgb(75, 35, 108);
+	color: #FFF;
+	margin-top: 450px;
+	margin-bottom: 0px;
+}
+
+#advantage_copy p {
+	background-color: #FFF;
+	padding: 20px;
+	margin: 0;
+}
+
+#advantage_copy p:last-of-type {
+	text-align: center;
+	font-size: 1.2em;
+	padding-bottom: 20px;
+	margin-bottom: 10px;
+}
+
+#advantage_copy a {
+	font-size: 1.2em;
+	display: block;
+}
+
+#advantage #kebelo_top_links {
+	position: absolute;
+	top: 550px;
+	left: 20px;
+}
+
+#questions #kebelo_top_links {
+	position: absolute;
+	top: 500px;
+	left: 20px;
+}
+
+#silk #kebelo_top_links {
+	position: absolute;
+	top: 500px;
+	left: 20px;
+}
+
+
+#advantage #kebelo_top_links a,
+#questions #kebelo_top_links a,
+#silk #kebelo_top_links a {
+	font-size: 1.5em;
+	color: rgb(75, 35, 108);
+	border-right: none;
+	border-left: none;
+	padding-right: 0;
+	margin: 0;
+	margin-left: 5px;
+	float: left;
+	clear: left;
+	margin-top: 10px;
+	border-bottom: 0;
+	background-color: rgba(255, 255, 255, 0.8);
+	padding: 5px;
+}
+
+#advantage #kebelo_top_links a:hover,
+#questions #kebelo_top_links a:hover,
+#silk #kebelo_top_links a:hover {
+	color: rgba(79, 81, 106, 0.7);
+}
+
+#advantage_copy {
+	width: auto;
+	padding: 0;
+}
+
+#advantage_link {
+	position: relative;
+	top: 0;
+	left: 0;
+	width: auto;
+	margin-top: 500px;
+	margin-left: 0;
+	padding: 20px;
+	border-bottom: 1px solid #FFF;
+	background-color: #111;
+}
+
+#advantage_link a {
+	color: #FFF;
+	font-family: 'Rosarivo', serif;
+	font-size: 1.8em;
+	-moz-transition: all .2s ease-in-out 0s;;
+	-webkit-transition: all .2s ease-in-out 0s;
+	transition: all .2s ease-in-out 0s;
+}
+
+#advantage_link a:hover {
+	text-shadow: 0 0 20px;
+}
+
+#advantage_link p {
+	font-family: 'PT Sans', sans-serif;
+	font-size: 1.2em;
+	line-height: 1.2em;
+	color: #FFF;
+	line-height: 1.2em;
+	width: 200px;
+	padding-top: 7px;
+}
+
+#advantage #three_advantages {
+	width: auto;
+	height: 100%;
+	background-color: #FFF;
+	padding: 30px;
+}
+
+#advantage #three_advantages h3 {
+	font-size: 1.8em;
+}
+
+#advantage #three_advantages p {
+	width: auto;
+	font-family: 'PT Sans', sans-serif;
+	font-size: .9em;
+	line-height: 1.3em;
+	float: none;
+	margin: 0;
+}
+
+#advantage #three_advantages ol {
+	width: auto;
+	float: none;
+	margin: 0;
+	margin-top: 30px;
+	padding-left: 20px;
+}
+
+#advantage #three_advantages ol li {
+	width: 155px;
+	padding: 0 20px;
+	float: none;
+	font-family: 'PT Sans', sans-serif;
+	font-size: .9em;
+	line-height: 1.3em;
+	border-bottom: 1px solid #333;
+	border-left: none;
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+}
+
+#advantage #three_advantages li strong{
+	font-weight: bold;
+}
+
+
+#questions {
+	background: url('../images/kebelo/kebelo-jump.jpg') -80px top no-repeat #040404;
+	padding-top: 0px;
+	padding-bottom: 0;
+}
+
+#questions_copy h3 {
+	margin: 0;
+	margin-left: 20px;
+	color: #FFF;
+	font-size: 2em;
+	margin-top: 10px;
+	text-shadow: 0 0 2px #050505;
+}
+
+#questions_copy p:first-of-type {
+	border: 0px solid #333;
+	padding: 20px;
+	font-size: 1em;
+	width: auto;
+	background-color: rgb(75, 35, 108);
+	color: #FFF;
+	margin-top: 200px;
+	margin-bottom: 0px;
+}
+
+#questions_copy p:last-of-type {
+	background-color: #FFF;
+	margin: 0;
+	padding: 20px;
+}
+
+#questions p {
+	font-size: .8em;
+}
+
+#questions_link {
+	position: relative;
+	top: 0;
+	left: 0;
+	width: auto;
+	margin-top: 10px;
+	margin-left: 0;
+	padding: 20px;
+	border-bottom: 1px solid #FFF;
+	background-color: #111;
+	
+}
+
+#questions_link a {
+	color: #FFF;
+	font-size: 1.8em;
+	line-height: 1.2em;
+	font-family: 'Rosarivo', serif;
+	-moz-transition: all .2s ease-in-out 0s;;
+	-webkit-transition: all .2s ease-in-out 0s;
+	transition: all .2s ease-in-out 0s;
+}
+
+#questions_link a:hover {
+	text-shadow: 0 0 20px;
+}
+
+#questions_link p {
+	font-family: 'PT Sans', sans-serif;
+	font-size: 1.2em;
+	color: #FFF;
+	line-height: 1.2em;
+	width: 200px;
+	padding-top: 7px;
+}
+
+#questions_copy {
+	width: auto;
+	padding: 0;
+	margin-top: 0;
+	padding-top: 300px;
+}
+
+#questions_copy dl {
+	margin: 0;
+}
+
+#questions_copy dl dt {
+	cursor: pointer;
+	border-top: 3px solid #FFF;
+	border-bottom: 3px solid #FFF;
+	background-color: #7f7058;
+	color: #fff;
+	padding: 20px;
+	margin-bottom: 0px;
+	line-height: 1.4em;
+	-webkit-transition: all .2s ease-in-out 0s;
+	-moz-appearance-transition: all .2s ease-in-out 0s;
+	transition: all .2s ease-in-out 0s;
+}
+
+#questions_copy dl dt:hover {
+	color: black;
+	background-color: #c0bcb6;
+}
+
+#questions_copy dl dd {
+	margin: 0;
+	line-height: 1.4em;
+	background-color: #FFF;
+	padding: 20px;
+}
+
+/* @end */
+
+/* @group Contact */
+
+#contact {
+	width: auto;
+	height: 100%;
+	background: none;
+	float: none;
+	margin: 0;
+}
+
+#success {
+	display: block;
+	height: 1600px;
+}
+
+#success p {
+	font-size: 1.5em;
+	margin-left: 0;
+	padding: 20px;
+	background-color: rgba(255, 255, 255, 0.7);
+	width: auto;
+	padding-top: 0;
+}
+
+#locmap {
+	float: none;
+	width: auto;
+	height: 100%;
+	padding: 20px;
+	margin-top: 0;
+	background-color: #FFF;
+}
+
+#map {
+	width: 80%;
+	height: 180px;
+	background: url('../images/streetmap.gif') no-repeat center center;
+	background-size: contain;
+	margin: 20px 0;
+}
+
+#times li {
+	display: block;
+	font-size: 0.9em;
+}
+
+#locmap h3 {
+	padding-top: 10px;
+}
+
+#form {
+	padding: 20px;
+	width: auto;
+	background-color: rgb(245,245,240);
+	float: none;
+	margin: 0;
+}
+
+
+#form .row {
+	display: block;
+	line-height: 28px;
+	overflow: visible;
+	padding: 10px 0px;
+	width: auto;
+}
+
+
+#form .row .label {
+	font-size: 1.2em;
+	font-weight: bold;
+	width: auto;
+	text-align: left;
+	float: none;
+	padding-right: 0;
+	margin-right: 0;
+}
+
+
+#form .row .input {
+	float: none;
+	margin-right: 0;
+	width: auto;	
+}
+
+
+.detail {
+	width: auto;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	padding:7px 8px;
+	margin: 0;
+	display: block;
+	
+}
+
+.mess {
+	width: auto;
+	max-width: 0;
+	height: 280px;
+	overflow: auto;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1.5em;
+	padding: 7px 8px;
+	line-height: 1.3em;
+	margin: 0;
+	display: block;
+	
+}
+
+
+#form .row .context {
+	color: #999;
+	font-size: 11px;
+	font-style: italic;
+	line-height: 14px;
+	font-family: Arial, Helvetica, sans-serif;
+	width: auto;
+	display: block;
+	float: none;
+	text-align: right;
+	margin-right: 0;
+}
+
+
+#form #submit {
+	font-family: Arial, Helvetica, sans-serif;
+	margin-top: 25px;
+	color: #000;
+	font-size: 16px;
+	text-shadow: 1px 1px 1px #999;
+	padding: 10px;
+	
+}
+
+div.form input, 
+div.form textarea, 
+div.form select {
+	margin: 0.2em 0 0.5em 0;
+	padding: 5px;
+}
+
+div.form textarea {
+	width: 90%;
+}
+
+div.form label {
+	margin-left: 0;
+}
+
+span.error {
+	color: #000;
+	display: block;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	background-image: url(../contact/images/x.png);
+	background-repeat: no-repeat;
+	background-position: left 6px;
+	padding-left: 25px;
+	text-align: right;
+	
+	}
+
+#form h2 {
+	margin-top: 20px;	
+}
+
+/* @end */
+
+/* @group Feedback  */
+
+#feedbackBlank {
+	width: auto;
+	margin: auto;
+	float: none;
+	height: 100%;
+	padding: 0px;
+	padding-top: 20px;
+	padding-bottom: 50px;
+}
+
+#feedback_back {
+	width: auto;
+	margin: auto;
+	float: none;
+	height: 100%;
+	padding: 0px;
+	padding-top: 20px;
+	padding-bottom: 50px;
+	background-image: none;
+}
+
+#feedback {
+	margin-top: 20px;
+	padding: 20px;
+	width: auto;
+}
+
+#feedback_copy {
+	width: auto;
+}
+
+#feedback h1 {
+	font-size: 1.5em;
+}
+
+#feedback h2 {
+	font-size: 1.5em;
+}
+
+#feedback p {
+	font-size: 1.1em;
+}
+
+#feedback p strong {
+	font-weight: bold;
+}
+
+#feedback input, #feedback label, #feedback .errorSummary, #feedback .errorMessage, #feedback select, #feedback textarea, #feedback h1, #feedback p.note {
+	margin-left: 0;
+}
+
+#feedback input {
+	margin-right: 20px;
+}
+
+#feedback .permission label {
+	display: inline;
+}
+
+#feedback #Feedback_allow {
+	width: auto;
+	display: block;
+	margin-left: 0;
+	margin-bottom: 40px;
+}
+
+#feedback label,
+#feedback label.required {
+	font-size: 1em;
+	font-weight: normal;
+	margin-bottom: 20px;
+	margin-top: 0;
+	font-style: normal;
+	line-height: 1.5em;
+}
+
+#feedback p.scale_label {
+	margin-right: 10px;
+	display: block;
+	font: 1.3em "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	float: left;
+	clear: left;
+	margin-top: 0;
+	margin-left: 10px;
+>>>>>>> mobile_styling
 }
 
 #feedback .form .question {
 	border: 1px solid #888;
 	padding: 10px;
 	border-radius: 10px;
+<<<<<<< HEAD
 }
 
 #feedback p.small {
@@ -1728,12 +2523,286 @@ span.error {
 #feedback .mktBox label.required {
 	font-size: .8em;
 	display: inline;
+=======
+	display: block;
+	float: left;
+	clear: left;
+}
+
+#feedback .form .question input {
+	width: 20px;
+	height: 20px;
+	display: block;
+	float: right;
+	clear: right;
+	margin-top: .3em;
+}
+
+#feedback .mktBox {
+	width: 100%;
+	float: left;
+	clear: left;
+	margin-right: 20px;
+	padding-bottom: 30px;
+	position: relative;
+}
+
+.mktBox .form .question input {
+	float: right;
+	clear: right;
+}
+
+#feedback .mktBox label.required {
+	position: absolute;
+	font-size: 1em;
+	top: 25px;
+	left: 10px;
+}
+
+#feedback p.small {
+	font-size: .7em;
+	margin-bottom: 30px;
+>>>>>>> mobile_styling
 }
 
 #feedback_back .applicationSuccess {
 	margin-top: 100px;
 }
 
+<<<<<<< HEAD
+=======
+#feedbackBlank #yw0 div.items div.view {
+	margin-bottom: 30px;
+}
+
+/* @end */
+
+/* @group Competition */
+
+#competition {
+	height: auto;
+	min-height: 0;
+	padding: 20px;
+	width: auto;
+	margin-bottom: 0;
+	float: none;
+	background: none;
+	opacity: 1;
+}
+
+#overlay {
+	background: url('../images/competition/overlay.png') left top no-repeat;
+	width: auto;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 10;
+	display: none;
+}
+
+#competition_copy {
+	width: auto;
+	margin-left: 0;
+}
+
+#competition img {
+	margin-left: 0;
+}
+
+#competition_copy img {
+	margin-left: 0;
+}
+
+#competition_copy h1 {
+	color: #666;
+	margin: 0 50px;
+	font: 4em Georgia, "Times New Roman", Times, serif;
+}
+
+#competition_copy p.candy {
+	margin-left: 0;
+	font: 2em Georgia, "Times New Roman", Times, serif;
+	color: #666;
+	text-align: left;
+}
+
+#competition_copy p.ghdtext {
+	position: absolute;
+	right: 70px;
+	top: 920px;
+	width: 400px;
+	font-family: "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	color: #666;
+	display: none;
+}
+
+#competition_copy p.ghdtext .colours {
+	font-size: 1.3em;
+	font-weight: bold;
+}
+
+.competition_success {
+	font-size: 1.5em;
+	width: auto;
+	margin-left: 0;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+#competition_copy p strong {
+	font-weight: bold;
+}
+
+#competition_copy label,
+#competition_copy input,
+#competition_copy p.note,
+#competition_copy .form .errorSummary,
+#competition_copy .form .errorMessage,
+#competition_copy select {
+	margin-left: 0;
+}
+
+#competition_copy input {
+	width: 90%;
+}
+
+#competition_copy .row.buttons input {
+	width: 60px;
+}
+
+p.big {
+	font-size: 1.2em;
+	font-weight: bold;
+}
+
+#competition_copy a {
+	font-size: 1.6em;
+	text-decoration: none;
+	color: #870000;
+	margin-bottom: 40px;
+}
+
+#competition_copy a.normal {
+	font-size: 1em;
+}
+
+#competition_copy a:hover {
+	border-bottom: 1px dashed #870000;
+}
+
+#competition_copy a.link_image:hover {
+	border-bottom: 0px dashed #870000;
+	opacity: .7;
+}
+
+#competition_copy img {
+	margin-bottom: 20px;
+}
+
+.question {
+	font-size: 1.1em;
+	font-weight: bold;
+}
+
+#competition small {
+	font-size: 0.8em;
+	line-height: 1.5em;
+}
+
+.comp_end {
+	color: #8a1d02;
+}
+
+/* @end */
+
+/* @group Company Offer */
+
+#company {
+	background: none;
+	width: auto;
+	padding: 20px;
+	height: 100%;
+	float: none;
+	min-height: 0;
+}
+
+#company_applicant {
+	width: auto;
+	margin-right: 0;
+	padding: 0;
+	float: none;
+	margin-top: 0;
+	margin-bottom: 0;
+	background-color: none;
+	-moz-box-shadow: none;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	border-radius: 0;
+}
+
+#company .form input, 
+#company .form textarea, 
+#company .form select {
+  margin: 0.2em 0 0.5em;
+  padding: 5px;
+  width: 90%;
+}
+
+#company #company_applicant h1 {
+	font-size: 2em;
+	margin: 0px 40px 10px 0px;
+	text-align: left;
+	font-weight: bold;
+}
+
+#company #company_applicant p {
+	font-size: 1.2em;
+	text-align: left;
+	margin-right: 0;
+}
+
+.company_success {
+	width: auto;
+	margin-right: 0;
+	padding: 0;
+	float: left;
+	margin-top: 80px;
+	margin-bottom: 0;
+	font-size: 1.5em;
+	line-height: 1.3em;
+}
+
+#company_offer {
+	width: auto;
+	margin-right: 0;
+	padding: 0;
+	float: left;
+	margin-top: 60px;
+	margin-bottom: 0;
+}
+
+#company #company_offer h1 {
+	font-size: 2em;
+	margin: 0;
+	margin-bottom: 20px;
+}
+
+#company #company_offer h2 {
+	font-size: 4em;
+	margin: 0;
+	margin-bottom: 20px;
+}
+
+
+#company #company_offer a {
+	font-size: 2em;
+	color: rgb(55,34,24);
+	text-align: center;
+	line-height: 1.5em;
+}
+
+>>>>>>> mobile_styling
 /* @end */
 
 /* @group Footer */
