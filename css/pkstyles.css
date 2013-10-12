@@ -1528,6 +1528,7 @@ table.priceTable {
 #corrective {
 	width: 700px;
 	margin: auto;
+	margin-bottom: 30px;
 	background-color: rgb(55,34,24); 
 	padding: 30px;
 }
@@ -1774,7 +1775,7 @@ span.error {
 /* @group Company Offer */
 
 #company {
-	background-image: url(../images/emily_side.jpg);
+	background-image: url(../images/archive/emily_side.jpg);
 	width: 950px;
 	height: 100%;
 	background-repeat: no-repeat;
