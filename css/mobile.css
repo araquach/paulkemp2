@@ -1085,16 +1085,20 @@ section#newspage a p:hover {
 
 /* @group Prices */
 
+.price_page {
+	padding: 10px;
+}
+
 .price_page h2 {
-	margin: 60px 0 30px 120px;
+	margin: 0;
 }
 
 .price_page h3.level {
-	margin: 70px 0 0 130px;
+	margin: 30px 0;
 }
 
 .price_page a {
-	margin: 20px 0 50px 120px;
+	margin: 0;
 	color: rgb(55,34,24);
 	font-size: 1.2em;
 }
@@ -1109,8 +1113,9 @@ section#newspage a p:hover {
 
 .price_page ul {
 	width: 200px;
-	margin-left: 120px;
+	margin-left: 0;
 	display: block;
+	margin: 40px 0;
 }
 
 .price_page ul li {
@@ -1142,18 +1147,28 @@ section#newspage a p:hover {
 table.priceTable {
 	margin-top: 0;
 }
-	
 
+table.priceTable th {
+	font-size: .8em;
+	width: 80px;
+}
+
+table.priceTable td {
+	font-size: .8em;
+	padding-bottom: .9em;
+}
+	
 #corrective {
-	width: 700px;
-	margin: auto;
+	width: auto;
+	margin: 30px 0;
+	
 	background-color: rgb(55,34,24); 
-	padding: 30px;
+	padding: 20px;
 }
 
 #corrective p {
 	color: rgb(255,247,240);
-	font-size: 0.9em
+	font-size: 0.8em
 	
 }
 
@@ -1165,14 +1180,14 @@ table.priceTable {
 
 table h3 {
 	text-align: left;
-	font-size: 1em;
+	font-size: .8em;
 	margin-top: 2em;
 	font-weight: bold;
 }
 
 table h4 {
 	text-align: left;
-	font-size: 1em
+	font-size: .8em
 	
 }
 
@@ -1184,12 +1199,12 @@ table h4 {
 }
 
 .key {
-	width: 350px;
+	width: auto;
 	padding: 10px;
 	border: solid 2px rgb(55,34,24);
-	position: absolute;
-	top: 200px;
-	right: 100px;
+	position: relative;
+	top: 0;
+	right: 0;
 }
 
 td.number1 {
@@ -1208,13 +1223,13 @@ td.number3 {
 }
 
 .key td+td {
-	width: 300px;
+	width: auto;
 	font-size: .8em;
 }
 
 #skintest {
-	width: 700px;
-	margin: 30px 130px 50px 0;
+	width: auto;
+	margin: 30px 0;
 	text-align: center;
 	float: right;
 }
@@ -1224,8 +1239,9 @@ td.number3 {
 }
 
 .firstcolumn {
-	width: 200px;
-	margin-top: 200px;
+	width: auto;
+	margin-top: 0;
+	font-size: .8em;
 }
 
 .underline {
