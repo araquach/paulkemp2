@@ -83,6 +83,7 @@ nav {
 
 nav ul {
 	padding-top: 10px;
+	padding-left: 10px;
 	width: 140px;
 	background-color: rgb(55, 34, 24);
 	line-height: 5px;
@@ -379,7 +380,7 @@ aside h2, aside, h3, aside h4, aside h5, aside h6 {
 	height: 100%;
 	background: url(../images/pk_staff3.jpg) center top no-repeat;
 	background-size: contain;
-	padding-top: 200px;
+	padding-top: 240px;
 }
 
 #team h3 {
@@ -2467,7 +2468,7 @@ span.error {
 }
 
 #leavercopy p:first-of-type {
-	margin-top: 580px;
+	margin-top: 600px;
 }
 
 #leavercopy p.offer {
