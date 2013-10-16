@@ -2606,6 +2606,13 @@ span.error {
 	margin-right: 20px;
 }
 
+#feedback .form .question {
+	border: 1px solid #888;
+	padding: 10px;
+	border-radius: 10px;
+	float: left;
+}
+
 #feedback .permission label {
 	display: inline;
 }
