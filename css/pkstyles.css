@@ -2688,6 +2688,7 @@ p.big {
 	font-size: 1.6em;
 	margin-left: 0;
 	line-height: 1.5em;
+	margin-top: 0;
 }
 
 #limited_copy p.big {
@@ -2698,11 +2699,17 @@ p.big {
 #limited_copy p.small {
 	margin: 0;
 	margin-bottom: 2em;
+	margin-bottom: 1em;
 }
 
-#limited strong {
-	font-size: 1.3em;
+#limited_copy strong {
+	font-size: 1.2em;
 	font-weight: bolder;
+}
+
+#limited_copy small {
+	font-size: .6em;
+	margin: 0;
 }
 
 /* @end */
