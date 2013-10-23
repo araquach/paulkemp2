@@ -23,6 +23,44 @@ window.addEvent('domready', function(){
 
 <article class="article">
 <section class="visible">
+<a id="NewStaff" class="anchor"></a>
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/news_images/jack2.jpg" width="135" height="190" alt="Jack Broady">
+<h3>Welcoming Jack and Megan</h3>
+<p class="offer">We're really pleased to welcome two new staff members to the salon.</p>
+<p>We've been on the lookout to expand the Paul Kemp team and we've had a fantastic response.</p>
+<p>Jack joins us as a Graduate level stylist and Megan is our newly appointed apprentice</p>
+<p class="reveal">Read More ></p>
+</section> <!--end .visible-->
+<section class="hidden">
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/news_images/jack1.jpg" width="135" height="190" alt="Jack Broady">
+<h3>Jack Broady</h3>
+<p>Jack is 21 from Stockton Heath. He started out hairdressing when he was just 13 as a Saturday boy and went straight into an apprenticeship from leaving school.</p> 
+<p>He has worked in both Stockton Heath and Warrington town centre salons, during this time he went on numerous specialist courses, including a highly respected <em>Vidal Sassoon</em> cutting course. His skill sets cover all aspects of hairdressing. He particularly enjoys cutting, colouring &amp; styling long hair. Jack is also skilled in men's hairdressing.</p>
+<p>After taking a short career break, he's eager to get back into hairdressing as it's a big passion of his.</p>
+<p>Jack says <em>'I love the hairdressing industry, there's never a dull moment. I'm really glad I've taken the role at Paul Kemp Hairdressing, it's a really strong team and I love the relaxed friendly environment.'</em></p>
+<p class="offer">Jack is looking to quickly build up his client base - we're running these incredible offers for a limited time</p>
+<p class="offerHeading">&pound;40 Cut &amp; Colour package<br><span style="font-size: .7em;">a saving of up to &pound;30</span></p>
+<p class="offer">&pound;15 Blow Dry or Hair Up<br><span style="font-size: .7em;">that's almost half the usual price</span></p>
+<p class="offerSmall">Offer ends 31/10/12. Only available with Jack</p>
+<br>
+<h3>Megan Mullaney</h3>
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/news_images/megan.jpg" width="135" height="190" alt="Megan Mullaney">
+<p>Megan is our latest apprentice to follow in the footsteps of Tash (who has now progressed to Graduate Stylist level).</p>
+<p>We're extremely selective with our apprentice choices as we have limited positions available (as little as 1-2 a year). We only select people who demonstrate a raw passion for hairdressing. We could recognise this in Megan straight away when we met her and offered her an apprenticeship.</p>
+<p>After having gained some salon experience elsewhere, Megan is eager to push her training to the next level. The goal now is to develop her to the highest standard in a relatively short time.</p>
+
+<p class="offerHeading">Megan is looking for models for blow-dries, plus basic cut and colouring work.</p>
+<p class="offer">Call the salon for more details</p>
+
+<p>We are still looking to take on experienced Stylist/Senior Stylists. If you would like to join the team <?php echo CHtml::link('Click Here',array('site/page','view'=>'recruitment')); ?></p>
+</section> <!--end .hidden-->
+<p class="author">Published by PK</p>
+<time datetime="2012-08-30">30<sup>th</sup> August 2012</time>
+</article> <!--end #article-->
+
+
+<article class="article">
+<section class="visible">
 <a name="CompWinners" class="anchor"></a>
 <img src="<?php echo Yii::app()->request->baseUrl; ?>/images/news_images/aveda_comp.jpg" width="135" height="190">
 <h3>And the winners are...</h3>

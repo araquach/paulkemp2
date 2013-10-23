@@ -14,12 +14,11 @@ $this->menu=array(
 );
 ?>
 
-<h1>Bha Inputs</h1>
+<h1>Feedback</h1>
 
 <?php $this->widget('zii.widgets.CListView', array(
 	'dataProvider'=>$dataProvider,
 	'itemView'=>'_view',
-	'sortableAttributes'=>array('stylist_id'),
 )); ?>
 
 </div> <!--feedbackBlank-->

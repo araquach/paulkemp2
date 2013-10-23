@@ -19,13 +19,32 @@ window.addEvent('domready', function(){
 <section id="accordion">
 
 <article class="article">
+<a id="paulNoMore" class="anchor"></a>
+<section class="visible">
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/news_images/paul_exit.jpg" width="135" height="190" alt="alt text">
+<h3>Paul Kemp no longer at the salon</h3>
+<p><strong>At the end of September <em>Paul Kemp</em> decided to leave the salon. He resigned and has gone on to pursue something else.</strong></p>
+<p>The salon continues as usual with team leader Kellie Reedy still at the helm.</p>
+<p class="reveal">Read more &gt;</p>
+</section> <!--end .visible-->
+<section class="hidden">
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/news_images/pk_replacers.jpg" width="135" height="190" alt="alt text">
+<p>Salon owner Adam Carter said "It's business as usual at PK - the team are stronger than ever. <br> We can't apologise enough for Paul's quick departure and any inconvenience it may have caused to his clients but our other stylists are on hand to ensure a smooth transition."</p>
+<p>Many people are asking the question of whether the salon name will remain. A full rebrand is both costly and time consuming so the name will stay for a good while longer but will inevitably change in the future.</p>
+<p class="offer">If you were a regular client of Paul's please contact the salon to find out the great offers we're running.</p>
+</section> <!--end .hidden-->
+<p class="author">Published by Adam</p>
+<time datetime="2013-08-01">16<sup>th</sup> October 2013</time>
+</article> <!--end #article-->
+
+<article class="article">
 <a id="ghdEclipse" class="anchor"></a>
 <section class="visible">
 <img src="<?php echo Yii::app()->request->baseUrl; ?>/images/news_images/eclipse.jpg" width="135" height="180" alt="ghd Eclipse styler">
 <h3>A New Styler for a New Era</h3>
 <p><strong>Ghd have always come up with the goods when it comes to producing the best styling irons on the market. The PK team were eager to get their hands on the new <em>Eclipse</em> iron which claims to revolutionise styling on hard-to-tame hair.</strong></p>
 <p>The irons arrived in the salon last month and we've had chance to have a good play with them and put them to the test.</p>
-<p class="reveal">Read more is &gt;</p>
+<p class="reveal">Read more &gt;</p>
 </section> <!--end .visible-->
 <section class="hidden">
 <p>When the irons first arrived it was clear to see <em>ghd</em> had opted for a new look to differentiate them from the other irons. They look more streamlined and almost futuristic in their style. We plugged them in and and went to switch them on. The power button is located on the top rather than near the plates which I guess is safer and less likely to snag in the hair.</p>
@@ -356,45 +375,6 @@ Price: &pound;41.00</p>
 <p class="author">Published by PK</p>
 <time datetime="2012-11-30">1<sup>st</sup> November 2012</time>
 </article> <!--end #article-->
-
-<article class="article">
-<section class="visible">
-<a id="NewStaff" class="anchor"></a>
-<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/news_images/jack2.jpg" width="135" height="190" alt="Jack Broady">
-<h3>Welcoming Jack and Megan</h3>
-<p class="offer">We're really pleased to welcome two new staff members to the salon.</p>
-<p>We've been on the lookout to expand the Paul Kemp team and we've had a fantastic response.</p>
-<p>Jack joins us as a Graduate level stylist and Megan is our newly appointed apprentice</p>
-<p class="reveal">Read More ></p>
-</section> <!--end .visible-->
-<section class="hidden">
-<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/news_images/jack1.jpg" width="135" height="190" alt="Jack Broady">
-<h3>Jack Broady</h3>
-<p>Jack is 21 from Stockton Heath. He started out hairdressing when he was just 13 as a Saturday boy and went straight into an apprenticeship from leaving school.</p> 
-<p>He has worked in both Stockton Heath and Warrington town centre salons, during this time he went on numerous specialist courses, including a highly respected <em>Vidal Sassoon</em> cutting course. His skill sets cover all aspects of hairdressing. He particularly enjoys cutting, colouring &amp; styling long hair. Jack is also skilled in men's hairdressing.</p>
-<p>After taking a short career break, he's eager to get back into hairdressing as it's a big passion of his.</p>
-<p>Jack says <em>'I love the hairdressing industry, there's never a dull moment. I'm really glad I've taken the role at Paul Kemp Hairdressing, it's a really strong team and I love the relaxed friendly environment.'</em></p>
-<p class="offer">Jack is looking to quickly build up his client base - we're running these incredible offers for a limited time</p>
-<p class="offerHeading">&pound;40 Cut &amp; Colour package<br><span style="font-size: .7em;">a saving of up to &pound;30</span></p>
-<p class="offer">&pound;15 Blow Dry or Hair Up<br><span style="font-size: .7em;">that's almost half the usual price</span></p>
-<p class="offerSmall">Offer ends 31/10/12. Only available with Jack</p>
-<br>
-<h3>Megan Mullaney</h3>
-<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/news_images/megan.jpg" width="135" height="190" alt="Megan Mullaney">
-<p>Megan is our latest apprentice to follow in the footsteps of Tash (who has now progressed to Graduate Stylist level).</p>
-<p>We're extremely selective with our apprentice choices as we have limited positions available (as little as 1-2 a year). We only select people who demonstrate a raw passion for hairdressing. We could recognise this in Megan straight away when we met her and offered her an apprenticeship.</p>
-<p>After having gained some salon experience elsewhere, Megan is eager to push her training to the next level. The goal now is to develop her to the highest standard in a relatively short time.</p>
-
-<p class="offerHeading">Megan is looking for models for blow-dries, plus basic cut and colouring work.</p>
-<p class="offer">Call the salon for more details</p>
-
-<p>We are still looking to take on experienced Stylist/Senior Stylists. If you would like to join the team <?php echo CHtml::link('Click Here',array('site/page','view'=>'recruitment')); ?></p>
-</section> <!--end .hidden-->
-<p class="author">Published by PK</p>
-<time datetime="2012-08-30">30<sup>th</sup> August 2012</time>
-</article> <!--end #article-->
-
-
 
 
 </section> <!--end #accoordion-->

@@ -40,20 +40,20 @@ Yii::app()->clientScript->registerScript('prices', file_get_contents('scripts/pr
 </tr>
 <tr>
 <td class="number1"></td>
-<td>&pound;59.95<br></td>
-<td>&pound;44.95<br></td>
+<td>&pound;65.45<br></td>
+<td>&pound;49.10<br></td>
 <td>&pound;29.95<br></td>
 </tr>
 <tr>
 <td class="number2"></td>
-<td>&pound;69.95</td>
-<td>&pound;51.95</td>
+<td>&pound;76.40</td>
+<td>&pound;56.75</td>
 <td>&pound;33.95</td>
 </tr>
 <tr>
 <td class="number3"></td>
-<td>&pound;79.95</td>
-<td>&pound;58.95</td>
+<td>&pound;87.30</td>
+<td>&pound;64.40</td>
 <td>&pound;37.95</td>
 </tr>
 <tr>
@@ -64,20 +64,20 @@ Yii::app()->clientScript->registerScript('prices', file_get_contents('scripts/pr
 </tr>
 <tr>
 <td class="number1"></td>
-<td>&pound;49.95</td>
-<td>&pound;37.95</td>
+<td>&pound;54.55</td>
+<td>&pound;41.45</td>
 <td>&pound;25.95</td>
 </tr>
 <tr>
 <td class="number2"></td>
-<td>&pound;59.95</td>
-<td>&pound;44.95</td>
+<td>&pound;65.50</td>
+<td>&pound;49.10</td>
 <td>&pound;29.95</td>
 </tr>
 <tr>
 <td class="number3"></td>
-<td>&pound;69.95</td>
-<td>&pound;51.95</td>
+<td>&pound;76.40</td>
+<td>&pound;56.75</td>
 <td>&pound;33.95</td>
 </tr>
 </table>
@@ -94,27 +94,27 @@ Yii::app()->clientScript->registerScript('prices', file_get_contents('scripts/pr
 <th><h4 class="experience">Junior</h4></th>
 <tr>
 <td class="firstcolumn"><h4>Cut, Dry &amp; Style</h4></td>
-<td>&pound;29.95</td>
-<td>&pound;20.95</td>
-<td>&pound;11.95</td>
+<td>&pound;32.70</td>
+<td>&pound;22.90</td>
+<td>&pound;13.95</td>
 </tr>
 <tr>
 <td><h4>Blow Dry</h4></td>
-<td>&pound;19.95</td>
-<td>&pound;13.95</td>
-<td>&pound;7.95</td>
+<td>&pound;21.80</td>
+<td>&pound;15.25</td>
+<td>&pound;9.95</td>
 </tr>
 <tr>
 <td><h4>Curly Blow Dry</h4></td>
-<td>&pound;24.95</td>
-<td>&pound;18.95</td>
-<td>&pound;12.95</td>
+<td>&pound;29.45</td>
+<td>&pound;20.70</td>
+<td>&pound;14.95</td>
 </tr>
 <tr>
 <td><h4>Mens Cut &amp; Style</h4></td>
-<td>&pound;17.95</td>
-<td>&pound;11.95</td>
-<td>&pound;5.95</td>
+<td>&pound;19.10</td>
+<td>&pound;13.05</td>
+<td>&pound;7.95</td>
 </tr>
 </table>
 </div> <!--price_panel-->

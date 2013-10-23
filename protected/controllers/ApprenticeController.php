@@ -72,10 +72,11 @@ class ApprenticeController extends Controller
 			if($model->save())
 			{
 				$message = new YiiMailMessage;
-				$message->setBody('There is a new apprentice applicant for Paul Kemp Hairdressing.<br>Name: '.$model->first_name.' '.$model->second_name.'<br>Age: '.$model->age.'<br>Email: '.$model->email.'<br>Mobile: '.$model->mobile.'<br>http://www.paulkemphairdressing.com/apprentice/'.$model->apprentice_id, 'text/html');
+				$message->setBody('There is a new apprentice applicant for Paul Kemp Hairdressing.<br>Name: '.$model->first_name.' '.$model->second_name.'<br>Age: '.$model->age.'<br>Email: '.$model->email.'<br>Mobile: '.$model->mobile.'<br>http://www.paulkemphairdressing.com/apprentice/view/'.$model->apprentice_id, 'text/html');
 				$message->subject = 'New Apprentice Application';
 				$message->addTo('adamcarter@jakatasalon.co.uk');
 				$message->addTo('jimmy@jakatasalon.co.uk');
+				$message->addTo('kellie@paulkemphairdressing.com');
 				$message->from = Yii::app()->params['adminEmail'];
 				
 				Yii::app()->mail->send($message);

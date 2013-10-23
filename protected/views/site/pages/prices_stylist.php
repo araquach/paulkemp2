@@ -48,21 +48,21 @@ Yii::app()->clientScript->registerScript('prices', file_get_contents('scripts/pr
 </tr>
 <tr>
 <td class="number1"></td>
-<td>&pound;96.95</td>
-<td>&pound;87.95</td>
-<td>&pound;74.95</td>
+<td>&pound;105.95</td>
+<td>&pound;96.05</td>
+<td>&pound;81.85</td>
 </tr>
 <tr>
 <td class="number2"></td>
-<td>&pound;113.95</td>
-<td>&pound;103.95</td>
-<td>&pound;87.95</td>
+<td>&pound;124.45</td>
+<td>&pound;113.55</td>
+<td>&pound;96.05</td>
 </tr>
 <tr>
 <td class="number3"></td>
+<td>&pound;143.00</td>
 <td>&pound;130.95</td>
-<td>&pound;119.95</td>
-<td>&pound;100.95</td>
+<td>&pound;110.25</td>
 </tr>
 <tr>
 <th><h3>Colour &amp; Blowdry</h3></th>
@@ -72,21 +72,21 @@ Yii::app()->clientScript->registerScript('prices', file_get_contents('scripts/pr
 </tr>
 <tr>
 <td class="number1"></td>
-<td>&pound;78.95</td>
-<td>&pound;72.95</td>
-<td>&pound;61.95</td>
+<td>&pound;86.20</td>
+<td>&pound;79.65</td>
+<td>&pound;67.65</td>
 </tr>
 <tr>
 <td class="number2"></td>
-<td>&pound;96.95</td>
-<td>&pound;85.95</td>
-<td>&pound;74.95</td>
+<td>&pound;105.90</td>
+<td>&pound;93.90</td>
+<td>&pound;81.90</td>
 </tr>
 <tr>
 <td class="number3"></td>
-<td>&pound;113.95</td>
-<td>&pound;103.95</td>
-<td>&pound;87.95</td>
+<td>&pound;124.45</td>
+<td>&pound;113.50</td>
+<td>&pound;96.05</td>
 </tr>
 </table>
 
@@ -104,31 +104,31 @@ Yii::app()->clientScript->registerScript('prices', file_get_contents('scripts/pr
 </tr>
 <tr>
 <td class="firstcolumn"><h4>Cut, Dry &amp; Style</h4></td>
-<td>&pound;51.95
+<td>&pound;56.73
 </td>
-<td>&pound;46.95<br></td>
-<td>&pound;38.95<br></td>
+<td>&pound;51.25<br></td>
+<td>&pound;42.54<br></td>
 </tr>
 <tr>
 <td><h4>Blow Dry</h4></td>
-<td>&pound;34.95</td>
-<td>&pound;31.95</td>
-<td>&pound;25.95</td>
+<td>&pound;38.60</td>
+<td>&pound;34.90</td>
+<td>&pound;28.35</td>
 </tr>
 <tr>
 <td><h4>Curly Blow Dry</h4></td>
-<td>&pound;39.95</td>
-<td>&pound;36.95</td>
-<td>&pound;30.95</td>
+<td>&pound;45.80</td>
+<td>&pound;42.55</td>
+<td>&pound;35.95</td>
 </tr>
 </table>
 
 <table class="priceTable">
 <tr>
 <td class="firstcolumn"><h4>Mens Cut &amp; Style</h4></td>
-<td>&pound;32.95</td>
-<td>&pound;28.95</td>
-<td>&pound;23.95</td>
+<td>&pound;35.20</td>
+<td>&pound;32.20</td>
+<td>&pound;25.65</td>
 </tr>
 <tr>
 <td><h4>Hair Extensions</h4></td>
@@ -137,7 +137,7 @@ Yii::app()->clientScript->registerScript('prices', file_get_contents('scripts/pr
 <td>&nbsp;</td>
 </tr>
 <tr>
-<td><h4>Curly Blow Dry</h4></td>
+<td>&nbsp;</td>
 <td>from &pound;590</td>
 <td>(Russian)</td>
 <td>&nbsp;</td>
