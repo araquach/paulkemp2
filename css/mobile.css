@@ -2943,6 +2943,137 @@ p.big {
 
 /* @end */
 
+/* @group Recruitment */
+
+#recruitment {
+	width: 100%;
+	background: none;
+	height: 100%;
+	padding: 20px;
+}
+
+#recruitBlank {
+	width: auto;
+	background-color: #FFF;
+	padding: 20px;
+}
+
+#recruitAdmin {
+	width: auto;
+	background-color: #FFF;
+}
+
+#recruitAdmin h1, 
+#recruitAdmin p,
+#recruitAdmin a.search-button  {
+	margin: 10px 40px;
+}
+
+#recruitAdmin div.pager {
+	margin-right: 0;
+	margin-top: 20px;
+}
+
+#recruitAdmin div.summary {
+	margin-right: 0;
+	margin-bottom: 20px;
+}
+
+#recruitBlank #yw0 div.items div.view {
+	margin-bottom: 30px;
+}
+
+
+#recruitment h1,
+#recruitment h2,
+#recruitment h3,
+#recruitment p {
+	width: auto;
+	margin-left: 0;
+	margin-bottom: 10px;
+	padding: 0;
+	line-height: 1.3em;
+}
+
+section#recruitment h1 {
+	font-size: 2em;
+	padding-top: 20px;
+	margin-left: 0;
+}
+
+#recruitment h2 {
+	font-size: 1em;
+}
+
+#recruitment h3 {
+	font-size: 1.2em;
+	margin-top: 30px;
+}
+
+#recruitment p {
+	font-size: .9em;
+	padding-bottom: 10px;
+}
+
+#recruitment p.last {
+	padding-bottom: 15px;
+}
+
+#recruitment a {
+	font-size: .8em;
+	margin: 10px 0 0 0;
+	padding: 9px;
+	background-color: rgb(55,34,24);
+	color: #FFF;
+}
+
+#recruitment a:hover {
+	color: black;	
+	background-color: rgb(227, 215, 209);
+}
+
+#recruitment .fancy {
+	font-size: 2em;
+	font-style: italic;
+	margin-top: 40px;
+}
+
+#adex {
+	width: auto;
+	margin: 20px 0;
+	padding: 10px 20px 20px 20px;
+	height: 180px;
+	background-color: rgba(255, 255, 255, 0.8);
+	border: 1px solid #333;
+	margin-left: 0;
+}
+
+#adex p {
+	width: auto;
+	margin-left: 0;
+}
+
+#adex .adexBox {
+	float: left;
+	width: auto;
+	margin-right: 0;
+	margin-bottom: 15px;
+}
+
+#adex label {
+	float: left;
+	color: rgb(55,34,24);
+	font-size: .8em;
+	margin-left: 0;
+}
+
+#adex input {
+	float: right;
+	margin: 0;
+}
+
+/* @end */
+
 /* @group Footer */
 	
 footer {
