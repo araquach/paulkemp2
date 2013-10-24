@@ -3,6 +3,13 @@
 ?>
 
 <div id="limited">
+<?php if(Yii::app()->user->hasFlash('Offer')): ?>
+
+<div class="limitedSuccess">
+	<?php echo Yii::app()->user->getFlash('Offer'); ?>
+</div>
+
+<?php else: ?>
 <div id="limited_copy">
 <h1><strong>Special Offer for <br><?php echo ucfirst($model->first_name) . ' ' . ucfirst($model->last_name);?></strong></h1>
 
@@ -52,4 +59,5 @@
 
 </div> <!--#limited_copy-->
 </div> <!--#limited-->
- 
+
+<?php endif; ?>

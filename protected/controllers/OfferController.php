@@ -55,7 +55,7 @@ class OfferController extends Controller
 			{
 				if($model->optout == '1')
 				{
-					Yii::app()->user->setFlash('Offer','Thank\'s for letting us know - you will no longer receive text offers from us.');
+					Yii::app()->user->setFlash('Offer','Thank\'s for letting us know '.ucfirst($model->first_name).' - you will no longer receive text offers from us.');
 				} else {
 					$message = new YiiMailMessage;
 						$message->view = 'offer_email';
@@ -66,7 +66,7 @@ class OfferController extends Controller
 						
 						Yii::app()->mail->send($message);
 					
-						Yii::app()->user->setFlash('Offer','Your text voucher will arrive shortly. We look forward to seeing you in the salon soon' . ucfirst($model->first_name) . '!');
+						Yii::app()->user->setFlash('Offer','Your text voucher will arrive shortly. We look forward to seeing you in the salon soon ' . ucfirst($model->first_name) . '!');
 				}
 				
 			}

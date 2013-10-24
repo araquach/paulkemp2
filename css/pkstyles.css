@@ -2727,6 +2727,13 @@ p.big {
   padding: 5px;
 }
 
+#limited .limitedSuccess {
+	width: 400px;
+	font-size: 1.4em;
+	margin-left: 50px;
+	padding-top: 100px;
+}
+
 /* @end */
 
 /* @group Leaver */

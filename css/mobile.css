@@ -2758,6 +2758,13 @@ span.error {
 	margin: 0;
 }
 
+#limited .limitedSuccess {
+	width: auto;
+	font-size: 1.4em;
+	margin-left: 0;
+	padding-top: 0;
+}
+
 /* @end */
 
 /* @group Competition */
