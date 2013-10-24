@@ -45,10 +45,43 @@ class OfferController extends Controller
 	
 	public function actionIndex($id)
 	{
+		$model=$this->loadModel($id);
+		
+		if(isset($_POST['Offer']))
+		{
+			$model->attributes=$_POST['Offer'];
+	
+			if($model->save())
+			{
+				if($model->optout == '1')
+				{
+					Yii::app()->user->setFlash('Offer','Thank\'s for letting us know - you will no longer receive text offers from us.');
+				} else {
+					$message = new YiiMailMessage;
+						$message->view = 'offer_email';
+						$message->setBody(array('model'=>$model), 'text');
+						$message->subject = 'PaulKemp';
+						$message->addTo('07921806884@smsid.textapp.net');
+						$message->from = ('enquiries@jakatasalon.co.uk');
+						
+						Yii::app()->mail->send($message);
+					
+						Yii::app()->user->setFlash('Offer','Your text voucher will arrive shortly. We look forward to seeing you in the salon soon' . ucfirst($model->first_name) . '!');
+				}
+				
+			}
+		
+		}
 		$this->render('index',array(
-			'model'=>$this->loadModel($id),
+			'model'=>$model,
 		));
 	}
+	
+	public function actionOfferEmail()
+	{
+		$this->render('//mail/offer_email',array('model'=>$model));
+	}
+	
 	
 	public function loadModel($id)
 	{

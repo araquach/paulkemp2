@@ -2675,7 +2675,7 @@ p.big {
 #limited {
 	width: auto;
 	background: url('../images/offer/pkteam_offer.jpg') no-repeat right 25px #f5f5f5;
-	height: 1000px;
+	height: 1300px;
 }
 
 #limited_copy {
@@ -2710,6 +2710,21 @@ p.big {
 #limited_copy small {
 	font-size: .6em;
 	margin: 0;
+}
+
+#limited_copy .form label {
+  color: rgb(55, 34, 24);
+  display: block;
+  font: .7em "Helvetica Neue",Arial,Helvetica,Geneva,sans-serif;
+  margin-bottom: 5px;
+  margin-left: 0;
+}
+
+#limited_copy .form input, 
+#limited_copy .form textarea, 
+#limited_copy .form select {
+  margin: 0.2em 0 1em 0;
+  padding: 5px;
 }
 
 /* @end */

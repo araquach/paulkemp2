@@ -13,7 +13,9 @@
  * @property string $last_stylist
  * @property string $first_visit
  * @property string $last_visit
+ * @property integer $gender
  * @property integer $number_visits
+ * @property boolean $optout
  */
 class Offer extends CActiveRecord
 {
@@ -43,14 +45,15 @@ class Offer extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('id, first_name, last_name, mobile, email, first_stylist, last_stylist, first_visit, last_visit, number_visits', 'required'),
+			array('id, first_name, last_name, first_stylist, last_stylist, first_visit, last_visit, number_visits', 'required'),
 			array('id, number_visits', 'numerical', 'integerOnly'=>true),
+			array('optout', 'boolean'),
 			array('first_name, last_name, email, first_stylist, last_stylist', 'length', 'max'=>256),
 			array('mobile', 'length', 'max'=>16),
 			array('first_visit, last_visit', 'length', 'max'=>22),
 			// The following rule is used by search().
 			// Please remove those attributes that should not be searched.
-			array('id, first_name, last_name, mobile, email, first_stylist, last_stylist, first_visit, last_visit, number_visits', 'safe', 'on'=>'search'),
+			array('id, first_name, last_name, mobile, email, first_stylist, last_stylist, first_visit, last_visit, gender, number_visits, optout', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -80,7 +83,9 @@ class Offer extends CActiveRecord
 			'last_stylist' => 'Last Stylist',
 			'first_visit' => 'First Visit',
 			'last_visit' => 'Last Visit',
+			'last_visit' => 'Gender',
 			'number_visits' => 'Number Visits',
+			'optout' => 'Alternatively, check the box if you no longer wish to receive any offers then click \'GO\'',
 		);
 	}
 
@@ -104,7 +109,9 @@ class Offer extends CActiveRecord
 		$criteria->compare('last_stylist',$this->last_stylist,true);
 		$criteria->compare('first_visit',$this->first_visit,true);
 		$criteria->compare('last_visit',$this->last_visit,true);
+		$criteria->compare('gender',$this->gender,true);
 		$criteria->compare('number_visits',$this->number_visits);
+		$criteria->compare('optout',$this->optout);
 
 		return new CActiveDataProvider($this, array(
 			'criteria'=>$criteria,

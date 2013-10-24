@@ -44,6 +44,10 @@
 	
 <?php endif; ?> <!--end gender-->
 <p>Until March 2014!</p>
+<p>Simply mention the offer when booking - we'll send you a text voucher outlining your fixed pricing when you click 'GO'.</p>
+
+<?php echo $this->renderPartial('_form', array('model'=>$model)); ?>
+
 <small>Not with any other offer, subject to availability</small>
 
 </div> <!--#limited_copy-->
