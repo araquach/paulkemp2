@@ -16,12 +16,12 @@
 <?php echo '<p>You have been specially selected to take advantage of this fantastic limited offer:</p>';?>
 <?php endif; ?>
 <p class="big">40% off <br>your next visit</p>
-<p class="small">to be taken before 29/11/13</p>
+<p class="small">to be taken before 06/12/13</p>
 <p>PLUS the price on your following visits will be fixed at:</p>
 
 <?php if($model->gender == 'm'): ?>
 	
-	<p><strong>Just &pound;20 for a men's cut &amp; style</strong></p>
+	<p><strong>Just &pound;18 for a men's cut &amp; style</strong></p>
 
 <?php else: ?>
 
