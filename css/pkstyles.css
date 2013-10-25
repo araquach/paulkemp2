@@ -1,3 +1,6 @@
+/* @override 
+	http://www.paulkemphairdressing.com/css/pkstyles.css */
+
 
 
 @charset "UTF-8";
@@ -2725,6 +2728,23 @@ p.big {
 #limited_copy .form select {
   margin: 0.2em 0 1em 0;
   padding: 5px;
+}
+
+#limited_copy .form .errorSummary {
+  background: none repeat scroll 0 0 rgb(255, 238, 238);
+  border: 2px solid rgb(204, 0, 0);
+  font-size: 0.9em;
+  margin: 0;
+  padding: 5px;
+}
+
+div.form .errorSummary ul li {
+  margin: 0;
+  padding: 0;
+}
+
+#limited_copy .form .errorSummary p {
+  display: none;
 }
 
 #limited .limitedSuccess {

@@ -2717,17 +2717,18 @@ span.error {
 
 #limited {
 	width: auto;
-	background: url('../images/offer/pkteam_offer.jpg') no-repeat center 1100px #f5f5f5;
-	background-size: 300px;
+	background: none;
 	height: 100%;
-	padding-bottom: 600px;
+	padding-bottom: 0;
 }
 
 #limited_copy {
+	background: url('../images/offer/pkteam_offer.jpg') no-repeat center 1450px #f5f5f5;
+	background-size: 300px;
 	width: auto;
 	padding: 20px;
 	font-size: 1.4em;
-	padding-bottom: 200px;
+	padding-bottom: 900px;
 }
 
 #limited_copy h1 {
@@ -2763,6 +2764,8 @@ span.error {
 	font-size: 1.4em;
 	margin-left: 0;
 	padding-top: 0;
+	padding: 20px;
+	height: 500px;
 }
 
 /* @end */

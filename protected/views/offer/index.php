@@ -33,7 +33,7 @@
 <?php else: ?>
 
 	<?php if ($model->last_stylist == 'Megan Mullaney' or $model->last_stylist == 'Natasha Bailey' or 
-	$model->last_stylist == 'Jack Broady' or $model->last_stylist == 'Leon Pritchard' or $model->last_stylist == 'Nathan Hinds'): ?>
+	$model->last_stylist == 'Jack Broady' or $model->last_stylist == 'Leon Pritchard' or $model->last_stylist == 'Nathan Hinds' or $model->last_stylist == 'Katy Sergeant'): ?>
 	
 	<p><strong>Colour &amp; Cut package: &pound;65<br>
 		Cut, Dry &amp; Style : &pound;30<br>

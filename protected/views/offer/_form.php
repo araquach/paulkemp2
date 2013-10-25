@@ -17,6 +17,8 @@
 		<?php echo $form->checkBox($model,'optout'); ?>
 		<?php echo $form->error($model,'optout'); ?>
 	</div>
+	
+	<?php echo $form->errorSummary($model); ?>
 
 	<div class="row buttons">
 		<?php echo CHtml::submitButton('GO'); ?>

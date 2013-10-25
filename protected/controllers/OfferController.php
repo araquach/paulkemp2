@@ -61,7 +61,7 @@ class OfferController extends Controller
 						$message->view = 'offer_email';
 						$message->setBody(array('model'=>$model), 'text');
 						$message->subject = 'PaulKemp';
-						$message->addTo('07921806884@smsid.textapp.net');
+						$message->addTo($model->mobile.'@smsid.textapp.net');
 						$message->from = ('enquiries@jakatasalon.co.uk');
 						
 						Yii::app()->mail->send($message);

@@ -16,6 +16,8 @@
  * @property integer $gender
  * @property integer $number_visits
  * @property boolean $optout
+ * @property datetime $date
+ * @property integer $submitted
  */
 class Offer extends CActiveRecord
 {
@@ -51,9 +53,11 @@ class Offer extends CActiveRecord
 			array('first_name, last_name, email, first_stylist, last_stylist', 'length', 'max'=>256),
 			array('mobile', 'length', 'max'=>16),
 			array('first_visit, last_visit', 'length', 'max'=>22),
+			array('date','default','value'=>new CDbExpression('NOW()'),'setOnEmpty'=>false,'on'=>'update'),
+			array('submitted', 'validateEntry'),
 			// The following rule is used by search().
 			// Please remove those attributes that should not be searched.
-			array('id, first_name, last_name, mobile, email, first_stylist, last_stylist, first_visit, last_visit, gender, number_visits, optout', 'safe', 'on'=>'search'),
+			array('id, first_name, last_name, mobile, email, first_stylist, last_stylist, first_visit, last_visit, gender, number_visits, optout, date, submitted', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -86,6 +90,7 @@ class Offer extends CActiveRecord
 			'last_visit' => 'Gender',
 			'number_visits' => 'Number Visits',
 			'optout' => 'Alternatively, check the box if you no longer wish to receive any offers then click \'GO\'',
+			'date' => 'Date',
 		);
 	}
 
@@ -112,9 +117,27 @@ class Offer extends CActiveRecord
 		$criteria->compare('gender',$this->gender,true);
 		$criteria->compare('number_visits',$this->number_visits);
 		$criteria->compare('optout',$this->optout);
+		$criteria->compare('date',$this->date);
 
 		return new CActiveDataProvider($this, array(
 			'criteria'=>$criteria,
 		));
 	}
+	
+	public function beforeSave()
+	{
+		$this->submitted = 1;
+		
+		return parent::beforeSave();
+	}
+	
+	public function validateEntry($attr, $params)
+	{
+		if ($this->submitted == 1)
+		{
+			$this->addError('submitted', 'Sorry - you can only send the form once');
+		}
+	}
+	
+		
 }
