@@ -35,6 +35,7 @@ window.addEvent('domready', function(){
 <p>Salon owner Adam Carter said "It's business as usual at PK - the team are stronger than ever. <br> We can't apologise enough for Paul's quick departure and any inconvenience it may have caused to his clients but our other stylists are on hand to ensure a smooth transition."</p>
 <p>Many people are asking the question of whether the salon name will remain. A full rebrand is both costly and time consuming so the name will stay for a good while longer but will inevitably change in the future.</p>
 <p class="offer">If you were a regular client of Paul's please contact the salon to find out the great offers we're running.</p>
+
 </section> <!--end .hidden-->
 <p class="author">Published by Adam</p>
 <time datetime="2013-08-01">16<sup>th</sup> October 2013</time>
