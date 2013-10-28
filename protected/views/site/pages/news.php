@@ -1,8 +1,6 @@
 <?php
 /* @var $this SiteController */
-
 $this->pageTitle=Yii::app()->name . ' - News - Hairdressers in Cheshire';
-
 ?>
 
 <?php Yii::app()->facebook->ogTags['og:title'] = "Paul Kemp Hairdressing News"; ?>

@@ -1,9 +1,11 @@
 <?php
 /* @var $this SiteController */
-
 $this->pageTitle=Yii::app()->name . ' - Recruitment - Hairdressers in Cheshire';
-
 ?>
+
+<?php Yii::app()->facebook->ogTags['og:title'] = "Paul Kemp Hairdressing Recruitment"; ?>
+<?php Yii::app()->facebook->ogTags['og:description'] = "The Paul Kemp Hairdressing team is growing fast. We're always looking for new talent to expand our already diverse team of hairdressers.
+We have positions for stylists of all levels with ongoing internal and external training to help you push the boundaries in your career."; ?>
 
 <section id="recruitment">
 

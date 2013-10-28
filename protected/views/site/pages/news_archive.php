@@ -1,9 +1,10 @@
 <?php
 /* @var $this SiteController */
-
 $this->pageTitle=Yii::app()->name . ' - News Archive - Hairdressers in Cheshire';
-
 ?>
+
+<?php Yii::app()->facebook->ogTags['og:title'] = "Paul Kemp Hairdressing News Archive"; ?>
+<?php Yii::app()->facebook->ogTags['og:description'] = "Archived news from the PK team"; ?>
 
 <script type="text/javascript">
 window.addEvent('domready', function(){

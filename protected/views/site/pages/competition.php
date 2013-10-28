@@ -3,6 +3,8 @@
 $this->pageTitle=Yii::app()->name . ' - Competitions - Hairdressers in Cheshire';
 ?>
 
+<?php Yii::app()->facebook->ogTags['og:title'] = "Paul Kemp Hairdressing Competition"; ?>
+<?php Yii::app()->facebook->ogTags['og:description'] = "This months fantastic competition"; ?>
 
 <section id="competition">
 <div id="competition_copy">

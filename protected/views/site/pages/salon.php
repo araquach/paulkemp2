@@ -1,9 +1,10 @@
 <?php
 /* @var $this SiteController */
-
 $this->pageTitle=Yii::app()->name . ' - The Salon - Hairdressers in Cheshire';
-
 ?>
+
+<?php Yii::app()->facebook->ogTags['og:title'] = "Paul Kemp Hairdressing - The Salon"; ?>
+<?php Yii::app()->facebook->ogTags['og:description'] = "With a prime position right on the corner of Sankey Street and Springfield street the salon premises is an early 1900's building that was once home to the Picturedrome and Cameo cinemas! It's taken on many guises since, but when we got hold of it we knew we wanted it to be the warmest, friendliest most relaxing salon in the area."; ?>
 
 <section id="salon">
   <section id="saloninfo">
