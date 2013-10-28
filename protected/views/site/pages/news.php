@@ -5,6 +5,7 @@ $this->pageTitle=Yii::app()->name . ' - News - Hairdressers in Cheshire';
 
 <?php Yii::app()->facebook->ogTags['og:title'] = "Paul Kemp Hairdressing News"; ?>
 <?php Yii::app()->facebook->ogTags['og:description'] = "All the latest news from the salon"; ?>
+<?php // Yii::app()->facebook->ogTags['og:image'] =  "http://www.paulkemphairdressing.com/images/" ; ?>
 
 <script type="text/javascript">
 window.addEvent('domready', function(){

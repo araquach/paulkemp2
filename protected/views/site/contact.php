@@ -8,6 +8,7 @@ $this->pageTitle=Yii::app()->name . ' - Contact Us - Hairdressing in Warrington'
 <?php Yii::app()->facebook->ogTags['og:title'] = "Paul Kemp Hairdressing - Contact Us"; ?>
 <?php Yii::app()->facebook->ogTags['og:description'] = "Paul Kemp Hairdressing is located on the corner of Sankey Street and Springfield Street in Warrington Town Centre
 (opposite the Golden Gates)."; ?>
+<?php // Yii::app()->facebook->ogTags['og:image'] =  "http://www.paulkemphairdressing.com/images/" ; ?>
 
 <section id="contact" class="group">
     <section id="locmap">

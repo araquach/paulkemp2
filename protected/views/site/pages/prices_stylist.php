@@ -6,6 +6,7 @@ $this->pageTitle=Yii::app()->name . ' - Stylist Prices - Hairdressers in Cheshir
 Yii::app()->clientScript->registerCoreScript('jquery');
 Yii::app()->clientScript->registerScript('prices', file_get_contents('scripts/prices.js'));
 ?>
+<?php // Yii::app()->facebook->ogTags['og:image'] =  "http://www.paulkemphairdressing.com/images/" ; ?>
 
 <?php Yii::app()->facebook->ogTags['og:title'] = "Paul Kemp Hairdressing Prices"; ?>
 <?php Yii::app()->facebook->ogTags['og:description'] = "Cutting, colouring and styling prices"; ?>

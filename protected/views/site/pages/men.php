@@ -6,6 +6,7 @@ $this->pageTitle=Yii::app()->name . ' - Men\'s Hairdressing - Hairdressers in Ch
 <?php Yii::app()->facebook->ogTags['og:title'] = "Paul Kemp Hairdressing Men's Hairdressing"; ?>
 <?php Yii::app()->facebook->ogTags['og:description'] = "At Paul Kemp Hairdressing we have a team of experts in men's hairdressing on hand. Whatever your fashion tastes and style, we'll work your hair exactly how you want it.
 The team constantly stay up to date with latest cutting &amp; styling techniques through Tigi and Schwarzkopf's innovative training courses and inspiration sessions."; ?>
+<?php // Yii::app()->facebook->ogTags['og:image'] =  "http://www.paulkemphairdressing.com/images/" ; ?>
 
 <section id="men">
   <section id="meninfo">
