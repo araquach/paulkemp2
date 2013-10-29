@@ -135,7 +135,7 @@ class Offer extends CActiveRecord
 	{
 		if ($this->submitted == 1)
 		{
-			$this->addError('submitted', 'Sorry - you can only send the form once');
+			$this->addError('submitted', 'Sorry - you can only enter once');
 		}
 	}
 	
