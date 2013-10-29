@@ -5,7 +5,7 @@ $this->pageTitle=Yii::app()->name . ' - News Archive - Hairdressers in Cheshire'
 
 <?php Yii::app()->facebook->ogTags['og:title'] = "Paul Kemp Hairdressing News Archive"; ?>
 <?php Yii::app()->facebook->ogTags['og:description'] = "Archived news from the PK team"; ?>
-<?php // Yii::app()->facebook->ogTags['og:image'] =  "http://www.paulkemphairdressing.com/images/" ; ?>
+<?php Yii::app()->facebook->ogTags['og:image'] =  "http://www.paulkemphairdressing.com/images/main/pk_logo_meta.jpg" ; ?>
 
 <script type="text/javascript">
 window.addEvent('domready', function(){

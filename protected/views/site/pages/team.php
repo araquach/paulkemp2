@@ -4,7 +4,7 @@ $this->pageTitle=Yii::app()->name . ' - The Team - Hairdressers in Cheshire';
 ?>
 
 <?php Yii::app()->facebook->ogTags['og:title'] = "Paul Kemp Hairdressing - The Team"; ?>
-<?php Yii::app()->facebook->ogTags['og:description'] = "The Paul Kemp team comprises of ten skilled stylists ready to look after you."; ?>
+<?php Yii::app()->facebook->ogTags['og:description'] = "The Paul Kemp team comprises of ten skilled stylists ready to give you the new look you've been waiting for!"; ?>
 <?php  Yii::app()->facebook->ogTags['og:image'] =  "http://www.paulkemphairdressing.com/images/exit/pk_replacers.jpg" ; ?>
 
 <section id="team">
