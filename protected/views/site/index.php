@@ -34,9 +34,9 @@ $this->pageTitle=Yii::app()->name;
     </aside>',array('site/page','view'=>'offers')); ?>
     
     <?php echo CHtml::link('<aside id="news4">
-    <h3 class="newsheader">Kebelo Advantage</h3>
-    <p class="newspara">The Ultimate Smoothing System is available with an unbeatable offer for a limited time</p>
+    <h3 class="newsheader">Paul no longer at the salon</h3>
+    <p class="newspara">Last month Paul left to pursue something else</p>
     <p class="newscenter"><strong>Find out more here &gt;</strong></p>
-    </aside>',array('kebelo/index')); ?>	
+    </aside>',array('site/page','view'=>'news', '#'=>'paulNoMore')); ?>	
     
     

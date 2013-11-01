@@ -269,24 +269,6 @@ window.addEvent('domready', function(){
 </article> <!--end #article-->
 
 <article class="article">
-<a id="GoodSalonGuide" class="anchor"></a>
-<section class="visible">
-<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/news_images/good_salon_guide.jpg" width="135" height="180" alt="Good Salon Guide">
-<h3>Paul Kemp Hairdressing awarded 5 Star salon status</h3>
-<p>We're really pleased to announce that we have been awarded a maximum 5 stars by the Good Salon Guide.</p>
-<p>The Good Salon Guide is the only independent guide to quality standards in hairdressing and beauty in the UK and Ireland. 
-Salons are visited and objectively assessed by professionally trained inspectors against a set of strict criteria (in the same way as the well-known AA or RAC hotel guides), giving consumers confidence in their choice.</p>
-<p class="reveal">Read More ></p>
-</section> <!--end .visible-->
-<section class="hidden">
-<p>The award shows that we have highly trained and qualified staff, top quality products and we aim to achieve and maintain the highest standards - all the things that go without saying! It's nice to have a professional body recognise it though.</p>
-<p class="offer"><a href="http://www.goodsalonguide.com/salons/paul-kemp-hairdressing" target="_blank"><strong>Click Here to check out our page at the Good Salon Guide website</strong></a></p>
-</section> <!--end .hidden-->
-<p class="author">Published by Adam</p>
-<time datetime="2012-11-06">6<sup>th</sup> November 2012</time>
-</article> <!--end #article-->
-
-<article class="article">
 <a id="HairReborn" class="anchor"></a>
 <section class="visible">
 <img src="<?php echo Yii::app()->request->baseUrl; ?>/images/news_images/tigi-reborn.jpg" width="135" height="190" alt="Tigi Hair Reborn">
