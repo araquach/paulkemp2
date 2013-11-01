@@ -187,7 +187,6 @@ li.active a {
 #news1 {
 	left: 0;
 	top: 0;
-	background: url(../images/home_news/michelle_r.jpg) no-repeat, rgb(55,34,24);
 	background-size: 100% auto;
 	-webkit-transition: none;
 	-moz-transition: none;
@@ -204,7 +203,6 @@ li.active a {
 #news2 {
 	left: 0;
 	top: 0;
-	background: url(../images/home_news/eclipse.jpg) no-repeat, rgb(55,34,24);
 	background-size: 100% auto;
 	-webkit-transition: none;
 	-moz-transition: none;
@@ -222,7 +220,6 @@ li.active a {
 #news3 {
 	left: 0;
 	top: 0;
-	background: url(../images/home_news/bha_offer.jpg) no-repeat, rgb(55,34,24);
 	background-size: 100% auto;
 	-webkit-transition: none;
 	-moz-transition: none;
@@ -239,7 +236,6 @@ li.active a {
 #news4 {
 	left: 0;
 	top: 0;
-	background: url(../images/home_news/kebelo_cover.jpg) no-repeat, rgb(55,34,24);
 	background-size: 100% auto;
 	-webkit-transition: none;
 	-moz-transition: none;

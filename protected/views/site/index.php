@@ -35,7 +35,7 @@ $this->pageTitle=Yii::app()->name;
     
     <?php echo CHtml::link('<aside id="news4">
     <h3 class="newsheader">Paul no longer at the salon</h3>
-    <p class="newspara">Last month Paul left to pursue something else</p>
+    <p class="newspara">Last month Paul left to pursue something new</p>
     <p class="newscenter"><strong>Find out more here &gt;</strong></p>
     </aside>',array('site/page','view'=>'news', '#'=>'paulNoMore')); ?>	
     
