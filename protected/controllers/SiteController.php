@@ -29,9 +29,17 @@ class SiteController extends Controller
 	{
 		// renders the view file 'protected/views/site/index.php'
 		// using the default layout 'protected/views/layouts/main.php'
-		$this->render('index');
+		// loads feedback::model for feed
+		
+		$model=Feedback::model()->with('FeedbackClient')->findAll(array(
+		'condition'=>'publish=1',
+		'select'=>'*, rand() as rand',
+		'order'=>'rand'
+		));
+		
+		$this->render('index',array('model'=>$model));
 	}
-	
+		
 	public function actionAdmin()
 	{
 		// renders the view file 'protected/views/site/index.php'
