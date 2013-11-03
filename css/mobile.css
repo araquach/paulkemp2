@@ -292,6 +292,7 @@ aside h2, aside, h3, aside h4, aside h5, aside h6 {
 	font-weight: bold;
 	margin: 0;
 	padding: 10px;
+	padding-bottom: 20px;
 }
 
 .paraend {
@@ -316,25 +317,25 @@ aside h2, aside, h3, aside h4, aside h5, aside h6 {
 }
 
 #feedback_feed {
-	width: 350px;
-	text-align: right;
+	width: auto;
+	text-align: left;
 	position: absolute;
-	font-size: 1.2em;
-	bottom: 200px;
+	font-size: .85em;
+	bottom: 2400px;
+	left: 30px;
 	display: none;
-	visibility: hidden;
 }
 
 #feedback_feed ul {
-	
+	padding: 0;
 }
 
 #feedback_feed ul li {
-	color: #FFF;
+	color: rgb(255,245,220);
 	list-style-type: none;
 	font-family: Georgia, "Times New Roman", Times, serif;
 	font-style: italic;
-	text-shadow: 0 0 3px #0a0a0a;
+	text-shadow: 0 0 10px #0a0a0a;
 }
 
 #feedback_feed ul li .client {
@@ -357,7 +358,7 @@ aside h2, aside, h3, aside h4, aside h5, aside h6 {
 	position: relative;
 	top: 0;
 	width: auto;
-	padding: 30px;
+	padding: 20px;
 	
 }
 
