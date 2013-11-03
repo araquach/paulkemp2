@@ -513,6 +513,28 @@ aside h2, aside, h3, aside h4, aside h5, aside h6 {
 	
 }
 
+#feedback_feed {
+	width: 350px;
+	text-align: right;
+	position: absolute;
+	font-size: 1em;
+	right: 50px;
+	bottom: 740px;
+	display: none;
+}
+
+#feedback_feed ul li {
+	color: #FFF;
+	list-style-type: none;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-style: italic;
+	text-shadow: 0 0 3px #0a0a0a;
+}
+
+#feedback_feed ul li .client {
+	font: .7em "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+}
+
 /* @end */
 
 /* @group Salon */
