@@ -19,6 +19,7 @@
  * @property integer $whole_experience
  * @property integer $end_result
  * @property string $extra
+ * @property string $extra_edit
  * @property string $client_id
  * @property bool $allow
  * @property bool $publish
@@ -58,9 +59,10 @@ class Feedback extends CActiveRecord
 			array('client_id', 'unique', 'message'=>'Sorry - you can only enter once'),
 			array('date','default','value'=>new CDbExpression('NOW()'),'setOnEmpty'=>false,'on'=>'insert'),
 			array('extra', 'length', 'max'=>300),
+			array('extra_edit', 'length', 'max'=>200),
 			// The following rule is used by search().
 			// Please remove those attributes that should not be searched.
-			array('id, allow, date, intro, consultation, styling_area, stylist_appearance, prod_advice, styling_advice, mkt1, mkt2, mkt3, value_for_money, whole_experience, end_result, extra, client_id, allow, publish', 'safe', 'on'=>'search'),
+			array('id, allow, date, intro, consultation, styling_area, stylist_appearance, prod_advice, styling_advice, mkt1, mkt2, mkt3, value_for_money, whole_experience, end_result, extra, extra_edit, client_id, allow, publish', 'safe', 'on'=>'search'),
 		);
 	}
 	/**
@@ -97,6 +99,7 @@ class Feedback extends CActiveRecord
 			'whole_experience' => '9. How do you rate the experience as a whole on your last visit?',
 			'end_result' => '10. How happy were you with the end result of your hair?',
 			'extra' => 'Do you have any extra comments you would like to make?',
+			'extra_edit' => 'This is how the text will appear on the home page',
 			'allow' => 'Please tick the box if you allow us to use your <br>feedback on our testimonials page',
 			'publish' => 'Publish to Feed?',
 		);
@@ -129,6 +132,7 @@ class Feedback extends CActiveRecord
 			$criteria->compare('end_result',$this->end_result);
 			$criteria->compare('client_id',$this->client_id);
 			$criteria->compare('extra',$this->extra,true);
+			$criteria->compare('extra_edit',$this->extra_edit,true);
 			$criteria->compare('allow',$this->allow);
 			$criteria->compare('publish',$this->allow);
 	
@@ -155,6 +159,15 @@ class Feedback extends CActiveRecord
 		$score = $a+$b+$c+$d+$e+$f+$g+$h+$i+$j+$k+$l;
 		
 		return $score;
+	}
+	
+	public function beforeSave() 
+	{
+		if($this->isNewRecord)
+		
+		$this->extra_edit = $this->extra;
+		
+		return parent::beforeSave();
 	}
 	
 }

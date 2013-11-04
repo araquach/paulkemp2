@@ -13,7 +13,7 @@ $this->pageTitle=Yii::app()->name;
 <div id="feedback_feed">
 	<ul>
 	<?php foreach ($model as $key => $value): ?>
-		<?php echo '<li>&quot;'. $value->extra . '&quot;<br>' . '<span class="client">' . ucfirst($value->FeedbackClient->first_name) . ' ' . ucfirst($value->FeedbackClient->last_name) . ' - hair by ' . strstr($value->FeedbackClient->stylist, ' ', true) . '</span></li>'?>
+		<?php echo '<li>&quot;'. $value->extra_edit . '&quot;<br>' . '<span class="client">' . ucfirst($value->FeedbackClient->first_name) . ' ' . ucfirst($value->FeedbackClient->last_name) . ' - hair by ' . strstr($value->FeedbackClient->stylist, ' ', true) . '</span></li>'?>
 	
 	<?php endforeach; ?>
 	</ul>
