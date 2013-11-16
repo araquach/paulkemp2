@@ -102,7 +102,7 @@
 	<li>Cheshire Hairdressers</li>
 	</ul>
 	</section>
-	<?php echo CHtml::link('<div id="facebook"></div>',array('url'=>('https://www.facebook.com/JakataSalon'))); ?>
+	<a href="https://www.facebook.com/PaulKempHairdressing"><div id="facebook"></div></a>
 	</footer>
 
 </div><!-- page -->
