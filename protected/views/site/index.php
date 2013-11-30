@@ -42,10 +42,10 @@ $this->pageTitle=Yii::app()->name;
     	</aside>',array('site/page','view'=>'news', '#'=>'ghdEclipse')); ?>
     
     <?php echo CHtml::link('<aside id="news3">
-    <h3 class="newsheader">This Months Special Offers</h3>
-    <p class="newspara">New to the salon? Here are our latest offers</p>
+    <h3 class="newsheader">A Special Gift this Christmas</h3>
+    <p class="newspara">Aveda Limited edition Gift packs are now available in the salon</p>
     <p class="newscenter"><strong>Find out more here &gt;</strong></p>
-    </aside>',array('site/page','view'=>'offers')); ?>
+    </aside>',array('site/page','view'=>'news', '#'=>'AvedaChristmas')); ?>
     
     <?php echo CHtml::link('<aside id="news4">
     <h3 class="newsheader">Paul no longer at the salon</h3>
