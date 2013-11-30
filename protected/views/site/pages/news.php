@@ -21,6 +21,57 @@ window.addEvent('domready', function(){
 <section id="accordion">
 
 <article class="article">
+<a id="AvedaChristmas" class="anchor"></a>
+<section class="visible">
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/news_images/aveda_christmas.jpg" width="135" height="190" alt="Aveda Christmas Gifts">
+<h3>Give something a little different this Christmas</h3>
+<p><strong>Here at Paul Kemp Hairdressing we stock a wide range of products from Schwarzkopf, Tigi, GHD and Aveda. During this festive season each product company bring out their own Christmas gift sets. If you're looking for something a little different as a gift this Christmas then check out our Aveda packs.</strong></p>
+<p>Each set contains limited edition, miniature versions of your favourite Aveda products, giving the opportunity for your friends and family to try them out for themselves. The limited-edition gift sets feature certain products that are available only during the Christmas season.</p>
+<p class="reveal">Read more is &gt;</p>
+</section> <!--end .visible-->
+<section class="hidden">
+<p class="offer">Choose from the following:</p>
+
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/news_images/aveda4.jpg" width="135" height="100" alt="alt text">
+<h4>Give Warmth</h4>
+<p><strong>Features holiday Soy Wax candle with a certified organic ginger, ginger lilly &amp; clove aroma</strong></p>
+<p>The wonderful Christmassy aroma from this candle will brighten anyones day.<br><br></p>
+
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/news_images/aveda5.jpg" width="135" height="100" alt="Give Soothing">
+<h4>Give Soothing</h4>
+<p><strong>Features Shampure Hand &amp; Body wash &amp; Body Lotion</strong></p>
+<p>The perfect stress reliever.<br><br></p>
+
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/news_images/aveda7.jpg" width="135" height="100" alt="alt text">
+<h4>Give Refresh-Mint</h4>
+<p><strong>Features Rosemary Mint Shampoo, Conditioner &amp; Body Lotion</strong></p>
+<p>Ideal gift for anyone who likes an invigorating shower.<br><br></p>
+
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/news_images/aveda2.jpg" width="135" height="100" alt="alt text">
+<h4>Give Soft Hands</h4>
+<p><strong>Features Hand Relief in Original, Rosemary Mint &amp; holiday aromas </strong></p>
+<p>The perfect gift to replenish those dry hands.<br><br></p>
+
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/news_images/aveda8.jpg" width="135" height="100" alt="alt text">
+<h4>Give Smiles</h4>
+<p><strong>Features Nourish-Mint Rehydrating Mini Lip glazes in Winterberry &amp; Himalayan Snow</strong></p>
+<p>For the perfect kiss under the mistletoe.<br><br></p>
+
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/news_images/aveda10.jpg" width="135" height="100" alt="alt text">
+<h4>Give Baths of Beauty</h4>
+<p><strong>Features Beautifying Composition, Body Cleanser &amp; Body Moisturiser</strong></p>
+<p>A great gift for your mum<br><br></p>
+<p>What makes the Aveda gift sets extra special is that the packaging is made with handmade paper from Nepal. Aveda’s purchase of this beautiful paper helps families living there to buy food and clothing, repair their homes and send their children to school.</p>
+<p>This is just a selection of the packs available - <em>plus your own custom gift selection can be made up for a more personalised present.</em></p>
+
+<p class="offer_heading"></p>
+<p class="offer"></p>
+</section> <!--end .hidden-->
+<p class="author">Published by PK</p>
+<time datetime="2013-11-30">30<sup>th</sup> November 2013</time>
+</article> <!--end #article-->
+
+<article class="article">
 <a id="paulNoMore" class="anchor"></a>
 <section class="visible">
 <img src="<?php echo Yii::app()->request->baseUrl; ?>/images/news_images/paul_exit.jpg" width="135" height="190" alt="alt text">
