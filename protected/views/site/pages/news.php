@@ -27,7 +27,7 @@ window.addEvent('domready', function(){
 <h3>Give something a little different this Christmas</h3>
 <p><strong>Here at Paul Kemp Hairdressing we stock a wide range of products from Schwarzkopf, Tigi, GHD and Aveda. During this festive season each product company bring out their own Christmas gift sets. If you're looking for something a little different as a gift this Christmas then check out our Aveda packs.</strong></p>
 <p>Each set contains limited edition, miniature versions of your favourite Aveda products, giving the opportunity for your friends and family to try them out for themselves. The limited-edition gift sets feature certain products that are available only during the Christmas season.</p>
-<p class="reveal">Read more is &gt;</p>
+<p class="reveal">Read more &gt;</p>
 </section> <!--end .visible-->
 <section class="hidden">
 <p class="offer">Choose from the following:</p>
