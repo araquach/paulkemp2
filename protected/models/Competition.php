@@ -48,7 +48,7 @@ class Competition extends CActiveRecord
 			array('mobile', 'numerical', 'integerOnly'=>true, 'message'=>'Please enter your mobile number without any spaces'),
 			array('regular', 'boolean'),
 			array('email', 'email', 'message'=>'Please give a valid email address'),
-			array('email, mobile', 'unique'),
+			array('email, mobile', 'unique', 'message'=>'Sorry - you can only enter once'),
 			// The following rule is used by search().
 			// Please remove those attributes that should not be searched.
 			array('id, first_name, second_name, mobile, email, answer, date_entered, regular', 'safe', 'on'=>'search'),

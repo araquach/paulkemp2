@@ -8,6 +8,11 @@
 
 <?php $form=$this->beginWidget('CActiveForm', array(
 	'id'=>'competition-form',
+	'enableClientValidation'=>true,
+	'clientOptions'=>array(
+		'validateOnSubmit'=>true,
+	),
+	
 	'enableAjaxValidation'=>false,
 )); ?>
 

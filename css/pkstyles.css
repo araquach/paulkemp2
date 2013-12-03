@@ -2566,9 +2566,8 @@ span.kebelo_italic {
 	width: 890px;
 	margin-bottom: 50px;
 	float: left;
-	background: url('../images/competition/ghd.jpg') no-repeat;
-	background-position: right top;
-	opacity: .6;
+	background: url('../images/competition/aveda_christmas.jpg') no-repeat;
+	background-position: right 70px;
 }
 
 #overlay {
@@ -2678,10 +2677,19 @@ p.big {
 	line-height: 1.5em;
 }
 
+#competition_copy small {
+	font-size: 0.8em;
+	line-height: 1.5em;
+	padding-bottom: 30px;
+}
+
 .comp_end {
 	color: #8a1d02;
 }
 
+iframe#f345250fd8.fb_ltr {
+	margin-left: 40px;
+}
 
 /* @end */
 

@@ -2803,7 +2803,7 @@ span.error {
 	width: auto;
 	margin-bottom: 0;
 	float: none;
-	background: none;
+	background: url('../images/competition/aveda_christmas_mob.jpg') left top no-repeat;
 	opacity: 1;
 }
 
@@ -2823,41 +2823,29 @@ span.error {
 	margin-left: 0;
 }
 
-#competition img {
-	margin-left: 0;
-}
-
 #competition_copy img {
-	margin-left: 0;
+	margin-left: -20px;
 }
 
 #competition_copy h1 {
-	color: #666;
-	margin: 0 50px;
-	font: 4em Georgia, "Times New Roman", Times, serif;
+	color: rgb(88, 0, 0);
+	margin: 200px 0 10px 0;
+	font: 1.8em Georgia, "Times New Roman", Times, serif;
 }
 
-#competition_copy p.candy {
-	margin-left: 0;
-	font: 2em Georgia, "Times New Roman", Times, serif;
-	color: #666;
-	text-align: left;
-}
-
-#competition_copy p.ghdtext {
-	position: absolute;
-	right: 70px;
-	top: 920px;
-	width: 400px;
-	font-family: "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
-	color: #666;
-	display: none;
-}
-
-#competition_copy p.ghdtext .colours {
+#competition_copy h2 {
+	color: rgb(88, 0, 0);
 	font-size: 1.3em;
-	font-weight: bold;
+	margin-top: 0;
+	margin-bottom: 20px;
+	padding: 0;
 }
+
+#competition_copy h3 {
+	color: rgb(88, 0, 0);
+	font-size: 1em;
+}
+
 
 .competition_success {
 	font-size: 1.5em;
