@@ -2583,42 +2583,31 @@ span.kebelo_italic {
 
 #competition_copy {
 	width: 300px;
-	margin-left: 50px;
-}
-
-#competition img {
-	margin-left: 45px;
+	margin-left: 60px;
 }
 
 #competition_copy img {
-	margin-left: 25px;
+	margin-left: -10px;
+	padding: 0;
 }
 
 #competition_copy h1 {
-	color: #666;
-	margin: 20px 50px;
-	font: 4em Georgia, "Times New Roman", Times, serif;
+	color: rgb(88, 0, 0);
+	margin: 40px 0 10px 0;
+	font: 3em Georgia, "Times New Roman", Times, serif;
 }
 
-#competition_copy p.candy {
-	margin-left: -50px;
-	font: 2em Georgia, "Times New Roman", Times, serif;
-	color: #666;
-	text-align: center;
+#competition_copy h2 {
+	color: rgb(88, 0, 0);
+	font-size: 2em;
+	margin-top: 0;
+	margin-bottom: 20px;
+	padding: 0;
 }
 
-#competition_copy p.ghdtext {
-	position: absolute;
-	right: 70px;
-	top: 920px;
-	width: 400px;
-	font-family: "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
-	color: #666;
-}
-
-#competition_copy p.ghdtext .colours {
-	font-size: 1.3em;
-	font-weight: bold;
+#competition_copy h3 {
+	color: rgb(88, 0, 0);
+	font-size: 1.5em;
 }
 
 .competition_success {
