@@ -36,14 +36,14 @@ $this->pageTitle=Yii::app()->name;
     	</aside>',array('site/page','view'=>'michelle')); ?>
     	
     <?php echo CHtml::link('<aside id="news2">
-    <h3 class="newsheader">NEW ghd Eclipse Irons</h3>
-    <p class="newspara">These revolutionary irons arrived last month - find out if we think they\'re worth the hype</p>
+    <h3 class="newsheader">NEW ghd Eclipse Styling Irons</h3>
+    <p class="newspara">These revolutionary irons are only &pound;145 for a limited time</p>
     <p class="newscenter"><strong>Find out more here &gt;</strong></p>
     	</aside>',array('site/page','view'=>'news', '#'=>'ghdEclipse')); ?>
     
     <?php echo CHtml::link('<aside id="news3">
     <h3 class="newsheader">A Special Gift this Christmas</h3>
-    <p class="newspara">Aveda Limited edition Gift packs are now available in the salon</p>
+    <p class="newspara">Aveda Limited edition Gift packs are available in the salon - plus enter our great competition</p>
     <p class="newscenter"><strong>Find out more here &gt;</strong></p>
     </aside>',array('site/page','view'=>'news', '#'=>'AvedaChristmas')); ?>
     

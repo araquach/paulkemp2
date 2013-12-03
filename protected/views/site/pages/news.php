@@ -64,7 +64,9 @@ window.addEvent('domready', function(){
 <p>What makes the Aveda gift sets extra special is that the packaging is made with handmade paper from Nepal. Aveda’s purchase of this beautiful paper helps families living there to buy food and clothing, repair their homes and send their children to school.</p>
 <p>This is just a selection of the packs available - <em>plus your own custom gift selection can be made up for a more personalised present.</em></p>
 
-<p class="offer_heading"></p>
+<p class="offer_heading">For the chance to experience Aveda products for yourself enter our competition here:</p>
+<?php echo CHtml::link('<p class="offer">WIN an Aveda in-salon experience in our competition &gt;</p>',array('competition/create')); ?>
+
 <p class="offer"></p>
 </section> <!--end .hidden-->
 <p class="author">Published by PK</p>
