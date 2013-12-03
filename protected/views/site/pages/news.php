@@ -108,6 +108,8 @@ window.addEvent('domready', function(){
 <p>The main thing that differentiates them from the previous models is in how the plates heat. Patented <em>Tri-Zone technology</em> uses six quick thinking sensors (three on each plate) to ensure no heat loss during styling.</p>
 <p>First impressions of the new <em>ghd Eclipse</em> are good, I always go out of my way to pick these up when I'm styling my clients hair - especially on thick, course hair. The difference isn't massive but definitely noticeable. If I was looking to buy a new set of irons I would definitely go for these. At &pound;200 they're pricey, but worth every penny. Of course if the price puts you off, the <em>gold series (mark 5)</em> is still available at &pound;125 and the budget <em>mark 4 styler</em> is just &pound;99.</p>
 
+<p><strong>News Update: The Eclipse irons are now available for &pound;145 for a limited time! (Updated: 03/12/13)</strong></p>
+
 <p class="offer_heading">All varieties of ghd's are available in the salon - just ask your stylist.</p>
 <p class="offer"></p>
 </section> <!--end .hidden-->
