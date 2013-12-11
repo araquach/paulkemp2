@@ -82,7 +82,7 @@ class MailingListController extends Controller
 	
 	public function actionEmail()
 	{
-		$this->render('//mail/new_client_offer',array('model'=>$this->loadModel($id)));
+		$this->render('//mail/december_news',array('model'=>$this->loadModel($id)));
 	}
 	
 	
@@ -99,7 +99,7 @@ class MailingListController extends Controller
 				if(isset($_POST['MailingList']))
 				{
 						$message = new YiiMailMessage;
-						$message->view = 'new_client_offer';
+						$message->view = 'december_news';
 						$message->setBody(array('model'=>$row), 'text/html');
 						$message->subject = 'Paul Kemp Hairdressing';
 						$message->setTo($row->email);
