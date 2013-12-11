@@ -114,7 +114,7 @@
 	  <p><strong>Call on the day:</strong><br>
 	  	if we have availability book in for</p>
 	  	<p style="font-size:20px;font-weight:bold; line-height:1.6em;">A Men\'s Cut & Style for just &pound;12<br>
-	  	A Men\'s Express Cut for just &pound8;</p>
+	  	A Men\'s Express Cut for just &pound;8</p>
 	  	
 	  <p>Offer exclusively for <strong>'.ucfirst($model->first_name).' '.ucfirst($model->last_name).'</strong> only.<br>Not Transferable, weekdays only </p>
 	  <p><strong>Call 01925 444488 to book and mention the offer</strong></p>
@@ -155,8 +155,8 @@
 	<!--footer-->
 		
 		<tr>
-		  <td style="background-color: #372218;border-top:10px solid #FFFFFF;" valign="top">&nbsp;</td>
-		  <td style="background-color:#372218;border-top:10px solid #FFFFFF;" valign="top">
+		  <td style="background-color: #333333;border-top:10px solid #FFFFFF;" valign="top">&nbsp;</td>
+		  <td style="background-color:#333333;border-top:10px solid #FFFFFF;" valign="top">
 		  <span style="text-align:left;font-size:10px;color:#FFFFFF;font-family:verdana;">
 			Paul Kemp Hairdressing Ltd <br />
 		  <br />
