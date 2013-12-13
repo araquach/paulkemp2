@@ -1205,7 +1205,7 @@ section#newspage a p:hover {
 #offer_copy {
 	width: 450px;
 	margin-left: 60px;
-	margin-bottom: 80px;
+	margin-bottom: 40px;
 }
 
 #offerlist {
@@ -1219,6 +1219,7 @@ section#newspage a p:hover {
 
 #offersMain h2 {
 	margin: 60px;
+	margin-bottom: 30px;
 	font-size: 2.5em;
 }
 
@@ -1249,7 +1250,7 @@ section#newspage a p:hover {
 
 #offerlist #offer1 {
 	padding: 30px;
-	background-image: url(../images/offer/offer1-bha.jpg);
+	background-image: url(../images/offer/last_min.jpg);
 	clear: left;
 	float: left;
 	height: 240px;
@@ -1276,7 +1277,7 @@ section#newspage a p:hover {
 
 #offerlist #offer2 {
 	padding: 30px;
-	background-image: url(../images/offer/offer3-bha.jpg);
+	background-image: url(../images/offer/last_min_man.jpg);
 	clear: left;
 	float: left;
 	height: 240px;
