@@ -9,21 +9,29 @@ $this->pageTitle=Yii::app()->name . ' - Offers - Hairdressers in Cheshire';
 
 <section id="offersMain">
 
-<h2>Special Offers</h2>
+<h2>Last Minute Offers</h2>
+
+<section id="offer_copy">
+<p><strong>The PK team are pretty much booked up by now with limited appointment slots available. At this time of year we increase our opening days with the salon open the Sunday's and Monday's leading up to Christmas.</strong></p>
+<p>If you still haven't booked your appointment yet - don't worry, we might still be able to get you in. We get a lot of last minute cancellations this time of year leaving spaces we'd really like to fill!</p>
+<p><strong>Call on the day and if we have availability we'll do your hair at a special price!</strong></p>
+</section>
 
 	<section id="offerlist">
 	<div id="offer1" class="offer">
-	  <h3>FREE Colour with every <br>Cut, Dry &amp; Style</h3>
-	  <p>For new clients <br>throughout the month</p>
-	    <p class="small">extended until 29/11/13<br>
-	    For New Clients - not with any other offer. Excludes Saturday<br>Skin test required 48hrs before any colour service</small>
+	  <h3>Last Minute Blow Dry</h3>
+	  <p>Call on the day - if we have availability:</p>
+	  <p>&pound;10 Blow Dry</p>
+	  <p>&pound;15 Curly Blow</p>
+	    <p class="small">Until 31/12/13 Subject to availability</p>
 	</div>
 	
 	<div id="offer2" class="offer">
-	  <h3>£15 Blow Dry <br>until 4pm</h3>
-	  <p>For new clients <br>throughout the month</p>
-	    <p class="small">extended until 29/11/13<br>
-	    For New Clients - not with any other offer. <br>Excludes Saturday and evenings</small>
+	  <h3>Last Minute Men's Cut</h3>
+	 <p>Call on the day - if we have availability:</p>
+	 <p></p>
+	 <p></p>
+	   <p class="small">Until 31/12/13 Subject to availability</p>
 	</div>
 	</section> <!--offerlist--> 
 

@@ -1202,6 +1202,12 @@ section#newspage a p:hover {
 	height: 800px;
 }
 
+#offer_copy {
+	width: 450px;
+	margin-left: 60px;
+	margin-bottom: 80px;
+}
+
 #offerlist {
 	margin-left: 60px;
 	display: block;
@@ -1225,10 +1231,15 @@ section#newspage a p:hover {
 
 #offerlist h3 {
 	font-size: 2em;
-	line-height: 1.2em;
+	line-height: 1.3em;
 }
 
 #offerlist p {
+	font-size: 1.4em;
+	margin-bottom: 10px;
+}
+
+#offerlist p:first-of-type {
 	font-size: 1.2em;
 }
 
