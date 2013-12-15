@@ -54,7 +54,8 @@ class Offer extends CActiveRecord
 			array('mobile', 'length', 'max'=>16),
 			array('first_visit, last_visit', 'length', 'max'=>22),
 			array('date','default','value'=>new CDbExpression('NOW()'),'setOnEmpty'=>false,'on'=>'update'),
-			array('submitted', 'validateEntry'),
+			// array('submitted', 'validateEntry'),
+			
 			// The following rule is used by search().
 			// Please remove those attributes that should not be searched.
 			array('id, first_name, last_name, mobile, email, first_stylist, last_stylist, first_visit, last_visit, gender, number_visits, optout, date, submitted', 'safe', 'on'=>'search'),
