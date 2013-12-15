@@ -15,7 +15,7 @@ $this->pageTitle=Yii::app()->name . ' - Offers - Hairdressers in Cheshire';
 <section id="offer_copy">
 <p><strong>The PK team are pretty much booked up by now with limited appointment slots available. At this time of year we increase our opening days with the salon open on the Sunday's and Monday's leading up to Christmas.</strong></p>
 <p>If you still haven't booked your appointment yet - don't worry, we might still be able to get you in. We get a lot of last minute cancellations this time of year leaving spaces we'd really like to fill!</p>
-<p><strong>Call on the day and if we have availability we'll do your hair at a special price!</strong></p>
+<p><strong>Call on the day and if we have availability we'll do your hair at a special price! We can't guarantee availability and you can't choose your stylist, but you will have a fully qualified stylist or senior stylist.</strong></p>
 </section>
 
 	<section id="offerlist">
