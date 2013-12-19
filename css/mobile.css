@@ -2765,8 +2765,9 @@ span.error {
 }
 
 #limited_copy h1 {
-	font-size: 1.3em;
+	font-size: 1.4em;
 	margin-left: 0;
+	width: auto;
 	line-height: 1.5em;
 	margin-top: 20px;
 }
