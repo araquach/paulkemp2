@@ -3,14 +3,13 @@
 $this->pageTitle=Yii::app()->name . ' - Offers - Hairdressers in Cheshire';
 ?>
 
-<?php Yii::app()->facebook->ogTags['og:title'] = "Last Minute Blow Dry"; ?>
-<?php Yii::app()->facebook->ogTags['og:description'] = "Call on the day and if we have availability we'll do your hair at a special price:
-£10 Blowdry £15 Curly Blow"; ?>
+<?php Yii::app()->facebook->ogTags['og:title'] = "Offers"; ?>
+<?php Yii::app()->facebook->ogTags['og:description'] = "All the latest offers at PK"; ?>
 <?php Yii::app()->facebook->ogTags['og:image'] = "http://www.paulkemphairdressing.com/images/offer/last_min_meta.jpg"; ?>
 
 <section id="offersMain">
 
-<h2>Last Minute Offers</h2>
+<!--<h2>Offers</h2>
 
 <section id="offer_copy">
 <p><strong>The PK team are pretty much booked up by now with limited appointment slots available. At this time of year we increase our opening days with the salon open on the Sunday's and Monday's leading up to Christmas.</strong></p>
@@ -34,9 +33,9 @@ $this->pageTitle=Yii::app()->name . ' - Offers - Hairdressers in Cheshire';
 	 <p>&pound;7 Men's Express Cut</p>
 	   <p class="small">Until 31/12/13 Subject to availability</p>
 	</div>
-	</section> <!--offerlist--> 
+	</section> <!- -offerlist- -*> 
 
-</section> <!--#offersMain-->
+</section> <!- -#offersMain- -*>-->
 
 <!--<div id="offer1" class="offer"><h3>Senior Stylist Colour &amp; Cut Package</h3>
 <p>for just &pound;60</p>
@@ -61,7 +60,7 @@ $this->pageTitle=Yii::app()->name . ' - Offers - Hairdressers in Cheshire';
 
  
  
- <!--<section id="no_offer">
+ <section id="no_offer">
   </section> 
  <section id="no_offercopy">
  <h2>Special Offers</h2>
@@ -69,6 +68,6 @@ $this->pageTitle=Yii::app()->name . ' - Offers - Hairdressers in Cheshire';
  <p>
  	<a href="http://www.facebook.com/PaulKempHairdressing" target="_blank">Visit our Facebook page to keep up to date with all the latest news and offers</a>
  </p>
- </section> <!- -no_offer- -*>-->
+ </section> <!--no_offer-->
 
  
