@@ -21,6 +21,19 @@ window.addEvent('domready', function(){
 <section id="accordion">
 
 <article class="article">
+<a id="teamParty" class="anchor"></a>
+<section class="visible">
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/news_images/party_team.jpg" width="135" height="180" alt="The PK Team">
+<h3>PK Lodge Break Pictures</h3>
+<p><strong>Earlier this month the Paul Kemp Hairdressing team all headed off to spend 5 days in a Lodge in Tattershall as their Christmas party. It was a fantastic week - perfect for setting 2014 off on the right foot.</strong></p>
+<p>The whole team got on really well and didn't want to come home. Highlight's of the week were hitting the hot tub, getting extremely drunk and eating loads!</p>
+<p><a href="https://www.facebook.com/media/set/?set=a.676242859092743.1073741826.191283914255309&type=1" class="offer_heading"><strong>Check out the pictures here ></strong></a></p>
+</section> <!--end .visible-->
+<p class="author">Published by Adam</p>
+<time datetime="2014-01-01">24<sup>th</sup> January 2014</time>
+</article> <!--end #article-->
+
+<article class="article">
 <a id="AvedaChristmas" class="anchor"></a>
 <section class="visible">
 <img src="<?php echo Yii::app()->request->baseUrl; ?>/images/news_images/aveda_christmas.jpg" width="135" height="190" alt="Aveda Christmas Gifts">
