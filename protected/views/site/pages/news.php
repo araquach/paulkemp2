@@ -27,7 +27,7 @@ window.addEvent('domready', function(){
 <h3>PK Lodge Break Pictures</h3>
 <p><strong>Earlier this month the Paul Kemp Hairdressing team all headed off to spend 5 days in a Lodge in Tattershall as their Christmas party. It was a fantastic week - perfect for setting 2014 off on the right foot.</strong></p>
 <p>The whole team got on really well and didn't want to come home. Highlight's of the week were hitting the hot tub, getting extremely drunk and eating loads!</p>
-<p><a href="https://www.facebook.com/media/set/?set=a.676242859092743.1073741826.191283914255309&type=1" class="offer_heading"><strong>Check out the pictures here ></strong></a></p>
+<p><a href="https://www.facebook.com/media/set/?set=a.676242859092743.1073741826.191283914255309&type=1" class="offer_heading" target="_blank"><strong>Check out the pictures here ></strong></a></p>
 </section> <!--end .visible-->
 <p class="author">Published by Adam</p>
 <time datetime="2014-01-01">24<sup>th</sup> January 2014</time>
