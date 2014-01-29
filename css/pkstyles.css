@@ -295,7 +295,7 @@ li.active a {
 #homeimage {
 	width: 950px;
 	height: 1350px;
-	background-image: url(../images/glam_chic.jpg);
+	background-image: url(../images/retro.jpg);
 	background-repeat: no-repeat;
 	background-color:#FFF;
 	float: left;
@@ -308,7 +308,7 @@ li.active a {
 	margin-right: 40px;
 	padding-right: 10px;
 	float: right;
-	margin-top: -1200px;
+	margin-top: -1250px;
 }
 
 #homecopy h2 {
@@ -514,13 +514,13 @@ aside h2, aside, h3, aside h4, aside h5, aside h6 {
 }
 
 #feedback_feed {
-	width: 350px;
+	width: 320px;
 	text-align: right;
 	position: absolute;
 	font-size: 1em;
 	line-height: 1.3em;
 	right: 50px;
-	bottom: 760px;
+	bottom: 850px;
 	display: none;
 }
 
@@ -529,7 +529,6 @@ aside h2, aside, h3, aside h4, aside h5, aside h6 {
 	list-style-type: none;
 	font-family: Georgia, "Times New Roman", Times, serif;
 	font-style: italic;
-	text-shadow: 0 0 3px #0a0a0a;
 }
 
 #feedback_feed ul li .client {

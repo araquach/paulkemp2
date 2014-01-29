@@ -149,7 +149,7 @@ li.active a {
 #homeimage {
 	width: auto;
 	height: 500px;
-	background: url(../images/glam_chic.jpg) left top no-repeat #f8f3e8;
+	background: url(../images/retro.jpg) left top no-repeat #f8f3e8;
 	background-size: cover;
 	float: none;
 	
@@ -321,7 +321,7 @@ aside h2, aside, h3, aside h4, aside h5, aside h6 {
 	text-align: left;
 	position: absolute;
 	font-size: .85em;
-	bottom: 2400px;
+	bottom: 2370px;
 	left: 30px;
 	display: none;
 }
