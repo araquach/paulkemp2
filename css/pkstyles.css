@@ -374,7 +374,7 @@ li.active a {
 #news1 {
 	left: 20px;
 	top: 1100px;
-	background: url(../images/home_news/michelle_r.jpg) no-repeat, rgb(55,34,24);
+	background: url(../images/home_news/07_construct.jpg) no-repeat, rgb(55,34,24);
 	-webkit-transition: all 0.3s ease-in;
 	-moz-transition: all 0.3s ease-in;
 	transition: all 0.3s ease-in;
@@ -1198,7 +1198,7 @@ section#newspage a p:hover {
 /* Multiple Offer Styling */
 
 #offersMain {
-	height: 800px;
+	height: 1200px;
 }
 
 #offer_copy {
@@ -1226,6 +1226,10 @@ section#newspage a p:hover {
 	text-align: center;
 	margin-right: 250px;
 	margin-top: 0;
+	color: rgb(55, 34, 24);
+}
+
+#offerlist #offer3 h3, #offerlist #offer3 p, #offerlist #offer3 .small {
 	color: #FFF;
 }
 
@@ -1235,12 +1239,12 @@ section#newspage a p:hover {
 }
 
 #offerlist p {
-	font-size: 1.4em;
+	font-size: 1em;
 	margin-bottom: 10px;
 }
 
 #offerlist p:first-of-type {
-	font-size: 1.2em;
+	font-size: 1.5em;
 }
 
 #offerlist .small {
@@ -1249,7 +1253,7 @@ section#newspage a p:hover {
 
 #offerlist #offer1 {
 	padding: 30px;
-	background-image: url(../images/offer/last_min.jpg);
+	background-image: url(../images/offer/07_construct.jpg);
 	clear: left;
 	float: left;
 	height: 240px;
@@ -1276,7 +1280,7 @@ section#newspage a p:hover {
 
 #offerlist #offer2 {
 	padding: 30px;
-	background-image: url(../images/offer/last_min_man.jpg);
+	background-image: url(../images/offer/18_construct.jpg);
 	clear: left;
 	float: left;
 	height: 240px;
@@ -1291,11 +1295,11 @@ section#newspage a p:hover {
 
 #offerlist #offer3 {
 	padding: 30px;
-	background-image: url(../images/offer/offer3-bha.jpg);
+	background-image: url(../images/offer/last_min_man.jpg);
 	clear: left;
 	float: left;
-	height: 200px;
-	width: 700px;
+	height: 240px;
+	width: 740px;
 	-moz-border-radius: 15px;
 	-webkit-border-radius: 15px;
 	border-radius: 15px;
@@ -1396,6 +1400,22 @@ section#newspage a p:hover {
 	border-bottom: dashed 1px #666;
 	
 }
+
+p#book_button {
+	margin-left: 0;
+	color: rgb(55,34,24);
+	margin-top: 20px;
+	float: left;
+}
+
+#book_button p strong {
+	font-size: .6em;
+}
+
+#book_button:hover {
+	border-bottom: 1px dashed rgb(55,34,24);
+}
+
 
 
 
