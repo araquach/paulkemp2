@@ -435,14 +435,14 @@ li.active a {
 #news4 {
 	left: 725px;
 	top: 1100px;
-	background: url(../images/home_news/lodge.jpg) no-repeat, rgb(55,34,24);
+	background: url(../images/home_news/spring_looks.jpg) no-repeat, rgb(55,34,24);
 	-webkit-transition: all 0.3s ease-in;
 	-moz-transition: all 0.3s ease-in;
 	transition: all 0.3s ease-in;
 }
 
 .no-cssgradients #news4 {
-	background: url(../images/home_news/lodge.jpg) no-repeat rgb(55,34,24);
+	background: url(../images/home_news/spring_looks.jpg) no-repeat rgb(55,34,24);
 }
 
 #news4:hover {
@@ -1045,6 +1045,11 @@ a.anchor {
 
 #accordion article.article section.hidden img {
 	float: left;
+}
+
+.bigPic {
+	margin-right: 400px;
+	margin-top: 50px;
 }
 
 #accordion article.article section.hidden dl dt {
