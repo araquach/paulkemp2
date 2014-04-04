@@ -21,6 +21,35 @@ window.addEvent('domready', function(){
 <section id="accordion">
 
 <article class="article">
+<a id="articleName" class="anchor"></a>
+<section class="visible">
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/news_images/" width="135" height="180">
+<h3>Spring into a new look</h3>
+<p><strong>Winter is officially over and it's probably about time for a Spring makeover. If you're getting bored of the same style you've had over the winter months, why not think about having a big change!</strong></p>
+<p>If you're stuck for ideas we've put together a selection of recent celebrity looks to inspire you. Whether you want it lighter, darker or shorter just ask one of our stylists for some advice on a look that will suit you!</p>
+<p class="reveal">Read more &gt;</p>
+</section> <!--end .visible-->
+<section class="hidden">
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/news_images/" width="135" height="180">
+<h4>KATE MARA'S BLONDE BOB</h4>
+<p>Whether you’re looking to chop it all off or lighten things up, allow Kate Mara's new shoulder-skimming bob and vibrant blonde colour serve as inspiration for your next hair makeover.</p>
+<h4>OLIVIA WILDE'S OMBRE WAVES</h4>
+<p>It looks like the ombre is here to stay this spring! Olivia Wilde shows off her dip-dyed look with loose, effortless waves.</p>
+<h4>TAYLOR SWIFT'S LONG BOB</h4>
+<p>Famous for its versatility, a chin-skimming bob is universally flattering. Glam the look up with a long, sweeping fringe like Taylor Swift.</p>
+<h4>REESE WITHERSPOON'S SOFT FRINGE</h4>
+<p>Reese Witherspoon's new wispy fringe is low-maintenance enough for beginners. The brow-skimming length leaves room for versatility.</p>
+<h4>MICHELLE WILLIAMS' GROWN-OUT PIXIE</h4>
+<p>Michelle Williams' long, side-parted layers not only offer a chic solution to the tricky growing-out phase of 2013's pixie craze, but the length also could become one of spring's top hair trends to try.</p>
+<p class="offerHeading"></p>
+<p class="offer"></p>
+<?php echo CHtml::link('<p class="offer"></p>',array('site/page','view'=>'')); ?>
+</section> <!--end .hidden-->
+<p class="author">Published by </p>
+<time datetime="2013-08-01">1<sup>st</sup> August 2013</time>
+</article> <!--end #article-->
+
+<article class="article">
 <a id="teamParty" class="anchor"></a>
 <section class="visible">
 <img src="<?php echo Yii::app()->request->baseUrl; ?>/images/news_images/party_team.jpg" width="135" height="180" alt="The PK Team">
