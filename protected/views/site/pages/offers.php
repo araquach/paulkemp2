@@ -13,6 +13,14 @@ $this->pageTitle=Yii::app()->name . ' - Offers - Hairdressers in Cheshire';
 
 <section id="offerlist">
 
+<div id="offer3" class="offer">
+  <h3>30% off <br>Men's Cut &amp; Style</h3>
+  <p>for new clients</p>
+    <p>throughout April</p>
+    <p class="small">offer extended until <time datetime="2014-04-28">30/04/14</time><br>
+      Not with any other offer - excludes Saturday</p>
+</div>
+
 <div id="offer1" class="offer"><h3>Senior Stylist Colour &amp;<br> Cut Package</h3>
 <p>for just &pound;60</p>
 <p>with any of our Senior Stylists</p>
@@ -26,14 +34,6 @@ $this->pageTitle=Yii::app()->name . ' - Offers - Hairdressers in Cheshire';
     <p>with any of our Stylists</p>
     <p class="small">offer extended until <time datetime="2014-04-30">30/04/14</time><br>
       For New Clients Only - not with any other offer - excludes Saturday<br>Skin test required 48hrs prior to service</p>
-</div>
-
-<div id="offer3" class="offer">
-  <h3>30% off <br>Men's Cut &amp; Style</h3>
-  <p>for new clients</p>
-    <p>throughout April</p>
-    <p class="small">offer extended until <time datetime="2014-04-28">30/04/14</time><br>
-      Not with any other offer - excludes Saturday</p>
 </div>
 
 <?php echo CHtml::link('<p id="book_button">Online enquiry and booking form</p>',array('site/contact')); ?>
