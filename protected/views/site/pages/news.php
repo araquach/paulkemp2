@@ -21,6 +21,29 @@ window.addEvent('domready', function(){
 <section id="accordion">
 
 <article class="article">
+<a id="Starlight" class="anchor"></a>
+<section class="visible">
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/news_images/starlight1.jpg" width="135" height="166" alt="Starlight PK Team">
+<h3>PK Raise awareness for Starlight Walk</h3>
+<p><strong>At midnight on Friday 20th June thousands of women will be taking part in the <em>Starlight Ladies Walk</em> - the Paul Kemp Team are raising awareness of the event to help get as many of our clients taking part as we can!</strong></p>
+<p>The Starlight Ladies Walk is the biggest and best sponsored walk in Warrington. During the last 8 years, 12,000 ladies have taken part and raised £1.5 million for St. Rocco’s Hospice. The walk starts at Midnight on Friday 20th June.</p>
+<p class="reveal">Read more &gt;</p>
+</section> <!--end .visible-->
+<section class="hidden">
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/news_images/starlight2.jpg" width="135" height="93" alt="Starlight PK Team">
+<p>This years theme is ‘A Walk to Remember’, whether you are walking in memory of a loved one or a fun walk with friends or family- this is sure to be a Walk to Remember!</p>
+<p>If you enter before the 30th April it's just £12 (it's £15 after this date). This gets you your place on the Walk, a special Starlight Walk t- shirt, medal, refreshments and breakfast on the day!</p>
+<p class="offer_heading">For more information visit the following links:</p>
+<p><strong><a href="http://www.stroccos.org.uk/b0cdee70074144a4bec6403704aca745?site=54a3c9b1-1efc-4453-bc75-9194af1f7f5c" target="_blank">What is the Starlight Walk?</a></strong></p>
+<p><strong><a href="https://twitter.com/stroccos" target="_blank">St. Rocco's Twitter Page</a></strong></p>
+<p>or pick up a flyer from the salon.</p>
+</section> <!--end .hidden-->
+<p class="author">Published by PK</p>
+<time datetime="2013-08-01">25<sup>th</sup> April 2013</time>
+</article> <!--end #article-->
+
+
+<article class="article">
 <a id="springLooks" class="anchor"></a>
 <section class="visible">
 <img src="<?php echo Yii::app()->request->baseUrl; ?>/images/news_images/trends.jpg" width="135" height="180">
