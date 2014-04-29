@@ -63,7 +63,7 @@ $this->pageTitle=Yii::app()->name . ' - The Team - Hairdressers in Cheshire';
         <section id="meg">
         <h3><img src="<?php echo Yii::app()->request->baseUrl; ?>/images/staff/meg.jpg" width="133" height="168" alt="Megan Mullaney">Meg Mullaney - Junior Stylist</h3>
         <p>Meg joined the team as an apprentice and quickly demonstrated her natural flair for hairdressing. After completing her training she is now a Graduate stylist in the team. Meg has great talent for hair up styling and her cutting and colouring skills are extremely strong</p>
-        <p class="teamprice">Average Cut &amp; Colour price with Tash : &pound;56*</p>
+        <p class="teamprice">Average Cut &amp; Colour price with Meg : &pound;56*</p>
         </section>
         
         </section>
