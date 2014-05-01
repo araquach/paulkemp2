@@ -30,10 +30,9 @@ $this->pageTitle=Yii::app()->name;
   
 <!--NewsItems-->
     <?php echo CHtml::link('<aside id="news1">
-    <h3 class="newsheader">New Client Offers this April</h3>
-    <p class="newspara">Take advantage of these great offers - open to all new clients to the salon</p>
+    <h3 class="newsheade">The Paul Kemp Team have been raising awareness for the St Rocco\'s Starlight Walk</p>
     <p class="newscenter"><strong>Find out more here &gt;</strong></p>
-    	</aside>',array('site/page','view'=>'offers')); ?>
+    	</aside>',array('site/page','view'=>'news', '#'=>'Starlight')); ?>
     	
     <?php echo CHtml::link('<aside id="news2">
     <h3 class="newsheader">NEW ghd Eclipse Styling Irons</h3>
