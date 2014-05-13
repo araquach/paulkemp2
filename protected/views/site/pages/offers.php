@@ -11,6 +11,9 @@ $this->pageTitle=Yii::app()->name . ' - Offers - Hairdressers in Cheshire';
 
 <h2>Offers</h2>
 
+
+<section id="offerlist">
+
 <div id="offer1" class="offer">
 <h3>FREE Colour <br>with every<br>Cut, Dry &amp; Style</h3>
 <p>For new clients<br>until the end of May</p>
@@ -23,6 +26,10 @@ $this->pageTitle=Yii::app()->name . ' - Offers - Hairdressers in Cheshire';
   <p>with every Kebelo System Treatment</p><p class="small">until <time datetime="2014-05-30">30/05/14</time><br>
     not with any other offer<br>Excludes Saturday</p>
  </div>', array('kebelo/advantage')); ?>
+ 
+ </section> <!--end offerlist-->
+ 
+ <?php echo CHtml::link('<p id="book_button">Online enquiry and booking form</p>',array('site/contact')); ?>
  
  </section> <!--end offersMain-->
 
