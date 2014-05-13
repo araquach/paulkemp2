@@ -374,14 +374,14 @@ li.active a {
 #news1 {
 	left: 20px;
 	top: 1100px;
-	background: url(../images/home_news/starlight.jpg) no-repeat, rgb(55,34,24);
+	background: url(../images/home_news/matalixx.jpg) no-repeat, rgb(55,34,24);
 	-webkit-transition: all 0.3s ease-in;
 	-moz-transition: all 0.3s ease-in;
 	transition: all 0.3s ease-in;
 }
 
 .no-cssgradients #news1 {
-	background: url(../images/home_news/starlight.jpg) no-repeat rgb(55,34,24);
+	background: url(../images/home_news/matalixx.jpg) no-repeat rgb(55,34,24);
 }
 
 #news1:hover {
@@ -394,14 +394,14 @@ li.active a {
 #news2 {
 	left: 257px;
 	top: 1100px;
-	background: url(../images/home_news/eclipse.jpg) no-repeat, rgb(55,34,24);
+	background: url(../images/home_news/starlight.jpg) no-repeat, rgb(55,34,24);
 	-webkit-transition: all 0.3s ease-in;
 	-moz-transition: all 0.3s ease-in;
 	transition: all 0.3s ease-in;
 }
 
 .no-cssgradients #news2 {
-	background: url(../images/home_news/eclipse.jpg) no-repeat rgb(55,34,24);
+	background: url(../images/home_news/starlight.jpg) no-repeat rgb(55,34,24);
 }
 
 #news2:hover {
@@ -1234,6 +1234,10 @@ section#newspage a p:hover {
 	color: rgb(55, 34, 24);
 }
 
+#offerlist #offer1 h3, #offerlist #offer1 p, #offerlist #offer1 .small {
+	color: #FFF;
+}
+
 #offerlist #offer3 h3, #offerlist #offer3 p, #offerlist #offer3 .small {
 	color: #FFF;
 }
@@ -1258,7 +1262,7 @@ section#newspage a p:hover {
 
 #offerlist #offer1 {
 	padding: 30px;
-	background-image: url(../images/offer/07_construct.jpg);
+	background-image: url(../images/offer/new_offer.jpg);
 	clear: left;
 	float: left;
 	height: 240px;
@@ -1318,8 +1322,8 @@ section#newspage a p:hover {
 	background-image: url(../images/offer/offer4.jpg);
 	clear: left;
 	float: left;
-	height: 200px;
-	width: 700px;
+	height: 240px;
+	width: 740px;
 	-moz-border-radius: 15px;
 	-webkit-border-radius: 15px;
 	border-radius: 15px;

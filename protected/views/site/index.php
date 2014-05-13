@@ -29,17 +29,18 @@ $this->pageTitle=Yii::app()->name;
 	</section>
   
 <!--NewsItems-->
-    <?php echo CHtml::link('<aside id="news1">
+
+	<?php echo CHtml::link('<aside id="news1">
+	<h3 class="newsheader">Special Offers for New Clients</h3>
+	<p class="newspara">Try out Paul Kemp Hairdressing at a special first time visit price</p>
+	<p class="newscenter"><strong>Find out more here &gt;</strong></p>
+		</aside>',array('site/page','view'=>'offers')); ?>
+
+    <?php echo CHtml::link('<aside id="news2">
     <h3 class="newsheader">PK Starlight Walk</h3>
     <p class="newspara">The Paul Kemp Team have been raising awareness for the St Rocco\'s Starlight Walk</p>
     <p class="newscenter"><strong>Find out more here &gt;</strong></p>
     	</aside>',array('site/page','view'=>'news', '#'=>'Starlight')); ?>
-    	
-    <?php echo CHtml::link('<aside id="news2">
-    <h3 class="newsheader">NEW ghd Eclipse Styling Irons</h3>
-    <p class="newspara">These revolutionary irons are only &pound;145 for a limited time</p>
-    <p class="newscenter"><strong>Find out more here &gt;</strong></p>
-    	</aside>',array('site/page','view'=>'news', '#'=>'ghdEclipse')); ?>
     
     <?php echo CHtml::link('<aside id="news3">
     <h3 class="newsheader">Great Career Opportunities</h3>
