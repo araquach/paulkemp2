@@ -21,6 +21,28 @@ window.addEvent('domready', function(){
 <section id="accordion">
 
 <article class="article">
+<a id="Ashley" class="anchor"></a>
+<section class="visible">
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/news_images/image.jpg" width="135" height="180" alt="alt text">
+<h3>Ashley's fast track to success</h3>
+<p><strong>Since we opened almost three years ago the Paul Kemp team has grown almost double! We've taken on a variety of staff from different backgrounds with a variety of levels of experience. During this time we've trained and developed two of our team members from apprenticeship level. There's always something special about home grown talent and we're really proud of Tash and Meg who have both matured into amazing hairdressers.</strong></p>
+<p>We are extremely selective about who we choose to be an apprentice, we're looking for people who have the passion and determination to get through the the gruelling training. When we met our latest Apprentice Ashley Tennant, we could tell straight away that she fulfilled the criteria!</p>
+<p class="reveal">Read more &gt;</p>
+</section> <!--end .visible-->
+<section class="hidden">
+<p>Nineteen year old Ashley is continuing our quest for home grown talent, she's on a fast track intensive training plan with the aim to be a graduate stylist within 6 months. Before she chose hairdressing as a career Ashley studied for her A Levels after which she decided to opt for a more vocational qualification. Her training covers all aspects of hairdressing from cutting &amp; colouring to specialist services along with all the other important stuff like customer service and reception skills. Working alongside the other members of the PK team ensures she's getting the best experience available.</p>
+<p><em>Ashley said "I've really settled into the team now, it's a great learning environment. Training leader Jack is working closely with me to ensure my hairdressing skills and knowledge are progressing fast. I just can't wait to be on the shop floor and have my own clients like Meg &amp; Tash!"</em></p>
+<p class="offer">Ashley is looking for colour &amp; cut models to progress her training.</p> 
+
+<?php echo CHtml::link('<p>If you\'re interested in being a model click here and fill in your details or call the salon on 01925 444488 &gt;</p>',array('site/contact')); ?>
+<?php echo CHtml::link('<p>If you like the idea of being the next Paul Kemp Hairdressing Apprentice click here &gt;</p>',array('apprentice/create')); ?>
+
+</section> <!--end .hidden-->
+<p class="author">Published by Adam</p>
+<time datetime="2014-05-15">15<sup>th</sup> May 2014</time>
+</article> <!--end #article-->
+
+<article class="article">
 <a id="Starlight" class="anchor"></a>
 <section class="visible">
 <img src="<?php echo Yii::app()->request->baseUrl; ?>/images/news_images/starlight1.jpg" width="135" height="166" alt="Starlight PK Team">
@@ -447,40 +469,6 @@ Price: &pound;41.00</p>
 </section> <!--end .hidden-->
 <p class="author">Published by PK</p>
 <time datetime="2012-11-01">1<sup>st</sup> November 2012</time>
-</article> <!--end #article-->
-
-<article class="article">
-<a id="ChristmasGifts" class="anchor"></a>
-<section class="visible">
-<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/news_images/tigi_christmas.jpg" width="135" height="106" alt="Christmas Gifts">
-<h3>Christmas Has Come Early!</h3>
-<p>It seems way too early to be talking about Christmas, but it is creeping up fast! The bookings are already flowing in, and we recently took arrival of this years Christmas Gift sets.</p>
-<p>This year we've got some great packs from our main suppliers, they're already flying off the shelves!</p>
-<p class="reveal">Read More ></p>
-</section> <!--end .visible-->
-<section class="hidden">
-<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/news_images/Aveda-Christmas.jpg" width="135" height="160" alt="Aveda Christmas">
-<p><strong>Tigi</strong> have produced some great packs, it appears they've put a lot of thought into grouping the most popular products together, offering them at a reduced price and they look fantastic too. We have set's from each range - call or pop in the salon for more information.</p>
-<p>The <strong>Aveda</strong> gift boxes are beautifully presented, with a selection of mini products from each range. It's a great choice for friend's and family who have never experianced the quality of Aveda.</p>
-<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/news_images/ghd_metallic.jpg" width="135" height="163" alt="GHD Metallic Collection">
-<p>As always, <strong>GHD</strong> have launched this years Christmas sets which are a limited edition metallic collection - get yours before they sell out!</p>
-<p><strong>Plus don't forget about our Paul Kemp Gift Vouchers, available in £10, £20, £50 and £100 or we can create a bespoke voucher for a specific service.</strong></p>
-</section> <!--end .hidden-->
-<p class="author">Published by PK</p>
-<time datetime="2012-11-01">1<sup>st</sup> November 2012</time>
-</article> <!--end #article-->
-
-<article class="article">
-<a id="namedAnchor" class="anchor"></a>
-<section class="visible">
-<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/news_images/merry-christmas.jpg" width="135" height="160" alt="Merry Christmas">
-<h3>Christmas Bookings</h3>
-<p>We're anticipating a seriously busy Christmas period this year, we started taking bookings back in September! The salon is open longer hours throughout December, with Sunday/Monday opening in the two weeks before Christmas.</p>
-<p>We highly recommend getting your appointment booked soon to avoid disappointment - some of the weekends are already nearly booked up!</p>
-<p class="offer"><strong>Call 01925 444488 to book yours now.</strong></p>
-</section> <!--end .visible-->
-<p class="author">Published by PK</p>
-<time datetime="2012-11-30">1<sup>st</sup> November 2012</time>
 </article> <!--end #article-->
 
 

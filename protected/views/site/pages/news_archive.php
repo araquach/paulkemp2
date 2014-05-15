@@ -24,6 +24,40 @@ window.addEvent('domready', function(){
 <section id="accordion">
 
 <article class="article">
+<a id="ChristmasGifts" class="anchor"></a>
+<section class="visible">
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/news_images/tigi_christmas.jpg" width="135" height="106" alt="Christmas Gifts">
+<h3>Christmas Has Come Early!</h3>
+<p>It seems way too early to be talking about Christmas, but it is creeping up fast! The bookings are already flowing in, and we recently took arrival of this years Christmas Gift sets.</p>
+<p>This year we've got some great packs from our main suppliers, they're already flying off the shelves!</p>
+<p class="reveal">Read More ></p>
+</section> <!--end .visible-->
+<section class="hidden">
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/news_images/Aveda-Christmas.jpg" width="135" height="160" alt="Aveda Christmas">
+<p><strong>Tigi</strong> have produced some great packs, it appears they've put a lot of thought into grouping the most popular products together, offering them at a reduced price and they look fantastic too. We have set's from each range - call or pop in the salon for more information.</p>
+<p>The <strong>Aveda</strong> gift boxes are beautifully presented, with a selection of mini products from each range. It's a great choice for friend's and family who have never experianced the quality of Aveda.</p>
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/news_images/ghd_metallic.jpg" width="135" height="163" alt="GHD Metallic Collection">
+<p>As always, <strong>GHD</strong> have launched this years Christmas sets which are a limited edition metallic collection - get yours before they sell out!</p>
+<p><strong>Plus don't forget about our Paul Kemp Gift Vouchers, available in £10, £20, £50 and £100 or we can create a bespoke voucher for a specific service.</strong></p>
+</section> <!--end .hidden-->
+<p class="author">Published by PK</p>
+<time datetime="2012-11-01">1<sup>st</sup> November 2012</time>
+</article> <!--end #article-->
+
+<article class="article">
+<a id="namedAnchor" class="anchor"></a>
+<section class="visible">
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/news_images/merry-christmas.jpg" width="135" height="160" alt="Merry Christmas">
+<h3>Christmas Bookings</h3>
+<p>We're anticipating a seriously busy Christmas period this year, we started taking bookings back in September! The salon is open longer hours throughout December, with Sunday/Monday opening in the two weeks before Christmas.</p>
+<p>We highly recommend getting your appointment booked soon to avoid disappointment - some of the weekends are already nearly booked up!</p>
+<p class="offer"><strong>Call 01925 444488 to book yours now.</strong></p>
+</section> <!--end .visible-->
+<p class="author">Published by PK</p>
+<time datetime="2012-11-30">1<sup>st</sup> November 2012</time>
+</article> <!--end #article-->
+
+<article class="article">
 <section class="visible">
 <a id="NewStaff" class="anchor"></a>
 <img src="<?php echo Yii::app()->request->baseUrl; ?>/images/news_images/jack2.jpg" width="135" height="190" alt="Jack Broady">
