@@ -61,9 +61,14 @@ $this->pageTitle=Yii::app()->name . ' - The Team - Hairdressers in Cheshire';
         <p class="teamprice">Average Cut &amp; Colour price with Tash : &pound;76*</p>
         </section>
         <section id="meg">
-        <h3><img src="<?php echo Yii::app()->request->baseUrl; ?>/images/staff/meg.jpg" width="133" height="168" alt="Megan Mullaney">Meg Mullaney - Junior Stylist</h3>
+        <h3><img src="<?php echo Yii::app()->request->baseUrl; ?>/images/staff/meg.jpg" width="133" height="168" alt="Megan Mullaney">Meg Mullaney - Graduate Stylist</h3>
         <p>Meg joined the team as an apprentice and quickly demonstrated her natural flair for hairdressing. After completing her training she is now a Graduate stylist in the team. Meg has great talent for hair up styling and her cutting and colouring skills are extremely strong</p>
         <p class="teamprice">Average Cut &amp; Colour price with Meg : &pound;56*</p>
+        </section>
+        <section id="ashley">
+        <h3><img src="<?php echo Yii::app()->request->baseUrl; ?>/images/staff/ashley.jpg" width="133" height="168" alt="Ashley Tennant">Ashley Tennant - Apprentice</h3>
+        <p>Ashley is our newest team member and is on a fast track apprenticeship with the aim to be a graduate stylist within 6 month's. She is now looking to further her skills. All her training is fully supervised so you can be assured you'll love the end result</p>
+        <p class="teamprice">Average Cut &amp; Colour price with Ashley : &pound;15*</p>
         </section>
         
         </section>
