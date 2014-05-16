@@ -3,9 +3,9 @@
 $this->pageTitle=Yii::app()->name . ' - Offers - Hairdressers in Cheshire';
 ?>
 
-<?php Yii::app()->facebook->ogTags['og:title'] = "Offers"; ?>
-<?php Yii::app()->facebook->ogTags['og:description'] = "All the latest offers at PK"; ?>
-<?php Yii::app()->facebook->ogTags['og:image'] = "http://www.paulkemphairdressing.com/images/offer/last_min_meta.jpg"; ?>
+<?php Yii::app()->facebook->ogTags['og:title'] = "This Month's Special Offers"; ?>
+<?php Yii::app()->facebook->ogTags['og:description'] = "Free Colour with every Cut, Dry & Style for new customers this month"; ?>
+<?php Yii::app()->facebook->ogTags['og:image'] = "http://www.paulkemphairdressing.com/images/offer/new_offer_meta.jpg"; ?>
 
 <section id="offersMain">
 

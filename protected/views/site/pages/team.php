@@ -27,37 +27,37 @@ $this->pageTitle=Yii::app()->name . ' - The Team - Hairdressers in Cheshire';
         </section>
         <section id="jo">
         <h3><img src="<?php echo Yii::app()->request->baseUrl; ?>/images/staff/Jo.jpg" width="133" height="168" alt="Jo Mahoney">Jo Mahoney - Senior Stylist</h3>
-        <p>Jo is a fantastic stylist with many years experience in all areas of hairdressing, she's a real asset to the Paul Kemp team. She has worked in Warrington based salons throughout her hairdressing career and spent some time working alongside Paul at previous salons. </p>
+        <p>Jo is a fantastic stylist with many years experience, she's a real long standing asset to the team. Her down to earth nature instantly puts you at ease and her hairdressing skills really shine. She loves doing men and women's hair. Book well in advance - she's a very busy stylist. </p>
         <p class="teamprice">Average Cut &amp; Colour price with Jo : &pound;114*</p>
         </section>
         <section id="iz">
         <h3><img src="<?php echo Yii::app()->request->baseUrl; ?>/images/staff/izzy.jpg" width="133" height="168" alt="Isobelle Lamb">Isobelle Lamb - Senior Stylist</h3>
-        <p>Izzy has quickly Established herself as an extremely sought after stylist. Her natural flair with creating beautiful, wearable styles has built her a strong following. Izzy recently won the National <em>Redken Style Innovator</em> award. She is also a specialist in extensions. </p>
+        <p>Izzy has quickly established herself as an extremely sought after stylist. Her natural flair with creating beautiful, wearable styles has built her a strong following. Izzy recently won the National <em>Redken Style Innovator</em> award. She is also a specialist in extensions. </p>
         <p class="teamprice">Average Cut &amp; Colour price with Izzy : &pound;114*</p>
         </section>
         <section id="kate">
         <h3><img src="<?php echo Yii::app()->request->baseUrl; ?>/images/staff/kate.jpg" width="133" height="168" alt="Kate O'halloran">Kate O'halloran - Stylist</h3>
-        <p>Although new to the Paul Kemp team, Kate has been well established at our sister salon Jakata for 4 years. She's a welcome asset to the team with diverse skills in all areas of hairdressing. </p>
+        <p>Kate has the ability to put you instantly at ease and with her many years of experience she'll find a look that's perfect for you. Colouring, cutting and long hair styling are her specialities.</p>
         <p class="teamprice">Average Cut &amp; Colour price with Kate : &pound;96*</p>
         </section>
         <section id="michelle_r">
         <h3><img src="<?php echo Yii::app()->request->baseUrl; ?>/images/staff/michelle_r.jpg" width="133" height="168" alt="Michelle Railton">Michelle Railton - Stylist</h3>
-        <p>Michelle is the latest stylist to join the team. A former stylist at Daniel Anderson Hairdressing, Michelle is highly skilled in all aspects of hairdressing, she especially loves soft, natural styles and men's indie/mod cutting.</p>
+        <p>Michelle is the latest stylist to join the team. A former stylist at Daniel Anderson Hairdressing, Michelle is a highly skilled hairdresser, she especially loves soft, natural styles and men's indie/mod cutting.</p>
         <p class="teamprice">Average Cut &amp; Colour price with Kate : &pound;96*</p>
         </section>
       	<section id="leon">
         <h3><img src="<?php echo Yii::app()->request->baseUrl; ?>/images/staff/leon.jpg" width="133" height="168" alt="Leon Pritchard">Leon Pritchard - Stylist</h3>
-        <p>At just 21, Leon is already building up a strong reputation for his skills in cutting, colouring &amp; styling hair. He came to us after working at Daniel Anderson Hairdressing and is now looking to expand his ever growing client base.</p>
+        <p>Leon has quickly built up a strong reputation for his skills in cutting, colouring &amp; styling hair. He's a big hit in the salon due to his friendly personality. He came to us after working at Daniel Anderson Hairdressing and is fast expanding his ever growing client base. </p>
         <p class="teamprice">Average Cut &amp; Colour price with Leon : &pound;96*</p>
         </section>
         <section id="jack">
         <h3><img src="<?php echo Yii::app()->request->baseUrl; ?>/images/staff/jack.jpg" width="133" height="168" alt="Jack Broady">Jack Broady - Stylist</h3>
-        <p>Jack is one of our more recent additions to the team. He's been hairdressing since the age of 13. He loves all aspects of hairdressing including mens cutting &amp; styling. His speciality is cutting and colouring long hair.</p>
+        <p>Jack came onboard at the end of 2012 and is now an influential member of the team as head of training. He's been hairdressing since the age of 13. He loves all aspects including mens cutting &amp; styling. His speciality is cutting and colouring long hair.</p>
         <p class="teamprice">Average Cut &amp; Colour price with Jack : &pound;96*</p>
         </section>
         <section id="tash">
         <h3><img src="<?php echo Yii::app()->request->baseUrl; ?>/images/staff/tash.jpg" width="133" height="168" alt="Natasha Bailey">Tash Bailey - Graduate Stylist</h3>
-        <p>Tash is our youngest stylist, but is building at an extremely fast pace due to her passion for hairdressing. She loves creative colouring and cutting plus she's highly skilled in styling hair</p>
+        <p>Tash's passion for hairdressing is apparent from the minute you meet her. She loves creative colouring and cutting plus she's highly skilled in styling hair. </p>
         <p class="teamprice">Average Cut &amp; Colour price with Tash : &pound;76*</p>
         </section>
         <section id="meg">
