@@ -23,13 +23,14 @@ window.addEvent('domready', function(){
 <article class="article">
 <a id="Ashley" class="anchor"></a>
 <section class="visible">
-<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/news_images/image.jpg" width="135" height="180" alt="alt text">
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/news_images/ashley2.jpg" width="135" height="180" alt="Ashley Tennant">
 <h3>Ashley's fast track to success</h3>
 <p><strong>Since we opened almost three years ago the Paul Kemp team has grown almost double! We've taken on a variety of staff from different backgrounds with a variety of levels of experience. During this time we've trained and developed two of our team members from apprenticeship level. There's always something special about home grown talent and we're really proud of Tash and Meg who have both matured into amazing hairdressers.</strong></p>
 <p>We are extremely selective about who we choose to be an apprentice, we're looking for people who have the passion and determination to get through the the gruelling training. When we met our latest Apprentice Ashley Tennant, we could tell straight away that she fulfilled the criteria!</p>
 <p class="reveal">Read more &gt;</p>
 </section> <!--end .visible-->
 <section class="hidden">
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/news_images/ashley1.jpg" width="135" height="180" alt="Ashley Tennant">
 <p>Nineteen year old Ashley is continuing our quest for home grown talent, she's on a fast track intensive training plan with the aim to be a graduate stylist within 6 months. Before she chose hairdressing as a career Ashley studied for her A Levels after which she decided to opt for a more vocational qualification. Her training covers all aspects of hairdressing from cutting &amp; colouring to specialist services along with all the other important stuff like customer service and reception skills. Working alongside the other members of the PK team ensures she's getting the best experience available.</p>
 <p><em>Ashley said "I've really settled into the team now, it's a great learning environment. Training leader Jack is working closely with me to ensure my hairdressing skills and knowledge are progressing fast. I just can't wait to be on the shop floor and have my own clients like Meg &amp; Tash!"</em></p>
 <p class="offer">Ashley is looking for colour &amp; cut models to progress her training.</p> 
