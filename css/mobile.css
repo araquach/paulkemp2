@@ -832,6 +832,14 @@ a.anchor {
 	margin-left: 0;
 }
 
+#accordion article.article section.hidden ul.prodlist li {
+	display: block;
+	margin-left: 0;
+	font-family: "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	font-size: .9em;
+	line-height: 1.5em;
+}
+
 #accordion article.article section.visible img {
 	float: left;
 	margin-right: 10px;

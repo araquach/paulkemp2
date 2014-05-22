@@ -24,6 +24,65 @@ window.addEvent('domready', function(){
 <section id="accordion">
 
 <article class="article">
+<a id="HairReborn" class="anchor"></a>
+<section class="visible">
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/news_images/tigi-reborn.jpg" width="135" height="190" alt="Tigi Hair Reborn">
+<h3>Introducing Hair Reborn</h3>
+<p>Hair Reborn is a brand new hair product range by Tigi that uses concentrated raw ingredients to replace proteins and restore your hair to a more 'youthful’ state.</p>
+<p>Designed by TIGI hairdressers, the collection of shampoos, conditioners, hairsprays and styling treatments have been created to restore hair to its natural state, using 'Hyper Distillation' technology to ensure the highest and most potent pharmaceutical grade products.</p>
+<p class="reveal">Read More ></p>
+</section> <!--end .visible-->
+<section class="hidden">
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/news_images/tigi-awakening.jpg" width="135" height="120" alt="Awakening">
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/news_images/tigi-resurgence.jpg" width="135" height="120" alt="Resurgence">
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/news_images/tigi-serenity.jpg" width="135" height="120" alt="Serenity">
+<p>There are three journeys to choose from, each catering to specific needs:</p>
+<p>1. Resurgence for Dry Hair</p>
+<p>2. Serenity for Frizz-Prone Hair</p>
+<p>3. Awakening for Weak, Damaged Hair</p>
+<p>Each range has a shampoo, a conditioner, and a take home treatment. Plus an intensive in-salon treatment is also available.</p>
+<p><em>The range is only available in a select few salons, and Paul Kemp Hairdressing is one of the lucky ones! Since it's arrival it is proving to be a massive hit with the PK team and clients alike.</em></p>
+<p>It's a premium haircare range with prices starting at £17.95 for the Shampoos and take-home treatments around the £28 mark. If your hair needs a big pick-me-up then we'd highly recommend the in-salon treatment from just £10.</p>
+<p class="offer">The quality of these products can't be under-estimated, the positive feedback from early adopters has been astounding.
+If you wan't to give them a try we've got some free sample packs in the salon (only until stocks last!). Drop in to get yours!</p>
+</section> <!--end .hidden-->
+<p class="author">Published by PK</p>
+<time datetime="2012-11-01">1<sup>st</sup> November 2012</time>
+</article> <!--end #article-->
+
+<article class="article">
+<a id="Invati" class="anchor"></a>
+<section class="visible">
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/news_images/invati-girl.jpg" width="135" height="190" alt="Aveda Invarti">
+<h3>Thicker, Fuller hair is yours</h3>
+<p>Invati was recently launched by Aveda, formulated specifically for people with thinning and fine hair.
+The range uses Ayurvedic ingredients to create products that stimulate the scalp and encourage hair growth.</p>
+<p>Hair loss and thinning hair is a major concern in both men and women alike. There has been a recent surge of products onto the market from all of the main manufacturers to combat the issue.</p>
+<p class="reveal">Read More ></p>
+</section> <!--end .visible-->
+<section class="hidden">
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/news_images/invati-products.jpg" width="135" height="190" alt="Aveda Invarti Products">
+<p>Aveda Invati was recently launched as a premium range to help strengthen and thicken fine hair plus exfoliate the scalp to create the perfect environment for healthy growth.</p>
+<p>Aveda claims it has been one of their biggest product launches ever. There are Invati fans all over the world sending in videos expressing their love of these products and how they have literally changed their lives.</p>
+<h4>The Invati Exfoliating Shampoo</h4> 
+<p>The science behind this revolutionary concept, according to Aveda, is that you need to exfoliate your scalp just like you do your face, to allow your hair follicles to grow through the skin, thicker and stronger. It uses wintergreen-derived salicylic acid as a chemical exfoliant, so there is no grit (physical exfoliant).<br>
+Price: &pound;18.50</p>
+<h4>The Invati Thickening Conditioner</h4> 
+<p>Penetrates the hair shaft with arginine, an amino acid from sugar beets and soy protein. 
+It's clinically proven to thicken hair with a blend of guar, palm and grape seed-derived ingredients.<br>
+Price: &pound;20.50</p>
+<h4>The Invati Scalp Revitalizer</h4> 
+<p>A treatment that you spray directly onto your scalp. It's Formulated with turmeric and ginseng and has an ultra delicate formula that will care and soothe your hair and scalp leaving you feeling refreshed and revitalised.
+For best results, massage around hair follicles to simulate the scalp to help growth of your hair.<br>
+Price: &pound;41.00</p>
+<p><strong>If your hair is fine &amp; fragile and you want thicker, fuller hair then give this range a go and let us know how it works for you!</strong></p>
+<p class="offer"><strong>We have a limited number of mini sample products available, call us for more info.</strong></p>
+</section> <!--end .hidden-->
+<p class="author">Published by PK</p>
+<time datetime="2012-11-01">1<sup>st</sup> November 2012</time>
+</article> <!--end #article-->
+
+<article class="article">
 <a id="ChristmasGifts" class="anchor"></a>
 <section class="visible">
 <img src="<?php echo Yii::app()->request->baseUrl; ?>/images/news_images/tigi_christmas.jpg" width="135" height="106" alt="Christmas Gifts">
