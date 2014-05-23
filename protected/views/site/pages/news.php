@@ -21,6 +21,20 @@ window.addEvent('domready', function(){
 <section id="accordion">
 
 <article class="article">
+<a id="link" class="anchor"></a>
+<section class="visible">
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/news_images/image.jpg" width="135" height="180" alt="alt text">
+<h3>New Arrival for Michelle</h3>
+<p><strong>We're pleased to announce that PK stylist Michelle Railton gave birth to a baby girl on the 16th of May. She's called Sophia and weighed 8lb 2oz</strong></p>
+<p>Michelle went on maternity leave just a week earlier and will be taking a good bit of time off. The whole team dropped round to see Michelle &amp; Sophia on Monday and they're both doing really well.</p>
+<p class="reveal">Read more &gt;</p>
+<p>We'll keep you updated with Michelle's return to the salon date, plus she has the option to do up to ten days in the salon whilst on maternity - we'll let you know if she decides to do so.</p>
+</section> <!--end .visible-->
+<p class="author">Published by PK</p>
+<time datetime="2014-04-22">22<sup>nd</sup> May 2014</time>
+</article> <!--end #article-->
+
+<article class="article">
 <a id="newBC" class="anchor"></a>
 <section class="visible">
 <img src="<?php echo Yii::app()->request->baseUrl; ?>/images/news_images/bonacure.jpg" width="135" height="135">
@@ -141,7 +155,7 @@ For thick, coarse, wavy, curly, unmanageable and frizzy hair</h4>
 <p><a href="http://www.schwarzkopf-professional.co.uk/skp/uk/en/home/products/care/bc-bonacure/philosophy.html" target="_blank">Visit the Schwarzkopf Professional site for more information</a></p>
 </section> <!--end .hidden-->
 <p class="author">Published by Adam</p>
-<time datetime="2014-03-26">22<sup>nd</sup> May 2014</time>
+<time datetime="2014-04-22">22<sup>nd</sup> May 2014</time>
 </article> <!--end #article-->
 
 <article class="article">
