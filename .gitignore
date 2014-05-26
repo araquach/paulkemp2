@@ -9,3 +9,4 @@ protected/config/main.php
 paulkemp2.esproj/user.adamcarter.espressostorage
 
 .DS_Store
+.htaccess
