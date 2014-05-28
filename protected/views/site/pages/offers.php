@@ -17,20 +17,20 @@ $this->pageTitle=Yii::app()->name . ' - Offers - Hairdressers in Cheshire';
 <div id="offer1" class="offer">
 <h3>FREE Colour <br>with every<br>Cut, Dry &amp; Style</h3>
 <p>For new clients</p>
-<p class="small">offer until <time datetime="2014-06-27">27/06/14</time><br>
+<p class="small">offer extended until <time datetime="2014-06-27">27/06/14</time><br>
   For New Clients Only - not with any other offer - excludes Saturday<br>Skin test required 48hrs prior to service</p>
 </div>
 
 <div id="offer3" class="offer">
 <h3>30% Off<br>Men's Cut &amp; Style</h3>
-<p>For new clients<br>until the end of May</p>
-<p class="small">offer until <time datetime="2014-06-27">27/06/14</time><br>
+<p>For new clients<br>until the end of June</p>
+<p class="small">offer extended until <time datetime="2014-06-27">27/06/14</time><br>
   For New Clients Only - not with any other offer - excludes Saturday</p>
 </div>
   
 <?php  echo CHtml::link('<div id="offer4" class="offer">
   <h3>FREE Cut, Dry &amp; Style</h3>
-  <p>with every Kebelo System <br>Treatment</p><p class="small">until <time datetime="2014-06-27">27/06/14</time><br>
+  <p>with every Kebelo System <br>Treatment</p><p class="small">extended until <time datetime="2014-06-27">27/06/14</time><br>
     not with any other offer<br>Excludes Saturday</p>
  </div>', array('kebelo/advantage')); ?>
  
