@@ -640,6 +640,31 @@ aside h2, aside, h3, aside h4, aside h5, aside h6 {
 	float: left;
 }
 
+#ashley {
+	position: relative;
+	left: 0;
+	top: 0;
+	width: auto;
+	height: 100%;
+	border-bottom: solid 3px #CCC;
+	padding: 10px;
+}
+
+#ashley img {
+	float: none;
+}
+
+#ashley p {
+	font-size: 0.8em;
+}
+
+#ashley h3 img {
+	margin-top: 0px;
+	float: left;
+}
+
+
+
 .csstransitions .teamprice, .csstransitions .pteamprice {
 	-o-opacity: 1;
 	-moz-opacity: 1;
@@ -697,6 +722,48 @@ aside h2, aside, h3, aside h4, aside h5, aside h6 {
 	margin: auto;
 	margin-bottom: 40px;
 }
+
+/* @group individual team member pages */
+
+#team_ind {
+	width: auto;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+#team_ind_copy {
+	width: auto;
+	padding: 20px;
+	margin: 0;
+	font-size: 1.2em;
+}
+
+#team_ind_copy a:hover {
+	opacity: .7;
+}
+
+.team_pic {
+	width: auto;
+	height: 450px;
+	position: relative;
+	background-repeat: no-repeat;
+	background-position: top left;
+	background-size: cover;
+	margin: 0;
+	padding: 0;
+}
+
+.team_ind_price {
+	font-size: 1.5em;
+}
+
+#team_ind #teambottom {
+	position: relative;
+	float: left;
+}
+
+/* @end */
 
 /* @end */
 
