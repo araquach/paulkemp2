@@ -14,7 +14,7 @@ $this->pageTitle=Yii::app()->name . ' - Michelle Railton - Hairdressers in Chesh
 	<h2>Michelle Railton</h2>
 	<p>Michelle is the latest stylist to join the team.</p>
 	<p>A former stylist at Daniel Anderson Hairdressing, Michelle is a highly skilled hairdresser.</p>
-	<p>she especially loves soft, natural styles and men's indie/mod cutting.</p> 
+	<p>She especially loves soft, natural styles and men's indie/mod cutting.</p> 
 	<p class="team_ind_price">Average Cut &amp; Colour price with Kate : &pound;96*</p>
 	
 	<?php echo CHtml::link('Click here to see the full team &gt;',array('site/page','view'=>'team')); ?>
