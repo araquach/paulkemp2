@@ -17,7 +17,7 @@ $this->pageTitle=Yii::app()->name . ' - Megan Mullaney - Hairdressers in Cheshir
 	<p>Meg has great talent for hair up styling and her cutting and colouring skills are extremely strong</p>
 	<p class="team_ind_price">Average Cut &amp; Colour price with Meg : &pound;56*</p>
 	
-	<?php echo CHtml::link('Click here to see the full team &gt;',array('site/page','view'=>'team')); ?>
+	<?php echo CHtml::link('Click here to see the full team &gt;',array('site/page','view'=>'team', '#'=>'meg')); ?>
 
 		
 </section> <!--team_ind_copy-->

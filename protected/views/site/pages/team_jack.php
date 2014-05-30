@@ -17,7 +17,7 @@ $this->pageTitle=Yii::app()->name . ' - Jack Broady - Hairdressers in Cheshire';
 	<p>His speciality is cutting and colouring long hair.</p>
 	<p class="team_ind_price">Average Cut &amp; Colour price with Jack : &pound;96*</p>
 	
-	<?php echo CHtml::link('Click here to see the full team &gt;',array('site/page','view'=>'team')); ?>
+	<?php echo CHtml::link('Click here to see the full team &gt;',array('site/page','view'=>'team', '#'=>'jack')); ?>
 		
 </section> <!--team_ind_copy-->
 <section id="teambottom">

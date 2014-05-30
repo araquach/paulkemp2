@@ -16,7 +16,7 @@ $this->pageTitle=Yii::app()->name . ' - Tash Bailey - Hairdressers in Cheshire';
 	<p>She loves creative colouring and cutting plus she's highly skilled in styling hair. </p>
 	<p class="team_ind_price">Average Cut &amp; Colour price with Tash : &pound;76*</p>
 	
-	<?php echo CHtml::link('Click here to see the full team &gt;',array('site/page','view'=>'team')); ?>
+	<?php echo CHtml::link('Click here to see the full team &gt;',array('site/page','view'=>'team', '#'=>'tash')); ?>
 		
 </section> <!--team_ind_copy-->
 <section id="teambottom">

@@ -16,7 +16,7 @@ $this->pageTitle=Yii::app()->name . ' - Kate O\'Halloran - Hairdressers in Chesh
 	<p>Colouring, cutting and long hair styling are her specialities.</p>
 	<p class="team_ind_price">Average Cut &amp; Colour price with Kate : &pound;96*</p>
 	
-	<?php echo CHtml::link('Click here to see the full team &gt;',array('site/page','view'=>'team')); ?>
+	<?php echo CHtml::link('Click here to see the full team &gt;',array('site/page','view'=>'team', '#'=>'kate')); ?>
 		
 </section> <!--team_ind_copy-->
 <section id="teambottom">

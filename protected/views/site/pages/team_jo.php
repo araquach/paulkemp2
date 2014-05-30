@@ -17,7 +17,7 @@ $this->pageTitle=Yii::app()->name . ' - Jo Mahoney - Hairdressers in Cheshire';
 	<p>She loves doing men and women's hair. Book well in advance - she's a very busy stylist. </p>
 	<p class="team_ind_price">Average Cut &amp; Colour price with Jo : &pound;114*</p>
 	
-	<?php echo CHtml::link('Click here to see the full team &gt;',array('site/page','view'=>'team')); ?>
+	<?php echo CHtml::link('Click here to see the full team &gt;',array('site/page','view'=>'team', '#'=>'jo')); ?>
 		
 </section> <!--team_ind_copy-->
 <section id="teambottom">

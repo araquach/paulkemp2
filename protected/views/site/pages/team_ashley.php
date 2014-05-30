@@ -16,7 +16,7 @@ $this->pageTitle=Yii::app()->name . ' - Ashley Tennant - Hairdressers in Cheshir
 	<p>She is now looking to further her skills. All her training is fully supervised so you can be assured you'll love the end result</p>
 	<p class="team_ind_price">Average Cut &amp; Colour price with Ashley : &pound;15*</p>
 	
-	<?php echo CHtml::link('Click here to see the full team &gt;',array('site/page','view'=>'team')); ?>
+	<?php echo CHtml::link('Click here to see the full team &gt;',array('site/page','view'=>'team', '#'=>'ashley')); ?>
 
 </section> <!--team_ind_copy-->
 <section id="teambottom">

@@ -17,7 +17,7 @@ $this->pageTitle=Yii::app()->name . ' - Leon Pritchard - Hairdressers in Cheshir
 	<p>He came to us after working at Daniel Anderson Hairdressing and is fast expanding his ever growing client base.</p>
 	<p class="team_ind_price">Average Cut &amp; Colour price with Leon : &pound;96*</p>
 	
-	<?php echo CHtml::link('Click here to see the full team &gt;',array('site/page','view'=>'team')); ?>
+	<?php echo CHtml::link('Click here to see the full team &gt;',array('site/page','view'=>'team', '#'=>'leon')); ?>
 		
 </section> <!--team_ind_copy-->
 <section id="teambottom">
