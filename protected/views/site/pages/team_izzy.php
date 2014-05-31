@@ -17,7 +17,7 @@ $this->pageTitle=Yii::app()->name . ' - Izzy Lamb - Hairdressers in Cheshire';
 	<p>Izzy recently won the National <em>Redken Style Innovator</em> award. She is also a specialist in extensions. </p>
 	<p class="team_ind_price">Average Cut &amp; Colour price with Izzy : &pound;114*</p>
 	
-	<?php echo CHtml::link('Click here to see the full team &gt;',array('site/page','view'=>'team', '#'=>'izzy')); ?>
+	<?php echo CHtml::link('Click here to see the full team &gt;',array('site/page','view'=>'team', '#'=>'iz')); ?>
 		
 </section> <!--team_ind_copy-->
 <section id="teambottom">
