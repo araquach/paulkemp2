@@ -1043,6 +1043,10 @@ aside h2, aside, h3, aside h4, aside h5, aside h6 {
 	right: 300px;
 }
 
+#team_ind a {
+	color: rgb(55, 34, 24);
+}
+
 
 
 /* @end */
