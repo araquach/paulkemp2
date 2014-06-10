@@ -18,6 +18,16 @@ $this->pageTitle=Yii::app()->name . ' - Michelle Railton - Hairdressers in Chesh
 	<p class="team_ind_price">Average Cut &amp; Colour price with Michelle : &pound;96*</p>
 	
 	<?php echo CHtml::link('Click here to see the full team &gt;',array('site/page','view'=>'team', '#'=>'michelle_r')); ?>
+	
+	<div id="fb_like">
+	<?php  $this->widget('ext.yii-facebook-opengraph.plugins.LikeButton', array(
+	   'href' => 'http://www.paulkemphairdressing.com/michelle', 
+	   'show_faces'=>false,
+	   'send' => true,
+	   'width' => '250px'
+	));  ?>
+	</div>
+	
 
 		
 </section> <!--team_ind_copy-->

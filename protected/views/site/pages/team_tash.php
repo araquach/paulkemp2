@@ -17,6 +17,16 @@ $this->pageTitle=Yii::app()->name . ' - Tash Bailey - Hairdressers in Cheshire';
 	<p class="team_ind_price">Average Cut &amp; Colour price with Tash : &pound;76*</p>
 	
 	<?php echo CHtml::link('Click here to see the full team &gt;',array('site/page','view'=>'team', '#'=>'tash')); ?>
+	
+	<div id="fb_like">
+	<?php  $this->widget('ext.yii-facebook-opengraph.plugins.LikeButton', array(
+	   'href' => 'http://www.paulkemphairdressing.com/tash', 
+	   'show_faces'=>false,
+	   'send' => true,
+	   'width' => '250px'
+	));  ?>
+	</div>
+	
 		
 </section> <!--team_ind_copy-->
 <section id="teambottom">
