@@ -18,8 +18,18 @@ $this->pageTitle=Yii::app()->name . ' - Ashley Tennant - Hairdressers in Cheshir
 	
 	<?php echo CHtml::link('Click here to see the full team &gt;',array('site/page','view'=>'team', '#'=>'ashley')); ?>
 
+<div id="fb_like">
+<?php  $this->widget('ext.yii-facebook-opengraph.plugins.LikeButton', array(
+   'href' => 'http://www.paulkemphairdressing.com/ashley', 
+   'show_faces'=>false,
+   'send' => true,
+   'width' => '250px'
+));  ?>
+</div>
+
 </section> <!--team_ind_copy-->
 <section id="teambottom">
     <p>*average prices for half-head foils or equivalent plus a Cut Dry and Style - before any discounts</p>
 </section>
+
 </section> <!--team_ind-->
