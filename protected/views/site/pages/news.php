@@ -3,9 +3,9 @@
 $this->pageTitle=Yii::app()->name . ' - News - Hairdressers in Cheshire';
 ?>
 
-<?php Yii::app()->facebook->ogTags['og:title'] = "Paul Kemp Hairdressing News"; ?>
-<?php Yii::app()->facebook->ogTags['og:description'] = "All the latest news from the salon"; ?>
-<?php Yii::app()->facebook->ogTags['og:image'] =  "http://www.paulkemphairdressing.com/images/main/pk_logo_meta.jpg"; ?>
+<?php Yii::app()->facebook->ogTags['og:title'] = "PK Stylist Collaborates with UK's Up & Coming Fashion Talent"; ?>
+<?php Yii::app()->facebook->ogTags['og:description'] = "Our very own Meg was invited to work alongside Schwarzkopf’s LEAP Artistic team as a session stylist at a prestigious catwalk fashion show for the top eight fashion graduates of London's Middlesex University. The event was held at London’s St Pancras hotel"; ?>
+<?php Yii::app()->facebook->ogTags['og:image'] =  "http://www.paulkemphairdressing.com/images/news_images/meg_meta.jpg"; ?>
 
 <script type="text/javascript">
 window.addEvent('domready', function(){
@@ -19,6 +19,27 @@ window.addEvent('domready', function(){
 <h2>News</h2>
 
 <section id="accordion">
+
+<article class="article">
+<a id="MegSession" class="anchor"></a>
+<section class="visible">
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/news_images/meg_session.jpg" width="135" height="180" alt="Meg Mullaney Session Styling">
+<h3>PK Stylist Collaborates with UK's Up &amp; Coming Fashion Talent</h3>
+<p><strong>Our very own Meg was invited to work alongside Schwarzkopf’s LEAP Artistic team as a session stylist at a prestigious catwalk fashion show for the top eight fashion graduates of London's Middlesex University. The event was held at London’s St Pancras hotel (you might recognise it from the the Spice Girls 'Wannabe' video!).</strong></p>
+<p>The designers involved are all lined up to be 'the next big thing' in the fashion industry. Some of the designers have already been recruited by top fashion brands, which were using the event to showcase their latest work.</p>
+<p class="reveal">Read more &gt;</p>
+</section> <!--end .visible-->
+<section class="hidden">
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/news_images/pancras.jpg" width="135" height="101" alt="St Pancras Hotel">
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/news_images/london_show.jpg" width="135" height="135" alt="London Fashion Show">
+<p>Megan had to work closely with the designers to create a look that complimented their vision. Her work was on display to some of the UK's leading fashion talents. 
+In previous years the designers have gone on to work with the likes of Alexander McQueen, Vivienne Westwood and Givenchy.</p>
+<p>Megan said "It was a great opportunity for me to show people what I can do, it's a great feeling to know that I was collaborating with designers that could be the next Stella McCartney!".</p>
+<p><a href="http://www.mdx.ac.uk/aboutus/news-events/news/fashion-show-14.aspx" target="_blank">Read more about the event here ></a></p>
+</section> <!--end .hidden-->
+<p class="author">Published by PK</p>
+<time datetime="2014-06-18">18<sup>th</sup> June 2014</time>
+</article> <!--end #article-->
 
 <article class="article">
 <a id="MichelleArrival" class="anchor"></a>
@@ -555,37 +576,6 @@ For thick, coarse, wavy, curly, unmanageable and frizzy hair</h4>
 </section> <!--end .hidden-->
 <p class="author">Published by PK</p>
 <time datetime="2013-08-01">1<sup>st</sup> August 2013</time>
-</article> <!--end #article-->
-
-<article class="article">
-<a id="FibreForce" class="anchor"></a>
-<section class="visible">
-<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/news_images/fibre_force3.jpg" width="135" height="111" alt="Fibre Force">
-<h3>New BC Fibre Force</h3>
-<p>We've all been guilty of mistreating our hair from time to time, whether it's through over straightening, over colouring or just using poor quality products. Hair is tough, but you do have to treat it right if you want it to behave itself!</p>
-<p>Schwarzkopf realised there are a lot of people out there not giving their hair the love and care it needs, so they introduced BC Fibre Force - a complete range of products designed to return your hair to it's former glory over a fairly short period of time.</p>
-<p class="reveal">Read More ></p>
-</section> <!--end .visible-->
-<section class="hidden">
-<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/news_images/fibre_force2.jpg" width="135" height="108" alt="Fibre Force 2">
-<p>Here's what Schwarzkopf say:</p>
-<p><em>BC Fibre Force introduces a new dimension of hair repair returning even most eroded hair to its optimal level of force and resilience.</em></p>
-<p><iframe src="http://player.vimeo.com/video/56987102" width="400" height="300" class="right" allowFullScreen></iframe></p>
-<p><em>For the first time the formulas with Micronized Hair-Identical Keratins penetrate deeply into the hair architecture to re-cement specifically the Cell-Membrane-Complex, the intercellular bonding cement responsible for strong and resilient hair fibre.</em></p>
-<p>Which in English means that it's going to make the most damaged hair feel loads healthier!</p>
-<p><strong>The complete range is as follows:</strong></p>
-<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/news_images/fibre_force.jpg" width="135" height="121" alt="Fibre Force 3">
-
-	<p><strong>BC Fibre Force Shampoo</strong></p>
-	<p><strong>BC Fibre Force Spray Conditioner</strong></p>
-	<p><strong>BC Fibre Force Rinse Out Conditioner</strong></p>
-	<p><strong>BC Fibre Force Fortifier Treatment</strong></p>
-	<p><strong>BC Fibre Force Keratin Infusion</strong></p>
-
-<p>Find out more at the Schwarzkopf site: <br> <a href="http://www.schwarzkopf-professional.co.uk/index.php?id=22120" target="_blank">www.schwarzkopf-professional.co.uk/fibreforce</a></p>
-</section> <!--end .hidden-->
-<p class="author">Published by PK</p>
-<time datetime="2013-04-26">26<sup>th</sup> April 2013</time>
 </article> <!--end #article-->
 
 

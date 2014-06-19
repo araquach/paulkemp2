@@ -37,10 +37,10 @@ $this->pageTitle=Yii::app()->name;
 		</aside>',array('site/page','view'=>'offers')); ?>
 
     <?php echo CHtml::link('<aside id="news2">
-    <h3 class="newsheader">PK Starlight Walk</h3>
-    <p class="newspara">The Paul Kemp Team have been raising awareness for the St Rocco\'s Starlight Walk</p>
+    <h3 class="newsheader">Meg at London Fashion Show</h3>
+    <p class="newspara">PK stylist Meg recently collaborated with up and coming fashion designers at a London fashion show</p>
     <p class="newscenter"><strong>Find out more here &gt;</strong></p>
-    	</aside>',array('site/page','view'=>'news', '#'=>'Starlight')); ?>
+    	</aside>',array('site/page','view'=>'news', '#'=>'MegSession')); ?>
     
     <?php echo CHtml::link('<aside id="news3">
     <h3 class="newsheader">Great Career Opportunities</h3>
