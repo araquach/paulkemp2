@@ -35,10 +35,10 @@
 	  <td width="440" valign="top" bgcolor="#FFFFFF" style="text-align: left;font-size:12px;color:#000000;line-height:150%;font-family:trebuchet ms; border-bottom: 1px dashed #999; padding-right: 40px;">
 	  <h1 style="font-size:20px;font-weight:bold;color:#666;font-family:arial;line-height:110%;">
 	  <strong>Hi <?php echo ucfirst($model->first_name);?></strong></h1>
-	  <h1 style="font-size:20px;font-weight:bold;color:#666;font-family:arial;line-height:110%;">It's Summer Time!</h1>
-		<p>The holiday season is here and we've already had a surge of demand for blonde and blonder! Everyone wants to go lighter in summer so we've put together a guide on getting the best results when having a lightening service.</p>
+	  <h1 style="font-size:20px;font-weight:bold;color:#666;font-family:arial;line-height:110%;">The holiday season is finally here!</h1>
+		<p>We've already had a surge of demand for blonde and blonder! Everyone wants to go lighter in summer so we've put together a guide on getting the best results when having a lightening service.</p>
 		<p>Other great news - a couple of months ago PK stylist Michelle gave birth to baby Sophia - read the full story below.</p>
-		<p><strong>We look forward to seeing you in the salon soon...</strong></p>
+		<p><strong>There's been loads more going on in the salon so keep reading&hellip;</strong></p>
 	   </td>
 	</tr>
 	

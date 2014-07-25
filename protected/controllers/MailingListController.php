@@ -82,7 +82,7 @@ class MailingListController extends Controller
 	
 	public function actionEmail()
 	{
-		$this->render('//mail/may_news',array('model'=>$this->loadModel($id)));
+		$this->render('//mail/july_14_news',array('model'=>$this->loadModel($id)));
 	}
 	
 	
@@ -90,9 +90,9 @@ class MailingListController extends Controller
 		{
 			$model=new MailingList;
 			$criteria=new CDbCriteria;
-			$criteria->condition = "id > 300";
-			$criteria->order = 'id';
-			$criteria->limit = 99;
+			// $criteria->condition = "id > 300";
+			// $criteria->order = 'id';
+			// $criteria->limit = 99;
 			$emails = MailingList::model()->findAll($criteria);
 			foreach ($emails as $row)
 			{
@@ -100,7 +100,7 @@ class MailingListController extends Controller
 				if(isset($_POST['MailingList']))
 				{
 						$message = new YiiMailMessage;
-						$message->view = 'may_news';
+						$message->view = 'july_14_news';
 						$message->setBody(array('model'=>$row), 'text/html');
 						$message->subject = 'Paul Kemp Hairdressing Summer News';
 						$message->setTo($row->email);
