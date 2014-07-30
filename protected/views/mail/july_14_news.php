@@ -100,10 +100,10 @@
 	echo
 	 '<tr> 
 	   <td width="135" height="200" valign="top" bgcolor="#FFFFFF" style="font-size:12px;color:#000000;line-height:150%;font-family:trebuchet ms;border-bottom: 1px dashed #999;">
-	   <p><img src="http://www.paulkemphairdressing.com/images/newsletter/glam.jpg" alt="Special Offer" width="135" height="190"></p></td>
+	   <p><img src="http://www.paulkemphairdressing.com/images/email/whitehot.jpg" alt="Special Offer" width="135" height="190"></p></td>
 	   <td width="440" valign="top" bgcolor="#FFFFFF" style="text-align: left;font-size:14px;color:#000000;line-height:150%;font-family:trebuchet ms; border-bottom: 1px dashed #999; padding-right: 40px;">
 	   <h1 style="font-size:24px;font-weight:bold;color:#666;font-family:arial;line-height:110%;">
-	   <strong>Special Offer for you'.ucfirst($model->first_name).'</strong></h1>
+	   <strong>Special Offer for you '.ucfirst($model->first_name).'</strong></h1>
 	   <p style="font-size: 22px;">Colour &amp; Cut for just &pound;20</p>
 	   <p style="font-size: 22px;">Colour &amp; Blow Dry for just &pound;15</p>
 	   <p style="font-size: 22px;">Cut, Dry &amp; Style for just &pound;7.50</p>
@@ -120,10 +120,10 @@
 	echo
 	 '<tr> 
 	   <td width="135" height="200" valign="top" bgcolor="#FFFFFF" style="font-size:12px;color:#000000;line-height:150%;font-family:trebuchet ms;border-bottom: 1px dashed #999;">
-	   <p><img src="http://www.paulkemphairdressing.com/images/newsletter/.jpg" alt="Special Offer" width="135" height="190"></p></td>
+	   <p><img src="http://www.paulkemphairdressing.com/images/email/whitehot.jpg" alt="Special Offer" width="135" height="190"></p></td>
 	   <td width="440" valign="top" bgcolor="#FFFFFF" style="text-align: left;font-size:14px;color:#000000;line-height:150%;font-family:trebuchet ms; border-bottom: 1px dashed #999; padding-right: 40px;">
 	   <h1 style="font-size:24px;font-weight:bold;color:#666;font-family:arial;line-height:110%;">
-	   <strong>Special Offer for you'.ucfirst($model->first_name).'</strong></h1>
+	   <strong>Special Offer for you '.ucfirst($model->first_name).'</strong></h1>
 	   <p style="font-size: 16px;"><strong>for appointments with Meg</strong></p>
 	   <p style="font-size: 22px;">Colour &amp; Cut for just &pound;???</p>
 	   <p style="font-size: 22px;">Colour &amp; Blow Dry for just &pound;???</p>
@@ -139,10 +139,10 @@
 	echo
 	 '<tr> 
 	   <td width="135" height="200" valign="top" bgcolor="#FFFFFF" style="font-size:12px;color:#000000;line-height:150%;font-family:trebuchet ms;border-bottom: 1px dashed #999;">
-	   <p><img src="http://www.paulkemphairdressing.com/images/newsletter/.jpg" alt="Special Offer" width="135" height="190"></p></td>
+	   <p><img src="http://www.paulkemphairdressing.com/images/email/whitehot.jpg" alt="Special Offer" width="135" height="190"></p></td>
 	   <td width="440" valign="top" bgcolor="#FFFFFF" style="text-align: left;font-size:14px;color:#000000;line-height:150%;font-family:trebuchet ms; border-bottom: 1px dashed #999; padding-right: 40px;">
 	   <h1 style="font-size:24px;font-weight:bold;color:#666;font-family:arial;line-height:110%;">
-	   <strong>Special Offer for you'.ucfirst($model->first_name).'</strong></h1>
+	   <strong>Special Offer for you '.ucfirst($model->first_name).'</strong></h1>
 	   <p style="font-size: 16px;"><strong>for appointments with Tash</strong></p>
 	   <p style="font-size: 22px;">Colour &amp; Cut for just &pound;???</p>
 	   <p style="font-size: 22px;">Colour &amp; Blow Dry for just &pound;???</p>
@@ -154,14 +154,14 @@
 	 </tr>';
 	break;
 	
-	case 3: // Jack/Leon/Kate -> Tash
+	case 4: // Jack/Leon/Kate -> Tash
 	echo
 	 '<tr> 
 	   <td width="135" height="200" valign="top" bgcolor="#FFFFFF" style="font-size:12px;color:#000000;line-height:150%;font-family:trebuchet ms;border-bottom: 1px dashed #999;">
-	   <p><img src="http://www.paulkemphairdressing.com/images/newsletter/.jpg" alt="Special Offer" width="135" height="190"></p></td>
+	   <p><img src="http://www.paulkemphairdressing.com/images/email/whitehot.jpg" alt="Special Offer" width="135" height="190"></p></td>
 	   <td width="440" valign="top" bgcolor="#FFFFFF" style="text-align: left;font-size:14px;color:#000000;line-height:150%;font-family:trebuchet ms; border-bottom: 1px dashed #999; padding-right: 40px;">
 	   <h1 style="font-size:24px;font-weight:bold;color:#666;font-family:arial;line-height:110%;">
-	   <strong>Special Offer for you'.ucfirst($model->first_name).'</strong></h1>
+	   <strong>Special Offer for you '.ucfirst($model->first_name).'</strong></h1>
 	   <p style="font-size: 16px;"><strong>for appointments with Jack or Leon</strong></p>
 	   <p style="font-size: 22px;">Colour &amp; Cut for just &pound;???</p>
 	   <p style="font-size: 22px;">Colour &amp; Blow Dry for just &pound;???</p>
@@ -177,10 +177,10 @@
 	echo
 	'<tr> 
 	  <td width="135" height="200" valign="top" bgcolor="#FFFFFF" style="font-size:12px;color:#000000;line-height:150%;font-family:trebuchet ms;border-bottom: 1px dashed #999;">
-	  <p><img src="http://www.paulkemphairdressing.com/images/news_images/.jpg" alt="Special Offer" width="135" height="190"></p></td>
+	  <p><img src="http://www.paulkemphairdressing.com/images/email/whitehot.jpg" alt="Special Offer" width="135" height="190"></p></td>
 	  <td width="440" valign="top" bgcolor="#FFFFFF" style="text-align: left;font-size:14px;color:#000000;line-height:150%;font-family:trebuchet ms; border-bottom: 1px dashed #999; padding-right: 40px;">
 	  <h1 style="font-size:24px;font-weight:bold;color:#666;font-family:arial;line-height:110%;">
-	  <strong>Special Offer for you'.ucfirst($model->first_name).'</strong></h1>
+	  <strong>Special Offer for you '.ucfirst($model->first_name).'</strong></h1>
 	  <p style="font-size: 22px;"><strong><span style="font-size: 34px; line-height: 1.5em;">30% OFF</span><br>your next visit</strong></p>
 	  <p>Offer exclusively for <strong>'.ucfirst($model->first_name).' '.ucfirst($model->last_name).'</strong> only.<br>Not Transferable, weekdays only </p>
 	  <p><strong>Call 01925 444488 to book and mention the offer</strong></p>
