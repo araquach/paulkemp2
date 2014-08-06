@@ -125,9 +125,8 @@
 	   <h1 style="font-size:24px;font-weight:bold;color:#666;font-family:arial;line-height:110%;">
 	   <strong>Special Offer for you '.ucfirst($model->first_name).'</strong></h1>
 	   <p style="font-size: 16px;"><strong>for appointments with Meg</strong></p>
-	   <p style="font-size: 22px;">Colour &amp; Cut for just &pound;???</p>
-	   <p style="font-size: 22px;">Colour &amp; Blow Dry for just &pound;???</p>
-	   <p style="font-size: 22px;">Cut, Dry &amp; Style for just &pound;???</p>
+	   <p style="font-size: 22px;">Colour &amp; Cut for just &pound;40</p>
+	   <p style="font-size: 22px;">Cut, Dry &amp; Style for just &pound;25</p>
 	   <p>Offer exclusively for <strong>'.ucfirst($model->first_name).' '.ucfirst($model->last_name).'</strong>.<br>With Megan Mullaney only.<br>Not Transferable, limited to weekdays</p>
 	   <p><strong>Call 01925 444488 to book and mention the offer</strong></p>
 	   <p style="font-size: 10px;">Please present this when paying (either a printout or show it on your smart phone)<br>Offer ends: August 29th 2014</p>
@@ -144,9 +143,8 @@
 	   <h1 style="font-size:24px;font-weight:bold;color:#666;font-family:arial;line-height:110%;">
 	   <strong>Special Offer for you '.ucfirst($model->first_name).'</strong></h1>
 	   <p style="font-size: 16px;"><strong>for appointments with Tash</strong></p>
-	   <p style="font-size: 22px;">Colour &amp; Cut for just &pound;???</p>
-	   <p style="font-size: 22px;">Colour &amp; Blow Dry for just &pound;???</p>
-	   <p style="font-size: 22px;">Cut, Dry &amp; Style for just &pound;???</p>
+	   <p style="font-size: 22px;">Colour &amp; Cut for just &pound;50</p>
+	   <p style="font-size: 22px;">Cut, Dry &amp; Style for just &pound;30</p>
 	   <p>Offer exclusively for <strong>'.ucfirst($model->first_name).' '.ucfirst($model->last_name).'</strong>.<br>With Tash Bailey only.<br>Not Transferable, limited to weekdays</p>
 	   <p><strong>Call 01925 444488 to book and mention the offer</strong></p>
 	   <p style="font-size: 10px;">Please present this when paying (either a printout or show it on your smart phone)<br>Offer ends: August 29th 2014</p>
@@ -163,9 +161,8 @@
 	   <h1 style="font-size:24px;font-weight:bold;color:#666;font-family:arial;line-height:110%;">
 	   <strong>Special Offer for you '.ucfirst($model->first_name).'</strong></h1>
 	   <p style="font-size: 16px;"><strong>for appointments with Jack or Leon</strong></p>
-	   <p style="font-size: 22px;">Colour &amp; Cut for just &pound;???</p>
-	   <p style="font-size: 22px;">Colour &amp; Blow Dry for just &pound;???</p>
-	   <p style="font-size: 22px;">Cut, Dry &amp; Style for just &pound;???</p>
+	   <p style="font-size: 22px;">Colour &amp; Cut for just &pound;60</p>
+	   <p style="font-size: 22px;">Cut, Dry &amp; Style for just &pound;35</p>
 	   <p>Offer exclusively for <strong>'.ucfirst($model->first_name).' '.ucfirst($model->last_name).'</strong>.<br>With Jack or Leon only.<br>Not Transferable, limited to weekdays</p>
 	   <p><strong>Call 01925 444488 to book and mention the offer</strong></p>
 	   <p style="font-size: 10px;">Please present this when paying (either a printout or show it on your smart phone)<br>Offer ends: August 29th 2014</p>
