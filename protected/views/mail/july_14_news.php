@@ -127,7 +127,7 @@
 	   <p style="font-size: 16px;"><strong>for appointments with Meg</strong></p>
 	   <p style="font-size: 22px;">Colour &amp; Cut for just &pound;40</p>
 	   <p style="font-size: 22px;">Cut, Dry &amp; Style for just &pound;25</p>
-	   <p>Offer exclusively for <strong>'.ucfirst($model->first_name).' '.ucfirst($model->last_name).'</strong>.<br>With Megan Mullaney only.<br>Not Transferable, limited to weekdays</p>
+	   <p>Offer exclusively for <strong>'.ucfirst($model->first_name).' '.ucfirst($model->last_name).'</strong>.<br>With <strong>Megan Mullaney</strong> only.<br>Not Transferable, limited to weekdays</p>
 	   <p><strong>Call 01925 444488 to book and mention the offer</strong></p>
 	   <p style="font-size: 10px;">Please present this when paying (either a printout or show it on your smart phone)<br>Offer ends: August 29th 2014</p>
 	  </td>
@@ -145,7 +145,7 @@
 	   <p style="font-size: 16px;"><strong>for appointments with Tash</strong></p>
 	   <p style="font-size: 22px;">Colour &amp; Cut for just &pound;50</p>
 	   <p style="font-size: 22px;">Cut, Dry &amp; Style for just &pound;30</p>
-	   <p>Offer exclusively for <strong>'.ucfirst($model->first_name).' '.ucfirst($model->last_name).'</strong>.<br>With Tash Bailey only.<br>Not Transferable, limited to weekdays</p>
+	   <p>Offer exclusively for <strong>'.ucfirst($model->first_name).' '.ucfirst($model->last_name).'</strong>.<br>With <strong>Tash Bailey only</strong>.<br>Not Transferable, limited to weekdays</p>
 	   <p><strong>Call 01925 444488 to book and mention the offer</strong></p>
 	   <p style="font-size: 10px;">Please present this when paying (either a printout or show it on your smart phone)<br>Offer ends: August 29th 2014</p>
 	  </td>
@@ -163,7 +163,7 @@
 	   <p style="font-size: 16px;"><strong>for appointments with Jack or Leon</strong></p>
 	   <p style="font-size: 22px;">Colour &amp; Cut for just &pound;60</p>
 	   <p style="font-size: 22px;">Cut, Dry &amp; Style for just &pound;35</p>
-	   <p>Offer exclusively for <strong>'.ucfirst($model->first_name).' '.ucfirst($model->last_name).'</strong>.<br>With Jack or Leon only.<br>Not Transferable, limited to weekdays</p>
+	   <p>Offer exclusively for <strong>'.ucfirst($model->first_name).' '.ucfirst($model->last_name).'</strong>.<br>With <strong>Jack or Leon only.</strong><br>Not Transferable, limited to weekdays</p>
 	   <p><strong>Call 01925 444488 to book and mention the offer</strong></p>
 	   <p style="font-size: 10px;">Please present this when paying (either a printout or show it on your smart phone)<br>Offer ends: August 29th 2014</p>
 	  </td>
@@ -175,6 +175,22 @@
 	'<tr> 
 	  <td width="135" height="200" valign="top" bgcolor="#FFFFFF" style="font-size:12px;color:#000000;line-height:150%;font-family:trebuchet ms;border-bottom: 1px dashed #999;">
 	  <p><img src="http://www.paulkemphairdressing.com/images/email/whitehot.jpg" alt="Special Offer" width="135" height="190"></p></td>
+	  <td width="440" valign="top" bgcolor="#FFFFFF" style="text-align: left;font-size:14px;color:#000000;line-height:150%;font-family:trebuchet ms; border-bottom: 1px dashed #999; padding-right: 40px;">
+	  <h1 style="font-size:24px;font-weight:bold;color:#666;font-family:arial;line-height:110%;">
+	  <strong>Special Offer for you '.ucfirst($model->first_name).'</strong></h1>
+	  <p style="font-size: 22px;"><strong><span style="font-size: 34px; line-height: 1.5em;">30% OFF</span><br>your next visit</strong></p>
+	  <p>Offer exclusively for <strong>'.ucfirst($model->first_name).' '.ucfirst($model->last_name).'</strong> only.<br>Not Transferable, weekdays only </p>
+	  <p><strong>Call 01925 444488 to book and mention the offer</strong></p>
+	  <p style="font-size: 10px;">Please present this when paying (either a printout or show it on your smart phone)<br>Offer ends: August 29th 2014</p>
+	 </td>
+	</tr>';
+	break;
+	
+	case 6: // men's offer
+	echo
+	'<tr> 
+	  <td width="135" height="200" valign="top" bgcolor="#FFFFFF" style="font-size:12px;color:#000000;line-height:150%;font-family:trebuchet ms;border-bottom: 1px dashed #999;">
+	  <p><img src="http://www.paulkemphairdressing.com/images/news_images/man.jpg" alt="Special Offer" width="135" height="190"></p></td>
 	  <td width="440" valign="top" bgcolor="#FFFFFF" style="text-align: left;font-size:14px;color:#000000;line-height:150%;font-family:trebuchet ms; border-bottom: 1px dashed #999; padding-right: 40px;">
 	  <h1 style="font-size:24px;font-weight:bold;color:#666;font-family:arial;line-height:110%;">
 	  <strong>Special Offer for you '.ucfirst($model->first_name).'</strong></h1>
