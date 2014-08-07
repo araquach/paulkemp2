@@ -152,7 +152,7 @@
 	 </tr>';
 	break;
 	
-	case 4: // Jack/Leon/Kate -> Tash
+	case 4: // Izzy/Kel/Jo -> Jack/Leon/Kate
 	echo
 	 '<tr> 
 	   <td width="135" height="200" valign="top" bgcolor="#FFFFFF" style="font-size:12px;color:#000000;line-height:150%;font-family:trebuchet ms;border-bottom: 1px dashed #999;">
@@ -160,10 +160,10 @@
 	   <td width="440" valign="top" bgcolor="#FFFFFF" style="text-align: left;font-size:14px;color:#000000;line-height:150%;font-family:trebuchet ms; border-bottom: 1px dashed #999; padding-right: 40px;">
 	   <h1 style="font-size:24px;font-weight:bold;color:#666;font-family:arial;line-height:110%;">
 	   <strong>Special Offer for you '.ucfirst($model->first_name).'</strong></h1>
-	   <p style="font-size: 16px;"><strong>for appointments with Jack or Leon</strong></p>
+	   <p style="font-size: 16px;"><strong>for appointments with Jack, Leon or Kate</strong></p>
 	   <p style="font-size: 22px;">Colour &amp; Cut for just &pound;60</p>
 	   <p style="font-size: 22px;">Cut, Dry &amp; Style for just &pound;35</p>
-	   <p>Offer exclusively for <strong>'.ucfirst($model->first_name).' '.ucfirst($model->last_name).'</strong>.<br>With <strong>Jack or Leon only.</strong><br>Not Transferable, limited to weekdays</p>
+	   <p>Offer exclusively for <strong>'.ucfirst($model->first_name).' '.ucfirst($model->last_name).'</strong>.<br>With <strong>Jack, Leon or Kate only.</strong><br>Not Transferable, limited to weekdays</p>
 	   <p><strong>Call 01925 444488 to book and mention the offer</strong></p>
 	   <p style="font-size: 10px;">Please present this when paying (either a printout or show it on your smart phone)<br>Offer ends: August 29th 2014</p>
 	  </td>

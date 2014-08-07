@@ -1363,6 +1363,11 @@ section#newspage a p:hover {
 	color: #FFF;
 }
 
+#offerlist #offer3 h3 {
+	font-size: 2.8em;
+	margin-bottom: .7em;
+}
+
 #offerlist h3 {
 	font-size: 2em;
 	line-height: 1.3em;
@@ -1405,8 +1410,6 @@ section#newspage a p:hover {
 #offerlist #offer4 h3, #offerlist #offer4 p {
 	color: #FFF;
 }
-
-
 
 #offerlist #offer2 {
 	padding: 30px;
