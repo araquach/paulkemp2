@@ -19,7 +19,7 @@
 	</div>
 	
 	<?php echo $form->errorSummary($model); ?>
-
+	
 	<div class="row buttons">
 		<?php echo CHtml::submitButton('GO'); ?>
 	</div>
