@@ -2857,6 +2857,13 @@ span.error {
 	padding-bottom: 0;
 }
 
+#limitedmale {
+	width: auto;
+	background: none;
+	height: 100%;
+	padding-bottom: 0;
+}
+
 #limited_copy {
 	background: none;
 	width: auto;
@@ -2894,7 +2901,9 @@ span.error {
 	margin: 0;
 }
 
-#limited .limitedSuccess {
+#limited .limitedSuccess,
+#limitedmale .limitedSuccess
+ {
 	width: auto;
 	font-size: 1.4em;
 	margin-left: 0;
