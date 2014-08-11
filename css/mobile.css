@@ -2852,20 +2852,20 @@ span.error {
 
 #limited {
 	width: auto;
-	background: none;
 	height: 100%;
 	padding-bottom: 0;
+	background-position: 0px 0px;
 }
 
 #limitedmale {
 	width: auto;
-	background: none;
 	height: 100%;
 	padding-bottom: 0;
+	background-position: 0px 0px;
 }
 
 #limited_copy {
-	background: none;
+	background-color: rgba(255, 255, 255, 0.7);
 	width: auto;
 	padding: 20px;
 	font-size: 1.2em;
@@ -2907,9 +2907,11 @@ span.error {
 	width: auto;
 	font-size: 1.4em;
 	margin-left: 0;
-	padding-top: 0;
 	padding: 20px;
-	height: 500px;
+	padding-top: 40px;
+	min-height: 500px;
+	height: 100%;
+	background-color: rgba(255, 255, 255, 0.7);
 }
 
 /* @end */
