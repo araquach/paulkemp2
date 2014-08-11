@@ -2850,13 +2850,7 @@ span.error {
 
 /* @group limited offer */
 
-#limited {
-	width: auto;
-	height: 100%;
-	padding-bottom: 0;
-	background-position: 0px 0px;
-}
-
+#limited,
 #limitedmale {
 	width: auto;
 	height: 100%;
