@@ -374,14 +374,14 @@ li.active a {
 #news1 {
 	left: 20px;
 	top: 1100px;
-	background: url(../images/home_news/michelle_baby.jpg) no-repeat, rgb(55,34,24);
+	background: url(../images/home_news/metalixx.jpg) no-repeat, rgb(55,34,24);
 	-webkit-transition: all 0.3s ease-in;
 	-moz-transition: all 0.3s ease-in;
 	transition: all 0.3s ease-in;
 }
 
 .no-cssgradients #news1 {
-	background: url(../images/home_news/michelle_baby.jpg) no-repeat rgb(55,34,24);
+	background: url(../images/home_news/metalixx.jpg) no-repeat rgb(55,34,24);
 }
 
 #news1:hover {
@@ -1388,7 +1388,7 @@ section#newspage a p:hover {
 
 #offerlist #offer1 {
 	padding: 30px;
-	background-image: url(../images/offer/new_offer.jpg);
+	background-image: url(../images/offer/metalixx.jpg);
 	clear: left;
 	float: left;
 	height: 240px;
