@@ -192,10 +192,10 @@ class Offer extends CActiveRecord
 	
 	public function getOfferCodeOptions() {
 		return array(
-			self::OFFER_1=>'FFFF for Colour &amp; Cut<br>FFJJ for Colour &amp Blow Dry; Style<br>FFYY for a Cut, Dry &amp; Style',
-			self::OFFER_2=>'FFFF for Colour &amp; Cut<br>FFJJ for Cut, Dry &amp; Style',
-			self::OFFER_3=>'GGGG for Colour &amp; Cut<br>GGJJ for Cut, Dry &amp; Style',
-			self::OFFER_4=>'HHHH for Colour &amp; Cut<br>HHJJ for Cut, Dry &amp; Style',
+			self::OFFER_1=>'A-CCP14 for Colour &amp; Cut<br>A-CDP2014 for Colour &amp Blow Dry; Style<br>A-CP2014 for a Cut, Dry &amp; Style',
+			self::OFFER_2=>'G-CCP14 for Colour &amp; Cut<br>G-CP2014 for Cut, Dry &amp; Style',
+			self::OFFER_3=>'S-CCP14 for Colour &amp; Cut<br>S-CP2014 for Cut, Dry &amp; Style',
+			self::OFFER_4=>'SS-CCP14 for Colour &amp; Cut<br>SS-CP2014 for Cut, Dry &amp; Style',
 			self::OFFER_5=>'XXXX',
 			self::OFFER_6=>'ZZZZ',
 		);
