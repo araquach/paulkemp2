@@ -187,7 +187,7 @@ class Offer extends CActiveRecord
 		return isset($offerOptions[$this->offer]) ? $offerOptions[$this->offer] : '<p style="font-size: 22px;"><strong><span style="font-size: 34px; line-height: 1.5em;">30% OFF</span><br>your next visit</strong></p>
 		<p>Offer exclusively for <strong>'.ucfirst($this->first_name).' '.ucfirst($this->last_name).'</strong> only.<br>Not Transferable, weekdays only </p>
 		<p><strong>Call 01925 444488 to book and mention the offer</strong></p>
-		<p style="font-size: 10px;">Please present this when paying (either a printout or show it on your smart phone)<br>Offer ends: August 29th 2014</p>';
+		<p style="font-size: 10px;">Please present this when paying (either a printout or show it on your smart phone)<br>Offer ends: Septemer 26th 2014</p>';
 	}
 	
 	public function getOfferCodeOptions() {
