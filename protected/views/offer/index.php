@@ -32,6 +32,8 @@
 
 <?php echo $this->renderPartial('_form', array('model'=>$model)); ?>
 
+<p>Offer Ends: <?php echo $model->getDateText(); ?></p>  
+
 
 <small>Not with any other offer, subject to availability</small>
 

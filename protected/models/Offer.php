@@ -18,7 +18,8 @@
  * @property boolean $optout
  * @property datetime $date
  * @property integer $submitted
- *  @property integer $offer
+ * @property integer $offer
+ * @property integer $batch
  */
 class Offer extends CActiveRecord
 {
@@ -29,6 +30,15 @@ class Offer extends CActiveRecord
 	const OFFER_4 = 4;
 	const OFFER_5 = 5;
 	const OFFER_6 = 6;
+	
+	const DATE_1 = 1;
+	const DATE_2 = 2;
+	const DATE_3 = 3;
+	const DATE_4 = 4;
+	const DATE_5 = 5;
+	const DATE_6 = 6;
+	const DATE_7 = 7;
+	const DATE_8 = 8;
 	
 	/**
 	 * Returns the static model of the specified AR class.
@@ -67,7 +77,7 @@ class Offer extends CActiveRecord
 			
 			// The following rule is used by search().
 			// Please remove those attributes that should not be searched.
-			array('id, first_name, last_name, mobile, email, first_stylist, last_stylist, first_visit, last_visit, gender, number_visits, optout, date, submitted', 'safe', 'on'=>'search'),
+			array('id, first_name, last_name, mobile, email, first_stylist, last_stylist, first_visit, last_visit, gender, number_visits, optout, date, submitted, offer, batch', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -204,6 +214,24 @@ class Offer extends CActiveRecord
 	public function getOfferCodeText() {
 		$offerCodeOptions=$this->offerCodeOptions;
 		return isset($offerCodeOptions[$this->offer]) ? $offerCodeOptions[$this->offer] : 'IMPD2514';
+	}
+	
+	public function getDateOptions() {
+		return array(
+		self::DATE_1=>'11th October 2014',
+		self::DATE_2=>'18th October 2014',
+		self::DATE_3=>'25th October 2014',
+		self::DATE_4=>'7th November 2014',
+		self::DATE_5=>'14th November 2014',
+		self::DATE_6=>'21st November 2014',
+		self::DATE_7=>'28th November 2014',
+		self::DATE_8=>'5th December 2014',
+		);
+	}
+	
+	public function getDateText() {
+		$dateOptions = $this->dateOptions;
+		return isset($dateOptions[$this->batch]) ? $dateOptions[$this->batch] : '21st November 2014';
 	}
 	
 		
