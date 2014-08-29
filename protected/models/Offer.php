@@ -196,7 +196,7 @@ class Offer extends CActiveRecord
 			self::OFFER_2=>'G-IMCCP14 for Colour &amp; Cut<br>G-IMCDP14 for Cut, Dry &amp; Style',
 			self::OFFER_3=>'S-IMCCP14 for Colour &amp; Cut<br>S-IMCDP14 for Cut, Dry &amp; Style',
 			self::OFFER_4=>'SS-IMCCP14 for Colour &amp; Cut<br>SS-IMCDP14 for Cut, Dry &amp; Style',
-			self::OFFER_5=>'SS-IMPD2514',
+			self::OFFER_5=>'IMPD2514',
 			self::OFFER_6=>'IMMPD2514',
 		);
 	}
