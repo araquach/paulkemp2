@@ -2,7 +2,7 @@
 /* @var $this OfferController */
 ?>
 
-<?php if($model->offer != 6): ?>
+<?php if($model->offer != 5): ?>
 
 <div id="limited">
 
