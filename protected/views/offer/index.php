@@ -35,7 +35,7 @@
 <p>Offer Ends: <?php echo $model->getDateText(); ?></p>  
 
 
-<small>Not with any other offer, subject to availability</small>
+<small>Not with any other offer, subject to availability, weekdays only</small>
 
 </div> <!--#limited_copy-->
 </div> <!--#limited-->
