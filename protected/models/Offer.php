@@ -192,7 +192,7 @@ class Offer extends CActiveRecord
 		return isset($offerOptions[$this->offer]) ? $offerOptions[$this->offer] : '<p style="font-size: 22px;"><strong><span style="font-size: 34px; line-height: 1.5em;">25% OFF</span><br>the total bill on your next visit</strong></p>
 		<p>Offer exclusively for <strong>'.ucfirst($this->first_name).' '.ucfirst($this->last_name).'</strong> only.<br>Not Transferable, weekdays only </p>
 		<p><strong>Call 01925 444488 to book and mention the offer</strong></p>
-		<p style="font-size: 10px;">Please present this when paying (either a printout or show it on your smart phone)<br>Offer ends: Septemer 26th 2014</p>';
+		<p style="font-size: 10px;">Please present this when paying (either a printout or show it on your smart phone)<br>Offer ends: November 28th 2014</p>';
 	}
 	
 	public function getOfferCodeOptions() {
@@ -212,7 +212,7 @@ class Offer extends CActiveRecord
 	
 	public function getDateOptions() {
 		return array(
-		self::DATE_1=>'11th October 2014',
+		self::DATE_1=>'18th October 2014',
 		self::DATE_2=>'18th October 2014',
 		self::DATE_3=>'25th October 2014',
 		self::DATE_4=>'7th November 2014',
