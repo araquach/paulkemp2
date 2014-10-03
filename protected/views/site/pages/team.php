@@ -58,20 +58,14 @@ $this->pageTitle=Yii::app()->name . ' - The Team - Hairdressers in Cheshire';
         <p class="teamprice">Average Cut &amp; Colour price with Leon : &pound;96*</p>
         </section>', array('site/page','view'=>'team_leon')); ?>
         
-        <?php echo CHtml::link('<section id="jack">
-        <h3><img src="' . Yii::app()->request->baseUrl . '/images/staff/jack.jpg" width="133" height="168" alt="Jack Broady">Jack Broady - Stylist</h3>
-        <p>Jack came onboard at the end of 2012 and is now an influential member of the team as head of training. He\'s been hairdressing since the age of 13. He loves all aspects including mens cutting &amp; styling. His speciality is cutting and colouring long hair.</p>
-        <p class="teamprice">Average Cut &amp; Colour price with Jack : &pound;96*</p>
-        </section>', array('site/page','view'=>'team_jack')); ?>
-        
         <?php echo CHtml::link('<section id="tash">
-        <h3><img src="' . Yii::app()->request->baseUrl . '/images/staff/tash.jpg" width="133" height="168" alt="Natasha Bailey">Tash Bailey - Graduate Stylist</h3>
+        <h3><img src="' . Yii::app()->request->baseUrl . '/images/staff/tash.jpg" width="133" height="168" alt="Natasha Bailey">Tash Bailey - Stylist</h3>
         <p>Tash\'s passion for hairdressing is apparent from the minute you meet her. She loves creative colouring and cutting plus she\'s highly skilled in styling hair.</p>
         <p class="teamprice">Average Cut &amp; Colour price with Tash : &pound;76*</p>
         </section>', array('site/page','view'=>'team_tash')); ?>
         
         <?php echo CHtml::link('<section id="meg">
-        <h3><img src="' . Yii::app()->request->baseUrl . '/images/staff/meg.jpg" width="133" height="168" alt="Megan Mullaney">Meg Mullaney - Graduate Stylist</h3>
+        <h3><img src="' . Yii::app()->request->baseUrl . '/images/staff/meg.jpg" width="133" height="168" alt="Megan Mullaney">Meg Mullaney - Graduate</h3>
         <p>Meg joined the team as an apprentice and quickly demonstrated her natural flair for hairdressing. After completing her training she is now a Graduate stylist in the team. Meg has great talent for hair up styling and her cutting and colouring skills are extremely strong</p>
         <p class="teamprice">Average Cut &amp; Colour price with Meg : &pound;56*</p>
         </section>', array('site/page','view'=>'team_meg')); ?>
