@@ -63,7 +63,7 @@
 	<ul id="footer_images">
 	<li><a href="http://www.schwarzkopf-professional.com/" target="_blank"><img src="<?php echo Yii::app()->request->baseUrl; ?>/images/footer/schwarzkopf.png" alt="Schwarzkopf - The Hairdressers choice" /></a></li>
 	<li><a href="http://www.tigihaircare.com/consumer/en-UK/bedhead/" target="_blank"><img src="<?php echo Yii::app()->request->baseUrl; ?>/images/footer/bedhead.png" alt="Bedhead - Proffessional Hairdressing" /></a></li>
-	<li><a href="" target="_blank"><img src="<?php echo Yii::app()->request->baseUrl; ?>/images/footer/catwalk.png" alt="Tigi Catwalk" /></a></li>
+	<li><a href="http://www.catwalkbytigi.com" target="_blank"><img src="<?php echo Yii::app()->request->baseUrl; ?>/images/footer/catwalk.png" alt="Tigi Catwalk" /></a></li>
 	<li><a href="http://www.tigihaircare.com/consumer/en-UK/b4men/default.asp" target="_blank"><img src="<?php echo Yii::app()->request->baseUrl; ?>/images/footer/bformen.png" alt="B for Men - mens products for hairdressers" /></a></li>
 	<li><a href="http://www.ghdhair.com/" target="_blank"><img src="<?php echo Yii::app()->request->baseUrl; ?>/images/footer/ghd.png" alt="ghd - for hairdressers" /></a></li>
 	<li><a href="http://www.tigihaircare.com/consumer/en-UK/sfactor/default.asp" target="_blank"><img src="<?php echo Yii::app()->request->baseUrl; ?>/images/footer/sfactor.png" alt="S Factor - quality brand for hairdressers" /></a></li>
