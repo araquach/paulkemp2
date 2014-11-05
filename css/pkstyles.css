@@ -1346,7 +1346,7 @@ section#newspage a p:hover {
 
 #offerlist h3 {
 	font-size: 2em;
-	line-height: 1.3em;
+	line-height: 1em;
 }
 
 #offerlist p {
@@ -1358,13 +1358,22 @@ section#newspage a p:hover {
 	font-size: 1.5em;
 }
 
+#offerlist p:last-of-type {
+	margin: 0;
+	float: left;
+	margin-top: 20px;
+	font-weight: bold;
+	color: rgb(55,34,24);
+}
+
 #offerlist .small {
 	font-size: .78em;
+	color: rgb(55,34,24);
 }
 
 #offerlist #offer1 {
 	padding: 30px;
-	background-image: url(../images/offer/metalixx.jpg);
+	background-image: url(../images/offer/boho_curl.jpg);
 	clear: left;
 	float: left;
 	height: 240px;
@@ -1389,7 +1398,7 @@ section#newspage a p:hover {
 
 #offerlist #offer2 {
 	padding: 30px;
-	background-image: url(../images/offer/18_construct.jpg);
+	background-image: url(../images/offer/white_hot_man.jpg);
 	clear: left;
 	float: left;
 	height: 240px;

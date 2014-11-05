@@ -1075,6 +1075,11 @@ section#newspage a p:hover {
 	margin-top: 1.4em;
 }
 
+#offerlist .small:last-of-type {
+	font-size: .78em;
+	color: #FFF;
+}
+
 #offerlist #offer1 {
 	padding: 20px;
 	padding-top: 350px;

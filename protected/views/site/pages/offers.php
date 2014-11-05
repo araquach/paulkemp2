@@ -3,21 +3,38 @@
 $this->pageTitle=Yii::app()->name . ' - Offers - Hairdressers in Cheshire';
 ?>
 
-<?php Yii::app()->facebook->ogTags['og:title'] = "Offers"; ?>
-<?php Yii::app()->facebook->ogTags['og:description'] = ""; ?>
-<?php Yii::app()->facebook->ogTags['og:image'] = "http://www.paulkemphairdressing.com/images/offer/.jpg"; ?>
+<?php Yii::app()->facebook->ogTags['og:title'] = "November Offers"; ?>
+<?php Yii::app()->facebook->ogTags['og:description'] = "Free Colour with every Cut, Dry & Style throughout November for new clients"; ?>
+<?php Yii::app()->facebook->ogTags['og:image'] = "http://www.paulkemphairdressing.com/images/offer/boho_meta.jpg"; ?>
 
 <section id="offersMain">
 
-<section id="no_offer">
-  </section> 
- <section id="no_offercopy">
- <h2>Special Offers</h2>
- <p>Look out for some great offers coming soon!</p>
- <p>
- 	<a href="http://www.facebook.com/PaulKempHairdressing" target="_blank">Visit our Facebook page to keep up to date with all the latest news and offers</a>
- </p>
-</section> <!--no_offer-->
+<h2>November Offers</h2>
+
+
+<section id="offerlist">
+
+<div id="offer1" class="offer">
+<h3>FREE Colour with every<br>Cut, Dry &amp; Style</h3>
+<p>For new clients<br>until the end of November</p>
+<p class="small">offer until <time datetime="2014-11-29">29/11/14</time><br>
+  For New Clients Only - not with any other offer - excludes Saturday<br>Skin test required 48hrs prior to service</p>
+</div>
+
+<div id="offer2" class="offer">
+<h3>30% Off <br>Mens Cut &amp; Style</h3>
+<p>For new clients<br>until the end of November</p>
+<p class="small">offer until <time datetime="2014-11-29">29/11/14</time><br>
+  For New Clients Only - not with any other offer - excludes Saturday<br>Skin test required 48hrs prior to service</p>
+</div>
+
+<p>Call 01925 444488 to book</p>
+  
+
+ 
+ </section> <!--end offerlist-->
+ 
+ </section> <!--end offersMain-->
 
 
 
