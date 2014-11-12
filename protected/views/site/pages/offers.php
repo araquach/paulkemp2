@@ -29,12 +29,20 @@ $this->pageTitle=Yii::app()->name . ' - Offers - Hairdressers in Cheshire';
 </div>
 
 <p>Call 01925 444488 to book</p>
+
+<div id="fb_like">
+<?php  $this->widget('ext.yii-facebook-opengraph.plugins.LikeButton', array(
+   'href' => 'http://www.paulkemphairdressing.com/offers', 
+   'show_faces'=>false,
+   'send' => true,
+   'width' => '250px'
+));  ?>
+</div>
   
 
+</section> <!--end offerlist-->
  
- </section> <!--end offerlist-->
- 
- </section> <!--end offersMain-->
+</section> <!--end offersMain-->
 
 
 

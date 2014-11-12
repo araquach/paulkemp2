@@ -1318,6 +1318,12 @@ section#newspage a p:hover {
 	margin-bottom: 30px;
 }
 
+#offerlist #fb_like {
+	float: left;
+	clear: left;
+	margin-bottom: 30px;
+}
+
 #offersMain h2 {
 	margin: 60px;
 	margin-bottom: 30px;
