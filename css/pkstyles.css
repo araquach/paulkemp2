@@ -2715,14 +2715,60 @@ span.kebelo_italic {
 /* @group Competition */
 
 #competition {
-	height: auto;
+	height: 1650px;
 	min-height: 500px;
 	padding: 30px;
 	width: 890px;
 	margin-bottom: 50px;
 	float: left;
-	background: url('../images/competition/aveda_christmas.jpg') no-repeat;
-	background-position: right 70px;
+	background: url('../images/competition/christmas_prize_draw.jpg') no-repeat left -150px;
+}
+
+#competition_copy {
+	width: 650px;
+	margin-left: 80px;
+	margin-top: 900px;
+}
+
+#prizes {
+	float: left;
+	clear: left;
+	width: 840px;
+	padding: 30px;
+}
+
+#prizes .prize {
+	float: left;
+	width: 230px;
+	height: 300px;
+	padding: 20px 15px;
+	font-size: .8em;
+	border: 1px solid #333;
+	margin-left: 10px;
+	border-radius: 10px;
+	background-color: white;
+}
+
+#prizes .prize h3 {
+	font-size: 2.7em;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+#prizes .prize p:first-of-type {
+	font-weight: bolder;
+	font-size: 1.4em;
+}
+
+#prizes .prize p:last-of-type {
+	text-align: center;
+	font-weight: bold;
+	font-size: 1.4em;
+}
+
+#prize_entry {
+	margin-left: 80px;
+	font-size: .8em;
 }
 
 #overlay {
@@ -2736,7 +2782,7 @@ span.kebelo_italic {
 }
 
 #competition_copy {
-	width: 300px;
+	width: 400px;
 	margin-left: 60px;
 }
 
@@ -2753,7 +2799,7 @@ span.kebelo_italic {
 
 #competition_copy h2 {
 	color: rgb(88, 0, 0);
-	font-size: 2em;
+	font-size: 3em;
 	margin-top: 0;
 	margin-bottom: 20px;
 	padding: 0;
@@ -2844,6 +2890,11 @@ p.big {
 
 iframe#f345250fd8.fb_ltr {
 	margin-left: 40px;
+}
+
+#competition #fb_like {
+	margin-left: 80px;
+	margin-top: 20px;
 }
 
 /* @end */

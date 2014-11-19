@@ -1057,7 +1057,7 @@ section#newspage a p:hover {
 }
 
 #offerlist h3 {
-	font-size: 2em;
+	font-size: 1.8em;
 	margin-bottom: .5em;
 	line-height: 1.2em;
 }
@@ -1082,7 +1082,7 @@ section#newspage a p:hover {
 
 #offerlist #offer1 {
 	padding: 20px;
-	padding-top: 350px;
+	padding-top: 330px;
 	background-position: -500px top;
 	background-repeat: no-repeat;
 	background-color: rgb(46, 40, 34);
@@ -1107,7 +1107,7 @@ section#newspage a p:hover {
 
 #offerlist #offer2 {
 	padding: 20px;
-	padding-top: 350px;
+	padding-top: 330px;
 	background-position: -500px top;
 	background-repeat: no-repeat;
 	background-color: rgb(46, 40, 34);
@@ -1124,7 +1124,7 @@ section#newspage a p:hover {
 
 #offerlist #offer3 {
 	padding: 20px;
-	padding-top: 350px;
+	padding-top: 330px;
 	background-position: -500px top;
 	background-repeat: no-repeat;
 	background-color: rgb(46, 40, 34);
@@ -1141,7 +1141,7 @@ section#newspage a p:hover {
 
 #offerlist #offer4 {
 	padding: 20px;
-	padding-top: 350px;
+	padding-top: 330px;
 	background: url(../images/offer/offer4.jpg) -500px top no-repeat #281d02;
 	float: none;
 	height: 300px;
