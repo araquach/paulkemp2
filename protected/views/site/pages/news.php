@@ -3,9 +3,9 @@
 $this->pageTitle=Yii::app()->name . ' - News - Hairdressers in Cheshire';
 ?>
 
-<?php Yii::app()->facebook->ogTags['og:title'] = "PK Stylist Collaborates with UK's Up & Coming Fashion Talent"; ?>
-<?php Yii::app()->facebook->ogTags['og:description'] = "Our very own Meg was invited to work alongside Schwarzkopf’s LEAP Artistic team as a session stylist at a prestigious catwalk fashion show for the top eight fashion graduates of London's Middlesex University. The event was held at London’s St Pancras hotel"; ?>
-<?php Yii::app()->facebook->ogTags['og:image'] =  "http://www.paulkemphairdressing.com/images/news_images/meg_meta.jpg"; ?>
+<?php Yii::app()->facebook->ogTags['og:title'] = "Happy New Year from the PK team"; ?>
+<?php Yii::app()->facebook->ogTags['og:description'] = "Hope you all had a great Christmas and New Year, we had a manic time leading up to Christmas so it was great to have a well earned break for a few days. Things aren't quite back to normal yet as we are soon to embark on our trip to Amsterdam (for a late Christmas party). I'm sure things are going to get interesting on that one! (pictures to follow...)"; ?>
+<?php Yii::app()->facebook->ogTags['og:image'] =  "http://www.paulkemphairdressing.com/images/news_images/new_year_meta.jpg"; ?>
 
 <script type="text/javascript">
 window.addEvent('domready', function(){
@@ -19,6 +19,21 @@ window.addEvent('domready', function(){
 <h2>News</h2>
 
 <section id="accordion">
+
+<article class="article">
+<a id="HappyNewYear" class="anchor"></a>
+<section class="visible">
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/news_images/new_year.jpg" width="135" height="180" alt="Happy New Year">
+<h3>Happy New Year!</h3>
+<p><strong>Hope you all had a great Christmas and New Year, we had a manic time leading up to Christmas so it was great to have a well earned break for a few days.</strong></p>
+<p>Things aren't quite back to normal yet as we are soon to embark on our trip to Amsterdam (for a late Christmas party). I'm sure things are going to get interesting on that one! (pictures to follow...)</p>
+<p>The salon will be closed from <strong>Friday 2nd Jan</strong> and we'll re-open on <strong>Wednesday 7th Jan</strong>.</p>
+<p>If you want to make an appointment you still can! All calls are to be diverted to Jakata who will be logged into the PK system to make bookings.</p>
+<p class="offer">Once again - Happy New Year - here's to a fantastic 2015!!</p>
+</section> <!--end .visible-->
+<p class="author">Published by PK</p>
+<time datetime="2015-01-02">2<sup>nd</sup> Jan 2015</time>
+</article> <!--end #article-->
 
 <article class="article">
 <a id="MegSession" class="anchor"></a>
