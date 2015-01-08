@@ -394,7 +394,7 @@ li.active a {
 #news2 {
 	left: 257px;
 	top: 1100px;
-	background: url(../images/home_news/meg_session.jpg) no-repeat, rgb(55,34,24);
+	background: url(../images/home_news/Asian_Lucy_224.jpg) no-repeat, rgb(55,34,24);
 	-webkit-transition: all 0.3s ease-in;
 	-moz-transition: all 0.3s ease-in;
 	transition: all 0.3s ease-in;
@@ -435,7 +435,7 @@ li.active a {
 #news4 {
 	left: 725px;
 	top: 1100px;
-	background: url(../images/home_news/boho_curl.jpg) no-repeat, rgb(55,34,24);
+	background: url(../images/home_news/meg_session.jpg) no-repeat, rgb(55,34,24);
 	-webkit-transition: all 0.3s ease-in;
 	-moz-transition: all 0.3s ease-in;
 	transition: all 0.3s ease-in;
@@ -1379,7 +1379,7 @@ section#newspage a p:hover {
 
 #offerlist #offer1 {
 	padding: 30px;
-	background-image: url(../images/offer/boho_curl.jpg);
+	background-image: url(../images/offer/Lucy_123.jpg);
 	clear: left;
 	float: left;
 	height: 240px;
@@ -1404,7 +1404,7 @@ section#newspage a p:hover {
 
 #offerlist #offer2 {
 	padding: 30px;
-	background-image: url(../images/offer/white_hot_man.jpg);
+	background-image: url(../images/offer/Polina_Hot_Styling_02_033.jpg);
 	clear: left;
 	float: left;
 	height: 240px;

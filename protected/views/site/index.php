@@ -27,10 +27,10 @@ $this->pageTitle=Yii::app()->name;
 		</aside>',array('site/page','view'=>'news', '#'=>'HappyNewYear')); ?>
 
     <?php echo CHtml::link('<aside id="news2">
-    <h3 class="newsheader">Meg at London Fashion Show</h3>
-    <p class="newspara">PK stylist Meg recently collaborated with up and coming fashion designers at a London fashion show</p>
+    <h3 class="newsheader">January<br>Offers</h3>
+    <p class="newspara">Check out this months special offers for new clients</p>
     <p class="newscenter"><strong>Find out more here &gt;</strong></p>
-    	</aside>',array('site/page','view'=>'news', '#'=>'MegSession')); ?>
+    </aside>',array('site/page','view'=>'offers')); ?>
     
     <?php echo CHtml::link('<aside id="news3">
     <h3 class="newsheader">Great Career Opportunities</h3>
@@ -39,10 +39,10 @@ $this->pageTitle=Yii::app()->name;
     </aside>',array('site/page','view'=>'recruitment')); ?>
     
     <?php echo CHtml::link('<aside id="news4">
-    <h3 class="newsheader">November<br>Offers</h3>
-    <p class="newspara">Check out this months special offers for new clients</p>
+    <h3 class="newsheader">Meg at London Fashion Show</h3>
+    <p class="newspara">PK stylist Meg recently collaborated with up and coming fashion designers at a London fashion show</p>
     <p class="newscenter"><strong>Find out more here &gt;</strong></p>
-    </aside>',array('site/page','view'=>'offers')); ?>
+    	</aside>',array('site/page','view'=>'news', '#'=>'MegSession')); ?>
     
     
   <div id="feedback_feed">
