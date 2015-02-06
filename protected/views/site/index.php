@@ -27,7 +27,7 @@ $this->pageTitle=Yii::app()->name;
 		</aside>',array('site/page','view'=>'news', '#'=>'HappyNewYear')); ?>
 
     <?php echo CHtml::link('<aside id="news2">
-    <h3 class="newsheader">January<br>Offers</h3>
+    <h3 class="newsheader">February<br>Offers</h3>
     <p class="newspara">Check out this months special offers for new clients</p>
     <p class="newscenter"><strong>Find out more here &gt;</strong></p>
     </aside>',array('site/page','view'=>'offers')); ?>
