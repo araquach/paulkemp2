@@ -12,9 +12,9 @@ $this->pageTitle=Yii::app()->name . ' - Ashley Tennant - Hairdressers in Cheshir
 	
 	<section id="team_ind_copy">
 	<h2>Ashley Tennant</h2>
-	<p>Ashley is our newest team member and is on a fast track apprenticeship with the aim to be a graduate stylist within 6 month's.</p> 
-	<p>She is now looking to further her skills. All her training is fully supervised so you can be assured you'll love the end result</p>
-	<p class="team_ind_price">Average Cut &amp; Colour price with Ashley : &pound;15*</p>
+	<p>Ashley recently qualified and is now a Junior stylist within the team.</p> 
+	<p>She is developing at an extremely fast rate and will be moving up the ranks quickly.</p>
+	<p class="team_ind_price">Average Cut &amp; Colour price with Ashley : &pound;35*</p>
 	
 	<?php echo CHtml::link('Click here to see the full team &gt;',array('site/page','view'=>'team', '#'=>'ashley')); ?>
 

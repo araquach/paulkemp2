@@ -12,9 +12,9 @@ $this->pageTitle=Yii::app()->name . ' - Kellie Reedy - Hairdressers in Cheshire'
 
 	<section id="team_ind_copy">
 	<h2>Kellie Reedy</h2>
-	<p>Salon manager Kelly has 12 years experience working in Warrington town centre.</p>
-	<p>She holds a place as a pivotal member at Paul Kemp Hairdressing.</p> 
-	<p>She specialises in long hair styling, she is also the extension expert within the salon.</p>
+	<p>Salon manager Kelly has 14 years experience working in Warrington town centre.</p>
+	<p>She is the team leader of the salon.</p> 
+	<p>She specialises in long hair styling and is also one of the extension experts within the salon.</p>
 	<p class="team_ind_price">Average Cut &amp; Colour price with Kelly : &pound;114*</p>
 	
 	<?php echo CHtml::link('Click here to see the full team &gt;',array('site/page','view'=>'team', '#'=>'kel')); ?>

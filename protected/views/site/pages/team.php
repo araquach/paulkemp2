@@ -24,7 +24,7 @@ $this->pageTitle=Yii::app()->name . ' - The Team - Hairdressers in Cheshire';
       	
        <?php echo CHtml::link('<section id="kel">
         <h3><img src="' . Yii::app()->request->baseUrl . '/images/staff/kel.jpg" alt="Kelly Reedy" width="133" height="168">Kelly Reedy - Senior Stylist</h3>
-        <p>Salon manager Kelly has 12 years experience working in Warrington town centre.  She holds a place as a pivotal member at Paul Kemp Hairdressing. She specialises in long hair styling, she is also the extension expert within the salon.</p>
+        <p>Salon manager Kelly has 14 years experience working in Warrington town centre.  She is the team leader of the salon. She specialises in long hair styliny and is also one of the extension experts within the salon.</p>
         <p class="teamprice">Average Cut &amp; Colour price with Kelly : &pound;114*</p>
         </section>', array('site/page','view'=>'team_kel')); ?>
         
@@ -48,13 +48,13 @@ $this->pageTitle=Yii::app()->name . ' - The Team - Hairdressers in Cheshire';
         
         <?php echo CHtml::link('<section id="michelle_r">
         <h3><img src="' . Yii::app()->request->baseUrl . '/images/staff/michelle_r.jpg" width="133" height="168" alt="Michelle Railton">Michelle Railton - Stylist</h3>
-        <p>Michelle is the latest stylist to join the team. A former stylist at Daniel Anderson Hairdressing, Michelle is a highly skilled hairdresser, she especially loves soft, natural styles and men\'s indie/mod cutting.</p>
+        <p>Michelle is the latest stylist to join the team. She is a highly skilled hairdresser with loads of experience. She especially loves soft, natural styles and men\'s indie/mod cutting.</p>
         <p class="teamprice">Average Cut &amp; Colour price with Kate : &pound;96*</p>
         </section>', array('site/page','view'=>'team_michelle')); ?>
         
       	<?php echo CHtml::link('<section id="leon">
         <h3><img src="' . Yii::app()->request->baseUrl . '/images/staff/leon.jpg" width="133" height="168" alt="Leon Pritchard">Leon Pritchard - Stylist</h3>
-        <p>Leon has quickly built up a strong reputation for his skills in cutting, colouring &amp; styling hair. He\'s a big hit in the salon due to his friendly personality. He came to us after working at Daniel Anderson Hairdressing and is fast expanding his ever growing client base. </p>
+        <p>Leon has quickly built up a strong reputation for his skills in cutting, colouring &amp; styling hair. He\'s a big hit in the salon due to his friendly personality. He has grown to be a pivotal member of the team and is fast expanding his ever growing client base. </p>
         <p class="teamprice">Average Cut &amp; Colour price with Leon : &pound;96*</p>
         </section>', array('site/page','view'=>'team_leon')); ?>
         
@@ -72,8 +72,8 @@ $this->pageTitle=Yii::app()->name . ' - The Team - Hairdressers in Cheshire';
         
         <?php echo CHtml::link('<section id="ashley">
         <h3><img src="' . Yii::app()->request->baseUrl . '/images/staff/ashley.jpg" width="133" height="168" alt="Ashley Tennant">Ashley Tennant - Apprentice</h3>
-        <p>Ashley is our newest team member and is on a fast track apprenticeship with the aim to be a graduate stylist within 6 month\'s. She is now looking to further her skills. All her training is fully supervised so you can be assured you\'ll love the end result</p>
-        <p class="teamprice">Average Cut &amp; Colour price with Ashley : &pound;15*</p>
+        <p>Ashley recently qualified and is now a Junior stylist within the team. She is developing at an extremely fast rate and will be moving up the ranks quickly.</p>
+        <p class="teamprice">Average Cut &amp; Colour price with Ashley : &pound;35*</p>
         </section>', array('site/page','view'=>'team_ashley')); ?>
         
         </section>
