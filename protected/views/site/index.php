@@ -21,16 +21,16 @@ $this->pageTitle=Yii::app()->name;
 <!--NewsItems-->
 
 	<?php echo CHtml::link('<aside id="news1">
-	<h3 class="newsheader">Happy <br>New Year!</h3>
-	<p class="newspara">Here\'s to a great 2015 from the PK Team</p>
+	<h3 class="newsheader">Introducing <br>Heath</h3>
+	<p class="newspara">PK stylist Jo has a new addition to her family</p>
 	<p class="newscenter"><strong>Find out more here &gt;</strong></p>
-		</aside>',array('site/page','view'=>'news', '#'=>'HappyNewYear')); ?>
+		</aside>',array('site/page','view'=>'news', '#'=>'BabyHeath')); ?>
 
     <?php echo CHtml::link('<aside id="news2">
-    <h3 class="newsheader">February<br>Offers</h3>
-    <p class="newspara">Check out this months special offers for new clients</p>
+    <h3 class="newsheader">New Igora<br>Pearlescence Colours</h3>
+    <p class="newspara">Schwarzkopf\'s new range could give you the new look you\'ve always wanted</p>
     <p class="newscenter"><strong>Find out more here &gt;</strong></p>
-    </aside>',array('site/page','view'=>'offers')); ?>
+    </aside>',array('site/page','view'=>'news', '#'=>'Pearlescence')); ?>
     
     <?php echo CHtml::link('<aside id="news3">
     <h3 class="newsheader">Great Career Opportunities</h3>

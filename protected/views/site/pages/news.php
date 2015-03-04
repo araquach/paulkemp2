@@ -3,9 +3,9 @@
 $this->pageTitle=Yii::app()->name . ' - News - Hairdressers in Cheshire';
 ?>
 
-<?php Yii::app()->facebook->ogTags['og:title'] = "Happy New Year from the PK team"; ?>
-<?php Yii::app()->facebook->ogTags['og:description'] = "Hope you all had a great Christmas and New Year, we had a manic time leading up to Christmas so it was great to have a well earned break for a few days. Things aren't quite back to normal yet as we are soon to embark on our trip to Amsterdam (for a late Christmas party). I'm sure things are going to get interesting on that one! (pictures to follow...)"; ?>
-<?php Yii::app()->facebook->ogTags['og:image'] =  "http://www.paulkemphairdressing.com/images/news_images/new_year_meta.jpg"; ?>
+<?php Yii::app()->facebook->ogTags['og:title'] = "Introducing Heath"; ?>
+<?php Yii::app()->facebook->ogTags['og:description'] = "Paul Kemp Hairdressing Senior Stylist Jo has recently had a new addition to her family. She gave birth to Heath Birchall on February 12th at 1:24am and he weighed 9lb 1oz. The team are delighted for Jo, who has popped in a few times with baby Heath to meet everyone."; ?>
+<?php Yii::app()->facebook->ogTags['og:image'] =  "http://www.paulkemphairdressing.com/images/home_news/jo_baby_meta.jpg"; ?>
 
 <script type="text/javascript">
 window.addEvent('domready', function(){
@@ -19,6 +19,44 @@ window.addEvent('domready', function(){
 <h2>News</h2>
 
 <section id="accordion">
+
+<article class="article">
+<a id="Pearlescence" class="anchor"></a>
+<section class="visible">
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/news_images/pearlescence.jpg" width="135" height="180" alt="Igora Pearlescence">
+<h3>New Igora Pearlescence Colours</h3>
+<p><strong>We’ve all noticed the growing trend for pastel tones over the last year and it looks like it’s here to stay, especially coming into spring and summer.</strong></p>
+<p>Mixing subtle tones of pink, powder blue or soft lilacs into bleached blonde hair is a great way to update your look.</p>
+<p class="reveal">Read more &gt;</p>
+</section> <!--end .visible-->
+<section class="hidden">
+<p>Up until now its been difficult to mix a colour to create these effects, often using our creative genius as professional colourists to create unique concoctions!</p>
+<p>That’s all changed now with the launch of Schwarzkopf’s brand new <em>Pearlescence</em> colours. A range of 8 new shades from delicate pastel effects to bold, standout tones.</p>
+<p>We’re all really eager to give these a go, so if you fancy something new then maybe this could be for you!</p>
+<p class="offer">With every Pearlescent colour we do receive a FREE nail varnish (while stocks last)</p>
+</section> <!--end .hidden-->
+<p class="author">Published by PK</p>
+<time datetime="205-03-04">4<sup>th</sup> March 2015</time>
+</article> <!--end #article-->
+
+<article class="article">
+<a id="BabyHeath" class="anchor"></a>
+<section class="visible">
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/news_images/jo_baby.jpg" width="135" height="180" alt="alt text">
+<h3>Introducing Heath</h3>
+<p><strong>Paul Kemp Hairdressing Senior Stylist Jo has recently had a new addition to her family. She gave birth to Heath Birchall on February 12th at 1:24am and he weighed 9lb 1oz.</strong></p>
+<p>The team are delighted for Jo, who has popped in a few times with baby Heath to meet everyone.</p>
+<p class="reveal">Read more &gt;</p>
+</section> <!--end .visible-->
+<section class="hidden">
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/news_images/heath.jpg" width="135" height="180" alt="Baby Heath">
+<p>Jo is going to be on maternity leave for a fair few months but we’ll keep you updated as to when she’s ready to start back.</p>
+<p>If Jo is your regular stylist just give us a call and we’ll recommend another suitable stylist for your needs while she’s off.</p>
+<?php echo CHtml::link('<p class="offer">Visit our team page to see a profile of all our stylists &gt;</p>',array('site/page', 'view'=>'team')); ?>
+</section> <!--end .hidden-->
+<p class="author">Published by Adam</p>
+<time datetime="205-03-04">4<sup>th</sup> March 2015</time>
+</article> <!--end #article-->
 
 <article class="article">
 <a id="HappyNewYear" class="anchor"></a>
