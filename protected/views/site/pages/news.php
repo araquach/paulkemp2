@@ -21,6 +21,83 @@ window.addEvent('domready', function(){
 <section id="accordion">
 
 <article class="article">
+<a id="link" class="anchor"></a>
+<section class="visible">
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/news_images/image.jpg" width="135" height="180" alt="alt text">
+<h3>Title</h3>
+<p><strong>Ashley Tennant has been working her way to becoming a stylist since she joined the PK team back in October 2013. She came on board as an apprentice and has been on an intensive training program. She recently qualified to become a Graduate stylist!</strong></p>
+<p>It’s a vital stage of a hairdressers career - a time to build a client base and refine the skills and techniques that have been taught throughout the apprenticeship. Ashley is eager to take on new clients to expand her skill set and gain valuable experience.</p>
+<p class="reveal">Read more &gt;</p>
+</section> <!--end .visible-->
+<section class="hidden">
+<p>Graduate stylists offer exceptional value - their prices start off low and build up as they gain more experience. An average colour and cut price with Ashley is just £35!</p>
+<p class="offer_heading">For a limited time Ashley is offering new clients a FREE Cut, Dry &amp; Style with every colour service! Call the salon for more details</p>
+<p>Here’s a Q &amp; A feature with Ashley so you can find out more about her&helip;</p>
+<dl>
+	<dt>How long have you been hairdressing for Ashley?</dt>
+	<dd>Almost 2 years</dd>
+	
+	<dt>When did you join the PK team?</dt>
+	<dd>I started at thes salon in October 2013</dd>
+	
+	<dt>When did you first realise you wanted to become a hairdresser and where did you start?</dt>
+	<dd>I realised I wanted to be a hairdresser during my year 9 work experience. I started at Paul Kemp hairdressing as an apprentice where I have since finished my training and now work as a fully qualified graduate stylist.</dd>
+	
+	<dt>If you had chosen another profession what would it have been?</dt>
+	<dd>As I studied English literature. Sociology  and media in college I would have gone to uni to do journalism if I hadn’t chosen to do hairdressing.</dd>
+	
+	<dt>What key points make Paul Kemp Hairdressing good at developing new stylists?</dt>
+	<dd>All management and colleagues are fully supportive with training courses readily available in places such as London to manchester</dd>
+	
+	<dt>Whats your favourite hairstyle of all time and why?</dt>
+	<dd>My current favourite style is the long messy bob as it looks on trend and is effortless to style.</dd>
+	
+	<dt>How do you keep up with new ideas the latest trends?</dt>
+	<dd>I keep up with latest trends by following celebrity news such as daily mail online as It is usually celebrities who are ‘wearing it first’ like Kylie Jenners Bob.</dd>
+	
+	<dt>Whats the secret to a good haircut/style?</dt>
+	<dd>Regular cuts, in salon treatments and a good shampoo and conditioner such as Bed Heads 1, 2 & 3.</dd>
+	
+	<dt>What tips can you give up and coming hairstylists?</dt>
+	<dd>Be confident, watch other stylist as much as you can to pick up any tricks.</dd>
+	
+	<dt>Can you describe a particular makeover that gave you the most satisfaction?</dt>
+	<dd>Cutting one clients hair from a style she was bored with to an edgy Agnes deyn style pixie cut. She loved it and it looked almost identical to the picture she showed me which made me feel proud.</dd>
+	
+	<dt>What do you think sets PK apart from other salons?</dt>
+	<dd>Friendly staff, approachable managers. Reputable and fun to work in.</dd>
+	
+	<dt>Whats the best thing for you about being a stylist at PK?</dt>
+	<dd>Being part of a team who are all real friends and get on out and inside of work.</dd>
+	
+	<dt>What do you think is the most exciting new spring summer 2015 hair trend?</dt>
+	<dd>Schwarzkopf’s new ‘pearlescense’ colour range excites me as I think this is a grat way to spice up blonde hair. I also think the pastel colours are on trend this spring/summer.</dd>
+	
+	<dt>Out of the product ranges which is your favourite and why?</dt>
+	<dd>Bed head is my favourite product range as I think they have clever packaging and everything smells amazing. Also guaranteed that all products actually do what they say.</dd>
+	
+	<dt>What is your favourite product?</dt>
+	<dd>Small talk as I think this is a really nice blow drying product which makes hair appear thicker and smoother.</dd>
+	
+	<dt>Is there a celebrity that inspires you? who and why?</dt>
+	<dd>Blake Lively is a celebrity who inspires me as she has a very effortless style, her hair always looks amazing and boho-esque</dd>
+	
+	<dt>Do you have a signature hairstyle? if so, describe it.</dt>
+	<dd>Messy, loose curl/waves</dd>
+	
+	<dt>What are your strengths in hairdressing?</dt>
+	<dd>Colouring is my favourite thing to do at the moment but I can’t wait to start learning weft extensions as I enjoy plaiting hair and creating totally different styles.</dd>
+</dl>
+
+<p>Thank you to Ashley for sharing that - dont forget to take advantage of her fantastic offer!</p>
+
+
+</section> <!--end .hidden-->
+<p class="author">Published by PK</p>
+<time datetime="2013-08-01">2<sup>nd</sup> August 2013</time>
+</article> <!--end #article-->
+
+<article class="article">
 <a id="Pearlescence" class="anchor"></a>
 <section class="visible">
 <img src="<?php echo Yii::app()->request->baseUrl; ?>/images/news_images/pearlescence.jpg" width="135" height="180" alt="Igora Pearlescence">
