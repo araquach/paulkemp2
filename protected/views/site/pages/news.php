@@ -53,16 +53,16 @@ window.addEvent('domready', function(){
 	<dd>My current favourite style is the long messy bob as it looks on trend and is effortless to style.</dd>
 	
 	<dt>How do you keep up with new ideas the latest trends?</dt>
-	<dd>I keep up with latest trends by following celebrity news such as daily mail online as It is usually celebrities who are ‘wearing it first’ like Kylie Jenners Bob.</dd>
+	<dd>I keep up with latest trends by following celebrity news such as daily mail online as It is usually celebrities who are ‘wearing it first’ like Kylie Jenner's Bob.</dd>
 	
 	<dt>Whats the secret to a good haircut/style?</dt>
-	<dd>Regular cuts, in salon treatments and a good shampoo and conditioner such as Bed Heads 1, 2 & 3.</dd>
+	<dd>Regular cuts, in salon treatments and a good shampoo and conditioner such as Bed Heads 1, 2 &amp; 3.</dd>
 	
 	<dt>What tips can you give up and coming hairstylists?</dt>
 	<dd>Be confident, watch other stylist as much as you can to pick up any tricks.</dd>
 	
 	<dt>Can you describe a particular makeover that gave you the most satisfaction?</dt>
-	<dd>Cutting one clients hair from a style she was bored with to an edgy Agnes deyn style pixie cut. She loved it and it looked almost identical to the picture she showed me which made me feel proud.</dd>
+	<dd>Cutting one clients hair from a style she was bored with to an edgy Agnes Deyn style pixie cut. She loved it and it looked almost identical to the picture she showed me which made me feel proud.</dd>
 	
 	<dt>What do you think sets PK apart from other salons?</dt>
 	<dd>Friendly staff, approachable managers. Reputable and fun to work in.</dd>
@@ -71,7 +71,7 @@ window.addEvent('domready', function(){
 	<dd>Being part of a team who are all real friends and get on out and inside of work.</dd>
 	
 	<dt>What do you think is the most exciting new spring summer 2015 hair trend?</dt>
-	<dd>Schwarzkopf’s new ‘pearlescense’ colour range excites me as I think this is a grat way to spice up blonde hair. I also think the pastel colours are on trend this spring/summer.</dd>
+	<dd>Schwarzkopf’s new ‘pearlescense’ colour range excites me as I think this is a great way to spice up blonde hair. I also think the pastel colours are on trend this spring/summer.</dd>
 	
 	<dt>Out of the product ranges which is your favourite and why?</dt>
 	<dd>Bed head is my favourite product range as I think they have clever packaging and everything smells amazing. Also guaranteed that all products actually do what they say.</dd>
@@ -89,7 +89,7 @@ window.addEvent('domready', function(){
 	<dd>Colouring is my favourite thing to do at the moment but I can’t wait to start learning weft extensions as I enjoy plaiting hair and creating totally different styles.</dd>
 </dl>
 
-<p>Thank you to Ashley for sharing that - dont forget to take advantage of her fantastic offer!</p>
+<p>Thank you to Ashley for sharing that - don't forget to take advantage of her fantastic offer!</p>
 
 
 </section> <!--end .hidden-->
