@@ -316,15 +316,37 @@ aside h2, aside, h3, aside h4, aside h5, aside h6 {
 	
 }
 
+
 #feedback_feed {
 	width: auto;
 	text-align: left;
 	position: absolute;
 	font-size: .85em;
-	bottom: 2450px;
+	bottom: 2400px;
 	left: 30px;
 	display: none;
 }
+
+@media screen and (device-aspect-ratio: 9/16) {
+
+	#feedback_feed {
+		bottom: 2340px;
+	}
+
+}
+
+@media only screen 
+    and (min-device-width : 375px) 
+    and (max-device-width : 667px) 
+    and (orientation : portrait) 
+    and (-webkit-min-device-pixel-ratio : 2) { 
+    
+    #feedback_feed {
+    	bottom: 2330px;
+    }
+    
+}
+
 
 #feedback_feed ul {
 	padding: 0;
