@@ -148,11 +148,10 @@ li.active a {
 
 #homeimage {
 	width: auto;
-	height: 500px;
-	background: url(../images/retro.jpg) left top no-repeat #f8f3e8;
+	height: 400px;
+	background: url(../images/home/katharina.jpg) left top no-repeat #f8f3e8;
 	background-size: cover;
 	float: none;
-	
 }
 
 #homecopy {
@@ -182,6 +181,10 @@ li.active a {
 	-moz-box-shadow: 1px 4px 15px rgb(55,34,24);
 	-webkit-box-shadow: 1px 4px 15px rgb(55,34,24);
 	box-shadow: 1px 4px 15px rgb(55,34,24);
+}
+
+#news1 {
+	margin-top: 190px;
 }
 
 #news1 {
@@ -321,8 +324,8 @@ aside h2, aside, h3, aside h4, aside h5, aside h6 {
 	width: auto;
 	text-align: left;
 	position: absolute;
-	font-size: .85em;
-	bottom: 2400px;
+	font-size: .8em;
+	top: 500px;
 	left: 30px;
 	display: none;
 }
@@ -330,7 +333,7 @@ aside h2, aside, h3, aside h4, aside h5, aside h6 {
 @media screen and (device-aspect-ratio: 9/16) {
 
 	#feedback_feed {
-		bottom: 2340px;
+		top: 500px;
 	}
 
 }
@@ -342,7 +345,7 @@ aside h2, aside, h3, aside h4, aside h5, aside h6 {
     and (-webkit-min-device-pixel-ratio : 2) { 
     
     #feedback_feed {
-    	bottom: 2330px;
+    	top: 500px;
     }
     
 }
@@ -353,11 +356,10 @@ aside h2, aside, h3, aside h4, aside h5, aside h6 {
 }
 
 #feedback_feed ul li {
-	color: rgb(255,245,220);
+	color: rgb(55, 34, 24);
 	list-style-type: none;
 	font-family: Georgia, "Times New Roman", Times, serif;
 	font-style: italic;
-	text-shadow: 0 0 10px #0a0a0a;
 }
 
 #feedback_feed ul li .client {
