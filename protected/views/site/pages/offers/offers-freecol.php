@@ -27,6 +27,15 @@ $this->pageTitle=Yii::app()->name . ' - Offers - Hairdressers in Cheshire';
     not with any other offer<br>Excludes Saturday</p>
  </div>', array('kebelo/advantage')); ?>
  
+ <div id="fb_like">
+ <?php  $this->widget('ext.yii-facebook-opengraph.plugins.LikeButton', array(
+    'href' => 'http://www.paulkemphairdressing.com/offers', 
+    'show_faces'=>false,
+    'send' => true,
+    'width' => '250px'
+ ));  ?>
+ </div>
+ 
  </section> <!--end offerlist-->
  
  </section> <!--end offersMain-->
