@@ -3,9 +3,9 @@
 $this->pageTitle=Yii::app()->name . ' - News - Hairdressers in Cheshire';
 ?>
 
-<?php Yii::app()->facebook->ogTags['og:title'] = "Ashley on road to success"; ?>
-<?php Yii::app()->facebook->ogTags['og:description'] = "Ashley Tennant has been working her way to becoming a stylist since she joined the PK team back in October 2013. She came on board as an apprentice and has been on an intensive training program. She recently qualified to become a Graduate stylist! It’s a vital stage of a hairdressers career - a time to build a client base and refine the skills and techniques that have been taught throughout the apprenticeship. Ashley is eager to take on new clients to expand her skill set and gain valuable experience."; ?>
-<?php Yii::app()->facebook->ogTags['og:image'] =  "http://www.paulkemphairdressing.com/images/news_images/ashley_meta.jpg"; ?>
+<?php Yii::app()->facebook->ogTags['og:title'] = "Essential Looks Competition"; ?>
+<?php Yii::app()->facebook->ogTags['og:description'] = "Every season Schwarzkopf launch their Essential Looks collections, a set of styles influenced by future hair/fashion trends. Every time the new collections are launched we have an in—salon workshop run by a Schwarzkopf educator to keep everyone up to date with the latest looks. This time we thought we’d mix it up a bit and have an in-house competition. The session was held at our sister salon Jakata where we paired everyone off. Each pair of stylists had to create their own interpretation of a colour &amp; cut from the latest Essential Looks collections on a training head."; ?>
+<?php Yii::app()->facebook->ogTags['og:image'] =  "http://www.paulkemphairdressing.com/images/news_images/comp_meta.jpg"; ?>
 
 <script type="text/javascript">
 window.addEvent('domready', function(){
@@ -36,7 +36,7 @@ window.addEvent('domready', function(){
 <p>The competition was judged by Adam, Jimmy and Steve from Schwarzkopf with bronze, silver and gold awards given out for the best interpretations of the styles.</p>
 <p>The winners this time were Leon (from Paul Kemp Hairdressing) and Vikki (from Jakata) who did a bold bob inspired from the ‘Pearlescent Girls’ collection.</p>
 <p>The session was great fun and we’ll have to see who the next winners will be when the next Essential Looks are launched!</p>
-<p><a href="https://www.facebook.com/PaulKempHairdressing?ref=hl" class="offer_heading">See all the photos from the day here &gt;</a></p>
+<p><a href="https://www.facebook.com/media/set/?set=a.974793939237632.1073741828.191283914255309&type=3" class="offer_heading" target="_blank">See all the photos from the day here &gt;</a></p>
 </section> <!--end .hidden-->
 <p class="author">Published by PK</p>
 <time datetime="2013-08-01">5<sup>th</sup> May 2015</time>
