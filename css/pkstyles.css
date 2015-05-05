@@ -3352,4 +3352,19 @@ border-top: 3.5px solid #FFF;
 	opacity: 1;
 }
 
+#google {
+	background: url('../images/footer/google_plus_logo.png') no-repeat left top;
+	width: 37px;
+	height: 37px;
+	position: absolute;
+	bottom: 40px;
+	right: 140px;
+	opacity: .8;
+}
+
+#google:hover {
+	opacity: 1;
+}
+
+
 /* @end */

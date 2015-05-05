@@ -104,6 +104,7 @@
 	</section>
 	<a href="https://www.facebook.com/PaulKempHairdressing" target="_blank"><div id="facebook"></div></a>
 	<a href="https://twitter.com/paulkemphair" target="_blank"><div id="twitter"></div></a>
+	<a href="https://plus.google.com/+PaulKempHairdressingWarrington/posts?hl=en" target="_blank"><div id="google"></div></a>
 	</footer>
 
 </div><!-- page -->

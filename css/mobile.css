@@ -3259,6 +3259,14 @@ footer {
 	opacity: 1;
 }
 
+#google {
+	background: url('../images/footer/google_plus_logo_mob.png') no-repeat left top;
+	position: absolute;
+	bottom: 10px;
+	right: 120px;
+	opacity: 1;
+}
+
 /* @end */
 
 
