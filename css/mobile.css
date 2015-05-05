@@ -3251,6 +3251,14 @@ footer {
 	opacity: 1;
 }
 
+#twitter {
+	background: url('../images/footer/twitter_mob_logo.png') no-repeat left top;
+	position: absolute;
+	bottom: 10px;
+	right: 70px;
+	opacity: 1;
+}
+
 /* @end */
 
 

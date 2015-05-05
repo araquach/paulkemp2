@@ -39,10 +39,10 @@ $this->pageTitle=Yii::app()->name;
     </aside>',array('site/page','view'=>'recruitment')); ?>
     
     <?php echo CHtml::link('<aside id="news4">
-    <h3 class="newsheader">On the Road to Success</h3>
-    <p class="newspara">Ashley Tennant recently completed her NVQ2 and is now a Graduate Stylist</p>
+    <h3 class="newsheader">Essential Looks Team Challenge</h3>
+    <p class="newspara">PK Stylists battle it out in salon competition</p>
     <p class="newscenter"><strong>Find out more here &gt;</strong></p>
-    	</aside>',array('site/page','view'=>'news', '#'=>'Ashley')); ?>
+    	</aside>',array('site/page','view'=>'news', '#'=>'InSalonComp')); ?>
     
     
   <div id="feedback_feed">

@@ -435,14 +435,14 @@ li.active a {
 #news4 {
 	left: 725px;
 	top: 1100px;
-	background: url(../images/home_news/ashley.jpg) no-repeat, rgb(55,34,24);
+	background: url(../images/home_news/comp-34.jpg) no-repeat, rgb(55,34,24);
 	-webkit-transition: all 0.3s ease-in;
 	-moz-transition: all 0.3s ease-in;
 	transition: all 0.3s ease-in;
 }
 
 .no-cssgradients #news4 {
-	background: url(../images/home_news/ashley.jpg) no-repeat rgb(55,34,24);
+	background: url(../images/home_news/comp-34.jpg) no-repeat rgb(55,34,24);
 }
 
 #news4:hover {
@@ -3335,6 +3335,20 @@ border-top: 3.5px solid #FFF;
 }
 
 #facebook:hover {
+	opacity: 1;
+}
+
+#twitter {
+	background: url('../images/footer/twitter_logo.png') no-repeat left top;
+	width: 37px;
+	height: 37px;
+	position: absolute;
+	bottom: 40px;
+	right: 90px;
+	opacity: .8;
+}
+
+#twitter:hover {
 	opacity: 1;
 }
 

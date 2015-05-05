@@ -102,7 +102,8 @@
 	<li>Cheshire Hairdressers</li>
 	</ul>
 	</section>
-	<a href="https://www.facebook.com/PaulKempHairdressing"><div id="facebook"></div></a>
+	<a href="https://www.facebook.com/PaulKempHairdressing" target="_blank"><div id="facebook"></div></a>
+	<a href="https://twitter.com/paulkemphair" target="_blank"><div id="twitter"></div></a>
 	</footer>
 
 </div><!-- page -->
