@@ -21,6 +21,28 @@ window.addEvent('domready', function(){
 <section id="accordion">
 
 <article class="article">
+<a id="InSalonComp" class="anchor"></a>
+<section class="visible">
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/news_images/comp-3.jpg" width="135" height="180" alt="The Winners">
+<h3>Stylists Battle it out in Essential Looks Competition</h3>
+<p><strong>Every season Schwarzkopf launch their Essential Looks collections, a set of styles influenced by future hair/fashion trends. Every time the new collections are launched we have an in—salon workshop run by a Schwarzkopf educator to keep everyone up to date with the latest looks.</strong></p>
+<p>This time we thought we’d mix it up a bit and have an in-house competition. The session was held at our sister salon Jakata where we paired everyone off. Each pair of stylists had to create their own interpretation of a colour &amp; cut from the latest Essential Looks collections on a training head.</p>
+<p class="reveal">Read more &gt;</p>
+</section> <!--end .visible-->
+<section class="hidden">
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/news_images/comp-2.jpg" width="135" height="118" alt="Matt and Izzy">
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/news_images/comp-1.jpg" width="135" height="169" alt="alt text">
+<p>Jimmy said “It’s a brilliant way to get the staff on board with new cutting and colour trends, the Essential looks are always ahead of the game and are a great inspiration to the teams. The competition allows them to try out some new techniques”</p>
+<p>The competition was judged by Adam, Jimmy and Steve from Schwarzkopf with bronze, silver and gold awards given out for the best interpretations of the styles.</p>
+<p>The winners this time were Leon (from Paul Kemp Hairdressing) and Vikki (from Jakata) who did a bold bob inspired from the ‘Pearlescent Girls’ collection.</p>
+<p>The session was great fun and we’ll have to see who the next winners will be when the next Essential Looks are launched!</p>
+<p><a href="https://www.facebook.com/PaulKempHairdressing?ref=hl" class="offer_heading">See all the photos from the day here &gt;</a></p>
+</section> <!--end .hidden-->
+<p class="author">Published by PK</p>
+<time datetime="2013-08-01">5<sup>th</sup> May 2015</time>
+</article> <!--end #article-->
+
+<article class="article">
 <a id="Ashley" class="anchor"></a>
 <section class="visible">
 <img src="<?php echo Yii::app()->request->baseUrl; ?>/images/news_images/ashley.jpg" width="135" height="180" alt="Ashley Tennant">
