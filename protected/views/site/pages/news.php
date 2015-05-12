@@ -21,6 +21,37 @@ window.addEvent('domready', function(){
 <section id="accordion">
 
 <article class="article">
+<a id="FibreForce" class="anchor"></a>
+<section class="visible">
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/news_images/fibre_force3_2.jpg" width="135" height="111" alt="Fibre Force">
+<h3>BC Fibre Force</h3>
+<p>We've all been guilty of mistreating our hair from time to time, whether it's through over straightening, over colouring or just using poor quality products. Hair is tough, but you do have to treat it right if you want it to behave itself!</p>
+<p>Schwarzkopf realised there are a lot of people out there not giving their hair the love and care it needs, so they introduced BC Fibre Force - a complete range of products designed to return your hair to it's former glory over a relatively short period of time.</p>
+<p class="reveal">Read More ></p>
+</section> <!--end .visible-->
+<section class="hidden">
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/news_images/fibre_force2_2.jpg" width="135" height="108" alt="Fibre Force">
+<p>Here's what Schwarzkopf say:</p>
+<p><em>BC Fibre Force introduces a new dimension of hair repair returning even most eroded hair to its optimal level of force and resilience.</em></p>
+<p><em>For the first time the formulas with Micronized Hair-Identical Keratins penetrate deeply into the hair architecture to re-cement specifically the Cell-Membrane-Complex, the intercellular bonding cement responsible for strong and resilient hair fibre.</em></p>
+<p>Which in English means that it's going to make the most damaged hair feel loads healthier!</p>
+<p><strong>The complete range is as follows:</strong></p>
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/news_images/fibre_force_2.jpg" width="135" height="121" alt="Fibre Force">
+
+	<p>BC Fibre Force Shampoo</p>
+	<p>BC Fibre Force Spray Conditioner</p>
+	<p>BC Fibre Force Rinse Out Conditioner</p>
+	<p>BC Fibre Force Fortifier Treatment</p>
+	<p>BC Fibre Force Keratin Infusion</p>
+
+<p class="offer">Special offer: 3 for 2 on all Fibre Force products this month!</p>
+<p>Find out more at the Schwarzkopf site: <br> <a href="http://www.schwarzkopf-professional.co.uk/skp/uk/en/home/products/care/bc-bonacure/bc-fibre-force.html" target="_blank">www.schwarzkopf-professional.co.uk/fibreforce</a></p>
+</section> <!--end .hidden-->
+<p class="author">Published by Adam</p>
+<time datetime="2015-05-12">12<sup>th</sup> May 2015</time>
+</article> <!--end #article-->
+
+<article class="article">
 <a id="InSalonComp" class="anchor"></a>
 <section class="visible">
 <img src="<?php echo Yii::app()->request->baseUrl; ?>/images/news_images/comp-3.jpg" width="135" height="180" alt="The Winners">
