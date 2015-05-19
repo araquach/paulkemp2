@@ -64,12 +64,6 @@ $this->pageTitle=Yii::app()->name . ' - The Team - Hairdressers in Cheshire';
         <p class="teamprice">Average Cut &amp; Colour price with Tash : &pound;76*</p>
         </section>', array('site/page','view'=>'team_tash')); ?>
         
-        <?php echo CHtml::link('<section id="meg">
-        <h3><img src="' . Yii::app()->request->baseUrl . '/images/staff/meg.jpg" width="133" height="168" alt="Megan Mullaney">Meg Mullaney - Graduate</h3>
-        <p>Meg joined the team as an apprentice and quickly demonstrated her natural flair for hairdressing. After completing her training she is now a Graduate stylist in the team. Meg has great talent for hair up styling and her cutting and colouring skills are extremely strong</p>
-        <p class="teamprice">Average Cut &amp; Colour price with Meg : &pound;56*</p>
-        </section>', array('site/page','view'=>'team_meg')); ?>
-        
         <?php echo CHtml::link('<section id="ashley">
         <h3><img src="' . Yii::app()->request->baseUrl . '/images/staff/ashley.jpg" width="133" height="168" alt="Ashley Tennant">Ashley Tennant - Apprentice</h3>
         <p>Ashley recently qualified and is now a Junior stylist within the team. She is developing at an extremely fast rate and will be moving up the ranks quickly.</p>
