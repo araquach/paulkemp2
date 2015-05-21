@@ -1875,32 +1875,6 @@ span.error {
 
 /* @end */
 
-/* @group Leaver */
-
-#leaver {
-	background: url('../images/exit/pk_replacers.jpg') no-repeat 0 0 #f5f5f5;
-	background-size: au;
-	width: auto;
-	height: auto;
-	padding: 20px;
-}
-
-#leavercopy {
-	width: auto;
-	padding: 70px;
-	margin-left: 0;
-	font-size: 1.1em;
-}
-
-#leavercopy h2 {
-	line-height: 1.2em;
-}
-
-#leavercopy p.offer {
-	font-size: 1.5em;
-}
-
-/* @end */
 
 /* @group Feedback  */
 
@@ -2613,7 +2587,7 @@ span.error {
 /* @group Leaver */
 
 #leaver {
-	background: url('../images/leaver/jack_replacers_mob.jpg') no-repeat center 110px #f5f5f5;
+	background: url('../images/leaver/meg_replacers_mob.jpg') no-repeat center 110px #f5f5f5;
 	background-size: 300px auto;
 	height: 100%;
 	width: auto;
@@ -2633,7 +2607,7 @@ span.error {
 }
 
 #leavercopy p:first-of-type {
-	margin-top: 750px;
+	margin-top: 1050px;
 }
 
 #leavercopy p.offer {

@@ -12,7 +12,7 @@ $this->pageTitle=Yii::app()->name . ' - Ashley Tennant - Hairdressers in Cheshir
 	
 	<section id="team_ind_copy">
 	<h2>Ashley Tennant</h2>
-	<p>Ashley recently qualified and is now a Junior stylist within the team.</p> 
+	<p>Ashley recently qualified and is now a Graduate stylist within the team.</p> 
 	<p>She is developing at an extremely fast rate and will be moving up the ranks quickly.</p>
 	<p class="team_ind_price">Average Cut &amp; Colour price with Ashley : &pound;35*</p>
 	
