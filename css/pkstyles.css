@@ -3120,33 +3120,37 @@ div.form .errorSummary ul li {
 	float: left;
 }
 
+#graduate h2 {
+	width: 380px;
+	margin-left: 50px;
+	margin-top: 50px;
+	margin-bottom: 0;
+}
+
 #graduate_copy {
 	width: 380px;
 	padding: 50px;
 	font-size: 1.1em;
 }
 
-#graduate_copy p:nth-child(7) {
+#graduate_copy p:nth-child(6) {
 	font-size: 3em;
 	margin-bottom: 0;
 }
 
-#graduate_copy p:nth-child(8) {
+#graduate_copy p:nth-child(7) {
 	font-size: 1.8em;
 	margin-bottom: 0;
 }
 
-#graduate_copy p:nth-child(9) {
+#graduate_copy p:nth-child(8) {
 	font-size: 1.2em;
 	margin-bottom: .5em;
 }
 
-#graduate_copy p:nth-child(10) {
+#graduate_copy p:nth-child(9) {
 	font-size: .9em;
 }
-
-
-
 
 /* @end */
 

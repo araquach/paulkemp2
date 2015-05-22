@@ -7,8 +7,9 @@ $this->pageTitle=Yii::app()->name . ' - Graduate Stylist Offer - Hairdressers in
 
 <section id="graduate">
 
-	<section id="graduate_copy">
-    <h2>Ashley promoted to Graduate Stylist</h2>    
+<h2>Ashley promoted to Graduate Stylist</h2> 
+
+	<section id="graduate_copy">   
     
     <p><strong>Ashley Tennant joined the PK team in 2013 and has worked her way up from an apprentice to recently being promoted to a Graduate Stylist.</strong></p>
     <p>The training to get to this level is intensive but extremely rewarding, with Ashley now fully skilled in all aspects of hairdressing.</p>
@@ -22,6 +23,8 @@ $this->pageTitle=Yii::app()->name . ' - Graduate Stylist Offer - Hairdressers in
     <p class="offer">(Colour price with Ashley: &pound;25 - &pound;40)</p>
     
     <p class="small">(one offer per person, not with any other offer<br>excludes Saturday's, ends <time datetime="2015-07-31">31/07/15</time>)</p>
+    
+    <p class="big">Call 01925 444488 to book - please quote the offer</p>
     
 </section> <!--end graduate_copy-->
 
