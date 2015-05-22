@@ -7,20 +7,23 @@ $this->pageTitle=Yii::app()->name . ' - Graduate Stylist Offer - Hairdressers in
 
 <section id="graduate">
 
-	<section id="graduatecopy">
-    <h2>Megan now taking bookings</h2>
-    <p>Megan Mullaney joined the Paul Kemp Team in July 2012 as an apprentice and has recently been promoted to a Graduate Stylist.</p>
-    <p>The training to get to this level is intensive but extremely rewarding, with Megan now fully skilled in all aspects of hairdressing - it's now just a case of her practicing and polishing up her skills.</p>
-    <p>Megan is eager to build up a strong client base so she can quickly progress through the ranks towards being a Senior Stylist.</p>
-    <p><em>In order to help her build we've launched an unbeatable offer that we'd love you to take advantage of:</em></p>
+	<section id="graduate_copy">
+    <h2>Ashley promoted to Graduate Stylist</h2>    
     
-    <p class="offer">Colour &amp; Cut with Megan for just &pound;30</p>
-    <p class="offer">A Cut, Dry &amp; Style for just &pound;15</p>
-    <p class="offer">A blow dry or hair up for just &pound;8</p>
+    <p><strong>Ashley Tennant joined the PK team in 2013 and has worked her way up from an apprentice to recently being promoted to a Graduate Stylist.</strong></p>
+    <p>The training to get to this level is intensive but extremely rewarding, with Ashley now fully skilled in all aspects of hairdressing.</p>
+    <p>She loves creating fashionable looks using the latest colouring &amp; styling techniques</p>
+    <p>She is eager to build up a strong client base to quickly progress through the ranks towards being a Senior Stylist.</p>
+    <p><em>In order to help her build we've launched a great offer that we'd love you to take advantage of:</em></p>
     
-    <p class="small">(one offer per person, not with any other offer<br>excludes Saturday's, ends <time datetime="2013-08-16">16/08/13</time>)</p>
+    <p class="offer">FREE</p>
+    <p class="offer">Cut, Dry &amp; Style</p>
+    <p class="offer">with every Colour service</p>
+    <p class="offer">(Colour price with Ashley: &pound;25 - &pound;40)</p>
     
-</section> <!--end graduatecopy-->
+    <p class="small">(one offer per person, not with any other offer<br>excludes Saturday's, ends <time datetime="2015-07-31">31/07/15</time>)</p>
+    
+</section> <!--end graduate_copy-->
 
 </section> <!--end graduate-->
 
