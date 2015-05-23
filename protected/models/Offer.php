@@ -109,7 +109,7 @@ class Offer extends CActiveRecord
 			'last_visit' => 'Last Visit',
 			'last_visit' => 'Gender',
 			'number_visits' => 'Number Visits',
-			'optout' => 'Alternatively, check the box if you no longer wish to receive any offers then click \'GO\'',
+			'optout' => 'If you no longer wish to receive offers please check the box then click \'GO\'',
 			'date' => 'Date',
 		);
 	}
