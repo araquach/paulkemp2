@@ -9,15 +9,13 @@ $this->pageTitle=Yii::app()->name . ' - The Team - Hairdressers in Cheshire';
 
 <section id="team">
 <ul>
-	<li><p class="up">Leon</p></li>
-	<li><p>Jack</p></li>
-	<li><p class="up">Meg</p></li>
-	<li><p class="up">Michelle</p></li>
-	<li><p>Kellie</p></li>
+	<li><p class="up">Shell</p></li>
+	<li><p>Kel</p></li>
 	<li><p class="up">Jo</p></li>
 	<li><p>Izzy</p></li>
 	<li><p class="up">Kate</p></li>
 	<li><p>Tash</p></li>
+	<li><p class="up">Leon</p></li>
 </ul>
       
       	

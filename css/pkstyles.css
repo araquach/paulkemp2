@@ -639,12 +639,12 @@ aside h2, aside, h3, aside h4, aside h5, aside h6 {
 #team ul {
 	margin-left: 20px;
 	position: absolute;
-	top: 60px;
+	top: 100px;
 }
 
 #team ul li {
 	padding: 7px;
-	margin-right: 12px;
+	margin-right: 40px;
 	display: block;
 	float: left;
 	height: 500px;
