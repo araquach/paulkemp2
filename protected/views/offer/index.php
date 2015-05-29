@@ -9,7 +9,7 @@ $this->pageTitle=Yii::app()->name . ' - Graduate Stylist Offer - Hairdressers in
 
 <?php if(Yii::app()->user->hasFlash('Offer')): ?>
 
-<div class="limitedSuccess">
+<div class="graduateSuccess">
 	<?php echo Yii::app()->user->getFlash('Offer'); ?>
 </div>
 
