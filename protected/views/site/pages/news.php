@@ -742,7 +742,7 @@ For thick, coarse, wavy, curly, unmanageable and frizzy hair</h4>
 </article> <!--end #article-->
 
 <article class="article">
-<a id="graduate" class="anchor"></a>
+<a id="grad2" class="anchor"></a>
 <section class="visible">
 <img src="<?php echo Yii::app()->request->baseUrl; ?>/images/news_images/meg.jpg" width="135" height="180">
 <h3>The Graduate</h3>
