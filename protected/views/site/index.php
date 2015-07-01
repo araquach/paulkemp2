@@ -21,10 +21,10 @@ $this->pageTitle=Yii::app()->name;
 <!--NewsItems-->
 
 	<?php echo CHtml::link('<aside id="news1">
-	<h3 class="newsheader">Spring <br>Offers</h3>
-	<p class="newspara">If you\'re new to the salon take advantage of these great offers</p>
+	<h3 class="newsheader">Introducing <br>Kebelo</h3>
+	<p class="newspara">Smoother, shinier, more manageable hair can be yours</p>
 	<p class="newscenter"><strong>Find out more here &gt;</strong></p>
-		</aside>',array('site/page','view'=>'offers')); ?>
+		</aside>',array('kebelo/advantage')); ?>
 
     <?php echo CHtml::link('<aside id="news2">
     <h3 class="newsheader">New Igora<br>Pearlescence Colours</h3>
