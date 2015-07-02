@@ -21,6 +21,30 @@ window.addEvent('domready', function(){
 <section id="accordion">
 
 <article class="article">
+<a id="NewRecruits" class="anchor"></a>
+<section class="visible">
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/news_images/pk_starters.jpg" width="135" height="200" alt="Caleb and Leanne">
+<h3>New faces at Paul Kemp Hairdressing</h3>
+<p><strong>It’s been a while since we’ve had new stylists join the PK team, so we decided earlier in the year it was time to take on some new talent! We had an in depth recruitment drive which led to inviting a number of hairdressers in for trade tests to see what they had to offer. The test involved each applicant doing a cut &amp; colour to demonstrate their current skill sets.</strong></p>
+<p>Out of all the applicants we had two that really impressed us. <em>Caleb Barrie and Leanne Bartlett</em> both demonstrated some great skills, each with different levels of experience. 
+We offered them both positions and we’re excited to announce that they’ll be joining the team on July 8th!</p>
+<p class="reveal">Read more &gt;</p>
+</section> <!--end .visible-->
+<section class="hidden">
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/news_images/pk_starters_caleb.jpg" width="135" height="190" alt="Caleb and Leanne">
+<p>Caleb decided to become a hairdresser after he gained a qualification in photography but decided that it wasn’t the industry for him. He signed up as a hairdressing apprentice and never looked back! He’s been working in a salon in Frodsham for the last few years where he’s built up a strong following.
+He’s looking forward to joining a new vibrant team where he can push his skills to the next level!</p>
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/news_images/pk_starters_leanne.jpg" width="135" height="190" alt="Caleb and Leanne">
+<p>Leanne started hairdressing three years ago, she completed her level 3 at a reputable salon in Stockton Heath and is now looking to work her way up the ranks here at Paul Kemp Hairdressing. She loves creating bold hairstyles whilst being extremely focused on creating a great experience for all her clients.</p>
+<p><em>Both Caleb &amp; Leanne stand out as passionate hairdressers that really care about their work - that’s why we think they’ll fit in perfectly here at PK!</em></p>
+<p class="offer">Over the coming month's we'll be running some great offers to help build both of these talented stylist's up and get them settled in. Check our <a href="https://www.facebook.com/PaulKempHairdressing" target="_blank">Facebook</a> &amp; <a href="https://twitter.com/paulkemphair" target="_blank">Twitter</a> pages to keep up to date!</p>
+<p class="offer"></p>
+</section> <!--end .hidden-->
+<p class="author">Published by Adam</p>
+<time datetime="2013-08-01">2<sup>nd</sup> July 2015</time>
+</article> <!--end #article-->
+
+<article class="article">
 <a id="FibreForce" class="anchor"></a>
 <section class="visible">
 <img src="<?php echo Yii::app()->request->baseUrl; ?>/images/news_images/fibre_force3_2.jpg" width="135" height="111" alt="Fibre Force">
