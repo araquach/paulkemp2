@@ -3,9 +3,9 @@
 $this->pageTitle=Yii::app()->name . ' - News - Hairdressers in Cheshire';
 ?>
 
-<?php Yii::app()->facebook->ogTags['og:title'] = "Essential Looks Competition"; ?>
-<?php Yii::app()->facebook->ogTags['og:description'] = "Every season Schwarzkopf launch their Essential Looks collections, a set of styles influenced by future hair/fashion trends. Every time the new collections are launched we have an in—salon workshop run by a Schwarzkopf educator to keep everyone up to date with the latest looks. This time we thought we’d mix it up a bit and have an in-house competition. The session was held at our sister salon Jakata where we paired everyone off. Each pair of stylists had to create their own interpretation of a colour &amp; cut from the latest Essential Looks collections on a training head."; ?>
-<?php Yii::app()->facebook->ogTags['og:image'] =  "http://www.paulkemphairdressing.com/images/news_images/comp_meta.jpg"; ?>
+<?php Yii::app()->facebook->ogTags['og:title'] = "New faces at Paul Kemp Hairdressing"; ?>
+<?php Yii::app()->facebook->ogTags['og:description'] = "It’s been a while since we’ve had new stylists join the PK team, so we decided earlier in the year it was time to take on some new talent! We had an in depth recruitment drive which led to inviting a number of hairdressers in for trade tests to see what they had to offer. The test involved each applicant doing a cut &amp; colour to demonstrate their current skill sets. Out of all the applicants we had two that really impressed us. Caleb Barrie and Leanne Bartlett both demonstrated some great skills, each with different levels of experience."; ?>
+<?php Yii::app()->facebook->ogTags['og:image'] =  "http://www.paulkemphairdressing.com/images/news_images/pk_starters_desk_meta.jpg"; ?>
 
 <script type="text/javascript">
 window.addEvent('domready', function(){
