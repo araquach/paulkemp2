@@ -1,13 +1,14 @@
 <?php
 /* @var $this SiteController */
-
-$this->pageTitle=Yii::app()->name . ' - Michelle Railton now at PK - Hairdressers in Cheshire';
-
+$this->pageTitle=Yii::app()->name . ' - New team members at PK - Hairdressers in Cheshire';
 ?>
+<?php Yii::app()->facebook->ogTags['og:title'] = "Welcoming Caleb and Leanne to the team"; ?>
+<?php Yii::app()->facebook->ogTags['og:description'] = ""; ?>
+<?php Yii::app()->facebook->ogTags['og:image'] =  "http://www.paulkemphairdressing.com/images/news_images/pk_starters_desk_meta.jpg"; ?>
 
-<section id="michelle">
+<section id="new">
 
-	<section id="michelle_copy">
+	<section id="new_copy">
 	<h2>Welcoming Michelle Railton to the team</h2>
 	<p class="bold"><strong>We're excited to announce experienced stylist Michelle Railton is now a member of our team. Michelle, 25, from Warrington has been hairdressing for over 9 years.</strong></p>
 	<p>She previously worked at Daniel Anderson Hairdressing for 3&frac12; years before setting up on her own. After a year she decided self employment wasn't for her and chose to take some time out from hairdressing.</p>
@@ -17,7 +18,7 @@ $this->pageTitle=Yii::app()->name . ' - Michelle Railton now at PK - Hairdresser
 	She particularly loves soft, natural &amp; luxurious cuts and colours, she's highly skilled in short cuts and loves men's hairdressing too (particularly indie/mod cuts).</p>
 	<p>Michelle said <em>"Being part of such a strong team is really exciting, I can't wait to build up a new client base, plus hopefully see some regulars from my salon &amp; Daniel Anderson Hairdressing too!"</em></p>
 	
-	<?php echo CHtml::link('<p class="offer">Click here to find out more about Michelle &gt;</p>',array('site/page','view'=>'news', '#'=>'MichelleRailton')); ?>
+	<?php echo CHtml::link('<p class="offer">Click here to find out more about Michelle &gt;</p>',array('site/page','view'=>'news', '#'=>'NewRecruits')); ?>
 	
 	</section>
 </section>
