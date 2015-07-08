@@ -5,7 +5,7 @@ $this->pageTitle=Yii::app()->name . ' - News - Hairdressers in Cheshire';
 
 <?php Yii::app()->facebook->ogTags['og:title'] = "New faces at Paul Kemp Hairdressing"; ?>
 <?php Yii::app()->facebook->ogTags['og:description'] = "It’s been a while since we’ve had new stylists join the PK team, so we decided earlier in the year it was time to take on some new talent! We had an in depth recruitment drive which led to inviting a number of hairdressers in for trade tests to see what they had to offer. The test involved each applicant doing a cut &amp; colour to demonstrate their current skill sets. Out of all the applicants we had two that really impressed us. Caleb Barrie and Leanne Bartlett both demonstrated some great skills, each with different levels of experience."; ?>
-<?php Yii::app()->facebook->ogTags['og:image'] =  "http://www.paulkemphairdressing.com/images/news_images/pk_starters_desk_meta.jpg"; ?>
+<?php Yii::app()->facebook->ogTags['og:image'] =  "http://www.paulkemphairdressing.com/images/newstaff/pk_starters_meta_2.jpg"; ?>
 
 <script type="text/javascript">
 window.addEvent('domready', function(){
@@ -37,8 +37,9 @@ He’s looking forward to joining a new vibrant team where he can push his skill
 <img src="<?php echo Yii::app()->request->baseUrl; ?>/images/news_images/pk_starters_leanne.jpg" width="135" height="190" alt="Caleb and Leanne">
 <p>Leanne started hairdressing three years ago, she completed her level 3 at a reputable salon in Stockton Heath and is now looking to work her way up the ranks here at Paul Kemp Hairdressing. She loves creating bold hairstyles whilst being extremely focused on creating a great experience for all her clients.</p>
 <p><em>Both Caleb &amp; Leanne stand out as passionate hairdressers that really care about their work - that’s why we think they’ll fit in perfectly here at PK!</em></p>
-<p class="offer">Over the coming month's we'll be running some great offers to help build both of these talented stylist's up and get them settled in. Check our <a href="https://www.facebook.com/PaulKempHairdressing" target="_blank">Facebook</a> &amp; <a href="https://twitter.com/paulkemphair" target="_blank">Twitter</a> pages to keep up to date!</p>
-<p class="offer"></p>
+<p class="offer">We've launched some great offers with Caleb &amp; Leanne to get them up and running!</p>
+<?php echo CHtml::link('<p class="offer">Check out the offers here &gt;</p>',array('site/page', 'view'=>'new')); ?>
+
 </section> <!--end .hidden-->
 <p class="author">Published by Adam</p>
 <time datetime="2013-08-01">2<sup>nd</sup> July 2015</time>
