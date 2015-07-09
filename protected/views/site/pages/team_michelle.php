@@ -4,7 +4,7 @@ $this->pageTitle=Yii::app()->name . ' - Michelle Railton - Hairdressers in Chesh
 ?>
 
 <?php Yii::app()->facebook->ogTags['og:title'] = "Michelle Railton"; ?>
-<?php Yii::app()->facebook->ogTags['og:description'] = "Michelle is a highly skilled hairdresser with loads of experience. She rapidly becoming a very highly sought after stylist in the salon. She especially loves soft, natural styles and men's indie/mod cutting."; ?>
+<?php Yii::app()->facebook->ogTags['og:description'] = "Michelle is a highly skilled hairdresser with loads of experience. She is rapidly becoming a very highly sought after stylist in the salon. She especially loves soft, natural styles and men's indie/mod cutting."; ?>
 <?php Yii::app()->facebook->ogTags['og:image'] =  "http://www.paulkemphairdressing.com/images/staff/michelle_og.jpg"; ?>
 
 <section id="team_ind">
