@@ -46,7 +46,7 @@ $this->pageTitle=Yii::app()->name . ' - The Team - Hairdressers in Cheshire';
         
         <?php echo CHtml::link('<section id="michelle_r">
         <h3><img src="' . Yii::app()->request->baseUrl . '/images/staff/michelle_r.jpg" width="133" height="168" alt="Michelle Railton">Michelle Railton - Stylist</h3>
-        <p>Michelle is the latest stylist to join the team. She is a highly skilled hairdresser with loads of experience. She especially loves soft, natural styles and men\'s indie/mod cutting.</p>
+        <p>Michelle is a highly skilled hairdresser with loads of experience. She is rapidly becoming a very highly sought after stylist in the salon. She especially loves soft, natural styles and men\'s indie/mod cutting.</p>
         <p class="teamprice">Average Cut &amp; Colour price with Kate : &pound;96*</p>
         </section>', array('site/page','view'=>'team_michelle')); ?>
         
@@ -56,6 +56,12 @@ $this->pageTitle=Yii::app()->name . ' - The Team - Hairdressers in Cheshire';
         <p class="teamprice">Average Cut &amp; Colour price with Leon : &pound;96*</p>
         </section>', array('site/page','view'=>'team_leon')); ?>
         
+        <?php echo CHtml::link('<section id="caleb">
+        <h3><img src="' . Yii::app()->request->baseUrl . '/images/staff/caleb.jpg" width="133" height="168" alt="Caleb Barrie">Caleb Barrie - Stylist</h3>
+        <p>Caleb is a diverse stylist with a real passion for hairdressing. He\'s a recent addition to the team. He’s highly skilled in all aspects of hairdressing but loves high-fashion colouring and big, bouncy blow dry’s.</p>
+        <p class="teamprice">Average Cut &amp; Colour price with Caleb : &pound;96*</p>
+        </section>', array('site/page','view'=>'team_caleb')); ?>
+        
         <?php echo CHtml::link('<section id="tash">
         <h3><img src="' . Yii::app()->request->baseUrl . '/images/staff/tash.jpg" width="133" height="168" alt="Natasha Bailey">Tash Bailey - Stylist</h3>
         <p>Tash\'s passion for hairdressing is apparent from the minute you meet her. She loves creative colouring and cutting plus she\'s highly skilled in styling hair.</p>
@@ -64,9 +70,15 @@ $this->pageTitle=Yii::app()->name . ' - The Team - Hairdressers in Cheshire';
         
         <?php echo CHtml::link('<section id="ashley">
         <h3><img src="' . Yii::app()->request->baseUrl . '/images/staff/ashley.jpg" width="133" height="168" alt="Ashley Tennant">Ashley Tennant - Graduate Stylist</h3>
-        <p>Ashley recently qualified and is now a Junior stylist within the team. She is developing at an extremely fast rate and will be moving up the ranks quickly.</p>
-        <p class="teamprice">Average Cut &amp; Colour price with Ashley : &pound;35*</p>
+        <p>Ashley recently qualified and is now a Gradutae stylist within the team. She is developing at an extremely fast rate and will be moving up the ranks quickly.</p>
+        <p class="teamprice">Average Cut &amp; Colour price with Ashley : &pound;55*</p>
         </section>', array('site/page','view'=>'team_ashley')); ?>
+        
+        <?php echo CHtml::link('<section id="leanne">
+        <h3><img src="' . Yii::app()->request->baseUrl . '/images/staff/leanne.jpg" width="133" height="168" alt="Leanne Bartlett">Leanne Bartlett - Graduate Stylist</h3>
+        <p>Leanne recently joined the team after working at a reputable salon in Stockton Heath. Her passion lies in creating quirky, individual looks and is skilled in colour correction.</p>
+        <p class="teamprice">Average Cut &amp; Colour price with Leanne : &pound;55*</p>
+        </section>', array('site/page','view'=>'team_leanne')); ?>
         
         </section>
         
