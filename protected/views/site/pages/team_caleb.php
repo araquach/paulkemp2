@@ -16,6 +16,8 @@ $this->pageTitle=Yii::app()->name . ' - Caleb Barrie - Hairdressers in Cheshire'
 	<p>He’s highly skilled in all aspects of hairdressing but loves high-fashion colouring and big, bouncy blow dry’s.</p>
 	<p class="team_ind_price">Average Cut &amp; Colour price with Caleb : &pound;96*</p>
 	
+	<?php echo CHtml::link('<p class="offer">Special Introductory offers with Caleb &gt;</p>',array('site/page', 'view'=>'new')); ?>
+	
 	<?php echo CHtml::link('Click here to see the full team &gt;',array('site/page','view'=>'team', '#'=>'caleb')); ?>
 	
 	<div id="fb_like">

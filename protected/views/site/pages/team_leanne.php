@@ -16,6 +16,8 @@ $this->pageTitle=Yii::app()->name . ' - Leanne Bartlett - Hairdressers in Cheshi
 	<p>Her passion lies in creating quirky, individual looks and is skilled in colour correction.</p>
 	<p class="team_ind_price">Average Cut &amp; Colour price with Leanne : &pound;55*</p>
 	
+	<?php echo CHtml::link('<p class="offer">Special Introductory offers with Leanne &gt;</p>',array('site/page', 'view'=>'new')); ?>
+	
 	<?php echo CHtml::link('Click here to see the full team &gt;',array('site/page','view'=>'team', '#'=>'leanne')); ?>
 	
 	<div id="fb_like">
