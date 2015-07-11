@@ -374,14 +374,14 @@ li.active a {
 #news1 {
 	left: 20px;
 	top: 1100px;
-	background: url(../images/home_news/kebelo_cover.jpg) no-repeat, rgb(55,34,24);
+	background: url(../images/home_news/pk_starters.jpg) no-repeat, rgb(55,34,24);
 	-webkit-transition: all 0.3s ease-in;
 	-moz-transition: all 0.3s ease-in;
 	transition: all 0.3s ease-in;
 }
 
 .no-cssgradients #news1 {
-	background: url(../images/home_news/kebelo_cover.jpg) no-repeat rgb(55,34,24);
+	background: url(../images/home_news/pk_starters.jpg) no-repeat rgb(55,34,24);
 }
 
 #news1:hover {
@@ -394,14 +394,14 @@ li.active a {
 #news2 {
 	left: 257px;
 	top: 1100px;
-	background: url(../images/home_news/pearlescence.jpg) no-repeat, rgb(55,34,24);
+	background: url(../images/home_news/kebelo_cover.jpg) no-repeat, rgb(55,34,24);
 	-webkit-transition: all 0.3s ease-in;
 	-moz-transition: all 0.3s ease-in;
 	transition: all 0.3s ease-in;
 }
 
 .no-cssgradients #news2 {
-	background: url(../images/home_news/pearlescence.jpg) no-repeat rgb(55,34,24);
+	background: url(../images/home_news/kebelo_cover.jpg) no-repeat rgb(55,34,24);
 }
 
 #news2:hover {
@@ -415,14 +415,14 @@ li.active a {
 #news3 {
 	left: 492px;
 	top: 1100px;
-	background: url(../images/home_news/recruitment.jpg) no-repeat, rgb(55,34,24);
+	background: url(../images/home_news/pearlescence.jpg) no-repeat, rgb(55,34,24);
 	-webkit-transition: all 0.3s ease-in;
 	-moz-transition: all 0.3s ease-in;
 	transition: all 0.3s ease-in;
 }
 
 .no-cssgradients #news3 {
-	background: url(../images/home_news/recruitment.jpg) no-repeat rgb(55,34,24);
+	background: url(../images/home_news/pearlescence.jpg) no-repeat rgb(55,34,24);
 }
 
 #news3:hover {
@@ -435,14 +435,14 @@ li.active a {
 #news4 {
 	left: 725px;
 	top: 1100px;
-	background: url(../images/home_news/pk_starters.jpg) no-repeat, rgb(55,34,24);
+	background: url(../images/home_news/recruitment.jpg) no-repeat, rgb(55,34,24);
 	-webkit-transition: all 0.3s ease-in;
 	-moz-transition: all 0.3s ease-in;
 	transition: all 0.3s ease-in;
 }
 
 .no-cssgradients #news4 {
-	background: url(../images/home_news/pk_starters.jpg) no-repeat rgb(55,34,24);
+	background: url(../images/home_news/recruitment.jpg) no-repeat rgb(55,34,24);
 }
 
 #news4:hover {

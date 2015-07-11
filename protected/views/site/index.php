@@ -21,28 +21,30 @@ $this->pageTitle=Yii::app()->name;
 <!--NewsItems-->
 
 	<?php echo CHtml::link('<aside id="news1">
+	<h3 class="newsheader">Welcoming Leanne &amp; Caleb</h3>
+	<p class="newspara">Two talented new stylists join the team</p>
+	<p class="newscenter"><strong>Find out more here &gt;</strong></p>
+		</aside>',array('site/page','view'=>'news', '#'=>'NewRecruits')); ?>
+		
+	<?php echo CHtml::link('<aside id="news2">
 	<h3 class="newsheader">Introducing <br>Kebelo</h3>
 	<p class="newspara">Smoother, shinier, more manageable hair can be yours</p>
 	<p class="newscenter"><strong>Find out more here &gt;</strong></p>
 		</aside>',array('kebelo/advantage')); ?>
-
-    <?php echo CHtml::link('<aside id="news2">
+	
+	<?php echo CHtml::link('<aside id="news3">
     <h3 class="newsheader">New Igora<br>Pearlescence Colours</h3>
     <p class="newspara">Schwarzkopf\'s new range could give you the new look you\'ve always wanted</p>
     <p class="newscenter"><strong>Find out more here &gt;</strong></p>
     </aside>',array('site/page','view'=>'news', '#'=>'Pearlescence')); ?>
     
-    <?php echo CHtml::link('<aside id="news3">
+    <?php echo CHtml::link('<aside id="news4">
     <h3 class="newsheader">Great Career Opportunities</h3>
     <p class="newspara">Looking to join the PK team? Apply to be a stylist or apprentice here</p>
     <p class="newscenter"><strong>Find out more here &gt;</strong></p>
     </aside>',array('site/page','view'=>'recruitment')); ?>
     
-    <?php echo CHtml::link('<aside id="news4">
-    <h3 class="newsheader">Welcoming Leanne &amp; Caleb</h3>
-    <p class="newspara">Two talented new stylists join the team</p>
-    <p class="newscenter"><strong>Find out more here &gt;</strong></p>
-    	</aside>',array('site/page','view'=>'news', '#'=>'NewRecruits')); ?>
+    
     
     
   <div id="feedback_feed">
