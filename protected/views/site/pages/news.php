@@ -21,6 +21,94 @@ window.addEvent('domready', function(){
 <section id="accordion">
 
 <article class="article">
+<a id="LeanneQA" class="anchor"></a>
+<section class="visible">
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/news_images/image.jpg" width="135" height="180" alt="alt text">
+<h3>Get to know Leanne</h3>
+<p><strong>We recently took on two new stylists, Caleb &amp; Leanne. We thought it would be good to ask them some questions to find out a bit more about them.</strong></p>
+<p>We quizzed Leanne first, read on to get to know her better&hellip;</p>
+<p class="reveal">Read more &gt;</p>
+</section> <!--end .visible-->
+<section class="hidden">
+<p></p>
+<dl>
+	<dt>How long have you been hairdressing for Leanne?</dt>
+	<dd>Nearly 3 years altogether</dd>
+	
+	<dt>When did you join the PK team?</dt>
+	<dd>I joined just a few weeks ago, July 8th.</dd>
+	
+	<dt>When did you first realise you wanted to become a hairdresser and where did you start?</dt>
+	<dd>I was into hair and braiding from a very young age. I used to always love playing with my mums hair, then as I got older I loved giving my friends “hair makeovers”. I was always the one to do everyone’s hair if we were to go anywhere! That was then when I realised hairdressing was the thing for me so I did a course at Warrington collegiate before moving on to my level 3 at a busy salon in Stockton Heath!</dd>
+	
+	<dt>If you had chosen another profession what would it have been?</dt>
+	<dd>A professional dancer. My dad always wanted me to preform on cruise ships as I danced from a very young age. But I loved hair too!</dd>
+	
+	<dt>What key points make Paul Kemp Hairdressing good at developing new stylists?</dt>
+	<dd>How the team get the opportunity to go to London and even take part in the hair shows. It’s a big thing that I would love to be able to do in the future! I also like how creative and up to date they are with trends.</dd>
+	
+	<dt>What's your favourite hairstyle of all time and why?</dt>
+	<dd>I love long hair with a very bold, blunt fringe. I think fringes make such a statement and can make a haircut look so precise and effortless short or long.</dd>
+	
+	<dt>If you could cut anyone’s hair who would it be and why?</dt>
+	<dd>Jessie J. I love how she had her hair when she had the very blunt fringe and dark hair. It looks so dramatic and precise. I love how it was all one length too and such a bold black colour. It looked more powerful, made more of a statement and didn’t clash with her fringe!</dd>
+	
+	<dt>How do you keep up with new ideas the latest trends?</dt>
+	<dd>I’m forever searching on blogs and the internet for new trends. I love looking at celebrities profiles to see who’s trend setting what.</dd>
+	
+	<dt>Whats the secret to a good haircut/style?</dt>
+	<dd>The key to a great hairstyle is to make sure you know exactly what your client wants before carrying out a service and always take your time! Amazing hair doesn’t come easily, it comes with a lot of time and effort!</dd>
+	
+	<dt>What tips can you give up and coming hairstylists?</dt>
+	<dd>Professionalism is a key to a good hair service and without that your client won’t return. Always smile!!
+	Always be confident and take control, be open to try new things on your client (if they want to).
+	Keep up with new styles and trends and use yourself as am advertisement.</dd>
+	
+	<dt>Can you describe a particular makeover that gave you the most satisfaction?</dt>
+	<dd>There was a client that came in with bleached blonde (yellow hair) that she used to do herself. She didn’t know what she wanted but her mum wanted something more subtle. I ended up doing a big colour change changing her from bleached blonde to a warm light brown with a balayage ombré! It looked amazing.</dd>
+	
+	<dt>What do you think sets PK apart from other salons?</dt>
+	<dd>I love how relaxed the atmosphere is, which you notice as soon as you walk in. Everyone is so friendly and welcoming. I also love how everyone is free to develop their own techniques and hairdressing style. It's an environment where everyone learns from each other.</dd>
+	
+	<dt>Whats the best thing for you about being a stylist at PK?</dt>
+	<dd>That I will be able to further my skills and learn new things from every member of the team!</dd>
+	
+	<dt>What do you think is the most exciting new hair trend?</dt>
+	<dd>I definitely think balayage ombré is a big trend at the moment. I find that people are confident to do exciting things with their colour and I think the balayage ombré offers that! It’s unique from the normal ombré and is much more of a natural, but effective look! </dd>
+	
+	<dt>Out of the product ranges which is your favourite and why?</dt>
+	<dd>Tigi. I have used nearly every product from Tigi and find their range amazing. It’s quite a popular brand and has a product for absolutely everything and the fruity smells are so intriguing unlike other products. A lot of people say the reason they like Tigi is because they smell so good!</dd>
+	
+	<dt>What is your favourite product?</dt>
+	<dd>'After Party' by Tigi Bed Head. I love how it gives such a smooth, shiny finish after a colour or a cut.</dd>
+	
+	<dt>Is there a certain time period or style icon you look to for inspiration?</dt>
+	<dd>I love the 1950’s finger wave styles and love how elegant and sophisticated hair was back then. However my inspiration comes from mostly current trends. I love to keep up to date with celebrities from their Instagram pages and magazines.</dd>
+	
+	<dt>Is there a celebrity that inspires you? Who and why?</dt>
+	<dd>I am majorly inspired by the Kardashians hair! They are all hairstyles that everyone has started going for that started from them. Kim Kardashian for one, went for a long bob and bleached hair - that became a bit of a craze, especially with the bob. Kylie Jenner is another with the quirkily coloured ends. Then there’s Khloe Kardashian with her balayage, sun kissed ombré that’s very popular at the moment. I find that their hair is always current and up to date. I was even inspired by Kim Kardashians hair so much I decided to have my hair in a long bob just like hers!</dd>
+	
+	<dt>Do you have a signature hairstyle? if so, describe it.</dt>
+	<dd>Yes. I am the queen at curly blow drys and love to make hair big, bouncy and dramatic for girls that have a big night out coming up!</dd>
+	
+	<dt>What inspires you in the world of fashion, hair and beauty?</dt>
+	<dd>I love watching fashion shows and hair shows. I am into my magazines and hair blogs too that keeps me up to date with the latest trends.</dd>
+
+	<dt>What are your strengths in hairdressing?</dt>
+	<dd>I pride myself on my customer service skills, I'm a great, confident communicator.</dd>
+	
+	<dt>And what are your favourite bits about hairdressing?</dt>
+	<dd>I love colouring, the quirkier the better! I especially enjoy colour correction and Ombrés. I love doing big restyles that make an impact. I'm also a big fan of doing graduated bobs!</dd>
+</dl>
+
+<p class="big">Leanne is settling in fast at PK. She's really eager to build her client base, sow we've launched some great offers with her</p>
+<?php echo CHtml::link('<p class="offer">Check out her offers here &gt;</p>',array('site/page', 'view'=>'new')); ?>
+</section> <!--end .hidden-->
+<p class="author">Published by Adam</p>
+<time datetime="2015-07-28">28<sup>th</sup> July 2015</time>
+</article> <!--end #article-->
+
+<article class="article">
 <a id="NewRecruits" class="anchor"></a>
 <section class="visible">
 <img src="<?php echo Yii::app()->request->baseUrl; ?>/images/news_images/pk_starters.jpg" width="135" height="200" alt="Caleb and Leanne">
