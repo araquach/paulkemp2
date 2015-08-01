@@ -1360,19 +1360,15 @@ section#newspage a p:hover {
 
 #offersMain h2 {
 	margin: 60px;
-	margin-bottom: 30px;
+	margin-bottom: 50px;
 	font-size: 2.5em;
 }
 
-#offerlist h3, #offerlist p, #offerlist .small {
+#offerlist h3, #offerlist p {
 	text-align: center;
-	margin-right: 250px;
+	margin-right: 230px;
 	margin-top: 0;
 	color: rgb(55, 34, 24);
-}
-
-#offerlist #offer1 h3, #offerlist #offer1 p, #offerlist #offer1 .small {
-	color: #FFF;
 }
 
 #offerlist #offer3 h3, #offerlist #offer3 p, #offerlist #offer3 .small {
@@ -1413,7 +1409,7 @@ section#newspage a p:hover {
 
 #offerlist #offer1 {
 	padding: 30px;
-	background-image: url(../images/offer/katharina.jpg);
+	background-image: url(../images/offer/Justyna_146.jpg);
 	clear: left;
 	float: left;
 	height: 240px;
@@ -1426,19 +1422,13 @@ section#newspage a p:hover {
 	box-shadow: 0 0 10px rgba(33, 31, 31, 0.91);
 }
 
-
-
 #offerlist #offer2 h3, #offerlist #offer1 h3, #offerlist #offer4 p {
 	margin-top: 0;
 }
 
-#offerlist #offer4 h3, #offerlist #offer4 p {
-	color: #FFF;
-}
-
 #offerlist #offer2 {
 	padding: 30px;
-	background-image: url(../images/offer/Polina_Hot_Styling_02_033.jpg);
+	background-image: url(../images/offer/Katharina_091.jpg);
 	clear: left;
 	float: left;
 	height: 240px;
@@ -1468,7 +1458,7 @@ section#newspage a p:hover {
 
 #offerlist #offer4 {
 	padding: 30px;
-	background-image: url(../images/offer/offer4.jpg);
+	background-image: url(../images/offer/Isabelle_HS_153.jpg);
 	clear: left;
 	float: left;
 	height: 240px;
