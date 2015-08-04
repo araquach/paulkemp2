@@ -4,7 +4,7 @@ $this->pageTitle=Yii::app()->name . ' - Offers - Hairdressers in Cheshire';
 ?>
 
 <?php Yii::app()->facebook->ogTags['og:title'] = "Summer Offers"; ?>
-<?php Yii::app()->facebook->ogTags['og:description'] = "Colour & Cut for just £80 with Senior Stylists, £65 with Stylists for new clients throughot august"; ?>
+<?php Yii::app()->facebook->ogTags['og:description'] = "Colour & Cut for just £80 with Senior Stylists, £65 with Stylists for new clients throughot August"; ?>
 <?php Yii::app()->facebook->ogTags['og:image'] = "http://www.paulkemphairdressing.com/images/offer/Asian_Lucy_123_meta.jpg"; ?>
 
 <section id="offersMain">
@@ -24,7 +24,7 @@ $this->pageTitle=Yii::app()->name . ' - Offers - Hairdressers in Cheshire';
   <h3>Stylist Colour &amp; Cut Package</h3>
   <p>for just &pound;65</p>
   <p>with any of our Stylists</p>
-    <p class="small">offer until <time datetime="2015-02-27">27/02/15</time><br>
+    <p class="small">offer until <time datetime="2015-08-28">28/08/15</time><br>
       For New Clients Only - not with any other offer - excludes Saturday<br>Skin test required 48hrs prior to service</p>
 </div>
 

@@ -1168,7 +1168,8 @@ section#newspage a p:hover {
 #offerlist #offer4 {
 	padding: 20px;
 	padding-top: 330px;
-	background: url(../images/offer/offer4.jpg) -500px top no-repeat #281d02;
+	background-position: -500px top;
+	background-repeat: no-repeat;
 	float: none;
 	height: 300px;
 	width: auto;

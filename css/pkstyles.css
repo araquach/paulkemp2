@@ -1364,7 +1364,7 @@ section#newspage a p:hover {
 	font-size: 2.5em;
 }
 
-#offerlist h3, #offerlist p {
+#offerlist h3, #offerlist p, #offerlist p.small {
 	text-align: center;
 	margin-right: 230px;
 	margin-top: 0;
@@ -1394,17 +1394,10 @@ section#newspage a p:hover {
 	font-size: 1.5em;
 }
 
-#offerlist p:last-of-type {
-	margin: 0;
-	float: left;
-	margin-top: 20px;
-	font-weight: bold;
-	color: rgb(55,34,24);
-}
-
 #offerlist .small {
 	font-size: .78em;
 	color: rgb(55,34,24);
+	line-height: 1.5em;
 }
 
 #offerlist #offer1 {
