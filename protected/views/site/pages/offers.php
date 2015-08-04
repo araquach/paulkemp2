@@ -16,7 +16,7 @@ $this->pageTitle=Yii::app()->name . ' - Offers - Hairdressers in Cheshire';
 <div id="offer1" class="offer"><h3>Senior Stylist Colour &amp; Cut Package</h3>
 <p>for just &pound;80</p>
 <p>with any of our Senior Stylists</p>
-<p class="small">offer extended until <time datetime="2015-08-28">28/08/15</time><br>
+<p class="small">offer until <time datetime="2015-08-28">28/08/15</time><br>
   For New Clients Only - not with any other offer - excludes Saturday<br>Skin test required 48hrs prior to service</p>
 </div>
 

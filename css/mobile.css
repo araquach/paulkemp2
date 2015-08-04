@@ -1076,7 +1076,7 @@ section#newspage a p:hover {
 	line-height: 1.2em;
 }
 
-#offerlist h3, #offerlist p, #offerlist .small {
+#offerlist h3, #offerlist p, #offerlist p.small {
 	text-align: center;
 	margin: 0;
 	color: #FFF;
@@ -1096,14 +1096,13 @@ section#newspage a p:hover {
 	font-size: 1.3em;
 }
 
+#offerlist p.small {
+	margin-top: 20px;
+}
+
 #offerlist .small {
 	font-size: .78em;
 	margin-top: 1.4em;
-}
-
-#offerlist .small:last-of-type {
-	font-size: .78em;
-	color: #FFF;
 }
 
 #offerlist #offer1 {
@@ -1170,6 +1169,7 @@ section#newspage a p:hover {
 	padding-top: 330px;
 	background-position: -500px top;
 	background-repeat: no-repeat;
+	background-color: rgb(46, 40, 34);
 	float: none;
 	height: 300px;
 	width: auto;
