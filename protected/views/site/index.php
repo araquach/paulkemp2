@@ -33,10 +33,10 @@ $this->pageTitle=Yii::app()->name;
 		</aside>',array('kebelo/advantage')); ?>
 	
 	<?php echo CHtml::link('<aside id="news3">
-    <h3 class="newsheader">New Igora<br>Pearlescence Colours</h3>
-    <p class="newspara">Schwarzkopf\'s new range could give you the new look you\'ve always wanted</p>
+    <h3 class="newsheader">This month\'s<br>Special Offer\'s</h3>
+    <p class="newspara">New to the salon? Check out these Summer Offers</p>
     <p class="newscenter"><strong>Find out more here &gt;</strong></p>
-    </aside>',array('site/page','view'=>'news', '#'=>'Pearlescence')); ?>
+    </aside>',array('site/page','view'=>'offers')); ?>
     
     <?php echo CHtml::link('<aside id="news4">
     <h3 class="newsheader">Great Career Opportunities</h3>
