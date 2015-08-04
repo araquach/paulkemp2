@@ -4,8 +4,8 @@ $this->pageTitle=Yii::app()->name . ' - Offers - Hairdressers in Cheshire';
 ?>
 
 <?php Yii::app()->facebook->ogTags['og:title'] = "Summer Offers"; ?>
-<?php Yii::app()->facebook->ogTags['og:description'] = "Colour & Cut for just £80 with Senior Stylists, £65 with Stylists for new clients throughot August"; ?>
-<?php Yii::app()->facebook->ogTags['og:image'] = "http://www.paulkemphairdressing.com/images/offer/Asian_Lucy_123_meta.jpg"; ?>
+<?php Yii::app()->facebook->ogTags['og:description'] = "Colour & Cut for just £80 with Senior Stylists, £65 with Stylists, £50 with Graduate Stylists for new clients throughout August"; ?>
+<?php Yii::app()->facebook->ogTags['og:image'] = "http://www.paulkemphairdressing.com/images/offer/Justyna_146_meta.jpg"; ?>
 
 <section id="offersMain">
 
