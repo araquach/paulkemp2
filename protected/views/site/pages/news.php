@@ -25,7 +25,7 @@ window.addEvent('domready', function(){
 <section class="visible">
 <img src="<?php echo Yii::app()->request->baseUrl; ?>/images/news_images/image.jpg" width="135" height="180" alt="alt text">
 <h3>Get to know Leanne</h3>
-<p><strong>We recently took on two new stylists, Caleb &amp; Leanne. We thought it would be good to ask them some questions to find out a bit more about them.</strong></p>
+<p><strong>We recently recruited two new stylists, Caleb &amp; Leanne. We thought it would be good to ask them some questions to find out a bit more about them.</strong></p>
 <p>We quizzed Leanne first, read on to get to know her better&hellip;</p>
 <p class="reveal">Read more &gt;</p>
 </section> <!--end .visible-->
