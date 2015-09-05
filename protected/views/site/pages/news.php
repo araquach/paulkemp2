@@ -23,10 +23,10 @@ window.addEvent('domready', function(){
 <article class="article">
 <a id="LeanneQA" class="anchor"></a>
 <section class="visible">
-<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/news_images/image.jpg" width="135" height="180" alt="alt text">
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/news_images/leanne-1.jpg" width="135" height="190" alt="Leanne">
 <h3>Get to know Leanne</h3>
 <p><strong>We recently took on two new stylists, Caleb &amp; Leanne. We thought it would be good to ask them some questions to find out a bit more about them.</strong></p>
-<p>We quizzed Leanne first, read on to get to know her better&hellip;</p>
+<p>We quizzed Leanne first, read on to find out all about her&hellip;</p>
 <p class="reveal">Read more &gt;</p>
 </section> <!--end .visible-->
 <section class="hidden">
@@ -36,7 +36,7 @@ window.addEvent('domready', function(){
 	<dd>Nearly 3 years altogether</dd>
 	
 	<dt>When did you join the PK team?</dt>
-	<dd>I joined just a few weeks ago, July 8th.</dd>
+	<dd>I joined nearly 2 months ago, July 8th.</dd>
 	
 	<dt>When did you first realise you wanted to become a hairdresser and where did you start?</dt>
 	<dd>I was into hair and braiding from a very young age. I used to always love playing with my mums hair, then as I got older I loved giving my friends “hair makeovers”. I was always the one to do everyone’s hair if we were to go anywhere! That was then when I realised hairdressing was the thing for me so I did a course at Warrington collegiate before moving on to my level 3 at a busy salon in Stockton Heath!</dd>
@@ -105,7 +105,7 @@ window.addEvent('domready', function(){
 <?php echo CHtml::link('<p class="offer">Check out her offers here &gt;</p>',array('site/page', 'view'=>'new')); ?>
 </section> <!--end .hidden-->
 <p class="author">Published by Adam</p>
-<time datetime="2015-07-28">28<sup>th</sup> July 2015</time>
+<time datetime="2015-09-05">5<sup>th</sup> September 2015</time>
 </article> <!--end #article-->
 
 <article class="article">
