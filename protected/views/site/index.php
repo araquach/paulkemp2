@@ -30,7 +30,7 @@ $this->pageTitle=Yii::app()->name;
 	<h3 class="newsheader">Introducing <br>Kebelo</h3>
 	<p class="newspara">Smoother, shinier, more manageable hair can be yours</p>
 	<p class="newscenter"><strong>Find out more here &gt;</strong></p>
-		</aside>',array('kebelo/advantage')); ?>
+		</aside>',array('kebelo/index')); ?>
 	
 	<?php echo CHtml::link('<aside id="news3">
     <h3 class="newsheader">This month\'s<br>Special Offer\'s</h3>

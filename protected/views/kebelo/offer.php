@@ -9,14 +9,19 @@ $this->pageTitle=Yii::app()->name . ' - Kebelo Advantage';
 
 	<div id="advantage">
 	
-	<div id="advantage_copy">
-	<h3>Frizz-Free living<br>for 100 days</h3>
+	<div id="kebelo-competition">
+	<h3>Hi <?php echo ucfirst($model->first_name); ?>, <br>how would you like <br>100 days of<br>frizz-free hair?</h3>
+	<p>You recently entered our Kebelo competition, unfortunately you didn't win this time, but you have been specially selected to have the Kebelo treatment at a special price!</p>
+	<div class="kebelo-offer"><p>40% off</p> <p>the Kebelo Advantage Smoothing treatment</p>
+	<p>Including aftercare products - Until the end of November.</p>
+	<small>(Not with any other offer)</small></div>
+	
 	<p>Goodbye frizz, hello smooth. With Kebelo ADVANTAGE smoothing system you will get 100 days of frizz-free, easy to manage, healthy, shiny, smooth hair.</p>
-	<p>We know how bad hair days can be stressful. We know years of styling and colouring can leave hair damaged and prone to frizzing. And we know how much time and effort it takes to keep it looking beautiful. Those days are now over. With this revolutionary smoothing treatment you will get amazingly smooth, frizz-free, glossy, easy to manage hair. If you are one of the 86% that suffers from either dry, damaged, frizzy or unruly hair, then ADVANTAGE is the solution.</p>
-	<p>The Kebelo ADVANTAGE smoothing treatment takes three simple steps; cleanse, treat and maintain. Using Kebelo pioneered carbocysteine hair technology that allow the treatment to support, strengthen and revitalise each strand from within, weak, dull, frizzy, unhealthy hair is transformed to beautiful smooth locks filled with bounce and volume.</p>
-	<p>It only takes 1 hour to achieve perfect hair that lasts for 100 days, and you can have your hair coloured straight after. This unique foundation treatment lets you lose the frizz whilst maintaining the bounce and volume, giving you even more styling freedom and an unbelievably healthy shine.</p>
-	<!--<p><strong>For a limited time have a Kebelo Advantage Treatment and get a FREE Cut, Dry &amp; Style for just &pound;99</strong></p>-->
-	</div> <!--end advantage copy-->
+	
+	<p class="offer"><strong>Call 01925 444488</strong></p>
+	<p class="offer">to book your appointment</p>
+	<p class="offer">Quote Offer Code: <strong>KEB60</strong></p>
+	</div> <!--end kebelo-competition copy-->
 	<div id="three_advantages">
 	<h3>3 advantages of ADVANTAGE</h3>
 	<p>Kebelo Spent 18 months creating the first ever long term smoothing system and, in the process, gained a reputation for innovation, safety and creativity. Now they have pioneered a new treatment which has three distinctive benefits not found anywhere else.</p>
