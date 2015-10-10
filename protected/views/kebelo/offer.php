@@ -1,5 +1,4 @@
 <?php
-
 $this->pageTitle=Yii::app()->name . ' - Kebelo Advantage';
 ?>
 <?php Yii::app()->facebook->ogTags['og:title'] = "Kebelo at PK"; ?>
@@ -11,7 +10,7 @@ $this->pageTitle=Yii::app()->name . ' - Kebelo Advantage';
 	
 	<div id="kebelo-competition">
 	<h3>Hi <?php echo ucfirst($model->first_name); ?>, <br>how would you like <br>100 days of<br>frizz-free hair?</h3>
-	<p>You recently entered our Kebelo competition, unfortunately you didn't win this time, but you have been specially selected to have the Kebelo treatment at a special price!</p>
+	<p>You recently entered our Kebelo competition and you have been selected to have the Kebelo treatment at a special price!</p>
 	<div class="kebelo-offer"><p>40% off</p> <p>the Kebelo Advantage Smoothing treatment</p>
 	<p>Including aftercare products - Until the end of November.</p>
 	<small>(Not with any other offer)</small></div>

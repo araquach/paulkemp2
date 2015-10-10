@@ -2661,6 +2661,13 @@ span.kebelo_italic {
 	padding: 70px;
 }
 
+#kebelo-competition h3 {
+	font-size: 2em;
+	font-weight: bold;
+	line-height: 1.4em;
+	margin-bottom: 20px;
+}
+
 #kebelo-competition p {
 	font-size: 1.3em;
 }
