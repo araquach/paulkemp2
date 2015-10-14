@@ -2003,45 +2003,54 @@ span.kebelo_italic {
 	font-style: italic;
 }
 
-#kebelo_offer {
-	position: relative;
-	width: 270px;
-	height: 270px;
-	bottom: 0;
-	right: 0;
-	background-color: #FFF;
-	background-color: rgba(255, 255, 255, 0.65);
-	border-radius: 50%;
-	border: 1px solid #FFF;
-	margin-left: 20px;
-	margin-top: 50px;
-}
-
-#kebelo_offer p {
-	margin-right: 40px;
-	text-align: center;
-	font-size: .8em;
-	width: 270px;
-	color: rgb(3, 3, 3);
-	font-weight: bold;
-}
-
-#kebelo_offer p.bold {
-	font-weight: bolder;
-}
-
-#kebelo_offer p.big_offer {
-	font-size: 5em;
-	margin: 0;
-	line-height: .7em;
-}
-
-#kebelo {
+#kebelo-competition {
 	width: auto;
-	background: url('../images/kebelo/kebelo-cover-02-mob.jpg') center top no-repeat #040404;
-	height: 100%;
-	padding-top: 0;
-	padding-bottom: 50px;
+	padding: 0;
+}
+
+#kebelo-competition h3 {
+	font-size: 2em;
+	line-height: 1.4em;
+	margin-bottom: 0;
+}
+
+#kebelo-competition p {
+	background-color: #FFF;
+	padding: 20px;
+	margin: 0;
+}
+
+#kebelo-competition .kebelo-offer p:nth-child(1) {
+	font-size: 3.5em;
+	margin: 0;
+	padding: 0 20px;
+}
+
+#kebelo-competition .kebelo-offer p:nth-child(2) {
+	font-size: 1.5em;
+	margin: 0;
+	padding: 0 20px;
+}
+
+#kebelo-competition .kebelo-offer small {
+	margin: 0 20px;
+}
+
+#kebelo-competition p:nth-child(4) {
+	border: 0px solid #333;
+	padding: 20px;
+	font-size: 1.1em;
+	width: auto;
+	background-color: rgb(75, 35, 108);
+	color: #FFF;
+	margin: 40px 0;
+}
+
+#kebelo-competition p.offer {
+	font-size: 1.5em;
+	margin: 0;
+	padding: 5px 20px;
+	font-weight: normal;
 }
 
 #silk {
