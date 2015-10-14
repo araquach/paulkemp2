@@ -24,7 +24,7 @@ $this->pageTitle=Yii::app()->name;
 	<h3 class="newsheader">Welcoming Leanne &amp; Caleb</h3>
 	<p class="newspara">Two talented new stylists join the team</p>
 	<p class="newscenter"><strong>Find out more here &gt;</strong></p>
-		</aside>',array('site/page','view'=>'news', '#'=>'NewRecruits')); ?>
+		</aside>',array('site/page','view'=>'new')); ?>
 		
 	<?php echo CHtml::link('<aside id="news2">
 	<h3 class="newsheader">Introducing <br>Kebelo</h3>

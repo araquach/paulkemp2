@@ -16,7 +16,7 @@ $this->pageTitle=Yii::app()->name . ' - New team members at PK - Hairdressers in
 	<p>Leanne, 19, started hairdressing three years ago and recently qualified up to NVQ level 3 in a reputable Stockton Heath salon. She joined PK with the aim to push her skills further and be part of a passionate, professional team. Leanne really stands out as a stylist who truly cares about her work.</p>
 	<p><em>Leanne is a great all round stylist although her main passion lies in creating quirky, individual looks plus she has great skill in colour correction. Leanne is joining us as a Graduate Stylist.</em></p>
 	
-	<p><strong>To get Leanne &amp; Caleb up and running we've launched some great offers with them&hellip;</strong></p>
+	<p><strong>To get Leanne &amp; Caleb up and running we've launched some great offers with them - available for new clients&hellip;</strong></p>
 	
 	<h3>Caleb's Offers</h3>
 	
@@ -48,7 +48,7 @@ $this->pageTitle=Yii::app()->name . ' - New team members at PK - Hairdressers in
 		</tr>
 	</table>
 	
-	<p class="small">offers extended until 30/09/15, not with any other offer, skin test required 48 hours before any colour service<br>Mention offer at time of booking.</p>
+	<p class="small">offers extended until 31/10/15, for new clients to the salon only, not with any other offer, skin test required 48 hours before any colour service<br>Mention offer at time of booking.</p>
 	
 	</section>
 	

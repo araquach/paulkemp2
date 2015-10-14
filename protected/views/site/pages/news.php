@@ -21,6 +21,89 @@ window.addEvent('domready', function(){
 <section id="accordion">
 
 <article class="article">
+<a id="CalebQA" class="anchor"></a>
+<section class="visible">
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/news_images/" width="135" height="180">
+<h3>Get to know Caleb</h3>
+<p><strong>We continue on our question and answer sessions with our latest additions to the team. This month we asked Caleb about his time as a hairdresser. </strong></p>
+<p>Click below to find out more about him&helip;</p>
+<p class="reveal">Read more &gt;</p>
+</section> <!--end .visible-->
+<section class="hidden">
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/news_images/" width="135" height="180">
+<dl>
+	<dt>How long have you been hairdressing for Caleb?</dt>
+	<dd>Four years and 10 months (Including training)</dd>
+	
+	<dt>When did you join the PK team?</dt>
+	<dd>The 8th of July 2015</dd>
+	
+	<dt>When did you first realise you wanted to become a hairdresser and where did you start?</dt>
+	<dd>I was 19 and had just achieved my BTEC in photography when I realised that photography wasn’t the industry that I wanted to be in. So following my 20th birthday I applied for an apprenticeship in a local salon and never looked back.</dd>
+	
+	<dt>If you had chosen another profession what would it have been?</dt>
+	<dd>Interior design has always grasped my interests along with studio photography.</dd>
+	
+	<dt>What key points make PK good at developing new stylists?</dt>
+	<dd>From what I’ve seen so far there is a very clear line of progression. Each stylists strengths and weaknesses are recognised and a plan is made to either train others in your strengths or have someone train you where your weaknesses lie.
+	internal competitions keeps everyone fresh and gives them a chance to show off what they are capable of too.
+	The staff are so friendly and helpful, their skills aren’t their best kept secret which is great.</dd>
+	
+	<dt>Whats your favourite hairstyle of all time and why?</dt>
+	<dd>I have a love for Pixie cuts at moment. The option to have a sleek, smooth, classy look or ruffle up for a textured, fun yet stylish finish is something that really appeals to me.</dd>
+	
+	<dt>If you could cut anyone’s hair who would it be and why?</dt>
+	<dd>Florence out of Florence and the machine. Purely because I think she’s ridiculously pretty and the way she uses her voice is incredible!</dd>
+	
+	<dt>How do you keep up with new ideas the latest trends?</dt>
+	<dd>Colleagues, friends and the use of social media and Internet. Occasionally the news when celebs come out with some crazy styles that begin to trend.</dd>
+	
+	<dt>Whats the secret to a good haircut/style?</dt>
+	<dd>Listening to your clients criteria and needs. You have to remember that every person has a different opinion. What I might class as an amazing cut or style, my client may find repulsive.</dd>
+	
+	<dt>What tips can you give up and coming hairstylists?</dt>
+	<dd>Practise and don’t get frustrated if something doesn’t quite work out. No one will ever know everything there is about hair but you get out of it what you put in.</dd>
+	
+	<dt>Can you describe a particular makeover that gave you the most satisfaction?</dt>
+	<dd>A client of mine was turning 40 had long straight virgin hair that reached half way down her back and had never been coloured.
+	We took the length up to shoulder length and went all over vibrant copper with a full fringe and styled with messy curls.
+	she was so happy she cried and gave me a massive hug.</dd>
+	
+	<dt>What do you think sets PK apart from other salons?</dt>
+	<dd>The staff and the views and opinions of the staff. Everybody I have spoken to knows exactly what they are doing and are very relaxed when doing so. To quote Jimmy “we are professional but not robotic” and I think thats the key.</dd>
+	
+	<dt>Whats the best thing for you about being a stylist at PK?</dt>
+	<dd>I would say the people I meet and the sense of satisfaction I get from my clients knowing I’ve been a part of making them feel confident, happy and good about themselves.</dd>
+	
+	<dt>What do you think is the most exciting new hair trend?</dt>
+	<dd>From what I’ve experienced more and more woman and girls are going shorter and “funkier”. This ties in great with my love for pixie cuts. Waves and curls, although not a brand new trend, are still popular and can look very glam.</dd>
+	
+	<dt>What is your favourite product?</dt>
+	<dd>Schwarzkopf silhouette hairspray. Only finishing spray that will hold my hair, will not leave the house without it.</dd>
+	
+	<dt>Is there a certain time period or style icon you look to for inspiration?</dt>
+	<dd>I love the 1940’s vintage style of hair up. I often try to re-create these styles from pictures on pinterest.</dd>
+	
+	<dt>Is there a celebrity that inspires you? who and why?</dt>
+	<dd>Not specifically. I sometimes look at celebrities and take note on their hair, make up, outfits but never really seek out inspiration from them.</dd>
+	
+	<dt>Do you have a signature hairstyle? if so, describe it.</dt>
+	<dd>Curly blow dries. I love the texture, curls, height and volume.</dd>
+	
+	<dt>What inspires you in the world of fashion, hair and beauty?</dt>
+	<dd>Quirkiness. Anything a bit different and outside the box.</dd>
+	
+	<dt>What would you say are your strengths as a hairdresser?</dt>
+	<dd>Colouring has always been a strong point and also a favourite. I love doing hair up but I still need more practice at it to perfect my techniques. Customer service skills are something I pride myself on too.</dd>
+</dl>
+<p class="big">Caleb is eager to build his client base, so we're continuing some great offers with him until the end of November for new clients</p>
+<?php echo CHtml::link('<p class="offer">Check out his offers here &gt;</p>',array('site/page', 'view'=>'new')); ?>
+</section> <!--end .hidden-->
+<p class="author">Published by Adam</p>
+<time datetime="2015-10-14">14<sup>th</sup> October 2015</time>
+</article> <!--end #article-->
+
+<article class="article">
 <a id="LeanneQA" class="anchor"></a>
 <section class="visible">
 <img src="<?php echo Yii::app()->request->baseUrl; ?>/images/news_images/leanne-1.jpg" width="135" height="190" alt="Leanne">
@@ -101,7 +184,7 @@ window.addEvent('domready', function(){
 	<dd>I love colouring, the quirkier the better! I especially enjoy colour correction and Ombrés. I love doing big restyles that make an impact. I'm also a big fan of doing graduated bobs!</dd>
 </dl>
 
-<p class="big">Leanne is settling in fast at PK. She's really eager to build her client base, sow we've launched some great offers with her</p>
+<p class="big">Leanne is settling in fast at PK. She's really eager to build her client base, so we've launched some great offers with her</p>
 <?php echo CHtml::link('<p class="offer">Check out her offers here &gt;</p>',array('site/page', 'view'=>'new')); ?>
 </section> <!--end .hidden-->
 <p class="author">Published by Adam</p>
