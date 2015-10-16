@@ -23,17 +23,16 @@ window.addEvent('domready', function(){
 <article class="article">
 <a id="CalebQA" class="anchor"></a>
 <section class="visible">
-<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/news_images/" width="135" height="180">
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/news_images/caleb-1.jpg" width="135" height="180">
 <h3>Get to know Caleb</h3>
-<p><strong>We continue on our question and answer sessions with our latest additions to the team. This month we asked Caleb about his time as a hairdresser. </strong></p>
-<p>Click below to find out more about him&helip;</p>
+<p><strong>We continue on our question and answer session with our latest additions to the team. This month we asked Caleb about his time as a hairdresser. </strong></p>
+<p>Click below to find out more about him&hellip;</p>
 <p class="reveal">Read more &gt;</p>
 </section> <!--end .visible-->
 <section class="hidden">
-<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/news_images/" width="135" height="180">
 <dl>
 	<dt>How long have you been hairdressing for Caleb?</dt>
-	<dd>Four years and 10 months (Including training)</dd>
+	<dd>Five years (Including training)</dd>
 	
 	<dt>When did you join the PK team?</dt>
 	<dd>The 8th of July 2015</dd>
@@ -46,20 +45,19 @@ window.addEvent('domready', function(){
 	
 	<dt>What key points make PK good at developing new stylists?</dt>
 	<dd>From what I’ve seen so far there is a very clear line of progression. Each stylists strengths and weaknesses are recognised and a plan is made to either train others in your strengths or have someone train you where your weaknesses lie.
-	internal competitions keeps everyone fresh and gives them a chance to show off what they are capable of too.
-	The staff are so friendly and helpful, their skills aren’t their best kept secret which is great.</dd>
+	Internal competitions keeps everyone fresh and gives them a chance to show off what they are capable of too. Every season we have an 'Essential Looks' workshop where we work on the latest looks. The staff are so friendly and helpful, their skills aren’t their best kept secret which is great.</dd>
 	
 	<dt>Whats your favourite hairstyle of all time and why?</dt>
 	<dd>I have a love for Pixie cuts at moment. The option to have a sleek, smooth, classy look or ruffle up for a textured, fun yet stylish finish is something that really appeals to me.</dd>
 	
 	<dt>If you could cut anyone’s hair who would it be and why?</dt>
-	<dd>Florence out of Florence and the machine. Purely because I think she’s ridiculously pretty and the way she uses her voice is incredible!</dd>
+	<dd>Michael McIntyre. Would love to meet him and I think cutting his hair would be an experience in itself.</dd>
 	
 	<dt>How do you keep up with new ideas the latest trends?</dt>
 	<dd>Colleagues, friends and the use of social media and Internet. Occasionally the news when celebs come out with some crazy styles that begin to trend.</dd>
 	
 	<dt>Whats the secret to a good haircut/style?</dt>
-	<dd>Listening to your clients criteria and needs. You have to remember that every person has a different opinion. What I might class as an amazing cut or style, my client may find repulsive.</dd>
+	<dd>Listening to your clients criteria and needs. You have to remember that every person has a different opinion. What I might class as an amazing cut or style, my client may find repulsive. Also pushing the boundaries and being unique in your cutting/styling techniques</dd>
 	
 	<dt>What tips can you give up and coming hairstylists?</dt>
 	<dd>Practise and don’t get frustrated if something doesn’t quite work out. No one will ever know everything there is about hair but you get out of it what you put in.</dd>
@@ -73,13 +71,16 @@ window.addEvent('domready', function(){
 	<dd>The staff and the views and opinions of the staff. Everybody I have spoken to knows exactly what they are doing and are very relaxed when doing so. To quote Jimmy “we are professional but not robotic” and I think thats the key.</dd>
 	
 	<dt>Whats the best thing for you about being a stylist at PK?</dt>
-	<dd>I would say the people I meet and the sense of satisfaction I get from my clients knowing I’ve been a part of making them feel confident, happy and good about themselves.</dd>
+	<dd>I would say the people I meet and the sense of satisfaction I get from my clients knowing I’ve been a part of making them feel confident, happy and good about themselves. Having access to the latest product innovations.</dd>
 	
 	<dt>What do you think is the most exciting new hair trend?</dt>
-	<dd>From what I’ve experienced more and more woman and girls are going shorter and “funkier”. This ties in great with my love for pixie cuts. Waves and curls, although not a brand new trend, are still popular and can look very glam.</dd>
+	<dd>Definitely white/grey/silver hair. Seeing more and more silver ombres too</dd>
+	
+	<dt>Out of the product ranges which is your favourite and why?</dt>
+	<dd>TIGI bed head - the products do what they say, look good, funky, contemporary and smell amazing.</dd>
 	
 	<dt>What is your favourite product?</dt>
-	<dd>Schwarzkopf silhouette hairspray. Only finishing spray that will hold my hair, will not leave the house without it.</dd>
+	<dd>Bed head after party. Smells great, adds amazing shine and fab for dressing out curls.</dd>
 	
 	<dt>Is there a certain time period or style icon you look to for inspiration?</dt>
 	<dd>I love the 1940’s vintage style of hair up. I often try to re-create these styles from pictures on pinterest.</dd>
@@ -91,7 +92,7 @@ window.addEvent('domready', function(){
 	<dd>Curly blow dries. I love the texture, curls, height and volume.</dd>
 	
 	<dt>What inspires you in the world of fashion, hair and beauty?</dt>
-	<dd>Quirkiness. Anything a bit different and outside the box.</dd>
+	<dd>Quirkiness. Anything a bit different and outside the box. Vicky from our sister salon JAKATA actually gives me inspiration every time I see her. Hair, outfits, tattoos. Love it</dd>
 	
 	<dt>What would you say are your strengths as a hairdresser?</dt>
 	<dd>Colouring has always been a strong point and also a favourite. I love doing hair up but I still need more practice at it to perfect my techniques. Customer service skills are something I pride myself on too.</dd>
