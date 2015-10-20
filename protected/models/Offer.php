@@ -30,6 +30,8 @@ class Offer extends CActiveRecord
 	const OFFER_4 = 4;
 	const OFFER_5 = 5;
 	const OFFER_6 = 6;
+	const OFFER_14 = 14;
+	const OFFER_19 = 19;
 	
 	const DATE_1 = 1;
 	const DATE_2 = 2;
@@ -179,10 +181,10 @@ class Offer extends CActiveRecord
 			<p><strong>Cut, Dry &amp; Style for just &pound;35</strong></p>
 			<p>Offer exclusively for <em>'.ucfirst($this->first_name).' '.ucfirst($this->last_name).'</em>.<br>With <em>Jack, Leon, Kate or Tash</em> only.<br>Not Transferable, limited to weekdays</p>',
 			
-			self::OFFER_4=>'<p><strong><span style="font-size: 34px; line-height: 1.5em;">25% OFF</span><br>your entire bill (including products) on your next visit</strong></p>
+			self::OFFER_4=>'<p><strong><span style="font-size: 34px; line-height: 1.5em;">30% OFF</span><br>your entire bill (including products) on your next visit</strong></p>
 			<p>Offer exclusively for <em>'.ucfirst($this->first_name).' '.ucfirst($this->last_name).'</em> only.<br>Not Transferable, weekdays only </p>',
 			
-			self::OFFER_5=>'<p><strong><span style="font-size: 34px; line-height: 1.5em;">25% OFF</span><br>your entire bill (including products) on your next visit</strong></p>
+			self::OFFER_5=>'<p><strong><span style="font-size: 34px; line-height: 1.5em;">30% OFF</span><br>your entire bill (including products) on your next visit</strong></p>
 			<p>Offer exclusively for <em>'.ucfirst($this->first_name).' '.ucfirst($this->last_name).'</em> only.<br>Not Transferable, weekdays only </p>',
 		);
 	}
@@ -200,8 +202,8 @@ class Offer extends CActiveRecord
 			self::OFFER_1=>'A-IMCCP14 for Colour &amp; Cut<br>A-IMCDP14 for Colour &amp Blow Dry<br>A-IMCP14 for a Cut, Dry &amp; Style',
 			self::OFFER_2=>'G-IMCCP14 for Colour &amp; Cut<br>G-IMCP14 for Cut, Dry &amp; Style',
 			self::OFFER_3=>'S-IMCCP14 for Colour &amp; Cut<br>S-IMCP14 for Cut, Dry &amp; Style',
-			self::OFFER_4=>'IMPD2514',
-			self::OFFER_5=>'IMMPD2514',
+			self::OFFER_14=>'IMW30',
+			self::OFFER_19=>'IMM30',
 		);
 	}
 	
@@ -212,10 +214,10 @@ class Offer extends CActiveRecord
 	
 	public function getDateOptions() {
 		return array(
-		self::DATE_1=>'27th March 2015',
-		self::DATE_2=>'2nd April 2015',
-		self::DATE_3=>'10th April 2015',
-		self::DATE_4=>'7th November 2014',
+		self::DATE_1=>'27th November 2015',
+		self::DATE_2=>'27th November 2015',
+		self::DATE_3=>'4th December 2015',
+		self::DATE_4=>'4th December 2015',
 		self::DATE_5=>'14th November 2014',
 		self::DATE_6=>'21st November 2014',
 		self::DATE_7=>'28th November 2014',
