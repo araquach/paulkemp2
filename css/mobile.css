@@ -1691,6 +1691,7 @@ p.application {
 #application .form select {
  	margin: 0;
  	padding-right: 20px;
+ 	width: 90%;
 }
 
 #application .form textarea {
@@ -2986,7 +2987,7 @@ span.error {
 }
 
 #limited_copy {
-	background-color: rgba(255, 255, 255, 0.7);
+	background-color: rgba(255, 255, 255, 0.8);
 	width: auto;
 	padding: 20px;
 	font-size: 1em;

@@ -74,10 +74,11 @@ class HelperController extends Controller
 				if($model->save())
 				{
 					$message = new YiiMailMessage;
-					$message->setBody('There is a new Saturday Helper applicant for Jakata<br>Name: '.$model->first_name.' '.$model->last_name.'<br>Email: '.$model->email.'<br> Phone Number: '.$model->phone.'<br>http://www.jakatasalon.co.uk/helper/'.$model->id, 'text/html');
+					$message->setBody('There is a new Saturday Helper applicant for Paul Kemp Hairdressing<br>Name: '.$model->first_name.' '.$model->last_name.'<br>Email: '.$model->email.'<br> Phone Number: '.$model->phone.'<br>http://www.paulkemphairdressing.com/helper/view/'.$model->id, 'text/html');
 					$message->subject = 'New Saturday Staff Application';
 					$message->addTo('adamcarter@jakatasalon.co.uk');
 					$message->addTo('jimmy@jakatasalon.co.uk');
+					$message->addTo('kellie@paulkemphairdressing.com');
 					$message->from = Yii::app()->params['adminEmail'];
 					
 					Yii::app()->mail->send($message);
