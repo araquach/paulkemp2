@@ -3,9 +3,9 @@
 $this->pageTitle=Yii::app()->name . ' - News - Hairdressers in Cheshire';
 ?>
 
-<?php Yii::app()->facebook->ogTags['og:title'] = "New faces at Paul Kemp Hairdressing"; ?>
-<?php Yii::app()->facebook->ogTags['og:description'] = "It’s been a while since we’ve had new stylists join the PK team, so we decided earlier in the year it was time to take on some new talent! We had an in depth recruitment drive which led to inviting a number of hairdressers in for trade tests to see what they had to offer. The test involved each applicant doing a cut &amp; colour to demonstrate their current skill sets. Out of all the applicants we had two that really impressed us. Caleb Barrie and Leanne Bartlett both demonstrated some great skills, each with different levels of experience."; ?>
-<?php Yii::app()->facebook->ogTags['og:image'] =  "http://www.paulkemphairdressing.com/images/newstaff/pk_starters_meta_2.jpg"; ?>
+<?php Yii::app()->facebook->ogTags['og:title'] = "Leon & Shell promoted to Senior Stylists"; ?>
+<?php Yii::app()->facebook->ogTags['og:description'] = "We’re proud to announce that two PK hairstylists have been promoted to Senior Stylist level. Leon Pritchard &amp; Michelle Railton have both met the standards required to be given this sought after title. Both stylists have been with the company a good few years now and they have firmly embedded themselves as key members of the team. To become a Senior Stylist there is a strict criteria that needs to be fulfilled. The stylist’s skill set and the quality of their work is closely monitored, alongside their customer service skills. Both Leon and Michelle are extremely sought after stylists and their client bases are growing at a fast rate with customer feedback for them both always of the highest level. As they have consistently delivered at this exceptionally high standard for the last 6 months it was decided that they would both be promoted to Senior Stylist level, joining Kelly, Izzy &amp; Jo."; ?>
+<?php Yii::app()->facebook->ogTags['og:image'] =  "http://www.paulkemphairdressing.com/images/news_images/leon_shell_meta.jpg"; ?>
 
 <script type="text/javascript">
 window.addEvent('domready', function(){
@@ -19,6 +19,26 @@ window.addEvent('domready', function(){
 <h2>News</h2>
 
 <section id="accordion">
+
+<article class="article">
+<a id="link" class="anchor"></a>
+<section class="visible">
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/news_images/leon_shell.jpg" width="135" height="160" alt="Leon Pritchard & Michelle Railton">
+<h3>Leon &amp; Shell Promoted to Senior Stylists</h3>
+<p><strong>We’re proud to announce that two PK hairstylists have been promoted to Senior Stylist level. Leon Pritchard &amp; Michelle Railton have both met the standards required to be given this sought after title.</strong></p>
+<p>Both stylists have been with the company a good few years now and they have firmly embedded themselves as key members of the team.</p>
+<p class="reveal">Read more &gt;</p>
+</section> <!--end .visible-->
+<section class="hidden">
+<p>To become a Senior Stylist there is a strict criteria that needs to be fulfilled. The stylist’s skill set and the quality of their work is closely monitored, alongside their customer service skills. Both Leon and Michelle are extremely sought after stylists and their client bases are growing at a fast rate with customer feedback for them both always of the highest level. As they have consistently delivered at this exceptionally high standard for the last 6 months it was decided that they would both be promoted to Senior Stylist level, joining Kelly, Izzy &amp; Jo.</p>
+<p>Leon said “ “.</p>
+<p>Michelle said “I've been hairdressing for 11 years and feel very proud to achieve my goal to be a senior stylist.“</p>
+<p class="offer_heading"></p>
+<p class="offer"></p>
+</section> <!--end .hidden-->
+<p class="author">Published by PK</p>
+<time datetime="2013-08-01">2<sup>nd</sup> August 2013</time>
+</article> <!--end #article-->
 
 <article class="article">
 <a id="CalebQA" class="anchor"></a>

@@ -38,23 +38,24 @@ $this->pageTitle=Yii::app()->name . ' - The Team - Hairdressers in Cheshire';
         <p class="teamprice">Average Cut &amp; Colour price with Izzy : &pound;114*</p>
         </section>', array('site/page','view'=>'team_izzy')); ?>
         
+        <?php echo CHtml::link('<section id="leon">
+        <h3><img src="' . Yii::app()->request->baseUrl . '/images/staff/leon.jpg" width="133" height="168" alt="Leon Pritchard">Leon Pritchard - Senior Stylist</h3>
+        <p>Leon has quickly built up a strong reputation for his skills in cutting, colouring &amp; styling hair. He\'s a big hit in the salon due to his friendly personality. He has grown to be a pivotal member of the team and is fast expanding his ever growing client base. </p>
+        <p class="teamprice">Average Cut &amp; Colour price with Leon : &pound;114*</p>
+        </section>', array('site/page','view'=>'team_leon')); ?>
+        
+        <?php echo CHtml::link('<section id="michelle_r">
+        <h3><img src="' . Yii::app()->request->baseUrl . '/images/staff/michelle_r.jpg" width="133" height="168" alt="Michelle Railton">Michelle Railton - Senior Stylist</h3>
+        <p>Michelle is a highly skilled hairdresser with loads of experience. She is rapidly becoming a very highly sought after stylist in the salon. She especially loves soft, natural styles and men\'s indie/mod cutting.</p>
+        <p class="teamprice">Average Cut &amp; Colour price with Kate : &pound;114*</p>
+        </section>', array('site/page','view'=>'team_michelle')); ?>
+        
         <?php echo CHtml::link('<section id="kate">
         <h3><img src="' . Yii::app()->request->baseUrl .'/images/staff/kate.jpg" width="133" height="168" alt="Kate O\'halloran">Kate O\'halloran - Stylist</h3>
         <p>Kate has the ability to put you instantly at ease and with her many years of experience she\'ll find a look that\'s perfect for you. Colouring, cutting and long hair styling are her specialities.</p>
         <p class="teamprice">Average Cut &amp; Colour price with Kate : &pound;96*</p>
         </section>', array('site/page','view'=>'team_kate')); ?>
         
-        <?php echo CHtml::link('<section id="michelle_r">
-        <h3><img src="' . Yii::app()->request->baseUrl . '/images/staff/michelle_r.jpg" width="133" height="168" alt="Michelle Railton">Michelle Railton - Stylist</h3>
-        <p>Michelle is a highly skilled hairdresser with loads of experience. She is rapidly becoming a very highly sought after stylist in the salon. She especially loves soft, natural styles and men\'s indie/mod cutting.</p>
-        <p class="teamprice">Average Cut &amp; Colour price with Kate : &pound;96*</p>
-        </section>', array('site/page','view'=>'team_michelle')); ?>
-        
-      	<?php echo CHtml::link('<section id="leon">
-        <h3><img src="' . Yii::app()->request->baseUrl . '/images/staff/leon.jpg" width="133" height="168" alt="Leon Pritchard">Leon Pritchard - Stylist</h3>
-        <p>Leon has quickly built up a strong reputation for his skills in cutting, colouring &amp; styling hair. He\'s a big hit in the salon due to his friendly personality. He has grown to be a pivotal member of the team and is fast expanding his ever growing client base. </p>
-        <p class="teamprice">Average Cut &amp; Colour price with Leon : &pound;96*</p>
-        </section>', array('site/page','view'=>'team_leon')); ?>
         
         <?php echo CHtml::link('<section id="caleb">
         <h3><img src="' . Yii::app()->request->baseUrl . '/images/staff/caleb.jpg" width="133" height="168" alt="Caleb Barrie">Caleb Barrie - Stylist</h3>
