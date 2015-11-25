@@ -21,7 +21,33 @@ window.addEvent('domready', function(){
 <section id="accordion">
 
 <article class="article">
-<a id="link" class="anchor"></a>
+<a id="FibrePlex" class="anchor"></a>
+<section class="visible">
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/news_images/fibreplex_p.jpg" width="135" height="140" alt="alt text">
+<h3>Sorry, your hair won’t take it…</h3>
+<p><strong>Well now it will!<br>Introducing FibrePlex, a revolutionary new product just launched by Schwarzkopf professional. Proven to reduce damage from tints and bleach by up to 94% - your colour just got better!</strong></p>
+<p>By sacrificing itself opposed to your hair, FibrePlex has made even complex dark to lights a no-fear service.</p>
+<p>We all adore light reflecting, luxurious, satin soft hair so why lose it&hellip;<br>The cutting edge innovation of FibrePlex let’s your worries about colour damage slide away.</p>
+<p class="reveal">Read more &gt;</p>
+</section> <!--end .visible-->
+<section class="hidden">
+<p>FibrePlex protects and seals the all important bonds within your hair allowing you to leave the salon with the colour and condition you’ve always dreamed of.</p>
+<p><iframe width="400" height="300" src="https://www.youtube.com/embed/HeN7iiDRpME" frameborder="0" class="right" allowfullscreen></iframe><p>
+<p>From root tints to full head bleach highlights, FibrePlex will preserve and protect the delicate condition of your hair.</p>
+<p>An extra £10 in addition to your colour service, plus a complimentary conditioning treatment means damage free hair is just a phone call away.</p>
+<p>Kellie Reedy, Senior stylist here at Paul Kemp comments:
+“ITS AMAZING! - It gives me and my clients the ability to be more creative!”</p>
+<p>Salon stylist Natasha Bailey also got excited by FibrePlex, saying:
+“I’m so in love with FibrePlex. My clients hair feels healthier than before the colour application, it's left shinier and silky smooth!”</p>
+<p>For just an additional £12.50 a bond booster can be yours to take home, fortifying your hair for your next appointment and easing any concerns you have about condition.</p>
+<p class="offer_heading"><strong>FibrePlex is now available in the salon for just £10 with any colour service</strong></p>
+</section> <!--end .hidden-->
+<p class="author">Published by Caleb</p>
+<time datetime="2015-11-25">25<sup>th</sup> November 2015</time>
+</article> <!--end #article-->
+
+<article class="article">
+<a id="SeniorStylists" class="anchor"></a>
 <section class="visible">
 <img src="<?php echo Yii::app()->request->baseUrl; ?>/images/news_images/leon_shell.jpg" width="135" height="160" alt="Leon Pritchard & Michelle Railton">
 <h3>Leon &amp; Shell Promoted to Senior Stylists</h3>
@@ -31,13 +57,11 @@ window.addEvent('domready', function(){
 </section> <!--end .visible-->
 <section class="hidden">
 <p>To become a Senior Stylist there is a strict criteria that needs to be fulfilled. The stylist’s skill set and the quality of their work is closely monitored, alongside their customer service skills. Both Leon and Michelle are extremely sought after stylists and their client bases are growing at a fast rate with customer feedback for them both always of the highest level. As they have consistently delivered at this exceptionally high standard for the last 6 months it was decided that they would both be promoted to Senior Stylist level, joining Kelly, Izzy &amp; Jo.</p>
-<p>Leon said “ “.</p>
+<p>Leon said “I think it's amazing that I have made a step up on my career ladder and I am one step closer to reaching my ultimate goals“.</p>
 <p>Michelle said “I've been hairdressing for 11 years and feel very proud to achieve my goal to be a senior stylist.“</p>
-<p class="offer_heading"></p>
-<p class="offer"></p>
-</section> <!--end .hidden-->
+<?php echo CHtml::link('<p class="offer">To see the full PK team click here &gt;</p>',array('site/page', 'view'=>'team')); ?></section> <!--end .hidden-->
 <p class="author">Published by PK</p>
-<time datetime="2013-08-01">2<sup>nd</sup> August 2013</time>
+<time datetime="2015-11-13">13<sup>th</sup> November 2015</time>
 </article> <!--end #article-->
 
 <article class="article">

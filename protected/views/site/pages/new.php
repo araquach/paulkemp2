@@ -48,7 +48,7 @@ $this->pageTitle=Yii::app()->name . ' - New team members at PK - Hairdressers in
 		</tr>
 	</table>
 	
-	<p class="small">offers extended until 31/10/15, for new clients to the salon only, not with any other offer, skin test required 48 hours before any colour service<br>Mention offer at time of booking.</p>
+	<p class="small">offers extended until 30/11/15, for new clients to the salon only, not with any other offer, skin test required 48 hours before any colour service<br>Mention offer at time of booking.</p>
 	
 	</section>
 	

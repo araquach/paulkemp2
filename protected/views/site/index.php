@@ -33,10 +33,10 @@ $this->pageTitle=Yii::app()->name;
 		</aside>',array('kebelo/index')); ?>
 	
 	<?php echo CHtml::link('<aside id="news3">
-    <h3 class="newsheader">Fibre Force<br>Is Here</h3>
-    <p class="newspara">A new dimension of hair repair</p>
+    <h3 class="newsheader">FibrePlex<br>Is Here</h3>
+    <p class="newspara">Lighten, lift, colour without compromise</p>
     <p class="newscenter"><strong>Find out more here &gt;</strong></p>
-    </aside>',array('site/page','news', '#'=>'FibreForce')); ?>
+    </aside>',array('site/page','news', '#'=>'FibrePlex')); ?>
     
     <?php echo CHtml::link('<aside id="news4">
     <h3 class="newsheader">Great Career Opportunities</h3>
