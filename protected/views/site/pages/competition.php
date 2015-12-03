@@ -4,8 +4,8 @@ $this->pageTitle=Yii::app()->name . 'Competitions';
 ?>
 
 <?php Yii::app()->facebook->ogTags['og:title'] = "The Paul Kemp Hairdressing Christmas Give-away"; ?>
-<?php Yii::app()->facebook->ogTags['og:description'] = "Amazing prizes to be won! GHD Styling tools, meal for 4 at Grill on the Square plus Colour & Cut package with your stylist of choice!"; ?>
-<?php Yii::app()->facebook->ogTags['og:image'] =  "http://www.paulkemphairdressing.com/images/competition/christmas_raffle_meta.jpg"; ?>
+<?php Yii::app()->facebook->ogTags['og:description'] = "Win a Meal for 4 at Las Ramblas PLUS £100 PK voucher, Limited Edition GHD Stylers & Hairdryer, PLUS 30 runners up prizes!"; ?>
+<?php Yii::app()->facebook->ogTags['og:image'] =  "http://www.paulkemphairdressing.com/images/competition/christmas_raffle_15_meta.jpg"; ?>
 
 
 <section id="competition">
@@ -16,28 +16,43 @@ $this->pageTitle=Yii::app()->name . 'Competitions';
 <div id="prizes">
 	<div class="prize">
 		<h3>Top Prize</h3>
-		<p>The ultimate GHD styling tool collection</p>
-			<p>- A Set of GHD Gold series Irons - worth £120<br>
-			- A GHD Air hairdryer - worth £99<br>
-			- A set of GHD Curve styling tongues - worth £110)<br>
-			Plus a selection of GHD brushes, products and other goodies</p>
-		<p>A prize worth over £400!!</p>
+		
+			<p>A meal for 4 at Las Ramblas
+			  Wine &amp; Tapas Restaurant</p>
+			<p>A £100 PK Voucher</p>
+			<p>A bottle of Veuve Clicquot</p>	
+		
+		<p><strong>A total prize value of £400!</strong></p>
 	</div> <!--.prize-->
 	
 	<div class="prize">
 		<h3>Second Prize</h3>
-		<p>A meal for four at Grill on the Square</p>
-		<p>Grill on the Square is one of Warrington’s finest restaurants. You can expect amazing food, great cocktails and impeccable service.</p>
-		<p>The prize consists of: A 3 course meal complete with a bottle of Veuve Clicquot for a party of four people</p>
-		<p>Worth over £250!!!</p>
+	
+			<p>Limited Edition 
+			  GHD Stylers &amp; Hairdryer</p>
+			<p>A GHD Styling wand</p>
+			<p>A £50 PK Voucher</p>
+			<p>A bottle of Veuve Clicquot</p>	
+	
+		<p><strong>A total prize value of over £300!</strong></p>
 	
 	</div> <!--.prize-->
 	
 	<div class="prize">
-		<h3>Third Prize</h3>
-		<p>Colour, Cut &amp; product package</p>
-		<p>A FREE Colour &amp; Cut with your chosen stylist plus a hamper of  salon professional products.</p>
-		<p>Worth over £100!!</p>
+		<h3>PLUS 30 RUNNERS UP PRIZES</h3>
+	<ul id="prize-list">
+			<li>Treatments -</li>
+			<li>Styling Wands -</li>
+			<li>Colours -</li>
+			<li>Cuts -</li>
+			<li>Blowdrys -</li>
+			<li>Vouchers -</li>
+			<li>Champagne -</li>
+			<li>Kebelo's</li>
+			<p><strong>Plus loads of other prizes!</strong></p>
+	</ul>	
+		
+	
 	</div> <!--.prize-->
 
 </div> <!--#prizes-->

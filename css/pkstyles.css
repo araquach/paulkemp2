@@ -2778,19 +2778,19 @@ span.kebelo_italic {
 /* @group Competition */
 
 #competition {
-	height: 1650px;
+	height: 1850px;
 	min-height: 500px;
 	padding: 30px;
 	width: 890px;
 	margin-bottom: 50px;
 	float: left;
-	background: url('../images/competition/christmas_prize_draw.jpg') no-repeat left -150px;
+	background: url('../images/competition/christmas_raffle_15.jpg') no-repeat left -350px;
 }
 
 #competition_copy {
 	width: 650px;
 	margin-left: 80px;
-	margin-top: 900px;
+	margin-top: 1100px;
 }
 
 #prizes {
@@ -2832,6 +2832,14 @@ span.kebelo_italic {
 #prize_entry {
 	margin-left: 80px;
 	font-size: .8em;
+}
+
+#prize-list li {
+	line-height: 1.8em;
+}
+
+#prize-list p {
+	margin-top: 1em;
 }
 
 #overlay {

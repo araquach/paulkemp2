@@ -3043,13 +3043,13 @@ span.error {
 #competition {
 	width: auto;
 	background-size: contain;
-	background-position-y: -50px;
+	background-position-y: -120px;
 	position: 100px;
 	margin: auto;
 	float: none;
 	height: 100%;
 	padding: 10px;
-	background-color: rgb(233, 200, 195);
+	background-color: #c3c5de;
 	padding-top: 50px;
 	padding-bottom: 50px;
 	opacity: 1;
@@ -3058,7 +3058,7 @@ span.error {
 #competition_copy {
 	width: auto;
 	margin-left: 0;
-	margin-top: 290px;
+	margin-top: 370px;
 	background-color: transparent;
 }
 
