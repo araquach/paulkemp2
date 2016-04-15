@@ -3,9 +3,9 @@
 $this->pageTitle=Yii::app()->name . ' - News - Hairdressers in Cheshire';
 ?>
 
-<?php Yii::app()->facebook->ogTags['og:title'] = "Leon & Shell promoted to Senior Stylists"; ?>
-<?php Yii::app()->facebook->ogTags['og:description'] = "We’re proud to announce that two PK hairstylists have been promoted to Senior Stylist level. Leon Pritchard &amp; Michelle Railton have both met the standards required to be given this sought after title. Both stylists have been with the company a good few years now and they have firmly embedded themselves as key members of the team. To become a Senior Stylist there is a strict criteria that needs to be fulfilled. The stylist’s skill set and the quality of their work is closely monitored, alongside their customer service skills. Both Leon and Michelle are extremely sought after stylists and their client bases are growing at a fast rate with customer feedback for them both always of the highest level. As they have consistently delivered at this exceptionally high standard for the last 6 months it was decided that they would both be promoted to Senior Stylist level, joining Kelly, Izzy &amp; Jo."; ?>
-<?php Yii::app()->facebook->ogTags['og:image'] =  "http://www.paulkemphairdressing.com/images/news_images/leon_shell_meta.jpg"; ?>
+<?php Yii::app()->facebook->ogTags['og:title'] = "PK Stylist Drafted in to cut pop legends hair"; ?>
+<?php Yii::app()->facebook->ogTags['og:description'] = "After growing up in the 80’s it’s hard to forget pop icon Rick Astley. His mega hit “Never Gonna Give You Up” was number 1 in 25 countries! You can imagine the excitement when we received a call asking if one of our stylists could come over to the Parr Hall to cut and style his hair ready for his performance later that evening. PK Senior Stylist Leon Pritchard volunteered and headed over to the Parr Hall to meet the pop idol."; ?>
+<?php Yii::app()->facebook->ogTags['og:image'] =  "http://www.paulkemphairdressing.com/images/news_images/leon_rick_meta.jpg"; ?>
 
 <script type="text/javascript">
 window.addEvent('domready', function(){
@@ -19,6 +19,23 @@ window.addEvent('domready', function(){
 <h2>News</h2>
 
 <section id="accordion">
+
+<article class="article">
+<a id="RickAstley" class="anchor"></a>
+<section class="visible">
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/news_images/leon_rick.jpg" width="135" height="180" alt="Leon meets Rick Astley">
+<h3>PK Stylist Drafted in to cut pop legends hair</h3>
+<p><strong>After growing up in the 80’s it’s hard to forget pop icon Rick Astley. His mega hit “Never Gonna Give You Up” was number 1 in 25 countries!</strong></p>
+<p>You can imagine the excitement when we received a call asking if one of our stylists could come over to the Parr Hall to cut and style his hair ready for his performance later that evening.</p>
+<p class="reveal">Read more &gt;</p>
+</section> <!--end .visible-->
+<section class="hidden">
+<p>PK Senior Stylist Leon Pritchard volunteered and headed over to the Parr Hall to meet the pop idol.</p>
+<p>Leon said ”I was so excited to do the hair of such a pop legend! He was a really nice guy, I’m really glad I got the opportunity”.</p>
+</section> <!--end .hidden-->
+<p class="author">Published by Adam</p>
+<time datetime="2016-04-14">14<sup>th</sup> April 2016</time>
+</article> <!--end #article-->
 
 <article class="article">
 <a id="ColourMasters" class="anchor"></a>
