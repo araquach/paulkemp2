@@ -3,9 +3,9 @@
 $this->pageTitle=Yii::app()->name . ' - News - Hairdressers in Cheshire';
 ?>
 
-<?php Yii::app()->facebook->ogTags['og:title'] = "PK Stylist Drafted in to cut pop legends hair"; ?>
-<?php Yii::app()->facebook->ogTags['og:description'] = "After growing up in the 80’s it’s hard to forget pop icon Rick Astley. His mega hit “Never Gonna Give You Up” was number 1 in 25 countries! You can imagine the excitement when we received a call asking if one of our stylists could come over to the Parr Hall to cut and style his hair ready for his performance later that evening. PK Senior Stylist Leon Pritchard volunteered and headed over to the Parr Hall to meet the pop idol."; ?>
-<?php Yii::app()->facebook->ogTags['og:image'] =  "http://www.paulkemphairdressing.com/images/news_images/leon_rick_meta.jpg"; ?>
+<?php Yii::app()->facebook->ogTags['og:title'] = "Essential Looks Competition"; ?>
+<?php Yii::app()->facebook->ogTags['og:description'] = "A couple of weeks ago we had our 3rd in-salon ‘Essential Looks’ competition - stylists from the Jakata and PK teams paired up to create a look inspired by the latest Schwarzkopf collections. In the previous competitions the stylists carried out the looks on training heads. We thought we’d mix it up a bit this time and have members of the public as models for the teams! After a morning session running through the looks with Steve Ward (Schwarzkopf educator) the stylists paired off into 5 teams and came up with a look taking influence from the latest collections - plus choosing something that would suit their models lifestyle."; ?>
+<?php Yii::app()->facebook->ogTags['og:image'] =  "http://www.paulkemphairdressing.com/images/news_images/el/groupshot_large.jpg"; ?>
 
 <script type="text/javascript">
 window.addEvent('domready', function(){

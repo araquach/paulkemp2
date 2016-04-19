@@ -973,6 +973,14 @@ section#newspage a p:hover {
 	opacity: .6;
 }
 
+#accordion article.article section.hidden img.news-image {
+	float: left;
+	clear: left;
+	width: 100%;
+	height: auto;
+	margin: 10px 0;
+}
+
 /* @end */
 
 /* @group Offers */
