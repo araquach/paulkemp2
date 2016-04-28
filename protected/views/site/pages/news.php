@@ -5,7 +5,7 @@ $this->pageTitle=Yii::app()->name . ' - News - Hairdressers in Cheshire';
 
 <?php Yii::app()->facebook->ogTags['og:title'] = "Schwarzkopf Professional Elite Symposium"; ?>
 <?php Yii::app()->facebook->ogTags['og:description'] = "The PK team members often get the opportunity to go to hairdressing events that take place throughout the year. Schwarzkopf organises a few annual events and as they are one of our major suppliers we like to get involved. This year they organised a new one - the Schwarzkopf Professional Elite Symposium - a day of seminars, competitions, product launches complete with a sit down meal and party in the evening."; ?>
-<?php Yii::app()->facebook->ogTags['og:image'] =  "http://www.paulkemphairdressing.com/images/news_images/symposium_group.jpg"; ?>
+<?php Yii::app()->facebook->ogTags['og:image'] =  "http://www.paulkemphairdressing.com/images/news_images/symposium_meta.jpg"; ?>
 
 <script type="text/javascript">
 window.addEvent('domready', function(){
