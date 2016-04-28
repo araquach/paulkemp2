@@ -75,12 +75,6 @@ $this->pageTitle=Yii::app()->name . ' - The Team - Hairdressers in Cheshire';
         <p class="teamprice">Average Cut &amp; Colour price with Ashley : &pound;55*</p>
         </section>', array('site/page','view'=>'team_ashley')); ?>
         
-        <?php echo CHtml::link('<section id="leanne">
-        <h3><img src="' . Yii::app()->request->baseUrl . '/images/staff/leanne.jpg" width="133" height="168" alt="Leanne Bartlett">Leanne Bartlett - Graduate Stylist</h3>
-        <p>Leanne recently joined the team after working at a reputable salon in Stockton Heath. Her passion lies in creating quirky, individual looks and is skilled in colour correction.</p>
-        <p class="teamprice">Average Cut &amp; Colour price with Leanne : &pound;55*</p>
-        </section>', array('site/page','view'=>'team_leanne')); ?>
-        
         </section>
         
 	</section>        
